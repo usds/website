@@ -35,7 +35,7 @@ Builds the Jekyll site, spins it up at `localhost:4000`, and watches for changes
 ```
 $ npm run build
 ```
- Builds production Jekyll site and compiles main stylesheet with Gulp.  
+ Builds local dev version of the Jekyll site and compiles main stylesheet with Gulp.  
 
 #### Staging build
 ```
