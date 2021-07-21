@@ -29,7 +29,7 @@ $ npm start
 ~ or ~
 $ npm run serve
 ```
-Builds production Jekyll site, spins it up at `localhost:4000`, and watches for changes. Compiles main stylesheet with Gulp and watches for changes in `assets/stylesheets/**/*.scss`.
+Builds the Jekyll site, spins it up at `localhost:4000`, and watches for changes. Compiles main stylesheet with Gulp and watches for changes in `assets/stylesheets/**/*.scss`.
 
 #### Local build
 ```
