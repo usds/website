@@ -27,11 +27,15 @@ cops:
     _Skills you might bring to the design community:_ design process, systems thinking, leadership, user research, interaction design, service design, design operations, content strategy, visual design, front-end development, or art direction.
   role_1_image: graphic-how-we-work-design.svg
 
-  role_2_heading: "Engineering"
+  role_2_heading: "Engineering and Data Science"
   role_2_text: |-
     Engineers will rarely find the opportunity to work on systems that are more mission-critical than those you'll encounter at USDS, where we build, scale, and troubleshoot systems of huge reach. The technology we work on is not bleeding edge, and USDS is not an engineering-first organization; we are most successful advocating for modern software practices when we work alongside product managers, UX designers, and acquisition specialists.
 
     _Skills you might bring to the engineering community:_ programming, modern architecture, incident response, technical communication, project and team management, and collaborative engineering practices.
+
+    USDS data scientists tap into deep reservoirs of unrefined government data in search of the insights that power our teams. We might pinpoint opportunities to fix broken processes, predict the effects of policy change, or identify inequities in government services. We do our best work when we collaborate with qualitative researchers and subject matter experts to build shared understanding.
+
+    _Skills you might bring to the data community:_ statistical analysis, machine learning and AI, data engineering, data visualization and communication, data ethics, or public policy analysis.
   role_2_image: graphic-how-we-work-engineering.svg
 
   role_3_heading: "Product, strategy, and operations"
