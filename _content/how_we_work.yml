@@ -34,19 +34,27 @@ cops:
     _Skills you might bring to the engineering community:_ programming, modern architecture, incident response, technical communication, project and team management, and collaborative engineering practices.
   role_2_image: graphic-how-we-work-engineering.svg
 
-  role_3_heading: "Product, strategy, and operations"
+  role_3_heading: "Data Science"
   role_3_text: |-
+    USDS data scientists tap into deep reservoirs of unrefined government data in search of the insights that power our teams. We might pinpoint opportunities to fix broken processes, predict the effects of policy change, or identify inequities in government services. We do our best work when we collaborate with qualitative researchers and subject matter experts to build shared understanding.
+
+    _Skills you might bring to the data community:_ statistical analysis, machine learning and AI, data engineering, data visualization and communication, data ethics, or public policy analysis.
+  role_3_image: graphic-how-we-work-data-science.svg
+
+
+  role_4_heading: "Product, strategy, and operations"
+  role_4_text: |-
     Product folks at USDS focus on data to make product decisions based on reality, not politics. We're not necessarily the project leads; we may write tickets and prioritize backlogs, identify strategy, negotiate contracts, or present to high-level stakeholders. We work with our teams to identify the possible paths to success based on user research and technical feasibility, and deliver the best solution, together.
 
     _Skills you might bring to the product community:_ execution, communication, leadership, user focus, grit, product delivery, product strategy, capacity building, government expertise, or data analysis.
-  role_3_image: graphic-how-we-work-product.svg
+  role_4_image: graphic-how-we-work-product.svg
   
-  role_4_heading: "Procurement"
-  role_4_text: |-
+  role_5_heading: "Procurement"
+  role_5_text: |-
     USDS acquisition strategists make buying digital services for the government more efficient and effective. Often, agencies don't have the capacity or expertise to build their own digital services, so they partner with technical experts outside the government. From jumping in on short discovery sprints to acquisition strategy across product portfolios, our biggest strengths are in market intelligence, innovating on evaluation methods, and creating contracts that focus on results over requirements.
     
     _Skills you might bring to the procurement community:_ digital market knowledge, federal procurement process, strategic advice, or technical acumen.
-  role_4_image: graphic-how-we-work-procurement.svg
+  role_5_image: graphic-how-we-work-procurement.svg
 
 best_practices:
   heading_title: "Bringing private sector best practices to the Federal Government"
