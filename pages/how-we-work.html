@@ -33,73 +33,19 @@ redirect_from:
     </div>
     <div class="site-c-section__body">
 
-      <!--
-      <div class="grid-row">
-        <div class="grid-col-12">
-          <h3>{{ content.roles.team_roles_heading }}</h3>
-          {{ content.roles.team_roles_text | replace: 'site.baseurl', site.baseurl | markdownify}}
-        </div>
-      </div>
-      -->
+      {% for role in content.delivery_roles %}
       <div class="grid-row margin-top-8">
         <div class="grid-col-12">
-          <h3 class="margin-top-0">{{ content.roles.role_1_heading }}</h3>
+          <h3 class="margin-top-0">{{ role.heading }}</h3>
         </div>
         <div class="grid-col-12 tablet:grid-col-8 tablet:padding-right-4 desktop:padding-right-0 order-3 tablet:order-2 usa-prose">
-          {{ content.roles.role_1_text | replace: 'site.baseurl', site.baseurl | markdownify}}
+          {{ role.text | replace: 'site.baseurl', site.baseurl | markdownify}}
         </div>
         <div class="grid-col-12 tablet:grid-col-4 order-2 tablet:order-3 margin-bottom-3">
-          <img class="width-full" src="{{ site.baseurl }}/assets/img/{{ content.roles.role_1_image }}" alt="">
+          <img class="width-full" src="{{ site.baseurl }}/assets/img/{{ role.image }}" alt="">
         </div>
       </div>
-
-      <div class="grid-row margin-top-8">
-        <div class="grid-col-12">
-          <h3 class="margin-top-0">{{ content.roles.role_2_heading }}</h3>
-        </div>
-        <div class="grid-col-12 tablet:grid-col-8 tablet:padding-right-4 desktop:padding-right-0 order-3 tablet:order-2 usa-prose">
-          {{ content.roles.role_2_text | replace: 'site.baseurl', site.baseurl | markdownify}}
-        </div>
-        <div class="grid-col-12 tablet:grid-col-4 order-2 tablet:order-3 margin-bottom-3">
-          <img class="width-full" src="{{ site.baseurl }}/assets/img/{{ content.roles.role_2_image }}" alt="">
-        </div>
-      </div>
-      
-       <div class="grid-row margin-top-8">
-        <div class="grid-col-12">
-          <h3 class="margin-top-0">{{ content.roles.role_3_heading }}</h3>
-        </div>
-        <div class="grid-col-12 tablet:grid-col-8 tablet:padding-right-4 desktop:padding-right-0 order-3 tablet:order-2 usa-prose">
-          {{ content.roles.role_3_text | replace: 'site.baseurl', site.baseurl | markdownify}}
-        </div>
-        <div class="grid-col-12 tablet:grid-col-4 order-2 tablet:order-3 margin-bottom-3">
-          <img class="width-full" src="{{ site.baseurl }}/assets/img/{{ content.roles.role_3_image }}" alt="">
-        </div>
-      </div>
-
-      <div class="grid-row margin-top-8">
-        <div class="grid-col-12">
-          <h3 class="margin-top-0">{{ content.roles.role_4_heading }}</h3>
-        </div>
-        <div class="grid-col-12 tablet:grid-col-8 tablet:padding-right-4 desktop:padding-right-0 order-3 tablet:order-2 usa-prose">
-          {{ content.roles.role_4_text | replace: 'site.baseurl', site.baseurl | markdownify}}
-        </div>
-        <div class="grid-col-12 tablet:grid-col-4 order-2 tablet:order-3 margin-bottom-3">
-          <img class="width-full" src="{{ site.baseurl }}/assets/img/{{ content.roles.role_4_image }}" alt="">
-        </div>
-      </div>
-
-      <div class="grid-row margin-top-8">
-        <div class="grid-col-12">
-          <h3 class="margin-top-0">{{ content.roles.role_5_heading }}</h3>
-        </div>
-        <div class="grid-col-12 tablet:grid-col-8 tablet:padding-right-4 desktop:padding-right-0 order-3 tablet:order-2 usa-prose">
-          {{ content.roles.role_5_text | replace: 'site.baseurl', site.baseurl | markdownify}}
-        </div>
-        <div class="grid-col-12 tablet:grid-col-4 order-2 tablet:order-3 margin-bottom-3">
-          <img class="width-full" src="{{ site.baseurl }}/assets/img/{{ content.roles.role_5_image }}" alt="">
-        </div>
-      </div>
+      {% endfor %}
 
     </div>
   </section>
