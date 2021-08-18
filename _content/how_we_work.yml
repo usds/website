@@ -29,10 +29,10 @@ delivery_roles:
     text: |-
       Engineers will rarely find the opportunity to work on systems that are more mission-critical than those you'll encounter at USDS, where we build, scale, and troubleshoot systems of huge reach. The technology we work on is not bleeding edge, and USDS is not an engineering-first organization; we are most successful advocating for modern software practices when we work alongside product managers, UX designers, and acquisition specialists.
 
-      _Skills you might bring to the engineering community:_ programming, modern architecture, incident response, technical communication, project and team management, and collaborative engineering practices.
+      _Skills you might bring to the engineering community:_ programming, modern architecture, incident response, technical communication, project and team management, or collaborative engineering practices.
     image: graphic-how-we-work-engineering.svg
 
-  - heading: "Data Science"
+  - heading: "Data science"
     text: |-
       USDS data scientists tap into deep reservoirs of unrefined government data in search of the insights that power our teams. We might pinpoint opportunities to fix broken processes, predict the effects of policy change, or identify inequities in government services. We do our best work when we collaborate with qualitative researchers and subject matter experts to build shared understanding.
 
