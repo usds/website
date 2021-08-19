@@ -18,19 +18,19 @@ roles_heading_text: |-
    Learn more about who we hire and how we work below. If you don’t find a description that fits you, but think you can help push our mission forward, [we encourage you to apply](../apply).
 
 delivery_roles:
-  - heading: "Design and user experience"
-    text: |-
-      USDS designers know that people using government services come from an endless range of experiences and contexts, so we design alongside those people to make sure content is easily understood, and experiences are simple, consistent, and useful. We often introduce human-centered design practices to the government.
-
-      _Skills you might bring to the design community:_ design process, systems thinking, leadership, user research, interaction design, service design, design operations, content strategy, visual design, front-end development, or art direction.
-    image: graphic-how-we-work-design.svg
-
   - heading: "Engineering"
     text: |-
       Engineers will rarely find the opportunity to work on systems that are more mission-critical than those you'll encounter at USDS, where we build, scale, and troubleshoot systems of huge reach. The technology we work on is not bleeding edge, and USDS is not an engineering-first organization; we are most successful advocating for modern software practices when we work alongside product managers, UX designers, and acquisition specialists.
 
       _Skills you might bring to the engineering community:_ programming, modern architecture, incident response, technical communication, project and team management, or collaborative engineering practices.
     image: graphic-how-we-work-engineering.svg
+
+  - heading: "Design and user experience"
+    text: |-
+      USDS designers know that people using government services come from an endless range of experiences and contexts, so we design alongside those people to make sure content is easily understood, and experiences are simple, consistent, and useful. We often introduce human-centered design practices to the government.
+
+      _Skills you might bring to the design community:_ design process, systems thinking, leadership, user research, interaction design, service design, design operations, content strategy, visual design, front-end development, or art direction.
+    image: graphic-how-we-work-design.svg
 
   - heading: "Data science"
     text: |-
