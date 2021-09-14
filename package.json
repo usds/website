@@ -34,7 +34,7 @@
     "postcss": "^8.2.5",
     "postcss-csso": "^5.0.0",
     "sass": "^1.32.6",
-    "set-value": "^3.0.2",
+    "set-value": "^4.0.1",
     "tar": "^6.1.9",
     "uswds": "^2.12.0",
     "uswds-gulp": "github:uswds/uswds-gulp"
