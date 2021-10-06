@@ -11,7 +11,7 @@ permalink: people/neil-sharma
 # People Carousel and Page (Edit this)
 name: Neil Sharma
 pronouns: He/Him
-alumni: false
+alumni: true
 cop: Engineering
 city_of_origin: Bay Area, CA
 previously_at: various Silicon Valley startups
