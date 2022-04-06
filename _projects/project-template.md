@@ -13,8 +13,8 @@ carousel_image_name: project-name-card.jpg
 # Project detail page (Edit this)
 title: "Title Goes Here"
 agency: Cross-agency or agency name here
-permalink: projects/name
-project_url: https://www.usds.gov/
+permalink: projects/short-name-use-hyphens
+project_url: URL or keep blank if not applicable
 
 # Impact statement (Edit this)
 impact_statement:
@@ -62,7 +62,7 @@ Starting in early 2019, USDS tested the SME‑QA process with the Department of 
 The OPM Director issued a [text hyperlink](https://www.usds.gov/) informing agencies that SMEs can partner with HR specialists to review resumes and assess applicants using structured interviews before they’re determined to be qualified and receive Veterans’ preference. USDS has continued to pilot the SME‑QA process with several large federal agencies and is working to build and test tools to ease the assessment process for SMEs.
 
 ![](../images/project-title.jpg)
-*This is a caption for an image.
+*This is a caption for an image.*
 
 ## Press
 
