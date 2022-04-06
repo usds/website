@@ -1,4 +1,3 @@
-(TBD)
 ---
 # Page template info (DO NOT EDIT)
 layout: default
@@ -22,7 +21,7 @@ impact_statement:
   - figure: 184
     unit: "M+"
     description: |-
-      People visited Vaccines.gov or Vacunas.gov
+      People visited Vaccines.gov or Vacunas.gov in its first year
 ---
 
 ## The Challenge
@@ -59,7 +58,9 @@ We partnered with Google, Facebook, Univision, and others to launch identical va
 
 We also made a public API for this project in partnership with pharmacies, states, local clinics, and electronic health records. This API allows anyone to access vaccine appointment availability data and use the data to build more digital projects. The Appointment Availability API was also the first FHIR (fast healthcare interoperability resources) API connecting pharmacy, state, and local jurisdiction data.
 
-??? Video of Univision vaccine finder tool
+
+![](../images/project-vaccines-univision-vaccine-finder-tool.jpg)
+*See a [video of the vaccine finder tool in action](https://www.univision.com/noticias/salud/donde-hay-vacunas-contra-el-covid-19-disponibles-en-mi-zona).*
 
 Parallels to Healthcare.gov were drawn as soon as the project was announced. Hsiang, who worked on both Healthcare.gov and Vaccines.gov, said the government has come a long way since 2014. Chiefly, technologists had a seat at the table from the beginning of Vaccines.gov, unlike Healthcare.gov.
 “With Vaccines.gov, USDS tech consultants came in the room at the outset,” said Mina Hsiang. “Government has learned a lot since Healthcare.gov. This is another step in the evolution &mdash; government has continued to learn through this process.”
