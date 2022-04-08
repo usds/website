@@ -63,7 +63,7 @@ We also made a public API for this project in partnership with pharmacies, state
 *See a [video of the vaccine finder tool in action](https://www.univision.com/noticias/salud/donde-hay-vacunas-contra-el-covid-19-disponibles-en-mi-zona).*
 
 Parallels to Healthcare.gov were drawn as soon as the project was announced. Mina Hsiang, who worked on both Healthcare.gov and Vaccines.gov, said the government has come a long way since 2014. Chiefly, technologists had a seat at the table from the beginning of Vaccines.gov, unlike Healthcare.gov.
-“With Vaccines.gov, USDS tech consultants came in the room at the outset,” said Mina Hsiang. “Government has learned a lot since Healthcare.gov. This is another step in the evolution &mdash; government has continued to learn through this process.”
+“With Vaccines.gov, USDS tech consultants came in the room at the outset,” said Hsiang. “Government has learned a lot since Healthcare.gov. This is another step in the evolution &mdash; government has continued to learn through this process.”
 
 ## Press
 
