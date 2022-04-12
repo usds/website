@@ -13,6 +13,7 @@ name: Jorge Escobars
 pronouns: He/Him
 cop: Engineering
 city_of_origin: Caracas, Venezuela
+current_location: Brooklyn, NY
 image_name: people-jorge-escobar.jpg
 quote: "These solutions will improve the lives millions of citizens, which is the most amazing reward you can feel ever in your career."
 
