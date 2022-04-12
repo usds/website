@@ -9,7 +9,7 @@ people_page: true
 permalink: people/jorge-escobar
 
 # People Carousel and Page (Edit this)
-name: Jorge Escobars
+name: Jorge Escobar
 pronouns: He/Him
 cop: Engineering
 city_of_origin: Caracas, Venezuela
