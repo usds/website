@@ -6,7 +6,7 @@ banner_file_mobile: banner--people-projects-sm.svg
 project_page: true
 
 # Carousel (Edit this)
-carousel_title: "Critical Code: Building COVID-19 Vaccine Finder Tools"
+carousel_title: "Critical code: building COVID-19 vaccine finder tools"
 carousel_summary: "to come"
 carousel_image_name: project-vaccines-card.jpg
 
