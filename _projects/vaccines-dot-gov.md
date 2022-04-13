@@ -31,6 +31,7 @@ After nearly a year of climbing cases, Americans were understandably eager to fi
 The incoming Biden-Harris Administration identified a vaccine finder as a top priority. The White House partnered with the U.S. Digital Service, the Centers for Disease Control & Prevention (CDC), the Department of Health & Human Services, and Boston Children’s Hospital to get it done.
 
 ## The Solution
+**Leveraging Existing Tech**
 
 The team decided to re-purpose an existing vaccine finder tool from Boston Children’s Hospital, which they created pre-COVID to help people find routine vaccinations. 
 
@@ -44,15 +45,21 @@ USDS and our agency partners worked to prepare the site for a wide range of user
 - Complied code and design with the federal government’s accessibility standard for people with disabilities called Section 508. This also made the site easier to use for everyone, regardless of physical abilities.
 - Improved the site to go faster and perform better on mobile devices
 
+**From One Tool to Many**
+
 It became clear from user research that one website wouldn’t meet the needs of the public and we needed ways to reach people without Internet.
+
 Working with public and private sector partners, the team created a Spanish-language website, Vacunas.gov, and WhatsApp chatbot to reach Spanish speakers. A call center and an SMS short code tool, in English, Spanish, and additional languages, were also launched to increase reach.  
 
 
 ![](../images/project-vaccines-chatbot-screenshot.jpg)
 
 ## The Impact
+**Preparing for 100 Million Eyes**
 
 How do you prepare for an onslaught of web traffic right away? Suspecting that President Biden might mention the website in a speech on the anniversary of the COVID-19 pandemic, systems engineers readied the site to host 100 million users simultaneously. Traffic never climbed that high, but preparing for such a high number influenced the success of the launch. 
+
+**Open Data to Reach More People**
 
 We partnered with Google, Facebook, Univision, and others to launch identical vaccine finders on their platforms. This allowed vaccine availability data from pharmacies, states, and local jurisdictions provided to the CDC to reach an even wider swath of people, in the way that they wanted to search for this information. The Vaccines.gov data is also published on data.cdc.gov, available for anyone to find and use as they need to serve the public interest.
 
@@ -62,9 +69,14 @@ We also made a public API for this project in partnership with pharmacies, state
 ![](../images/project-vaccines-univision-vaccine-finder-tool.jpg)
 *See a [video of the vaccine finder tool in action](https://www.univision.com/noticias/salud/donde-hay-vacunas-contra-el-covid-19-disponibles-en-mi-zona).*
 
+**Raising the Bar for Government Websites**
+
 Parallels to Healthcare.gov were drawn as soon as the project was announced. Mina Hsiang, who worked on both Healthcare.gov and Vaccines.gov, said the government has come a long way since 2014. Chiefly, technologists had a seat at the table from the beginning of Vaccines.gov, unlike Healthcare.gov.
-“With Vaccines.gov, USDS tech consultants came in the room at the outset,” said Hsiang. “Government has learned a lot since Healthcare.gov. This is another step in the evolution &mdash; government has continued to learn through this process.”
+
+“With [Vaccines.gov](https://www.vaccines.gov/), USDS tech consultants came in the room at the outset,” said Hsiang. “Government has learned a lot since Healthcare.gov. This is another step in the evolution &mdash; government has continued to learn through this process.”
 
 ## Press
 
-- [article title](URL)
+- [Need A COVID-19 Vaccine? Biden Admin Launches GETVAX Text Line And Other Search Tools](https://www.npr.org/2021/04/30/992591012/need-a-covid-19-vaccine-biden-admin-launches-getvax-textline-and-other-search-to)
+- [Biden administration rolls out COVID-19 vaccine text-line](https://www.healthcareitnews.com/news/biden-administration-rolls-out-covid-19-vaccine-textline)
+- [To Bridge The Digital Divide, Biden Administration Launches Vaccine Hotline](https://www.npr.org/2021/05/09/994885742/to-bridge-the-digital-divide-biden-administration-launches-vaccine-hotline)
