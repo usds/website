@@ -67,7 +67,7 @@ We also made a public API for this project in partnership with pharmacies, state
 
 
 ![](../images/project-vaccines-univision-vaccine-finder-tool.jpg)
-*See a [video of the vaccine finder tool in action](https://www.univision.com/noticias/salud/donde-hay-vacunas-contra-el-covid-19-disponibles-en-mi-zona).*
+*[See the vaccine finder tool in action](https://www.univision.com/noticias/salud/donde-hay-vacunas-contra-el-covid-19-disponibles-en-mi-zona).*
 
 **Raising the Bar for Government Websites**
 
