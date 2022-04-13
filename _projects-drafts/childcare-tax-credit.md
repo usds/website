@@ -42,6 +42,7 @@ The Department of Treasury and the White House asked the U.S. Digital Service to
 
 Working alongside our agency partners, the USDS team interviewed local governments, advocacy groups, non-profits, and tax filers to understand how these credits affected people’s lives. We learned that misinformation and confusion kept some families from taking the steps to receive the tax credits. The website was built to address the many needs we heard from user research, chiefly that the site should be accessible, easy-to-read, and provide resources to find free tax services. 
 
+![](../images/project-ctc-screenshot.jpg)
 
 ## The Impact
 
