@@ -7,7 +7,7 @@ project_page: true
 
 # Carousel (Edit this)
 carousel_title: "Critical code: building COVID-19 vaccine finder tools"
-carousel_summary: "to come"
+carousel_summary: "With the American public eager for COVID-19 vaccinations, The White House partnered with the U.S. Digital Service, the Centers for Disease Control & Prevention, the Department of Health & Human Services, and Boston Children’s Hospital to launch a fleet of accessible tools, including two websites, a chatbot and a multilingual call center, to connect people to life-saving vaccines."
 carousel_image_name: project-vaccines-card.jpg
 
 # Project detail page (Edit this)
@@ -49,7 +49,7 @@ USDS and our agency partners worked to prepare the site for a wide range of user
 
 It became clear from user research that one website wouldn’t meet the needs of the public and we needed ways to reach people without Internet.
 
-Working with public and private sector partners, the team created a Spanish-language website, Vacunas.gov, and WhatsApp chatbot to reach Spanish speakers. A call center and an SMS short code tool, in English, Spanish, and additional languages, were also launched to increase reach.  
+Working with public and private sector partners, the team created a Spanish-language website, [Vacunas.gov](https://www.vacunas.gov/), and WhatsApp chatbot to reach Spanish speakers. A call center and an SMS short code tool, in English, Spanish, and additional languages, were also launched to increase reach.  
 
 
 ![](../images/project-vaccines-chatbot-screenshot.jpg)
@@ -61,7 +61,7 @@ How do you prepare for an onslaught of web traffic right away? Suspecting that P
 
 **Open Data to Reach More People**
 
-We partnered with Google, Facebook, Univision, and others to launch identical vaccine finders on their platforms. This allowed vaccine availability data from pharmacies, states, and local jurisdictions provided to the CDC to reach an even wider swath of people, in the way that they wanted to search for this information. The Vaccines.gov data is also published on data.cdc.gov, available for anyone to find and use as they need to serve the public interest.
+We partnered with Google, Facebook, Univision, and others to launch identical vaccine finders on their platforms. This allowed vaccine availability data from pharmacies, states, and local jurisdictions provided to the CDC to reach an even wider swath of people, in the way that they wanted to search for this information. The Vaccines.gov data is also published on [data.cdc.gov](https://data.cdc.gov/browse?category=Vaccinations), available for anyone to find and use as they need to serve the public interest.
 
 We also made a public API for this project in partnership with pharmacies, states, local clinics, and electronic health records. This API allows anyone to access vaccine appointment availability data and use the data to build more digital projects. The Appointment Availability API was also the first FHIR (fast healthcare interoperability resources) API connecting pharmacy, state, and local jurisdiction data.
 
