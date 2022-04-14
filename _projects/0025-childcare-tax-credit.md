@@ -6,13 +6,13 @@ banner_file_mobile: banner--people-projects-sm.svg
 project_page: true
 
 # Carousel (Edit this)
-carousel_title: "Title here"
-carousel_summary: "to come"
+carousel_title: "Optimizing benefits for families"
+carousel_summary: "Working alongside The Department of Treasury and the White House, we built ChildTaxCredit.gov to educate families about the expanded Earned Income Credit and Child Tax Credit while encouraging eligible families to file a tax return. The USDS team relied on in-depth research to create a site that is accessible, easy-to-read, and provides resources to find free tax services."
 carousel_image_name: project-childcare-tax-credit-card.jpg
 
 # Project detail page (Edit this)
 title: "Childcare Tax Credit"
-agency: Cross-agency or solo agency?
+agency: Cross-agency
 permalink: projects/childcare-tax-credit
 project_url: https://www.childtaxcredit.gov/
 
@@ -33,7 +33,7 @@ impact_statement:
 
 The American Rescue Plan, signed by President Biden in March 2021, created unprecedented tax relief for millions of families through expanded tax credits, both for families who file for taxes and also for those who typically don’t file. As the global COVID-19 pandemic upended finances for many struggling parents, this expansion made many more families eligible for additional credits while also sending monthly, advance payments for the first time. 
 
-But families who didn’t earn enough income to require a tax filing – the people who needed the credits the most were largely unaware of the economic assistance and how they could get it by filing a simplified tax return. 
+But families who didn’t earn enough income to require a tax filing – the people who needed the credits the most – were largely unaware of the economic assistance and how they could get it by filing a simplified tax return. 
 
 
 ## The Solution
