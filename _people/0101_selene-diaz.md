@@ -15,36 +15,38 @@ alumni: false
 cop: Design
 city_of_origin: Jersey City, NJ
 image_name: people-selene-diaz.jpg
-quote: "Making sure we can improve, design, and iterate on a printed piece of paper, while explaining policy in a more human-centered way was a challenge I wasn’t expecting."
+quote: "I have never met such a passionate group of individuals who show up for one another to provide help on projects and emotionally support each other during difficult times."
 
 ---
 
-**What’s your background?**
+**Why did you join USDS?**
 
-I grew up in a small town in Wisconsin to parents who were refugees, and I am incredibly grateful for their hard work and perseverance in providing me opportunities. My post graduate work in social impact and masters in design lead me to various projects at design consultancies as well as at Facebook solving problems through design and technology.
+I joined USDS to design and modernize services for historically underserved communities. As a Latina in tech, I see there’s a huge service gap. We have beautifully designed commercial apps for everything in our lives including food delivery, entertainment, and smart home devices. But when it comes to government services -- applying for benefits that will help put food on the table or finding help for non-native English speakers -- there’s still work left to do to make these services easy to understand and navigate.
 
-**What inspired you to join USDS?**
+USDS empowers people to bring different perspectives to complex challenges in order to deliver creative solutions that will help the public and make life a little less chaotic than what it already is. I find that very inspiring.
 
-I wanted to focus on more socially impactful work in my career. I had heard about USDS, but the more I learned about the people and projects at various agencies, I was excited to see how I could contribute.
+**What’s your career story?**
 
-**What has been your biggest challenge?**
+I started as a graphic designer in advertising and freelanced for a couple of years at both small agencies and larger corporate companies. In my early years, I was trying to find meaning in my work while honing my craft and experiencing different work cultures.
 
-I think one of the biggest challenges I face right now are designing materials on paper. Even though we have many projects modernizing online systems, there are many processes and people who rely on paper for information and to fill out forms for benefits. I work on appeals-related projects at the Department of Veterans Affairs, and one of the projects in particular is helping Veterans better understand their new review options under the Appeals Modernization Act, a law that went into effect in February 2019. These new review options include filling out the paper forms as well as receiving materials that explain these review options in the mail. Making sure we can improve, design, and iterate on a printed piece of paper, while explaining policy in a more human-centered way was a challenge I wasn’t expecting. Although it may seem everything is online and should be, many older Veterans rely on printed materials that come in the mail.
+It wasn’t until I accidentally stumbled into user experience design, that I found my true calling. What was meant to be a short temporary contract role, turned into five years at Everyday Health, where I designed tools and content experiences for people to learn about their health. After Everyday Health, I continued to work in the healthcare industry, specifically at WW (formerly Weight Watchers), until I pivoted to EdTech at Wiley, working on educational software and learning experiences to improve student outcomes.
 
-**How does your work make an impact?**
+In the last 10 years, I’ve had the opportunity to work in a variety of industries and roles which has taught me how to be nimble and tackle different challenges. At the core, my motivator has always been the people. The people I design for and the people I work with.
 
-One of the reasons I enjoy this work is meeting and listening to people we are designing with. People I’ve met are willing to give up their time to provide feedback and share their stories because they recognize this work will help others in the future.
+**What’s your superpower?**
 
-My work at the VA included designing and building a new online tool for Veteran’s Law Judges to more efficiently and effectively take notes before and during hearings, as well as advocating for design research by putting more work in front of Veterans for feedback often and early. Through usability testing sessions, I was able to clearly point out what was not working for the Veterans and see a change made so Veterans would not mistakenly opt-out of their current appeal.
+Making deep connections through active listening and empathy. I enjoy getting to know strangers, sharing stories, and practicing a little vulnerability. It’s one of the reasons why I love being a user experience designer. To design, you have to start by understanding people, their complex experiences, and their unique needs in order to see their perspective which may be very different, or even conflicting from your own.
 
-Other work at USDS included the multi-benefit application and enrollment prototype, which has been used as an example at the local and state level.
+**What do you love most about USDS?**
 
-I’ve also worked on designing the U.S. Passport Renewal prototype that was built and handed off in June 2017 to the U.S. Department of State in 3 months’ time in hopes that renewals can be done online instead of printing and mailing the form in.
+The opportunity to make an impact and leave things better than how you found them! At USDS, we are all working on different challenges and projects but the mission is the same. We work towards delivering services equitably and effectively, especially for those who have been historically underserved.
 
-**What do you want to do after USDS?**
+I have never met such a passionate group of individuals who, regardless of skill set, experience, or how busy they are, show up for one another to provide help on projects and emotionally support each other during difficult times. When the work is challenging, it helps to have a community to lean on and learn from.
 
-I hope to continue using my skills doing socially impactful work in whatever way possible. I’d like the work to help others who need it most and improve ways we can represent and highlight diversity at the forefront of our leadership, practices, teams, and what we build.
+**What television show or movie can you watch repeatedly?**
 
-**What will you miss most about USDS when you leave?**
+"Casino!" If I happen to catch it playing on TV, I have to finish watching it. The plot, the characters, the pace, and the music makes it hard for me to look away.
 
-I will miss the close friendships I’ve made at USDS. This is a unique place filled with people from diverse backgrounds who came here looking to make change on the ground. I will also miss how this work has brought me closer to people different from me across the country and remembering their stories, struggles, and successes. It’s the small wins that make such a big impact. Getting government services to work shouldn’t be so difficult, and I’m glad to have had a small part in improving it.
+**What’s your go to comfort food?**
+
+I love every kind of spicy Korean stew: budae jjigae, kimchi jjigae, you name it. There’s nothing more comforting to my senses than sizzling hot, spicy, flavorful, delicious stew.
