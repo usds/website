@@ -17,6 +17,7 @@ city_of_origin: New York City
 previously_at: Software Consultant
 image_name: david-holmes.jpg
 quote: "It’s not about how can we maximize digital ad space or make conversion rates better, but how we can use technology to really make a difference in someone’s life."
+hide: true
 
 ---
 
