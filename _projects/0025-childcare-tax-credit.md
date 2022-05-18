@@ -23,7 +23,7 @@ impact_statement:
     description: |-
       Reduction in food insecurity among low-income families who received the Child Tax Credit
       
-  - figure: 41
+  - figure: 46
     unit: "K+"
     description: |-
       People used ChildTaxCredit.gov to find free tax filing services and receive expanded tax benefits
@@ -31,24 +31,28 @@ impact_statement:
 
 ## The Challenge
 
-The American Rescue Plan, signed by President Biden in March 2021, created unprecedented tax relief for millions of families through expanded tax credits, both for families who file for taxes and also for those who typically don’t file. As the global COVID-19 pandemic upended finances for many struggling parents, this expansion made many more families eligible for additional credits while also sending monthly, advance payments for the first time. 
+The American Rescue Plan, signed by President Biden in March 2021, created unprecedented tax relief for millions of families through expanded tax credits, both for families who file their taxes and also for those who typically don’t file their taxes. As the global COVID-19 pandemic upended finances for many parents, this expansion made many more families eligible for additional credits while also sending monthly, advance payments for the first time.
 
-But families who didn’t earn enough income to require a tax filing – the people who needed the credits the most – were largely unaware of the economic assistance and how they could get it by filing a simplified tax return. 
+But families that didn’t earn enough income in 2020 to require a tax filing – the people who needed the tax credits the most – were largely unaware of the economic assistance or that they needed to submit a tax return to qualify. 
 
 
 ## The Solution
 
-The Department of Treasury and the White House asked the U.S. Digital Service to help build tools, which eventually turned into the website ChildTaxCredit.gov, to educate families about the expanded Earned Income Credit and Child Tax Credit while encouraging eligible families to file a tax return. 
+The U.S. Digital Service partnered with The Department of Treasury and the White House to build [ChildTaxCredit.gov](https://www.childtaxcredit.gov/). The website launched in January 2022 to educate families about the expanded Earned Income Credit and Child Tax Credit and to encourage eligible families to file a tax return in order to receive the funds. Additionally, the website provides a free tool to find tax assistance.
 
-Working alongside our agency partners, the USDS team interviewed local governments, advocacy groups, non-profits, and tax filers to understand how these credits affected people’s lives. We learned that misinformation and confusion kept some families from taking the steps to receive the tax credits. The website was built to address the many needs we heard from user research, chiefly that the site should be accessible, easy-to-read, and provide resources to find free tax services. 
+Working alongside our agency partners, the USDS team interviewed local governments, advocacy groups, non-profits, and tax filers to understand how these credits affected people’s lives. We learned that misinformation and confusion kept some families from taking the necessary steps to receive the tax credits. We launched the site to address the many needs we heard from user research, including that the site should be accessible, easy-to-read, and provide resources to find free tax filing services. 
+
+As a result of user tests that included people with different levels of English proficiency and accessibility needs, the site is mobile-friendly, available in Spanish, and reads at an eighth-grade level. Its clarity and accessibility reduce the need for people to seek information via other overburdened channels, such as IRS hotlines. 
 
 ![](../images/project-ctc-screenshot.jpg)
 
 ## The Impact
 
-The 2021 Child Tax Credit helps all families succeed and will reach nearly 40 million families representing 65 million children. The U.S. Treasury estimates the families of 26 million children will now receive the full, expanded amount of this credit. Under previous rules, they would only receive a partial credit because their incomes were too low. 
+The 2021 Child Tax Credit helps all families succeed and will reach nearly 40 million families representing 65 million children. The U.S. Treasury estimates the families of 26 million children will now receive the full, expanded amount of this credit. Under previous rules, they would only receive a partial credit because their incomes were too low.
 
 These expanded benefits reduced food insufficiency among low-income families by 25% and helped bring child poverty to record lows in 2021, including record low Black and Hispanic child poverty.
+
+[ChildTaxCredit.gov](https://www.childtaxcredit.gov/) has helped close to 50,000 taxpayers file their taxes for free across a number of free services found in the lookup tool.
 
 ## Press
 
