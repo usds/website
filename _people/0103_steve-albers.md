@@ -20,7 +20,7 @@ quote: "I was interested in USDS for personal reasons: the projects are high-imp
 
 **What inspired you to join USDS?**
 
-Originally I was interested in USDS for personal reasons: the projects are high-impact, and working at USDS was a chance to grow professionally. But in the end it was the chance to make a difference in people's lives that sold me on the job.
+Originally I was interested in USDS for personal reasons: the projects are high-impact, and working at USDS was a chance to grow professionally. But in the end it was the chance to make a difference in people’s lives that sold me on the job.
 
 **What’s your career story?**
 
@@ -32,7 +32,8 @@ I am super-good at noticing great ideas from teammates and advocating for them.
 
 **What do you love most about USDS?**
 
-First: I get to work with some of the smartest, most empathetic people I know. Second: I’m proud of the work we do and the impact it can have.
+First: I get to work with some of the smartest, most empathetic people I know. 
+Second: I’m proud of the work we do and the impact it can have.
 
 **What was the last great book you read?**
 
@@ -40,7 +41,7 @@ I read a lot for work. USDS doesn’t subscribe to a single technological approa
 
 **How did you handle the quarantine?**
 
-I bought a green fabric backdrop that helps keep a little separation between zoom calls & my home life.
+I bought a green fabric backdrop that helps keep a little separation between Zoom calls and my home life.
 
 **How does your work make an impact?**
 
