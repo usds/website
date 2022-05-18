@@ -22,6 +22,7 @@ quote: "These solutions will improve the lives millions of citizens, which is th
 **Why did you join USDS?**
 
 The driving factor was a combination of my drive to do something where my technology experience could be used for the common good and the feeling that the country had turned a page in January 2021 and that help was going to be needed. For a number of years I have been teaching coding to students via MOOC platforms on my spare time but I felt that was not enough.
+
 On inauguration day, an article came into my feed mentioning that there was a an “Easter egg” in the HTML code of the newly updated White House website that said “If you’re reading this, we need your help building back better,” pointing to USDS.gov. I immediately went to the USDS careers page and without thinking too much about it, applied to the engineering opening, without ever thinking I would be called back. To my surprise, a week later, I got a call with a Washington, D.C. area code and it was the beginning of the application process that ended in my joining in May of 2021.
 
 **What inspires you about the mission?**
