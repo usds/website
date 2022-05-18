@@ -52,7 +52,7 @@ It became clear from user research that one website wouldn’t meet the needs of
 In response to user research, the team advocated for and created a Spanish-language website, [Vacunas.gov](https://www.vacunas.gov/), as well as a WhatsApp chatbot to reach Spanish speakers. The team also launched a call center and an SMS short code tool, to reach those who do not have Internet or preferred to access their information offline.  
 
 
-![](../images/project-vaccines-chatbot-screenshot2.jpg)
+![](../images/project-vaccines-chatbot-screenshot.jpg)
 
 ## The Impact
 **Preparing for 100 Million Eyes**
