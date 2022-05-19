@@ -7,7 +7,7 @@ project_page: true
 
 # Carousel (Edit this)
 carousel_title: "Critical code: building COVID-19 vaccine finder tools"
-carousel_summary: "With the American public eager for COVID-19 vaccinations, The White House partnered with the U.S. Digital Service, the Centers for Disease Control & Prevention, the Department of Health & Human Services, and Boston Children’s Hospital to launch a fleet of accessible tools, including two websites, a chatbot and a multilingual call center, to connect people to life-saving vaccines."
+carousel_summary: "With the American public eager for COVID-19 vaccinations, The White House partnered with the U.S. Digital Service, the Centers for Disease Control & Prevention, the Department of Health & Human Services, and Boston Children’s Hospital to launch a fleet of tools connecting people to life-saving vaccines."
 carousel_image_name: project-vaccines-card.jpg
 
 # Project detail page (Edit this)
