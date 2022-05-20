@@ -11,7 +11,7 @@ permalink: people/kelly-taylor
 # People Carousel and Page (Edit this)
 name: Kelly Taylor
 pronouns: He/Him
-alumni: true
+alumni: false
 cop: Product
 city_of_origin: Denver, Colorado
 previously_at:

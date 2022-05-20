@@ -1,3 +1,3 @@
-# Projects Drafts
+# People Drafts
 
-Place project drafts in this folder
+Place people drafts in this folder
