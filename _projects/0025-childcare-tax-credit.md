@@ -57,5 +57,4 @@ These expanded benefits reduced food insufficiency among low-income families by 
 ## Press
 
 - [Harris, Yellen urge Americans to file taxes to collect remaining tax credits](https://www.reuters.com/world/us/harris-yellen-urge-americans-file-taxes-collect-remaining-tax-credits-2022-02-08/)
-- [VP Harris leads Biden administration's 'Day of Action' to ensure families receive child tax credit](https://www.usds.gov/)
-- [To Bridge The Digital Divide, Biden Administration Launches Vaccine Hotline](https://www.npr.org/2021/05/09/994885742/to-bridge-the-digital-divide-biden-administration-launches-vaccine-hotline)
+- [VP Harris leads Biden administration's 'Day of Action' to ensure families receive child tax credit](https://www.foxbusiness.com/personal-finance/kamala-harris-day-of-action-child-tax-credit)
