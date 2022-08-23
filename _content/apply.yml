@@ -1,12 +1,12 @@
-page_alert:
-  alert_heading: "High volume of applications"
-  alert_body: "The U.S. Digital Service is excited to report that we've recently received a large number of applications. We're reviewing them as quickly as we can, and will respond shortly. We thank you for your patience!"
+#page_alert:
+#  alert_heading: "High volume of applications"
+#  alert_body: "The U.S. Digital Service is excited to report that we've recently received a large number of applications. We're reviewing them as quickly as we can, and will respond shortly. We thank you for your patience!"
 page_title:
   heading_title: "Apply to USDS"
   heading_text: |-
     USDS operates on a tour-of-service model with a maximum term of four years. While most people serve for one or two years, we'll consider some shorter tours as well. Time commitments are not binding.
 
-    To learn about the developer, product, design, and acquisition skills we're hiring for, see "[How we work](/how-we-work)".
+    To learn about the developer, product, design, data science, and acquisition skills we're hiring for, see "[How we work](/how-we-work)".
   heading_button_text: "Read our hiring FAQ"
 page_body:
   hiring_process: |-
@@ -23,13 +23,13 @@ page_body:
   requirements: |-
     **Requirements**
 
-    To work at USDS, you must be a U.S. citizen, and pass a background check and a drug test.
+    To work at USDS, you must be a U.S. citizen, and pass a background check and a drug test. As a federal employee, you will need to be vaccinated against COVID-19 or receive a legal exemption prior to employment.
 
     During the COVID-19 pandemic, most people at USDS are working remotely from many locations across the country. During normal times, we ask that you make Washington, D.C. or the surrounding area your base during the work week.
   compensation_benefits: |-
     **Compensation and benefits**
 
-    Salaries at USDS vary, but don't exceed $170,800, determined by your experience and skills. We provide health care and other benefits, such as retirement savings accounts. For more information, see the <a href="https://www.opm.gov/healthcare-insurance/healthcare/plan-information/plans/" target="blank">Office of Personnel Management website</a>.
+    Salaries at USDS vary, but don't exceed $172,500, determined by your experience and skills. We provide health care and other benefits, such as retirement savings accounts. For more information, see the <a href="https://www.opm.gov/healthcare-insurance/healthcare/plan-information/plans/" target="blank">Office of Personnel Management website</a>.
 eoe_statement: |-
     <strong>U.S. Digital Service is proud to be an equal opportunity employer</strong>
 
