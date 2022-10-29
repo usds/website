@@ -1,7 +1,3 @@
-page_alert:
-  alert_heading: "System Maintenance"
-  alert_body: "We're doing maintenance work starting Friday, October 28, 2022 11:59PM ET and expect to finish by Saturday, October 29, 2022 8:00AM ET. During this period, the application submission form on this page will be unavailable."
-
 page_title:
   heading_title: "Apply to USDS"
   heading_text: |-
