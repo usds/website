@@ -18,10 +18,20 @@ project_url: https://www.vaccines.gov/
 
 # Impact statement (Edit this)
 impact_statement:
-  - figure: 184
-    unit: "M+"
+  - figure: 105
+    unit: "M"
     description: |-
-      People visited Vaccines.gov or Vacunas.gov in its first year
+      People visited Vaccines.gov or Vacunas.gov since its launch
+      
+  - figure: 2.4
+    unit: "M"
+    description: |-
+      SMS messages (text and WhatsApp) received since launch
+      
+  - figure: 776
+    unit: "K"
+    description: |-
+      Call Center inquiries answered since launch
 ---
 
 ## The Challenge
