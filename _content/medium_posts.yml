@@ -3,10 +3,10 @@
 # - Articles will appear in reverse chronological order, meaning
 #   that the first article will be the first item in the carousel
 
-- title: "Hacking bureaucracy in the federal government"
-  image_name: blog-bureaucracy-hacker-2.jpg
-  url: "https://medium.com/the-u-s-digital-service/serving-at-usds-stephanie-grosser-ad2099ed2d57"
-  summary: "What does a bureacracy hacker do? Find out from a USDSer who has worked across multiple agenceis and is finishing up her four-year tour of duty."
+- title: "Accessibility as a design philosophy?"
+  image_name: blog-accessibility.jpg
+  url: "https://medium.com/the-u-s-digital-service/martha-wilkes-designer-accessibility-strategist-120e6e2ecc25"
+  summary: "The Veterans Affairs project team was three years ahead of anyone else because we set such a high bar for design and we tested accessibility every day."
 
 - title: "The importance of Product Management in government"
   image_name: blog-product-management.jpg
@@ -16,7 +16,7 @@
 - title: "A day in the life - Jenn Noinaj, UX strategist and designer"
   image_name: blog-jenn-day-in-the-life.jpg
   url: "https://medium.com/the-u-s-digital-service/day-in-the-life-jenn-noinaj-ux-strategist-and-designer-7e093115ba72"
-  summary: "Currently I’m supporting the team at the Federal Emergency Management Agency (FEMA) working to improve the process to apply for and manage federal assistance."
+  summary: "Currently I'm supporting the team at the Federal Emergency Management Agency (FEMA) working to improve the process to apply for and manage federal assistance."
 
 - title: "Hack the Marine Corps results are in!"
   image_name: blog-hack-the-marines.jpg
@@ -32,6 +32,11 @@
   image_name: blog-saving-va.jpg
   url: "https://medium.com/the-u-s-digital-service/saving-va-100-million-dollars-c5d992e0cf54"
   summary: "Our team helped Veterans Affairs become one of the earliest federal government adopters of modern, cloud-based IT infrastructure."
+
+- title: "Hacking bureaucracy in the federal government"
+  image_name: blog-bureaucracy-hacker-2.jpg
+  url: "https://medium.com/the-u-s-digital-service/serving-at-usds-stephanie-grosser-ad2099ed2d57"
+  summary: "What does a bureacracy hacker do? Find out from a USDSer who has worked across multiple agenceis and is finishing up her four-year tour of duty."
 
 - title: "Staying with the U.S. Digital Service"
   image_name: blog-staying-with-usds.jpg
