@@ -6,7 +6,7 @@ banner_file_mobile: banner--people-projects-sm.svg
 people_page: true
 
 # Page link (Edit this)
-permalink: people/alicia-becktt
+permalink: people/alicia-beckett
 
 # People Carousel and Page (Edit this)
 name: Alicia Beckett
