@@ -1,0 +1,8 @@
+// 1. Load USWDS settings
+@forward "uswds-settings";
+
+// 2. Load USWDS source code
+@forward "uswds";
+
+// 3. Load your project's custom Sass
+@forward "styles.scss";
