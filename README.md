@@ -5,53 +5,59 @@ The USDS website is built with:
 - [Jekyll](https://jekyllrb.com/) via the [github-pages gem](https://rubygems.org/gems/github-pages)
   - See [current dependencies](https://pages.github.com/versions/) for GitHub Pages
 - [U.S. Web Design System (USWDS)](https://designsystem.digital.gov/)
-- [Gulp](https://gulpjs.com/) / [USWDS Gulp](https://github.com/uswds/uswds-gulp)
 
 Before getting started, install the following on your system:
 
-- [Ruby](https://www.ruby-lang.org/en/documentation/installation/)
+- [Ruby](https://www.ruby-lang.org/en/documentation/installation/), best set up on version 2.7 for Jekyll
 - [NPM](https://github.com/npm/cli)
-- [Gulp CLI](https://gulpjs.com/docs/en/getting-started/quick-start)
+- Docker
 
-## Install and run
+## Install and run a development environment
 
 ### Initial setup
+We recommmend that you use a Docker container to run the site as a development environment because of dependency and version collisions. This allows the site to run in a contained place, minimizing setup issues.
+
 ```
-$ npm install
-$ bundle install
-$ npm start
+docker build -t usds-website . --no-cache
 ```
 
-### Running and building
-#### Run locally & watch for changes
+### Run locally, with and without live reload
+Run this command to have a local version on `http://localhost:4080`.
 ```
-$ npm start
-~ or ~
-$ npm run serve
+docker run -p 4080:4000  --name usdsweb usds-website
 ```
-Builds the Jekyll site, spins it up at `localhost:4000`, and watches for changes. Compiles main stylesheet with Gulp and watches for changes in `assets/stylesheets/**/*.scss`.
 
-#### Local build
+If you want to make changes and have them update on the running container
+we need to map the active source code in to the container with a volume mount and
+expose the port for livereload. This should ensure that changes you make are being
+mapped to the /app director and refresh on the running container. Note the volume mount syntax
+for `pwd` might be different on Windows or a non Bash shell. 
 ```
-$ npm run build
-```
- Builds local dev version of the Jekyll site and compiles main stylesheet with Gulp.  
+docker run -p 4080:4000  -p 35729:35729 -v $(pwd):/app --name usdsweb usds-website
+```  
 
-#### Staging build
-```
-$ npm run build-staging
-```
-Builds staging Jekyll site using `JEKYLL_ENV=staging` and compiles main stylesheet with Gulp. Staging sites are marked with a timestamped indicator at the lower right of every page and have analytics and robots disabled.
+### Staging environment
+Builds staging Jekyll site using `JEKYLL_ENV=staging`. Staging builds are used for temporary testing on cloud.gov. Do not deploy a staging build to GitHub pages.
 
-Staging builds are used for temporary testing on cloud.gov. Do not deploy a staging build to GitHub pages.
+Staging sites are one-off, per-user builds in a cloud.gov sandbox. Handy for testing and gathering feedback.
 
-For more information, see [deploy a temporary staging site to cloud.gov](#deploy-a-temporary-staging-site-to-cloudgov).
+To create a cloud.gov staging build:
+1. `npm run build-staging`
+1. Log in to cloud.gov cli, `cf`  (TODO: details here)
+1. `cf push`
+
+#### Create a cloud.gov account and configure Cloud Foundry
+If you haven't used cloud.gov before, you'll want to set up
+
+1. [Determine if you have access to cloud.gov](https://cloud.gov/docs/getting-started/accounts/) and follow instructions to [sign up](https://cloud.gov/docs/getting-started/setup/).
+2. Log in to your cloud.gov dashboard and install and configure [Cloud Foundry](https://cloud.gov/docs/getting-started/setup/).
+
+A successful push will print a staging url next to `routes`, ex: `website-staging-foo-bar-ab.app.cloud.gov`. Visit the staging url to preview your build.
 
 ## Maintenance
 
-### USWDS, custom styles, and Gulp
-
-USWDS is brought into the project using [uswds-gulp](https://github.com/uswds/uswds-gulp). USWDS and custom styles are compiled from a manifest file (`assets/stylesheets/uswds/styles.scss`), and output to `assets/stylesheets/styles.css`.
+### USWDS and custom styles
+We use USWDS version 3. Most of the styles are built off of v2.12.0, but the underlying framework is v3. The `scss` is in `assets/stylesheets/uswds`, with the entry of `index.scss`. `uswds-settings.scss` has custom variables and `styles.scss` has custom scss.
 
 #### Change theme settings
 
@@ -60,19 +66,7 @@ Custom USWDS theme settings are declared in `assets/stylesheets/uswds/_uswds-the
 After updating, make a [new build or restart your localhost](#running-and-building) to see any changes.
 
 #### Updating USWDS
-
-Updating USWDS may overwrite custom settings, break the theme and manifest files, or just break _everything_. Take care when updating to a newer version.
-
-> **NOTE This setup is not ideal and [may be addressed in future USWDS updates](https://github.com/uswds/uswds/issues/4152).**
-
-1. Read the release notes for the new version.
-2. Update the USWDS version number in `package.json`.
-3. Install (`$ npm install`) or update (`$npm update`) packages.
-4. Double check that updates don't alter the theme or manifest files in `assets/stylesheets/uswds`.
-    - If theme updates are required for the new version, backup the existing theme files and re-run the uswds-gulp setup task (`$ gulp init`) to copy over the updated theme files.
-    - Diff check the new files with the originals to see what custom settings need to be manually re-added or restored.
-
-5. Make a [new build or start your localhost](#running-and-building).
+To update a major version of `uswds`, consult their documentation. The `package.json` settings will allow for minor and patch updates as a matter of course.
 
 ### Content updates
 
@@ -83,50 +77,3 @@ Updating USWDS may overwrite custom settings, break the theme and manifest files
 #### Adding Content
 * [How to add people](https://github.com/usds/website/wiki/Adding-People-(carousel-and-pages))
 * [How to add projects](https://github.com/usds/website/wiki/Adding-projects-(carousel-and-pages))
-
-## Optional
-
-### Deploy a temporary staging site to cloud.gov
-
-Staging sites are one-off, per-user builds in a cloud.gov sandbox. Handy for testing and gathering feedback.
-
-#### Create a cloud.gov account and configure Cloud Foundry
-
-1. [Determine if you have access to cloud.gov](https://cloud.gov/docs/getting-started/accounts/) and follow instructions to [sign up](https://cloud.gov/docs/getting-started/setup/).
-2. Log in to your cloud.gov dashboard and install and configure [Cloud Foundry](https://cloud.gov/docs/getting-started/setup/).
-
-#### Build the site locally using the Jekyll "staging" environment variable
-
-```
-$ npm run build-staging
-```
- Using `build-staging` compiles a fresh stylesheet with Gulp and specifies `JEKYLL_ENV=staging` when building the Jekyll site. This environment variable adds a temporary "Staging" indicator to the site, disables analytics scripts, and adds `<meta name="robots" content="noindex" />` to the head, which can help prevent each temporary site from being indexed.
-
-#### Push staging build to cloud.gov
-
-```
-$ cf push
-```
-A successful push will print a staging url next to `routes`, ex: `website-staging-foo-bar-ab.app.cloud.gov`. Visit the staging url to preview your build.
-
-
-#### Build and run the site locally using Docker
-##### First build the image from the local Dockerfile
-```
-docker build -t usds-website . --no-cache
-```
-
-##### Now run the container with one of the following depending on your needs.
-Just want a local copy running you can do this and bring up localhost:4080 in a browser
-```
-docker run -p 4080:4000  --name usdsweb usds-website
-```
-
-If you want to actually make changes  and have them update on the running container
-we need to map the active source code in to the container with a volume mount and
-expose the port for livereload. This should ensure that changes you make are being
-mapped to the /app director and refresh on the running container. Note the volume mount syntax
-for `pwd` might be different on Windows or a non Bash shell. 
-```
-docker run -p 4080:4000  -p 35729:35729 -v $(pwd):/app --name usdsweb usds-website
-```
