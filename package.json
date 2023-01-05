@@ -7,6 +7,7 @@
     "build": "gulp build-sass & bundle exec jekyll build",
     "build-staging": "gulp build-sass & JEKYLL_ENV=staging bundle exec jekyll build",
     "serve": "gulp watch & bundle exec jekyll serve --livereload",
+    "serve-all-hosts": "gulp watch & bundle exec jekyll serve --host 0.0.0.0 --livereload",
     "start": "npm run serve"
   },
   "repository": {

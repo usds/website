@@ -108,3 +108,25 @@ $ npm run build-staging
 $ cf push
 ```
 A successful push will print a staging url next to `routes`, ex: `website-staging-foo-bar-ab.app.cloud.gov`. Visit the staging url to preview your build.
+
+
+#### Build and run the site locally using Docker
+##### First build the image from the local Dockerfile
+```
+docker build -t usds-website . --no-cache
+```
+
+##### Now run the container with one of the following depending on your needs.
+Just want a local copy running you can do this and bring up localhost:4080 in a browser
+```
+docker run -p 4080:4000  --name usdsweb usds-website
+```
+
+If you want to actually make changes  and have them update on the running container
+we need to map the active source code in to the container with a volume mount and
+expose the port for livereload. This should ensure that changes you make are being
+mapped to the /app director and refresh on the running container. Note the volume mount syntax
+for `pwd` might be different on Windows or a non Bash shell. 
+```
+docker run -p 4080:4000  -p 35729:35729 -v $(pwd):/app --name usdsweb usds-website
+```
