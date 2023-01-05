@@ -1,13 +1,14 @@
 {
   "name": "usds-website-v2",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "",
   "main": "index.html",
   "scripts": {
-    "build": "gulp build-sass & bundle exec jekyll build",
-    "build-staging": "gulp build-sass & JEKYLL_ENV=staging bundle exec jekyll build",
-    "serve": "gulp watch & bundle exec jekyll serve --livereload",
-    "serve-all-hosts": "gulp watch & bundle exec jekyll serve --host 0.0.0.0 --livereload",
+    "build-css": "sass assets/stylesheets/uswds/index.scss assets/stylesheets/styles.css --load-path='node_modules/@uswds/uswds/packages'",
+    "build": "npm run build-css & bundle exec jekyll build",
+    "build-staging": "npm run build-css & JEKYLL_ENV=staging bundle exec jekyll build",
+    "serve": "npm run build-css & bundle exec jekyll serve --livereload",
+    "serve-all-hosts": "npm run build-css & bundle exec jekyll serve --host 0.0.0.0 --livereload",
     "start": "npm run serve"
   },
   "repository": {
@@ -21,23 +22,15 @@
   },
   "homepage": "https://github.com/usds/website#readme",
   "devDependencies": {
+    "@uswds/uswds": "3.3.0",
     "autoprefixer": "^10.2.4",
-    "gulp": "^4.0.2",
-    "gulp-postcss": "^9.0.0",
-    "gulp-rename": "^2.0.0",
-    "gulp-replace": "^1.0.0",
-    "gulp-sass": "^4.1.0",
-    "gulp-sourcemaps": "^3.0.0",
-    "gulp-svg-sprite": "^1.5.0",
     "jquery": "^3.5.1",
     "mixin-deep": ">=1.3.2",
     "normalize.css": "^8.0.0",
     "postcss": "^8.2.5",
     "postcss-csso": "^5.0.0",
-    "sass": "^1.32.6",
+    "sass": "^1.57.1",
     "set-value": "^4.0.1",
-    "tar": "^6.1.9",
-    "uswds": "^2.12.0",
-    "uswds-gulp": "github:uswds/uswds-gulp"
+    "tar": "^6.1.9"
   }
 }

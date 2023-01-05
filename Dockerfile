@@ -20,9 +20,6 @@ RUN npm cache verify
 #npm libraries and versions should probably be pegged in package.json
 #adding them here because they were not and I don't want to  make assumptions
 #about the context of other deployment environments at this stage
-RUN npm install del@6.1.1 --legacy-peer-deps
-RUN npm install --global gulp-cli
-
 RUN npm install --legacy-peer-deps
 RUN bundle install
 
