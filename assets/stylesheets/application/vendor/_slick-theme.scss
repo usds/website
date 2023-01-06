@@ -1,9 +1,11 @@
+@use "uswds-core" as *;
+
 @charset 'UTF-8';
 /* Arrows */
 .slick-prev,
 .slick-next {
-    background: url('#{$image-path}/arrow-right.png') no-repeat left center;
-    background: url('#{$image-path}/arrow-right.svg') no-repeat left center;
+    background: url('#{$theme-image-path}/arrow-right.png') no-repeat left center;
+    background: url('#{$theme-image-path}/arrow-right.svg') no-repeat left center;
     font-size: 0;
     line-height: 0;
     background-size: cover;
@@ -20,7 +22,7 @@
     border: none;
     opacity: .25;
 
-    @include at-media('desktop-lg') {
+    @include at-media(desktop-lg) {
       display: block !important;
     }
 }
@@ -45,7 +47,7 @@
     display: block;
     width: 100%;
     padding: 0;
-    margin: $units-2 0 0;
+    margin: units(2) 0 0;
     list-style: none;
     text-align: center;
 }

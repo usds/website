@@ -1,3 +1,5 @@
+@use "uswds-core" as *;
+
 .site-c-articles {
   list-style: none;
   padding: 0;
@@ -6,10 +8,10 @@
 }
 
 .site-c-article {
-  margin-bottom: $units-3;
+  margin-bottom: units(3);
 
-  @include at-media('tablet') {
-    margin-bottom: $units-4;
+  @include at-media(tablet) {
+    margin-bottom: units(4);
   }
 }
 

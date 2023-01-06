@@ -1,5 +1,7 @@
+@use "uswds-core" as *;
+
 .tablet\:position-absolute {
-  @include at-media('tablet') {
+  @include at-media(tablet) {
     position: absolute;
   }
 }
