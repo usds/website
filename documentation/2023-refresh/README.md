@@ -2,6 +2,27 @@ This page will serve as the central collab and notes area for this effort.
 
 # What is our goal with this effort?
 
+## Improve current site
+
+## Discovery sprint
+### Steps
+1. Understand pain points and team priorities (initially done at kickoff)
+2. Very specific question to answer
+3. Have a hypothesis
+4. Decide how to staff
+5. Create a research plan with a timeline
+  * Target research participants
+  * Research question(s)
+  * Desired outcomes
+
+### Todos
+* Talk to Cori (will likely generate more todos)
+  * Can a demo be the progress touchpoint? "How do you want us to show you progress?"
+  * Discovery sprint 
+* Talk about sprint ceremonies:
+  * retro+planning (Monday 11)
+  * demo as a means to see what needs to be coordinated on (:45, invite stakeholders) (Thurs afternoon)
+
 # Resources directly related to our work
 **Slack channel**: #website-refresh-fall22
 
