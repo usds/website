@@ -3,8 +3,16 @@ This page will serve as the central collab and notes area for this effort.
 # What is our goal with this effort?
 
 ## Improve current site
+1. Achieve WCAG AA accessibility rating
+1. Fix staging site deployment
+1. Fix tech debt
+
+Bonus
+* Upgrade underlying tech from Jekyll to Gatsby to reuse existing static site code
 
 ## Discovery sprint
+Answer a specific question that will help the website thrive over the long term.
+
 ### Steps
 1. Understand pain points and team priorities (initially done at kickoff)
 2. Very specific question to answer
