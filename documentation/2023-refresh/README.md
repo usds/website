@@ -140,3 +140,4 @@ Running list of things we should ideally improve, flagged by Martha W.
 Slack channel: #website-refresh-fall22
 * [Incoming post](https://usds.slack.com/archives/CEU5XJYTH/p1664900418642209)
 * [Archive of comms feature requests](https://github.com/orgs/usds/projects/40/views/8?filterQuery=is%3Aopen+usds.gov)
+* Landscape analysis and content brainstorming [Mural](https://app.mural.co/t/dhsds5073/m/dhsds5073/1674055489260/648f61f81b1ea8ed9e799820ff114498387fa987?sender=allycemoncton7287). 
