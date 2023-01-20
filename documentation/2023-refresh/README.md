@@ -1,13 +1,30 @@
 This page will serve as the central collab and notes area for this effort.
 
-# What is our goal with this effort?
+# What are our goals?
+## Updates to existing website
+### Accessibility
+* Achieve WCAG AA accessibility rating
+* Language review for accessibility and inclusion
+* Create draft accessibility and inclusive content heuristics
+* Publish DEIA page and pdf
 
-## Improve current site
-1. Achieve WCAG AA accessibility rating
-1. Fix staging site deployment
-1. Fix tech debt
+### Usability
+* Fix staging site deployment
+* Improve usability of publishing process as much as possible while we stay with github as publisher
+* Make it more straightforward to add new content
+* Evaluate and reduce the risk of adding new content to improve confidence in using github
 
-Bonus
+### Security and monitoring
+* Add uptime monitoring
+* Upgrade from USWDS 2 to 3 and remove extraneous dependencies that are causing a minor security risk
+
+### Tech debt
+#### Definites
+* Add Docker to make development more easy
+* Update setup and running documentation
+* Bifurcate content deployments from underlying tech deployments
+
+#### Proposed
 * Upgrade underlying tech from Jekyll to Gatsby to reuse existing static site code
 
 ## Discovery sprint
