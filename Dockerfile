@@ -1,9 +1,18 @@
 FROM ruby:2.7
+ENV NODE_VERSION=18.11.0
 
 RUN apt-get clean
 RUN apt-get update
-RUN apt-get install -y nodejs
-RUN apt-get install -y npm
+RUN apt install -y curl
+
+RUN curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+ENV NVM_DIR=/root/.nvm
+RUN . "$NVM_DIR/nvm.sh" && nvm install ${NODE_VERSION}
+RUN . "$NVM_DIR/nvm.sh" && nvm use v${NODE_VERSION}
+RUN . "$NVM_DIR/nvm.sh" && nvm alias default v${NODE_VERSION}
+ENV PATH="/root/.nvm/versions/node/v${NODE_VERSION}/bin/:${PATH}"
+RUN node --version
+RUN npm --version
 
 WORKDIR /app
 
@@ -20,9 +29,6 @@ RUN npm cache verify
 #npm libraries and versions should probably be pegged in package.json
 #adding them here because they were not and I don't want to  make assumptions
 #about the context of other deployment environments at this stage
-RUN npm install del@6.1.1 --legacy-peer-deps
-RUN npm install --global gulp-cli
-
 RUN npm install --legacy-peer-deps
 RUN bundle install
 
@@ -31,4 +37,5 @@ RUN bundle install
 EXPOSE 4000
 EXPOSE 35729
 
+CMD bundle exec jekyll build --verbose
 CMD npm run serve-all-hosts

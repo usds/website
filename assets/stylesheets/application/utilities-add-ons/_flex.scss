@@ -1,13 +1,13 @@
-
+@use "uswds-core" as *;
 
 .tablet\:order-2 {
-  @include at-media('tablet') {
+  @include at-media(tablet) {
     order: 2;
   }
 }
 
 .tablet\:order-3 {
-  @include at-media('tablet') {
+  @include at-media(tablet) {
     order: 3;
   }
 }
@@ -17,13 +17,13 @@
 }
 
 .tablet\:flex-row {
-  @include at-media('tablet') {
+  @include at-media(tablet) {
     flex-direction: row;
   }
 }
 
 .tablet\:flex-row-reverse {
-  @include at-media('tablet') {
+  @include at-media(tablet) {
     flex-direction: row-reverse;
   }
 }

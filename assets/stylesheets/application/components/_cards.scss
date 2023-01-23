@@ -1,9 +1,7 @@
-.site-c-cards {
-
-}
+@use "uswds-core" as *;
 
 .site-c-card {
-  border: 1px solid $color-usds-gray-light;
+  border: 1px solid color('base-light');
   border-radius: 8px;
   overflow: hidden;
   height: 100%;
@@ -13,7 +11,7 @@
 .site-c-card--linked,
 .site-c-card--linked:visited {
   box-shadow: 0 2px 8px rgba(0,0,0,0);
-  color: $color-usds-gray;
+  color: color('base');
   display: block;
   text-decoration: none;
   transition: all .2s ease-in-out;
@@ -25,17 +23,17 @@
 
 .site-c-card--linked:hover,
 .site-c-card--linked:focus  {
-  color: $color-usds-gray;
+  color: color('base');
 
-  @include at-media('tablet') {
-    border: 1px solid $theme-color-primary;
+  @include at-media(tablet) {
+    border: 1px solid color('primary');
     box-shadow: 0 2px 12px rgba(0,0,0,0.15);
     transform: scaleX(1.02) scaleY(1.02);
   }
 }
 
 .site-c-card__body {
-  padding: $units-3;
+  padding: units(3);
 
   p {
     font-size: size('body', 5);
@@ -43,8 +41,8 @@
 }
 
 .site-c-card__title {
-  color: $theme-color-primary-darker;
-  font-weight: $theme-font-weight-bold;
+  color: color('primary-darker');
+  font-weight: u-text('bold');
 }
 
 .site-c-card__image {
@@ -58,7 +56,7 @@
   overflow: hidden;
   width: 224px;
   height: 224px;
-  margin: $units-2 auto;
+  margin: units(2) auto;
 
   img {
     display: block;
@@ -66,6 +64,6 @@
 }
 
 .site-c-card__affordance {
-  color: $theme-color-primary;
-  text-decoration: underline;
+  color: color('primary');
+  text-decoration: u-text('underline');
 }
