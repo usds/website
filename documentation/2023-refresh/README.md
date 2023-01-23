@@ -1,30 +1,13 @@
 This page will serve as the central collab and notes area for this effort.
 
-# What are our goals?
-## Updates to existing website
-### Accessibility
-* Achieve WCAG AA accessibility rating
-* Language review for accessibility and inclusion
-* Create draft accessibility and inclusive content heuristics
-* Publish DEIA page and pdf
+# What is our goal with this effort?
 
-### Usability
-* Fix staging site deployment
-* Improve usability of publishing process as much as possible while we stay with github as publisher
-* Make it more straightforward to add new content
-* Evaluate and reduce the risk of adding new content to improve confidence in using github
+## Improve current site
+1. Achieve WCAG AA accessibility rating
+1. Fix staging site deployment
+1. Fix tech debt
 
-### Security and monitoring
-* Add uptime monitoring
-* Upgrade from USWDS 2 to 3 and remove extraneous dependencies that are causing a minor security risk
-
-### Tech debt
-#### Definites
-* Add Docker to make development more easy
-* Update setup and running documentation
-* Bifurcate content deployments from underlying tech deployments
-
-#### Proposed
+Bonus
 * Upgrade underlying tech from Jekyll to Gatsby to reuse existing static site code
 
 ## Discovery sprint
@@ -39,14 +22,6 @@ Answer a specific question that will help the website thrive over the long term.
   * Target research participants
   * Research question(s)
   * Desired outcomes
-
-### Todos
-* Talk to Cori (will likely generate more todos)
-  * Can a demo be the progress touchpoint? "How do you want us to show you progress?"
-  * Discovery sprint 
-* Talk about sprint ceremonies:
-  * retro+planning (Monday 11)
-  * demo as a means to see what needs to be coordinated on (:45, invite stakeholders) (Thurs afternoon)
 
 # Resources directly related to our work
 **Slack channel**: #website-refresh-fall22
