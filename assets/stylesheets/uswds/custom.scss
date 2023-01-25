@@ -1,0 +1,67 @@
+.super-header-pleasework {
+  color: #e5a000;
+  display: block;
+  float: left;
+  width: 100%;
+  margin: 0 0 .2rem 0;
+}
+
+.force-merriweather {
+  font-family: merriweather;
+}
+
+.force-light-blue {
+  color: #4f97d1;
+}
+
+.gold-message-box {
+  border: 2px solid #e5a000;
+  border-radius: 25px;
+}
+
+.gold-border-below {
+  border-bottom: 3px solid #ffe396;
+}
+
+.quote-box {
+  background-color: #0b4778;
+  color: #fff;
+  display: block;
+  margin-top: 10rem;
+  height: fit-content;
+}
+
+
+.quote-box.extra-margin {
+  margin-top: 20rem;
+}
+
+
+@media (max-width : 720px) {
+  .quote-box.extra-margin {
+    margin-top: 10rem;
+    /* want to remove extra margin for single-column view */
+}
+}
+
+.quote-box .giant-quote {
+  font-family: georgia;
+  color: #e5a000;
+  font-size: 5rem;
+  margin: 0;
+}
+
+.quote-box img {
+  position: absolute;
+  top: -120px;
+  right: -60px;
+}
+
+.quote-box .quote-separator {
+  border-bottom: 3px solid #e5a000;
+  width: 12%;
+}
+
+.report-bullet-formatting li {
+  margin-bottom: 1rem;
+}
