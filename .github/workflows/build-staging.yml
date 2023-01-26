@@ -1,0 +1,25 @@
+name: Build and Deploy Staging to Github Pages
+
+on:
+  push:
+    branches:
+      - master  
+
+jobs:
+  build_and_deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/cache@v2
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile') }}
+          restore-keys: |
+            ${{ runner.os }}-gems-
+      - uses: jeffreytse/jekyll-deploy-action@v0.4.0
+        with:  
+          provider: 'github'
+          repository: # staging repo
+          branch: 'gh-pages'
+          jekll_baseurl: '/staging-'${{ GITHUB_ACTOR }} # needs to be undiscoverable by the public
+          token: ${{ secrets.GITHUB_TOKEN }}
