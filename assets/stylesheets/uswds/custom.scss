@@ -1,67 +1,88 @@
-.super-header-pleasework {
-  color: #e5a000;
-  display: block;
-  float: left;
-  width: 100%;
-  margin: 0 0 .2rem 0;
-}
+@use "uswds-core" as *;
 
-.force-merriweather {
-  font-family: merriweather;
-}
+.di-report {
+  h2, h3 {
+    @include u-font-family('serif');
+  }
+  h4,h5 {
+    @include u-text('uppercase');
+  }
+  h4 {
+    @include u-margin-bottom(1);
+  }
+  h5 {
+    @include u-text('blue-40');
+    @include u-text('bold');
+  }
 
-.force-light-blue {
-  color: #4f97d1;
-}
+  .header-date {
+    @include u-font('sans','xl');
+    @include u-text('bold');
+    @include u-text('warning-dark');
+    @include u-margin(0);
+  }
 
-.gold-message-box {
-  border: 2px solid #e5a000;
-  border-radius: 25px;
-}
+  .gold-message-box {
+    @include u-border(2px);
+    @include u-border('warning-dark');
+    @include u-radius(25px);
+    @include u-margin-top(4);
+    @include at-media(tablet) {
+      @include grid-col(10);
+    }
+    >.gold-message-box-container {
+      @include u-margin(3);
+      @include at-media(tablet) {
+        @include u-margin-top(4);
+      }
+    }
+  }
 
-.gold-border-below {
-  border-bottom: 3px solid #ffe396;
-}
+  .gold-border-below {
+    @include u-border-bottom(2px);
+    @include u-border-bottom('gold-10v');
+  }
 
-.quote-box {
-  background-color: #0b4778;
-  color: #fff;
-  display: block;
-  margin-top: 10rem;
-  height: fit-content;
-}
-
-
-.quote-box.extra-margin {
-  margin-top: 20rem;
-}
-
-
-@media (max-width : 720px) {
-  .quote-box.extra-margin {
+  .quote-box {
+    @include u-bg('blue-70v');
+    @include u-text('white');
+    display: block;
     margin-top: 10rem;
-    /* want to remove extra margin for single-column view */
-}
-}
+    height: fit-content;
+  }
 
-.quote-box .giant-quote {
-  font-family: georgia;
-  color: #e5a000;
-  font-size: 5rem;
-  margin: 0;
-}
 
-.quote-box img {
-  position: absolute;
-  top: -120px;
-  right: -60px;
-}
+  .quote-box.extra-margin {
+    margin-top: 20rem;
+  }
 
-.quote-box .quote-separator {
-  border-bottom: 3px solid #e5a000;
-  width: 12%;
-}
 
-.report-bullet-formatting li {
-  margin-bottom: 1rem;
+  @media (max-width : 720px) {
+    .quote-box.extra-margin {
+      margin-top: 10rem;
+      /* want to remove extra margin for single-column view */
+  }
+  }
+
+  .quote-box .giant-quote {
+    font-family: georgia;
+    color: #e5a000;
+    font-size: 5rem;
+    margin: 0;
+  }
+
+  .quote-box img {
+    position: absolute;
+    top: -120px;
+    right: -60px;
+  }
+
+  .quote-box .quote-separator {
+    border-bottom: 3px solid #e5a000;
+    width: 12%;
+  }
+
+  .report-bullet-formatting li {
+    margin-bottom: 1rem;
+  }
 }
