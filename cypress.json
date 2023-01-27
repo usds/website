@@ -1,0 +1,4 @@
+{
+	"baseUrl": "http://host.docker.internal:8000/",
+	"video": false
+}
