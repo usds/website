@@ -32,5 +32,5 @@ jobs:
      
       - name: test it
         uses: wei/wget@v1
-          with:
-            args: http://localhost:8000/faq
+        with:
+          args: http://localhost:8000/faq
