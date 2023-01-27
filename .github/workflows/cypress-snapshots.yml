@@ -24,13 +24,16 @@ jobs:
       #- name: Setup Pages
       #  id: pages
       #  uses: actions/configure-pages@v2
-        
-      - name: Build with Jekyll
-        run: bundle exec jekyll serve #build --baseurl "${{ steps.pages.outputs.base_path }}"
+
+      - name: Cypress
         env:
           JEKYLL_ENV: production
-     
-      - name: test it
-        uses: wei/wget@v1
+        uses: cypress-io/github-action@v4.2.0
         with:
-          args: http://localhost:8000/faq
+          install-command: npm install --legacy-peer-deps && bundle install && bundle exec jekyll build --verbose
+          install: true
+          start: npm run serve-all-hosts
+          wait-on: 'http://localhost:4000'
+          wait-on-timeout: 120
+          spec: cypress/integration/screenshot.spec.js
+        
