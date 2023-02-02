@@ -39,6 +39,7 @@ jobs:
           destination: ./_site  
       - name: Move generated _site files
         run: |
+          pwd
           mkdir output
           rm -rf .git
           cp -r _site output
