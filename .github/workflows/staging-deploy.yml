@@ -1,0 +1,54 @@
+name: Staging Deployment
+
+# STEPS
+# Checkout Staging Branch of Website
+# Setup Pages
+# Move generated _site files
+# Push to website-staging repository
+
+on:
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+ # Allow one concurrent deployment
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+jobs:
+  # Build job
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Staging Branch of Website
+        uses: actions/checkout@v3
+        with:
+          ref: staging
+      - name: Setup Pages
+        uses: actions/configure-pages@v3
+      - name: Build with Jekyll
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site  
+      - name: Move generated _site files
+        run: |
+          pwd
+          mkdir output
+          rm -rf .git
+          cp -r _site output
+      - name: Push to website-staging repository
+        uses: cpina/github-action-push-to-another-repository@main
+        env:
+          SSH_DEPLOY_KEY: ${{ secrets.STAGING_KEY }}
+        with:
+          source-directory: output
+          destination-github-username: 'usds'
+          destination-repository-name: 'website-staging'
+          target-branch: main
