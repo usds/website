@@ -1,0 +1,115 @@
+name: Deploy to usds.gov
+
+on:
+  # TBD decide which is better UX: trigger deploy with push-to-master, or with publish-release
+  # TBD currently either can be supported, so we can compare/decide
+
+  # Run automatically on pushes to master
+  #push:
+    #branches: ["master"]
+
+  # Run automatically when a Release is published
+  release:
+    types: [published]
+
+  # Allow manual run from the Actions tab on github.com
+  # This is for rare, probably emergency use, probably by engineers.
+  # Using it invalidates the general assumption that current deployment is a recently published release.
+  workflow_dispatch:
+    inputs:
+      ref:
+        description: 'Which commit/branch/tag do you want to deploy?'
+        required: true
+        type: string
+  
+  # Allow another Action to call this one (e.g., revert)
+  workflow_call:
+    inputs:
+      ref:
+        required: true
+        type: string
+
+# Set permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow one concurrent deployment
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+  
+jobs:
+  # When triggered by push, use Action to see if changes need to deploy
+  # TBD this goes away if we trigger with release publishing
+  check-pushed-changes:
+    if: github.event_name == 'push'
+    uses: ./.github/workflows/is-deploy-needed.yml
+   
+  build:
+    runs-on: ubuntu-latest
+    # Skip build when triggered by push that shouldn't cause new deploy
+    # TBD this goes away if we trigger with release publishing
+    if: (github.event_name != 'push' && always()) || needs.check-pushed-changes.outputs.should-deploy == 'true'
+    needs: check-pushed-changes
+    outputs:
+      built_ok: ${{ steps.define-output.outputs.built_ok }}
+    steps:
+      - name: Retrieve commit history
+        uses: actions/checkout@v3
+        with:
+          # Retrieve the entire history in case an old ref is being deployed
+          fetch-depth: 0
+          
+      - name: Checkout the branch/commit
+        # This is usually redundant with previous step, but needed for ancestry refs like HEAD^
+        run: git checkout ${{ inputs.ref }}
+          
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@ee2113536afb7f793eed4ce60e8d3b26db912da4 # v1.127.0
+        with:
+          ruby-version: '2.7' # Not needed with a .ruby-version file
+          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
+          cache-version: 0 # Increment this number if you need to re-download cached gems
+          
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v2
+        
+      - name: Build with Jekyll
+        # Outputs to the './_site' directory by default
+        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+        env:
+          JEKYLL_ENV: production
+          
+      - name: Upload newly built files
+        uses: actions/upload-pages-artifact@v1
+
+      - name: Build OK; continue to deploy
+        id: define-output
+        run: echo "built_ok=true" >> $GITHUB_OUTPUT
+  
+  mock-deploy:
+    # This is an extra precaution against uninteded deploys to the one production Pages space. 
+    runs-on: ubuntu-latest
+    # TBD most of this goes away if we trigger with release publishing
+    if: needs.build.outputs.built_ok == 'true' && always() && vars.MOCK_PAGES_DEPLOY != 'FALSE'
+    needs: build
+    steps:
+      - name: Performing mock deploy only
+        run: echo To actually deploy you must set MOCK_PAGES_DEPLOY=FALSE in repo environment variables.
+    
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    # Skip deploy when build job is skipped or fails
+    # TBD most of this goes away if we trigger with release publishing
+    if: needs.build.outputs.built_ok == 'true' && always() && vars.MOCK_PAGES_DEPLOY == 'FALSE'
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v1

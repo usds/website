@@ -1,0 +1,35 @@
+name: Determine if changes should deploy
+
+# TBD decide which is better UX: trigger deploy with push-to-master, or with publish-release
+# TBD This assumes push-to-master; it determines if push touches only "internal" files so no deploy needed. 
+on:
+  # Allow another Action to call this one (e.g., deploy)
+  workflow_call:
+    outputs:
+      should-deploy:
+        description: "'true' if changes should trigger new deploy; 'false' otherwise"
+        value: ${{ jobs.test-changes.outputs.should-deploy }}
+ 
+jobs:
+  test-changes:
+    runs-on: ubuntu-latest
+    outputs:
+      should-deploy: ${{ steps.test-changed-files.outputs.only_changed != 'true' }}
+      
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 2
+          persist-credentials: true
+        
+      - name: Test changed files
+        id: test-changed-files
+        uses: tj-actions/changed-files@v35
+        with:
+         # Changes to the following files should not trigger a new deploy
+         files: |
+           documentation
+           .github
+           cypress
+  

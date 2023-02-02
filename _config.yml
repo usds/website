@@ -90,3 +90,4 @@ exclude:
   - CODE_OF_CONDUCT.md
   - Staticfile
   - package-lock.json
+  - .github
