@@ -98,9 +98,9 @@ jobs:
     needs: build
     steps:
       - name: Performing mock deploy only
-        run: echo To actually deploy you must set MOCK_PAGES_DEPLOY=FALSE in repo environment variables.
+        run: echo For real deploy, define MOCK_PAGES_DEPLOY=FALSE as Actions repo var under Settings/Security
     
-  deploy:
+  real-deploy:
     runs-on: ubuntu-latest
     environment:
       name: github-pages
