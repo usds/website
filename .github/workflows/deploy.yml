@@ -5,8 +5,8 @@ on:
   # TBD currently either can be supported, so we can compare/decide
 
   # Run automatically on pushes to master
-  push:
-    branches: ["master"]
+  #push:
+    #branches: ["master"]
 
   # Run automatically when a Release is published
   release:
