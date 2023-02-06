@@ -1,13 +1,6 @@
 name: Deploy to usds.gov
 
 on:
-  # TBD decide which is better UX: trigger deploy with push-to-master, or with publish-release
-  # TBD currently either can be supported, so we can compare/decide
-
-  # Run automatically on pushes to master
-  #push:
-    #branches: ["master"]
-
   # Run automatically when a Release is published
   release:
     types: [published]
@@ -41,20 +34,8 @@ concurrency:
   cancel-in-progress: true
   
 jobs:
-  # When triggered by push, use Action to see if changes need to deploy
-  # TBD this goes away if we trigger with release publishing
-  check-pushed-changes:
-    if: github.event_name == 'push'
-    uses: ./.github/workflows/is-deploy-needed.yml
-   
   build:
     runs-on: ubuntu-latest
-    # Skip build when triggered by push that shouldn't cause new deploy
-    # TBD this goes away if we trigger with release publishing
-    if: (github.event_name != 'push' && always()) || needs.check-pushed-changes.outputs.should-deploy == 'true'
-    needs: check-pushed-changes
-    outputs:
-      built_ok: ${{ steps.define-output.outputs.built_ok }}
     steps:
       - name: Retrieve commit history
         uses: actions/checkout@v3
@@ -86,15 +67,10 @@ jobs:
       - name: Upload newly built files
         uses: actions/upload-pages-artifact@v1
 
-      - name: Build OK; continue to deploy
-        id: define-output
-        run: echo "built_ok=true" >> $GITHUB_OUTPUT
-  
   mock-deploy:
-    # This is an extra precaution against uninteded deploys to the one production Pages space. 
+    # This is an extra precaution against unintended deploys to the one production Pages space. 
     runs-on: ubuntu-latest
-    # TBD most of this goes away if we trigger with release publishing
-    if: needs.build.outputs.built_ok == 'true' && always() && vars.MOCK_PAGES_DEPLOY != 'FALSE'
+    if: vars.MOCK_PAGES_DEPLOY != 'FALSE'
     needs: build
     steps:
       - name: Performing mock deploy only
@@ -105,9 +81,7 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    # Skip deploy when build job is skipped or fails
-    # TBD most of this goes away if we trigger with release publishing
-    if: needs.build.outputs.built_ok == 'true' && always() && vars.MOCK_PAGES_DEPLOY == 'FALSE'
+    if: vars.MOCK_PAGES_DEPLOY == 'FALSE'
     needs: build
     steps:
       - name: Deploy to GitHub Pages
