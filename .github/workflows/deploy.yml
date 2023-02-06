@@ -61,8 +61,7 @@ jobs:
       - name: Build with Jekyll
         run: |
           bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
-          echo ${{ inputs.ref }} > ./_site/iref.txt
-          echo $GITHUB_REF > ./_site/eref.txt
+          echo ${{ inputs.ref }} > ./_site/ref.txt; grep .*[a-z].* ./_site/ref.txt || echo $GITHUB_REF > ./_site/ref.txt
         env:
           JEKYLL_ENV: production
           
