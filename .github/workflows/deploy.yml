@@ -58,10 +58,10 @@ jobs:
         id: pages
         uses: actions/configure-pages@v2
         
-      - name: Build with Jekyll
+      - name: Build with Jekyll; create file to identify what deployed 
         run: |
           bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
-          echo ${{ inputs.ref }} > ./_site/ref.txt; grep .*[a-z].* ./_site/ref.txt || echo $GITHUB_REF > ./_site/ref.txt
+          echo ${{ inputs.ref }} > ./_site/ref.txt; grep .*[^\s\n\r].* ./_site/ref.txt || echo $GITHUB_REF > ./_site/ref.txt
         env:
           JEKYLL_ENV: production
           
