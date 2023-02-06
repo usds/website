@@ -61,7 +61,9 @@ jobs:
       - name: Build with Jekyll
         run: |
           bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
-          echo {{ inputs.ref || $GITHUB_REF }} > ${{ steps.pages.outputs.base_path }}/ref.txt
+          echo input {{ inputs.ref }}
+          echo env $GITHUB_REF 
+          echo ${{ steps.pages.outputs }}
         env:
           JEKYLL_ENV: production
           
