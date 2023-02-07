@@ -61,22 +61,27 @@ jobs:
         uses: actions/configure-pages@v2
         
       # Base URL is empty string for usds/website's custom domain; for other repos it's repo name
-      - name: Define base URL for Jekyll build
-        run: |
-          echo "${{ steps.pages.outputs.base_path }}" > /tmp/baseurl
-          echo "${{ github.repository }}" > /tmp/repo; grep ^usds/website$ /tmp/repo || echo "" > /tmp/baseurl
-          echo BASEURL=`cat /tmp/baseurl` >> $GITHUB_ENV 
+      #- name: Define base URL for Jekyll build
+        #run: |
+          #echo "${{ steps.pages.outputs.base_path }}" > /tmp/baseurl
+          #echo "${{ github.repository }}" > /tmp/repo; grep ^usds/website$ /tmp/repo || echo "" > /tmp/baseurl
+          #echo BASEURL=`cat /tmp/baseurl` >> $GITHUB_ENV 
 
+      # _config.yml applies to all builds; _config_usds_gov.yml is for use with custom usds.gov domain
+      -name: Configure Jekyll build for custom domain
+        if: github.repository == 'usds/website'
+        run: cat _config_usds_gov.yml >> _config.yml
+        
       - name: Build with Jekyll; create file to identify what deployed 
           # bundle exec jekyll build --baseurl "${{ env.BASEURL }}" 
         run: |
           bundle exec jekyll build --config _config.yml 
           echo ${{ inputs.ref }} > ./_site/ref.txt; grep .*[^\s\n\r].* ./_site/ref.txt || echo $GITHUB_REF > ./_site/ref.txt
         env:
-          PAGES_REPO_NWO: "${{ github.repository }}"
+          #PAGES_REPO_NWO: "${{ github.repository }}"
           JEKYLL_ENV: production
           
-      - name: Upload newly built files
+      - name: Store newly built files as artifact of workflow run
         uses: actions/upload-pages-artifact@v1
 
   mock-deploy:

@@ -25,6 +25,7 @@ social_image: social-card--default.png
 
 twitter_username: usds
 #repository: usds/website
+github: [metadata]
 
 collections:
   projects:
