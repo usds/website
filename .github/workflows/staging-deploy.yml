@@ -28,8 +28,10 @@ jobs:
         uses: actions/checkout@v3
         with:
           ref: staging
-      - name: remove .git
-        run: rm -rf .git
+      - name: remove and replace files 
+        run: |
+          rm -rf .git
+          mv _config_staging.yml _config.yml 
       - name: Push to website-staging repository
         uses: cpina/github-action-push-to-another-repository@main
         env:

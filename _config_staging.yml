@@ -1,0 +1,82 @@
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: United States Digital Service
+email: your-email@example.com
+description: >- # this means to ignore newlines until "baseurl:"
+  The United States Digital Service is transforming how the federal government works for the American people. And we need you.
+
+url: "https://usds.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/website-staging" # the subpath of your site, e.g. /blog
+timezone: "America/New_York"
+social_image: social-card--default.png
+
+twitter_username: usds
+repository: usds/website-staging
+
+collections:
+  projects:
+    output: true
+  people:
+    output: true
+  reports_to_congress:
+    output: true
+
+instagram_url: https://www.instagram.com/usdigitalservice
+facebook_url: https://www.facebook.com/unitedstatesdigitalservice
+twitter_url: https://twitter.com/USDS
+medium_url: https://medium.com/@USDigitalService
+linkedin_url: https://www.linkedin.com/company/united-states-digital-service
+github_url: https://github.com/usds
+
+press_kit_file_name: USDS-Overview.pdf
+d_and_i_file_name: usds-di.pdf
+impact_report_file_name: USDS-Impact-Report-2020.pdf
+
+# Build settings
+markdown: kramdown
+# Data settings
+data_dir : _content
+
+# Assets settings
+sass:
+  sass_dir: assets/stylesheets/
+  style: compressed
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-redirect-from
+
+# Jekyll SEO Tag
+# See https://github.com/jekyll/jekyll-seo-tag
+twitter:
+  username: usds
+logo: /img/usds-logo-onwhite.png
+
+# Exclude from processing.
+exclude:
+  - ".ruby-version"
+  - ".sass-cache"
+  - CONTRIBUTING.md
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.md
+  - README.md
+  - config
+  - js
+  - vendor
+  - manifest.yml
+  - node_modules
+  - package.json
+  - gulpfile.js
+  - circle.yml
+  - css
+  - image-templates
+  - CODE_OF_CONDUCT.md
+  - Staticfile
+  - package-lock.json
