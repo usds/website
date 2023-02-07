@@ -7,7 +7,7 @@ title: United States Digital Service
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   The United States Digital Service is transforming how the federal government works for the American people. And we need you.
-
+domain: "https://usds.github.io"
 url: "https://usds.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "/website-staging" # the subpath of your site, e.g. /blog
 timezone: "America/New_York"
