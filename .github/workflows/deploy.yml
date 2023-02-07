@@ -63,8 +63,9 @@ jobs:
       # Base URL is empty string for usds/website's custom domain; for other repos it's repo name
       - name: Define base URL for Jekyll build
         run: |
-          echo BASEURL="${{ steps.pages.outputs.base_path }}" >> $GITHUB_ENV
-          echo "${{ github.repository_name }}" > /tmp/repo; grep ^usds/website$ /tmp/repo || echo BASEURL="''" >> $GITHUB_ENV
+          echo "${{ steps.pages.outputs.base_path }}" > /tmp/baseurl
+          echo "${{ github.repository_name }}" > /tmp/repo; grep ^usds/website$ /tmp/repo || echo "''" > /tmp/baseurl
+          echo BASEURL=`cat /tmp/baseurl` >> $GITHUB_ENV 
 
       - name: Build with Jekyll; create file to identify what deployed 
         run: |
