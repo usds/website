@@ -64,7 +64,7 @@ jobs:
       - name: Define base URL for Jekyll build
         run: |
           echo "${{ steps.pages.outputs.base_path }}" > /tmp/baseurl
-          echo "${{ github.repository }}" > /tmp/repo; grep ^usds/website$ /tmp/repo || echo "" > /tmp/baseurl
+          echo "${{ github.repository }}" > /tmp/repo; grep ^usds/website$ /tmp/repo && echo "" > /tmp/baseurl
           echo BASEURL=`cat /tmp/baseurl` >> $GITHUB_ENV 
 
       # _config.yml applies to all builds; _config_usds_gov.yml is for use with custom usds.gov domain
