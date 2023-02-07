@@ -2,8 +2,6 @@ name: Staging Deployment
 
 # STEPS
 # Checkout Staging Branch of Website
-# Setup Pages
-# Move generated _site files
 # Push to website-staging repository
 
 on:
@@ -30,25 +28,16 @@ jobs:
         uses: actions/checkout@v3
         with:
           ref: staging
-      - name: Setup Pages
-        uses: actions/configure-pages@v3
-      - name: Build with Jekyll
-        uses: actions/jekyll-build-pages@v1
-        with:
-          source: ./
-          destination: ./_site  
-      - name: Move generated _site files
+      - name: remove and replace files 
         run: |
-          pwd
-          mkdir output
           rm -rf .git
-          cp -r _site output
+          mv _config_staging.yml _config.yml 
       - name: Push to website-staging repository
         uses: cpina/github-action-push-to-another-repository@main
         env:
           SSH_DEPLOY_KEY: ${{ secrets.STAGING_KEY }}
         with:
-          source-directory: output
+          source-directory: .
           destination-github-username: 'usds'
           destination-repository-name: 'website-staging'
           target-branch: main
