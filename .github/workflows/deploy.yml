@@ -64,17 +64,16 @@ jobs:
       - name: Define base URL for Jekyll build
         run: |
           echo "${{ steps.pages.outputs.base_path }}" > /tmp/baseurl
-          echo "${{ github.repository_name }}" > /tmp/repo; grep ^usds/website$ /tmp/repo || echo "" > /tmp/baseurl
+          echo "${{ github.repository }}" > /tmp/repo; grep ^usds/website$ /tmp/repo || echo "" > /tmp/baseurl
           echo BASEURL=`cat /tmp/baseurl` >> $GITHUB_ENV 
 
       - name: Build with Jekyll; create file to identify what deployed 
           # bundle exec jekyll build --baseurl "${{ env.BASEURL }}" 
         run: |
-          echo "${{ github.repository_name }}"
           bundle exec jekyll build --config _config.yml 
           echo ${{ inputs.ref }} > ./_site/ref.txt; grep .*[^\s\n\r].* ./_site/ref.txt || echo $GITHUB_REF > ./_site/ref.txt
         env:
-          PAGES_REPO_NWO: "${{ github.repository_name }}"
+          PAGES_REPO_NWO: "${{ github.repository }}"
           JEKYLL_ENV: production
           
       - name: Upload newly built files
@@ -83,7 +82,7 @@ jobs:
   mock-deploy:
     # This is an extra precaution against unintended deploys to the one production Pages space. 
     runs-on: ubuntu-latest
-    if: github.repository_name == 'usds/website' && vars.MOCK_PAGES_DEPLOY != 'FALSE'
+    if: github.repository == 'usds/website' && vars.MOCK_PAGES_DEPLOY != 'FALSE'
     needs: build
     steps:
       - name: Performing mock deploy only
@@ -94,7 +93,7 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    if: github.repository_name != 'usds/website' || vars.MOCK_PAGES_DEPLOY == 'FALSE'
+    if: github.repository != 'usds/website' || vars.MOCK_PAGES_DEPLOY == 'FALSE'
     needs: build
     steps:
       - name: Deploy to GitHub Pages
