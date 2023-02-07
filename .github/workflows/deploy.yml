@@ -1,3 +1,5 @@
+# The name is descriptive for non-dev users in usds/website repo.
+# For devs working in other repos, 'Deploy to GH Pages' is a better description.
 name: Deploy to usds.gov
 
 on:
@@ -58,9 +60,15 @@ jobs:
         id: pages
         uses: actions/configure-pages@v2
         
+      # Base URL is empty string for usds/website's custom domain; for other repos it's repo name
+      - name: Define base URL for Jekyll build
+        run: |
+          echo BASEURL="${{ steps.pages.outputs.base_path }}" >> $GITHUB_ENV
+          echo "${{ github.repository_name }}" > /tmp/repo; grep ^usds/website$ /tmp/repo || echo BASEURL="''" >> $GITHUB_ENV
+
       - name: Build with Jekyll; create file to identify what deployed 
         run: |
-          bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+          bundle exec jekyll build --baseurl "${{ env.BASEURL }}" 
           echo ${{ inputs.ref }} > ./_site/ref.txt; grep .*[^\s\n\r].* ./_site/ref.txt || echo $GITHUB_REF > ./_site/ref.txt
         env:
           JEKYLL_ENV: production
@@ -71,7 +79,7 @@ jobs:
   mock-deploy:
     # This is an extra precaution against unintended deploys to the one production Pages space. 
     runs-on: ubuntu-latest
-    if: vars.MOCK_PAGES_DEPLOY != 'FALSE'
+    if: github.repository_name == 'usds/website' && vars.MOCK_PAGES_DEPLOY != 'FALSE'
     needs: build
     steps:
       - name: Performing mock deploy only
@@ -82,7 +90,7 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    if: vars.MOCK_PAGES_DEPLOY == 'FALSE'
+    if: github.repository_name != 'usds/website' || vars.MOCK_PAGES_DEPLOY == 'FALSE'
     needs: build
     steps:
       - name: Deploy to GitHub Pages
