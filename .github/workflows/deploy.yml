@@ -68,8 +68,9 @@ jobs:
           echo BASEURL=`cat /tmp/baseurl` >> $GITHUB_ENV 
 
       - name: Build with Jekyll; create file to identify what deployed 
+          # bundle exec jekyll build --baseurl "${{ env.BASEURL }}" 
         run: |
-          bundle exec jekyll build --baseurl "${{ env.BASEURL }}" 
+          bundle exec jekyll build --config _config.yml 
           echo ${{ inputs.ref }} > ./_site/ref.txt; grep .*[^\s\n\r].* ./_site/ref.txt || echo $GITHUB_REF > ./_site/ref.txt
         env:
           JEKYLL_ENV: production
