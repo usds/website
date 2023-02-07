@@ -78,7 +78,7 @@ jobs:
           bundle exec jekyll build --config _config.yml 
           echo ${{ inputs.ref }} > ./_site/ref.txt; grep .*[^\s\n\r].* ./_site/ref.txt || echo $GITHUB_REF > ./_site/ref.txt
         env:
-          #PAGES_REPO_NWO: "${{ github.repository }}"
+          xPAGES_REPO_NWO: "${{ github.repository }}"
           JEKYLL_ENV: production
           
       - name: Store newly built files as artifact of workflow run
