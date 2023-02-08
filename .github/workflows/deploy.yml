@@ -69,9 +69,9 @@ jobs:
 
       # _config.yml applies to all builds; _config_usds_gov.yml is for use with custom usds.gov domain
       - name: Configure Jekyll build for custom domain
-        if: github.repository == 'usds/website'
+        if: github.repository != 'usds/website'
         #run: cat _config_usds_gov.yml >> _config.yml
-        run: 'echo "domain: \"https://usds.gov\"" >> _config.yml'
+        run: 'echo "domain: \"https://usds.gov\"" >> _config.yml && cat _config.yml'
         
       - name: Build with Jekyll; create file to identify what deployed 
           # bundle exec jekyll build --baseurl "${{ env.BASEURL }}" 
