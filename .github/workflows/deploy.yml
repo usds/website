@@ -86,7 +86,9 @@ jobs:
       - name: For usds/website, check safety flag 
         # This is an extra precaution against unintended deploys to the Pages space in usds/website.
         if: github.repository != 'usds/website' || vars.MOCK_PAGES_DEPLOY == 'FALSE'
-        run: echo "::error title=Mock deploy only::For real deploy, define MOCK_PAGES_DEPLOY=FALSE as Actions repo var under Settings/Security"
+        run: |
+          echo "::error title=Mock deploy only::For real deploy, define MOCK_PAGES_DEPLOY=FALSE as Actions repo var under Settings/Security"
+          exit 1
       - name: Deploy to GitHub Pages 
         if: github.repository == 'usds/website' && vars.MOCK_PAGES_DEPLOY != 'FALSE'
         id: deployment
