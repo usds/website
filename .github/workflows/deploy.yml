@@ -71,7 +71,7 @@ jobs:
         
       - name: Jekyll build for repos other than usds/website
         if: github.repository != 'usds/website'
-        run: bundle exec jekyll build --baseurl "${{ github.repository }}" 
+        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}" 
 
       # Base URL is empty string for usds/website's custom domain; for other repos it's repo name
       #- name: Define base URL for Jekyll build
