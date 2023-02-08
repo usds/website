@@ -76,23 +76,18 @@ jobs:
       - name: Store newly built files as artifact of workflow run
         uses: actions/upload-pages-artifact@v1
 
-  mock-deploy:
-    # This is an extra precaution against unintended deploys to the one production Pages space. 
+  deploy:
     runs-on: ubuntu-latest
-    if: github.repository == 'usds/website' && vars.MOCK_PAGES_DEPLOY != 'FALSE'
     needs: build
-    steps:
-      - name: Performing mock deploy only
-        run: echo For real deploy, define MOCK_PAGES_DEPLOY=FALSE as Actions repo var under Settings/Security
-    
-  real-deploy:
-    runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    if: github.repository != 'usds/website' || vars.MOCK_PAGES_DEPLOY == 'FALSE'
-    needs: build
     steps:
-      - name: Deploy to GitHub Pages
+      - name: Performing mock deploy only
+        # This is an extra precaution against unintended deploys to the Pages space in usds/website.
+        if: github.repository == 'usds/website' && vars.MOCK_PAGES_DEPLOY != 'FALSE'
+        run: echo "::error title=mytitle::For real deploy, define MOCK_PAGES_DEPLOY=FALSE as Actions repo var under Settings/Security"
+      - name: real deploy 
+        if: github.repository != 'usds/website' || vars.MOCK_PAGES_DEPLOY == 'FALSE'
         id: deployment
         uses: actions/deploy-pages@v1
