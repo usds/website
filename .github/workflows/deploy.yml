@@ -72,7 +72,10 @@ jobs:
 
       - name: Create a file to identify the git ref that deployed 
         run: echo ${{ inputs.ref }} > ./_site/ref.txt; grep .*[^\s\n\r].* ./_site/ref.txt || echo $GITHUB_REF > ./_site/ref.txt
-
+  
+      - name: Store newly built files as artifact of workflow run
+        uses: actions/upload-pages-artifact@v1
+        
   deploy:
     runs-on: ubuntu-latest
     needs: build
