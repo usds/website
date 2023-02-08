@@ -61,7 +61,7 @@ jobs:
         uses: actions/configure-pages@v2
         
       - name: Jekyll build for repo usds/website  
-        if: github.repository == 'usds/website'
+        if: github.repository != 'usds/website'
         run: |
           bundle exec jekyll build 
           # Create a file to identify what git ref deployed 
@@ -70,7 +70,7 @@ jobs:
           JEKYLL_ENV: production
         
       - name: Jekyll build for repos other than usds/website
-        if: github.repository != 'usds/website'
+        if: github.repository == 'usds/website'
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}" 
 
       # Base URL is empty string for usds/website's custom domain; for other repos it's repo name
