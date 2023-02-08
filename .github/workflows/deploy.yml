@@ -83,11 +83,11 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Performing mock deploy only
+      - name: For usds/website, check safety flag 
         # This is an extra precaution against unintended deploys to the Pages space in usds/website.
-        if: github.repository == 'usds/website' && vars.MOCK_PAGES_DEPLOY != 'FALSE'
-        run: echo "::error title=mytitle::For real deploy, define MOCK_PAGES_DEPLOY=FALSE as Actions repo var under Settings/Security"
-      - name: real deploy 
         if: github.repository != 'usds/website' || vars.MOCK_PAGES_DEPLOY == 'FALSE'
+        run: echo "::error title=Mock deploy only::For real deploy, define MOCK_PAGES_DEPLOY=FALSE as Actions repo var under Settings/Security"
+      - name: Deploy to GitHub Pages 
+        if: github.repository == 'usds/website' && vars.MOCK_PAGES_DEPLOY != 'FALSE'
         id: deployment
         uses: actions/deploy-pages@v1
