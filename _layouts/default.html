@@ -74,7 +74,7 @@ Meet Mollie the crab, our unofficial mascot :)
   </div>
   {% endif %}
 
-  <main id="main-content" role="main" class="margin-bottom-9">
+  <main id="main-content" role="main">
 
     {% if page.project_page %}
       {% include _template--project-page.html %}
@@ -85,8 +85,18 @@ Meet Mollie the crab, our unofficial mascot :)
     {% elsif page.project_charter %}
       {% include _template--charter.html %}
     {% else %}
+    <div class="margin-bottom-9">
       {{ content }}
+      </div>
     {% endif %}
+
+      <section class="site-c-billboard">
+        <div class="grid-container">
+          <p>We need you.</p>
+          <p>Let’s help millions of people together.</p>
+          <p><a class="usa-button usa-button--outline usa-button--inverse" href="{{ site.baseurl }}/apply">Apply now</a></p>
+        </div>
+      </section>
 
   </main>
 
