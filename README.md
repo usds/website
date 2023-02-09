@@ -4,13 +4,16 @@ The USDS website is built with:
 
 - [Jekyll](https://jekyllrb.com/) via the [github-pages gem](https://rubygems.org/gems/github-pages)
   - See [current dependencies](https://pages.github.com/versions/) for GitHub Pages
-- [U.S. Web Design System (USWDS)](https://designsystem.digital.gov/)
+- [U.S. Web Design System v3 (USWDS)](https://designsystem.digital.gov/)
 
 Before getting started, install the following on your system:
 
 - [Ruby](https://www.ruby-lang.org/en/documentation/installation/), best set up on version 2.7 for Jekyll
 - [NPM](https://github.com/npm/cli)
 - Docker
+
+## Deployment steps
+see [How to use staging environment](https://github.com/usds/website-management#how-to-use-the-usds-website-staging-environment)
 
 ## Install and run a development environment
 
@@ -36,7 +39,7 @@ for `pwd` might be different on Windows or a non Bash shell.
 docker run -p 4080:4000  -p 35729:35729 -v $(pwd):/app --name usdsweb usds-website
 ```  
 
-### Staging environment
+### Development environment for sharing on cloud.gov
 Builds staging Jekyll site using `JEKYLL_ENV=staging`. Staging builds are used for temporary testing on cloud.gov. Do not deploy a staging build to GitHub pages.
 
 Staging sites are one-off, per-user builds in a cloud.gov sandbox. Handy for testing and gathering feedback.
