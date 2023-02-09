@@ -1,0 +1,52 @@
+name: Revert to preceding release publication
+
+# TBD decide which is better UX: trigger deploy with push-to-master, or with publish-release
+# TBD Comments here assume that it's publish-release.
+
+# Allow manual run from the Actions tab on github.com
+# When a GitHub Release is published, repo contents automatically deploy to Pages (usds.gov) 
+# This Action permits users to easily deploy the *second most recently published* Release.
+# In other words, this is meant to "undo" a Release publication/auto deploy that is problematic.
+# Using this invalidates the general assumption that current deployment is the most recently published release.
+# (But note that this Action's behavior is unaffected if the general assumption is false. Running this Action
+# will always deploy the *second most recently* published Release, regardless of what was deployed before the run.)
+on:
+  workflow_dispatch:
+
+# Set permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  find-preceding-release-tag:
+    runs-on: ubuntu-latest
+    outputs:
+      revert_tag: ${{ steps.preceding-publication.outputs.tag_name }}
+    steps:
+      - name: Get tag name of most recently published release 
+        id: most-recent-publication
+        uses: joutvhu/get-release@v1
+        with:
+          # Find most recently published release, any tag name
+          latest: true
+          pattern: '.*'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Get tag name of preceding release publication
+        id: preceding-publication
+        uses: joutvhu/get-release@v1
+        with:
+          # Exclude tag name from above to find second most recently published release 
+          latest: true
+          pattern: '^(?!${{ steps.most-recent-publication.outputs.tag_name }}$)'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  revert:
+    needs: find-preceding-release-tag
+    uses: ./.github/workflows/deploy.yml
+    with:
+      ref: ${{ needs.find-preceding-release-tag.outputs.revert_tag }}
