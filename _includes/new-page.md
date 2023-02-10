@@ -6,6 +6,10 @@ permalink: /mypage
 title: This is the tab title and top-level heading 
 ---
 
+- [ ] make this file an "include"
+- [ ] manually run Action, name input
+- [ ] create branch with name, copy this file to name, commit
+
 ## This is a second level heading
 
 This is a paragraph, which **can** *be* ***formatted*** with [Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).

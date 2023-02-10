@@ -1,0 +1,31 @@
+name: Create a new web page 
+
+on:
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch
+  inputs:
+    branch:
+      description: "Name of an existing branch for work on the new page"
+      required: true
+      type: string
+    page:
+      description: "Filename to use for the new page (.md will be added)"
+      required: true
+      type: string
+
+jobs:
+  create-new-page:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout the specified branch 
+        uses: actions/checkout@v3
+          with:
+            ref: ${{ inputs.branch }}
+
+      - name: Create page file from template 
+        run: cp ./_includes/new-page.md ${{ inputs.page }}.md
+
+      - name: Commit the new page file 
+        uses: EndBug/add-and-commit@v9 
+          with:
+            message: 'Create page ${{ inputs.page-name }}'
