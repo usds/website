@@ -2,16 +2,16 @@ name: Create a new web page
 
 on:
   # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch
-  inputs:
-    branch:
-      description: "Name of an existing branch for work on the new page"
-      required: true
-      type: string
-    page:
-      description: "Filename to use for the new page (.md will be added)"
-      required: true
-      type: string
+  workflow_dispatch:
+    inputs:
+      branch:
+        description: "Name of an existing branch for work on the new page"
+        required: true
+        type: string
+      page:
+        description: "Filename to use for the new page (.md will be added)"
+        required: true
+        type: string
 
 jobs:
   create-new-page:
