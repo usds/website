@@ -19,13 +19,13 @@ jobs:
     steps:
       - name: Checkout the specified branch 
         uses: actions/checkout@v3
-          with:
-            ref: ${{ inputs.branch }}
+        with:
+          ref: ${{ inputs.branch }}
 
       - name: Create page file from template 
-        run: cp ./_includes/new-page.md ${{ inputs.page }}.md
+        run: 'cp ./_includes/new-page.md ${{ inputs.page }}.md'
 
       - name: Commit the new page file 
         uses: EndBug/add-and-commit@v9 
-          with:
-            message: 'Create page ${{ inputs.page-name }}'
+        with:
+          message: 'Create page ${{ inputs.page }}'
