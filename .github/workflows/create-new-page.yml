@@ -34,4 +34,4 @@ jobs:
           message: 'Create page ${{ inputs.page }}'
 
       - name: Write summary
-        run: echo "You can now edit your new page on branch ${{ inputs.branch }} at pages/${{ inputs.page }}.md" >> $GITHUB_STEP_SUMMARY
+        run: echo "You can now edit your new page on branch `${{ inputs.branch }}` at `pages/${{ inputs.page }}.md`." >> $GITHUB_STEP_SUMMARY
