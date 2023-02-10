@@ -10,7 +10,7 @@ title: This is the tab title and top-level heading
 
 This is a paragraph, which **can** *be* ***formatted*** with [Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
-This is a second paragraph. To fill up some space, I will just keep typing whatever comes into my silly little brain, lorem ipsum. Is that how you spell that? I never studied Latin, and I'm not a web design type of person, as you can probably tell. I wonder if this is long enough for our purposes.
+If you are already familiar with markdown, you can skip most of what follows, but *be sure to check the rule about URLs for links and images*.
 
 ## Another second level heading
 
@@ -28,9 +28,21 @@ Markdown has many features.
 2. has
 3. numbers
 
+### Links
+
+The first paragraph above has an example of a markdown link to a different site. The format is square brackets containing the link text, immediatlely followed by parantheses containing the URL 
+
+For links within USDS, there is a special URL format that is needed to make things work across development, staging and on the live site. The brackets-followed-by-parentheses still applies. Inside those parentheses, the first part of the URL must be double curly braces containing `site.baseurl`
+
+- Yes: [this link]({{ site.baseurl }}/mission) will always be right.
+- No: [this link](/mission) will sometimes be broken.
+- No: [this link](https://usds.gov/mission) may never break, but it might not be the "version" you want.
+
 ### Images
 
-![A sample image](/assets/img/usds-logo-horizontal.png)
+The same format rule applies for image URLs within USDS.
+
+![A sample image]({{ site.baseurl }}/assets/img/usds-logo-horizontal.png)
 
 <!-- This is an HTML comment. This text does not appear in the browser-rendered page, but
 it IS VISIBLE in the browser developer tools, so it's not the place for anything sensitive. -->
@@ -38,6 +50,4 @@ it IS VISIBLE in the browser developer tools, so it's not the place for anything
 <!-- Markdown allows you to do a lot without knowing HTML or CSS. But if you do know some, you can use it 
 in combination with markdown. An example follows. -->
 
-<img alt="An image using HTML and CSS" src="/assets/img/usds-logo-horizontal.png" style="width: 300px; display: block; margin: auto;">
-
-Be sure that all local links and images use relative URLs, like [this](/projects/ditap), because they will work no matter what version or copy of the site you're at. Avoid absolute URLs, like [this](https://usds.gov/projects/ditap), because they point to one particular version or copy of the site. Even if it's the one you want right now, it might not be for always and ever.
+<img alt="An image using HTML and CSS" src="{{ site.baseurl }}/assets/img/usds-logo-horizontal.png" style="width: 300px; display: block; margin: auto;">
