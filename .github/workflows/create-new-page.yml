@@ -28,10 +28,13 @@ jobs:
       - name: Create page file from template 
         run: 'cp ./_includes/new-page.md ./pages/${{ inputs.page }}.md'
 
+      - name: Set permalink URL 
+        run: 'sed s/page_URL_goes_here/${{ inputs.page }}/ ./pages/${{ inputs.page }}.md'
+
       - name: Commit the new page file 
         uses: EndBug/add-and-commit@v9 
         with:
           message: 'Create page ${{ inputs.page }}'
 
       - name: Write summary
-        run: echo "You can now edit your new page on branch `${{ inputs.branch }}` at `pages/${{ inputs.page }}.md`." >> $GITHUB_STEP_SUMMARY
+        run: echo "You can now edit your new page on branch \`${{ inputs.branch }}\` at \`pages/${{ inputs.page }}.md\`." >> $GITHUB_STEP_SUMMARY

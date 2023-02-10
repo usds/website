@@ -2,6 +2,7 @@
 markdown_only: true
 simple_footer: true # change to false if you want big "We Need You" footer
 
+permalink: /page_URL_goes_here 
 title: This is the tab title and top-level heading 
 ---
 
