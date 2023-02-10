@@ -26,9 +26,12 @@ jobs:
           ref: ${{ inputs.branch }}
 
       - name: Create page file from template 
-        run: 'cp ./_includes/new-page.md ${{ inputs.page }}.md'
+        run: 'cp ./_includes/new-page.md ./pages/${{ inputs.page }}.md'
 
       - name: Commit the new page file 
         uses: EndBug/add-and-commit@v9 
         with:
           message: 'Create page ${{ inputs.page }}'
+
+      - name: Write summary
+        run: echo "You can now edit your new page on branch ${{ branch }} at pages/${{ page }}.md" >> $GITHUB_STEP_SUMMARY

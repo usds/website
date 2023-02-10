@@ -2,13 +2,8 @@
 markdown_only: true
 simple_footer: true # change to false if you want big "We Need You" footer
 
-permalink: /mypage
 title: This is the tab title and top-level heading 
 ---
-
-- [ ] make this file an "include"
-- [ ] manually run Action, name input
-- [ ] create branch with name, copy this file to name, commit
 
 ## This is a second level heading
 
