@@ -30,7 +30,7 @@ Markdown has many features.
 
 ### Images
 
-![A sample image](/assets/img/usds-logo-horizontal.png)
+![A sample image]({{ site.url }}/assets/img/usds-logo-horizontal.png)
 
 <!-- This is an HTML comment. This text does not appear in the browser-rendered page, but
 it IS VISIBLE in the browser developer tools, so it's not the place for anything sensitive. -->
