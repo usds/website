@@ -26,10 +26,7 @@ jobs:
           ref: ${{ inputs.branch }}
 
       - name: Create page file from template 
-        run: 'cp ./_includes/new-page.md ./pages/${{ inputs.page }}.md'
-
-      - name: Set permalink URL 
-        run: 'sed s/page_URL_goes_here/${{ inputs.page }}/ ./pages/${{ inputs.page }}.md'
+        run: 'sed s/page_URL_goes_here/${{ inputs.page }}/ ./_includes/new-page.md > ./pages/${{ inputs.page }}.md'
 
       - name: Commit the new page file 
         uses: EndBug/add-and-commit@v9 
