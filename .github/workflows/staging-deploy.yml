@@ -1,9 +1,14 @@
 name: Staging Deployment
 
 on:
+  pull_request:
+    branches: [staging]
+    types: [opened, reopened]
   push: 
     branches:
       - staging
+
+      
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
