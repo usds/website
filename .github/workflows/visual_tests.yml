@@ -1,0 +1,20 @@
+name: Visual regression testing 
+
+on:
+  push:
+    branches:
+      - cypress-visual-regression
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 
+        uses: actions/checkout@v3
+          
+      - name: Compare screen images 
+        run: |
+          npm install
+          docker build -t usds-website . --no-cache
+          docker run -p 4080:4000  --name usdsweb usds-website
+          npm run visual-regression
