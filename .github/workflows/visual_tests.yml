@@ -15,11 +15,14 @@ jobs:
       - name: Checkout 
         uses: actions/checkout@v3
           
-      - name: Compare screen images 
+      - name: Build Jekyll site 
         run: |
           npm install
           docker build -t usds-website . --no-cache
-          docker run -p 4080:4000  --name usdsweb usds-website &
+          docker run -p 4080:4000  --name usdsweb usds-website 
+
+      - name: Compare screen images 
+        run: |
           npm run visual-regression > /tmp/results.txt
           grep "^ *[A-Z][a-z]*:" /tmp/results.txt | sed "1d;s/^ *\(Error: .*\)/\n\1/" | sed "1c \`\`\`" | sed '$a\\`\`\`' > /tmp/message.md
 
@@ -28,3 +31,4 @@ jobs:
         uses: mshick/add-pr-comment@v2
         with:
           message-path: /tmp/message.md
+          message-failure: "No visual test results found."
