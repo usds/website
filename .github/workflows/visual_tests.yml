@@ -2,7 +2,7 @@ name: Visual regression testing
 
 on:
   pull_request:
-    types: [opened, synchronize]
+    types: [opened, synchronize, edited]
     branches:
       - cypress-visual-regression
 
