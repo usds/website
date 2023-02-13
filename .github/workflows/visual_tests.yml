@@ -1,13 +1,16 @@
 name: Visual regression testing 
 
 on:
-  push:
+  pull_request:
+    types: [opened, synchronize]
     branches:
       - cypress-visual-regression
 
 jobs:
-  build:
+  test:
     runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
     steps:
       - name: Checkout 
         uses: actions/checkout@v3
@@ -17,4 +20,10 @@ jobs:
           npm install
           docker build -t usds-website . --no-cache
           docker run -p 4080:4000  --name usdsweb usds-website &
-          npm run visual-regression
+          npm run visual-regression > /tmp/results.txt
+          grep "^ *[A-Z][a-z]*:" /tmp/results.txt | sed "1d;s/^ *\(Error: .*\)/\n\1/" | sed "1c \`\`\`" | sed '$a\\`\`\`' > /tmp/message.md
+
+      - name: Add comment to PR
+        uses: mshick/add-pr-comment@v2
+        with:
+          message-path: /tmp/message.md

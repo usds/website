@@ -9,7 +9,8 @@ describe('Current actual screenshots should match established base screenshots',
     { route: '/', filename: 'home' }, 
     { route: 'apply', threshold: 0.01 }, // iframe'd form has varying "CAPTCHA"
     { route: 'contact-us' }, 
-    { route: 'faq' }, 
+  ];
+  const x= [  { route: 'faq' }, 
     { route: 'how-we-work', threshold: 0.03 }, // contains animation
     { route: 'mission' }, 
     { route: 'news-and-blog' }, 
