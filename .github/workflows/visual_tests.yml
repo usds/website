@@ -24,6 +24,7 @@ jobs:
           grep "^ *[A-Z][a-z]*:" /tmp/results.txt | sed "1d;s/^ *\(Error: .*\)/\n\1/" | sed "1c \`\`\`" | sed '$a\\`\`\`' > /tmp/message.md
 
       - name: Add comment to PR
+        if: always()
         uses: mshick/add-pr-comment@v2
         with:
           message-path: /tmp/message.md
