@@ -2,9 +2,23 @@ name: Visual regression testing
 
 on:
   pull_request:
-    types: [opened, synchronize, edited]
+    types: [opened, synchronize]
     branches:
       - cypress-visual-regression
+
+  workflow_dispatch:
+    inputs:
+      run_mode:
+        description: "Compare with existing base images, or Generate new base images?"
+        required: true
+        type: choice
+        options:
+          - Compare
+          - Generate
+      pr:
+        description: "If you chose Generate, enter the PR number to be updated"
+        required: false
+        type: string 
 
 jobs:
   test:
@@ -13,22 +27,26 @@ jobs:
       - name: Checkout repository 
         uses: actions/checkout@v3
           
+      - name: Checkout PR
+        if: github.event_name == 'workflow_dispatch' && inputs.run_mode == 'Generate'
+        uses: dawidd6/action-checkout-pr@v1
+        with:
+          pr: ${{ inputs.pr }} 
+
       - name: Setup Docker container and build Jekyll 
         run: |
           npm install
           docker build -t usds-website . --no-cache
           docker run -p 4080:4000 --name usdsweb usds-website &
-          echo ":heavy_check_mark: All visual regression tests passed." > /tmp/message.md
 
       - name: Compare current actual screens with base images 
+        if: github.event_name == 'pull_request' || inputs.run_mode == 'Compare'
         run: |
-          echo '${{ toJSON(env) }}'
-          echo '${{ toJSON(steps) }}'
-          echo '${{ toJSON(secrets) }}'
+          echo ":heavy_check_mark: All visual regression tests passed." > /tmp/message.md
           npm run visual-regression || echo ":heavy_multiplication_x: Some visual regression tests failed." > /tmp/message.md
-          echo "  :scroll: [Details](../actions/runs/${{ github.run_id }}/jobs/${{ github.job }}#step:4:33)" >> /tmp/message.md
 
-      - name: Store current actual images and diffs
+      - name: Store comparison results
+        if: github.event_name == 'pull_request' || inputs.run_mode == 'Compare'
         uses: actions/upload-artifact@v3
         with:
           name: actuals-and-diffs 
@@ -36,7 +54,19 @@ jobs:
             cypress/snapshots/actual
             cypress/snapshots/diff
 
+      - name: Generate new base images 
+        if: inputs.run_mode == 'Generate'
+        run: |
+          npm run visual-refresh
+
+      - name: Commit new base images 
+        if: inputs.run_mode == 'Generate'
+        uses: EndBug/add-and-commit@v9
+        with:
+          message: "Update base images"
+
       - name: Report results in PR comment
+        if: github.event_name == 'pull_request'
         uses: mshick/add-pr-comment@v2
         with:
           message-path: /tmp/message.md
