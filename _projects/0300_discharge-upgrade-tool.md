@@ -12,7 +12,7 @@ step-by-step guidance for submitting a strong application to upgrade their disch
 carousel_image_name: project-va-discharge-upgrade-card.jpg
 
 # Project detail page (Edit this)
-title: "Discharge Status Upgrade Tool"
+title: "Helping Veterans upgrade their Discharge Status"
 agency: Veterans Affairs
 permalink: projects/discharge-upgrade-tool
 project_url: https://www.va.gov/discharge-upgrade-instructions

@@ -12,7 +12,7 @@ carousel_image_name: project-dod-hack-the-pentagon-card.jpg
 hide: true
 
 # Project detail page (Edit this)
-title: "Hack the Pentagon"
+title: "Hacking the Pentagon"
 agency: Department of Defense
 permalink: projects/hack-the-pentagon
 project_url:

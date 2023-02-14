@@ -11,7 +11,7 @@ carousel_summary: "Working alongside The Department of Treasury and the White Ho
 carousel_image_name: project-childcare-tax-credit-card.jpg
 
 # Project detail page (Edit this)
-title: "Childcare Tax Credit"
+title: "Optimizing benefits for families"
 agency: Cross-agency
 permalink: projects/childcare-tax-credit
 project_url: https://www.childtaxcredit.gov/
