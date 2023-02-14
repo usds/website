@@ -27,10 +27,11 @@ jobs:
       - name: Checkout repository 
         uses: actions/checkout@v3
         with: 
+          ref: master
           fetch-depth: 0
           
       - run: git status
-      
+
       - name: Checkout PR if generating base images
         if: github.event_name == 'workflow_dispatch' && inputs.run_mode == 'Generate'
         uses: dawidd6/action-checkout-pr@v1
