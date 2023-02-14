@@ -27,18 +27,15 @@ jobs:
       - name: Checkout repository 
         uses: actions/checkout@v3
         with: 
-          ref: master
           fetch-depth: 0
           
-      - run: git status
-
       - name: Checkout PR if generating base images
         if: github.event_name == 'workflow_dispatch' && inputs.run_mode == 'Generate'
         uses: dawidd6/action-checkout-pr@v1
         with:
           pr: ${{ inputs.pr }} 
 
-      - name: Setup Docker container and build Jekyll 
+      - name: Setup Docker container, build and serve Jekyll site
         run: |
           npm install
           docker build -t usds-website . --no-cache
@@ -47,8 +44,8 @@ jobs:
       - name: Compare current actual screens with base images 
         if: github.event_name == 'pull_request' || inputs.run_mode == 'Compare'
         run: |
-          echo ":heavy_check_mark: All visual regression tests passed." > /tmp/message.md
-          npm run visual-regression || echo ":heavy_multiplication_x: Some visual regression tests failed." > /tmp/message.md
+          echo ":+1: No visual differences detected." > /tmp/message.md
+          npm run visual-regression || echo ":warning: Visual differences detected." > /tmp/message.md
 
       - name: Store comparison results
         if: github.event_name == 'pull_request' || inputs.run_mode == 'Compare'
@@ -61,8 +58,7 @@ jobs:
 
       - name: Generate new base images 
         if: inputs.run_mode == 'Generate'
-        run: |
-          npm run visual-refresh
+        run: npm run visual-refresh
 
       - name: Commit new base images 
         if: inputs.run_mode == 'Generate'
