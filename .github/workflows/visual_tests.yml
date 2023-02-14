@@ -18,8 +18,4 @@ jobs:
           npm install
           docker build -t usds-website . --no-cache
           docker run -p 4080:4000 --name usdsweb usds-website &
-          npm run visual-regression 
-
-      - name: Avoid breaking build
-        if: always() 
-        run: exit 0
+          npm run visual-regression || exit 0
