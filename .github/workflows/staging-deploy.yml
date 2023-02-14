@@ -1,9 +1,14 @@
 name: Staging Deployment
 
 on:
+  pull_request:
+    branches: [staging]
+    types: [opened, reopened, synchronize]
   push: 
     branches:
       - staging
+
+      
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
@@ -23,10 +28,12 @@ jobs:
         uses: actions/checkout@v3
         with:
           ref: staging
-      - name: remove and replace files 
+      - name: modify files
+      # removes .git folder to avoid conflicts with other repo 
+      # inserts value for key baseurl: "/website-staging" 
         run: |
           rm -rf .git
-          mv _config_staging.yml _config.yml 
+          sed 's/\(^baseurl:\).*/\1 "\/website-staging" /' _config.yml
       - name: Push to website-staging repository
         uses: cpina/github-action-push-to-another-repository@main
         env:
