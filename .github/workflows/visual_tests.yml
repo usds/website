@@ -27,3 +27,4 @@ jobs:
         with:
           message-path: /tmp/message.txt
           message-failure: "No visual test results found."
+          allow-repeats: true
