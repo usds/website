@@ -22,7 +22,9 @@ jobs:
 
       - name: Compare current actual screens with base images 
         run: |
-          echo '${{ toJSON(github) }}'
+          echo '${{ toJSON(env) }}'
+          echo '${{ toJSON(steps) }}'
+          echo '${{ toJSON(secrets) }}'
           npm run visual-regression || echo ":heavy_multiplication_x: Some visual regression tests failed." > /tmp/message.md
           echo "  :scroll: [Details](../actions/runs/${{ github.run_id }}/jobs/${{ github.job }}#step:4:33)" >> /tmp/message.md
 
