@@ -10,22 +10,28 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout 
+      - name: Checkout repository 
         uses: actions/checkout@v3
           
-      - name: Compare screen images 
+      - name: Setup Docker container and build Jekyll 
         run: |
           npm install
           docker build -t usds-website . --no-cache
           docker run -p 4080:4000 --name usdsweb usds-website &
           echo ":heavy_check_mark: All visual regression tests passed." > /tmp/message.md
-          npm run visual-regression || echo ":heavy_multiplication_x: Some visual regression tests failed." > /tmp/message.md
 
-      - name: Store snapshots as artifact 
+      - name: Compare current actual screens with base images 
+        run: |
+          npm run visual-regression || echo ":heavy_multiplication_x: Some visual regression tests failed." > /tmp/message.md
+          echo ":scroll: [Details](../../actions/runs/${{ github.run_id }})/jobs/${{ job.container.id }}#step:3:9" >> /tmp/message.md
+
+      - name: Store current actual images and diffs
         uses: actions/upload-artifact@v3
         with:
-          name: visual-test-snapshots 
-          path: cypress/snapshots 
+          name: actuals-and-diffs 
+          path: |
+            cypress/snapshots/actual
+            cypress/snapshots/diff
 
       - name: Add comment to PR
         uses: mshick/add-pr-comment@v2
