@@ -18,4 +18,12 @@ jobs:
           npm install
           docker build -t usds-website . --no-cache
           docker run -p 4080:4000 --name usdsweb usds-website &
-          npm run visual-regression || exit 0
+          echo "All visual regression tests passed." > /tmp/message.txt
+          npm run visual-regression || echo "Some visual regression tests failed." > /tmp/message.txt
+
+      - name: Add comment to PR
+        if: always()
+        uses: mshick/add-pr-comment@v2
+        with:
+          message-path: /tmp/message.txt
+          message-failure: "No visual test results found."
