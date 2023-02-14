@@ -3,7 +3,7 @@ name: Staging Deployment
 on:
   pull_request:
     branches: [staging]
-    types: [opened, reopened]
+    types: [opened, reopened, synchronize]
   push: 
     branches:
       - staging
@@ -31,11 +31,9 @@ jobs:
       - name: modify files
       # removes .git folder to avoid conflicts with other repo 
       # inserts value for key baseurl: "/website-staging" 
-      # appends the repository key and value to the end of the _config file
         run: |
           rm -rf .git
-          sed 's/\(^baseurl:\).*/\1 "\/website-staging" /' _config.yml 
-          'echo >> _config.yml && echo "repository: "usds/website-staging"" >> _config.yml'
+          sed 's/\(^baseurl:\).*/\1 "\/website-staging" /' _config.yml
       - name: Push to website-staging repository
         uses: cpina/github-action-push-to-another-repository@main
         env:
