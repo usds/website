@@ -25,10 +25,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository 
+        if: github.event_name == 'pull_request' || inputs.run_mode == 'Compare'
         uses: actions/checkout@v3
         with: 
           fetch-depth: 0
-          token: ${{ secrets.TOKEN }}
           
       - name: Checkout PR if generating base images
         if: github.event_name == 'workflow_dispatch' && inputs.run_mode == 'Generate'
