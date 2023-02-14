@@ -18,13 +18,18 @@ jobs:
           npm install
           docker build -t usds-website . --no-cache
           docker run -p 4080:4000 --name usdsweb usds-website &
-          echo "All visual regression tests passed." > /tmp/message.txt
-          npm run visual-regression || echo "Some visual regression tests failed." > /tmp/message.txt
+          echo ":heavy_check_mark: All visual regression tests passed." > /tmp/message.md
+          npm run visual-regression || echo ":heavy_multiplication_x: Some visual regression tests failed." > /tmp/message.md
+
+      - name: Store snapshots as artifact 
+        uses: actions/upload-artifact@v3
+        with:
+          name: visual-test-snapshots 
+          path: cypress/snapshots 
 
       - name: Add comment to PR
-        if: always()
         uses: mshick/add-pr-comment@v2
         with:
-          message-path: /tmp/message.txt
-          message-failure: "No visual test results found."
+          message-path: /tmp/message.md
+          message-failure: ":question: No visual test results found."
           allow-repeats: true
