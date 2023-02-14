@@ -9,7 +9,7 @@ on:
         required: true
         type: string
       page:
-        description: "Filename to use for the new page (.md will be added)"
+        description: "Name for the new page (becomes part of the URL; use only letters, digits, dashes)"
         required: true
         type: string
 
