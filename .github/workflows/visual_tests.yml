@@ -22,10 +22,10 @@ jobs:
 
       - name: Compare current actual screens with base images 
         run: |
-          npm run visual-regression || echo ":heavy_multiplication_x: Some visual regression tests failed." > /tmp/message.md
-          echo "  :scroll: [Details](../actions/runs/${{ github.run_id }}/jobs/${{ github.job }}#step:4:33)" >> /tmp/message.md
           echo '${{ toJSON(job) }}'
           echo '${{ toJSON(runner) }}'
+          npm run visual-regression || echo ":heavy_multiplication_x: Some visual regression tests failed." > /tmp/message.md
+          echo "  :scroll: [Details](../actions/runs/${{ github.run_id }}/jobs/${{ github.job }}#step:4:33)" >> /tmp/message.md
 
       - name: Store current actual images and diffs
         uses: actions/upload-artifact@v3
