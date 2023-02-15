@@ -11,7 +11,7 @@ carousel_summary: "We helped develop a process that allows HR to leverage subjec
 carousel_image_name: project-smeqa-card.jpg
 
 # Project detail page (Edit this)
-title: "Subject Matter Expert Qualification Assessments (SME‑QA)"
+title: "Changing how the government hires technical talent"
 agency: Cross-agency
 permalink: projects/smeqa
 project_url: 

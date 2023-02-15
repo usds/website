@@ -11,7 +11,7 @@ carousel_summary: "With the American public eager for COVID-19 vaccinations, The
 carousel_image_name: project-vaccines-card.jpg
 
 # Project detail page (Edit this)
-title: "Vaccines.gov"
+title: "Critical code: building COVID-19 vaccine finder tools"
 agency: Health and Human Services
 permalink: projects/vaccines-dot-gov
 project_url: https://www.vaccines.gov/

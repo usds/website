@@ -7,12 +7,12 @@ project_page: true
 
 # Carousel (Edit this)
 carousel_title: "Personalized Dashboard"
-carousel_summary: "A personalized homepage for Veterans on VA.gov."
+carousel_summary: "A personalized homepage for Veterans on VA.gov"
 carousel_image_name: project-va-seal-card.gif
 hide: true
 
 # Project detail page (Edit this)
-title: "Personalized Dashboard"
+title: "A personalized homepage for Veterans on VA.gov"
 agency: Veterans Affairs
 permalink: projects/personalized-dashboard
 project_url: https://www.va.gov
