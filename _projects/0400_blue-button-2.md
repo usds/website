@@ -11,7 +11,7 @@ carousel_summary: "Leveraging CMS APIs, providers can view of their patients’ 
 carousel_image_name: project-hhs-bbdpc-card.jpg
 
 # Project detail page (Edit this)
-title: "Medicare Data API: Blue Button and Data at the Point of Care"
+title: "Empowering beneficiaries with their own health data"
 agency: Health and Human Services
 permalink: projects/blue-button-2
 project_url: https://dpc.cms.gov/
