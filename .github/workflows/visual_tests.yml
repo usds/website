@@ -23,16 +23,30 @@ jobs:
         with: 
           fetch-depth: 0
           
+      - name: Cache node modules
+        id: cache-npm
+        uses: actions/cache@v3
+        env:
+          cache-name: cache-node-modules
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
+
       - name: Checkout PR if generating base images
         if: github.event_name == 'workflow_dispatch'
         uses: dawidd6/action-checkout-pr@v1
         with:
           pr: ${{ inputs.pr }} 
 
+      - name: Allow Docker to access cache key 
+        uses: crazy-max/ghaction-github-runtime@v2
+
       - name: Setup Docker container, build and serve Jekyll site
         run: |
           npm install
-          docker build -t usds-website . --no-cache
+          # docker build -t usds-website . --no-cache
+          docker buildx create --use --driver=docker-container
+          docker buildx bake -t usds-website --set *.cache-to="type=gha,mode=max" --set *.cache-from="type=gha" --load
           docker run -p 4080:4000 --name usdsweb usds-website &
 
       - name: Compare current actual screens with base images 
