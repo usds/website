@@ -42,7 +42,13 @@ jobs:
         run: |
           docker build -t usds-website . --no-cache
           docker run -p 4080:4000 --name usdsweb usds-website &
-          npm install
+          
+      - name: Setup Cypress outside Docker container
+        # Avoid installing dependencies not needed here 
+        run: |
+          mv package.json _package.json
+          npm install --no-package-lock --no-save cypress cypress-visual-regression
+          mv _package.json package.json
 
       - name: Compare current actual screens with base images 
         if: github.event_name == 'pull_request'
