@@ -38,15 +38,10 @@ jobs:
         with:
           pr: ${{ inputs.pr }} 
 
-      - name: Allow Docker to access cache key 
-        uses: crazy-max/ghaction-github-runtime@v2
-
       - name: Setup Docker container, build and serve Jekyll site
         run: |
-          npm install
-          # docker build -t usds-website . --no-cache
-          docker buildx create --use --driver=docker-container
-          docker buildx bake -t usds-website --set *.cache-to="type=gha,mode=max" --set *.cache-from="type=gha" --load
+          # npm install
+          docker build -t usds-website . --no-cache
           docker run -p 4080:4000 --name usdsweb usds-website &
 
       - name: Compare current actual screens with base images 
