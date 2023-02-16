@@ -39,7 +39,7 @@ jobs:
         if: github.event_name == 'pull_request'
         run: |
           echo ":+1: No visual differences detected." > /tmp/message.md
-          npm run visual-regression || echo ":warning: Visual differences detected. For details, click the green checkmark above. If your PR makes intentional visual changes, update the base images by running the `Visual regression testing` Action." > /tmp/message.md
+          npm run visual-regression || echo ":warning: Visual differences detected. For details, click the green checkmark above. If your PR makes intentional visual changes, update the base images by running the \`Visual regression testing\` Action." > /tmp/message.md
 
       - name: Store comparison results
         if: github.event_name == 'pull_request'
@@ -70,4 +70,4 @@ jobs:
 
       - name: Write summary 
         if: github.event_name == 'pull_request'
-        run: echo /tmp/message.md >> $GITHUB_STEP_SUMMARY
+        run: cat /tmp/message.md >> $GITHUB_STEP_SUMMARY
