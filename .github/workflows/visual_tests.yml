@@ -24,6 +24,7 @@ jobs:
           fetch-depth: 0
           
       - name: Cache node modules
+        if: 1 == 0
         id: cache-npm
         uses: actions/cache@v3
         env:
