@@ -14,7 +14,9 @@
     "css:autoprefixer": "npx postcss assets/stylesheets/uswds/styles.css --use autoprefixer -d assets/stylesheets",
     "serve": "npm run css & bundle exec jekyll serve --livereload",
     "serve-all-hosts": "npm run css & bundle exec jekyll serve --host 0.0.0.0 --livereload",
-    "start": "npm run serve"
+    "start": "npm run serve",
+    "visual-regression": "npx cypress run --browser chrome --env type=actual",
+    "visual-refresh": "cd cypress/e2e && ./sitemap.sh && cd ../.. && npx cypress run --browser chrome --env type=base"
   },
   "repository": {
     "type": "git",
@@ -29,6 +31,8 @@
   "devDependencies": {
     "@uswds/uswds": "3.3.0",
     "autoprefixer": "^10.2.4",
+    "cypress": "^12.4.1",
+    "cypress-visual-regression": "^2.1.0",
     "jquery": "^3.5.1",
     "normalize.css": "^8.0.0",
     "postcss": "^8.2.5",

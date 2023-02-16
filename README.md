@@ -57,6 +57,14 @@ If you haven't used cloud.gov before, you'll want to set up
 
 A successful push will print a staging url next to `routes`, ex: `website-staging-foo-bar-ab.app.cloud.gov`. Visit the staging url to preview your build.
 
+### Visual regression tests
+
+Cypress.io and cypress-visual-regression are used to compare screenshots; see `cypress/e2e/visual.cy.js`. The following instruction                   assume that the site is running locally as described above, without live reloading.
+
+To compare current actual screenshots with the established base images: `npm run visual-regression`.
+
+When pages are intentionally changed, refresh the base images with `npm run visual-refresh`. Commit the new base images along with the page changes.
+
 ## Maintenance
 
 ### USWDS and custom styles

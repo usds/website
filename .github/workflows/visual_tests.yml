@@ -1,0 +1,73 @@
+name: Visual regression testing 
+
+on:
+  pull_request:
+    types: [opened, synchronize]
+    branches:
+      - cypress-visual-regression
+      - staging
+
+  workflow_dispatch:
+    inputs:
+      pr:
+        description: "PR number to be updated with new base images"
+        required: true 
+        type: string 
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository 
+        uses: actions/checkout@v3
+        with: 
+          fetch-depth: 0
+          
+      - name: Checkout PR if generating base images
+        if: github.event_name == 'workflow_dispatch'
+        uses: dawidd6/action-checkout-pr@v1
+        with:
+          pr: ${{ inputs.pr }} 
+
+      - name: Setup Docker container, build and serve Jekyll site
+        run: |
+          npm install
+          docker build -t usds-website . --no-cache
+          docker run -p 4080:4000 --name usdsweb usds-website &
+
+      - name: Compare current actual screens with base images 
+        if: github.event_name == 'pull_request'
+        run: |
+          echo ":+1: No visual differences detected." > /tmp/message.md
+          npm run visual-regression || echo -e ":warning: Visual differences detected.\nFor details, click the green checkmark above.\nIf your PR makes intentional visual changes, update the base images by running the \`Visual regression testing\` Action." > /tmp/message.md
+
+      - name: Store comparison results
+        if: github.event_name == 'pull_request'
+        uses: actions/upload-artifact@v3
+        with:
+          name: actuals-and-diffs 
+          path: |
+            cypress/snapshots/actual
+            cypress/snapshots/diff
+
+      - name: Generate new base images 
+        if: github.event_name == 'workflow_dispatch'
+        run: npm run visual-refresh
+
+      - name: Commit new base images 
+        if: github.event_name == 'workflow_dispatch'
+        uses: EndBug/add-and-commit@v9
+        with:
+          message: "Update base images"
+
+      - name: Report results in PR comment
+        if: github.event_name == 'pull_request'
+        uses: mshick/add-pr-comment@v2
+        with:
+          message-path: /tmp/message.md
+          message-failure: ":question: No visual test results found."
+          allow-repeats: true
+
+      - name: Write summary 
+        if: github.event_name == 'pull_request'
+        run: cat /tmp/message.md >> $GITHUB_STEP_SUMMARY
