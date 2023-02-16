@@ -33,7 +33,7 @@ jobs:
       # inserts value for key baseurl: "/website-staging" 
         run: |
           rm -rf .git
-          sed 's/\(^baseurl:\).*/\1 "\/website-staging" /' _config.yml
+          sed -i 's/\(^baseurl:\).*/\1 "\/website-staging" /' _config.yml
       - name: Push to website-staging repository
         uses: cpina/github-action-push-to-another-repository@main
         env:
