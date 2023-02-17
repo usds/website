@@ -18,7 +18,7 @@ describe('Current actual screenshots should match established base screenshots',
       cy.visit(url);
       cy.wait('@getPage').then(() => {
         // ... then slowly scroll to force any lazy loading
-        cy.scrollTo('bottomRight', { duration: 2000 });
+        cy.scrollTo('bottomRight', { duration: 1500 });
         
         // Compare current "actual" screenshot to previously established "base" screenshot
         let filename = url.replaceAll('/', '_');

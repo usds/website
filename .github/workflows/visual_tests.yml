@@ -4,7 +4,6 @@ on:
   pull_request:
     types: [opened, synchronize]
     branches:
-      - cypress-visual-regression
       - staging
 
   workflow_dispatch:
@@ -18,22 +17,43 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository 
+      - name: Checkout for pull request events
+        if: github.event_name == 'pull_request'
         uses: actions/checkout@v3
-        with: 
-          fetch-depth: 0
           
-      - name: Checkout PR if generating base images
+      - name: Checkout for manual runs 
+        # In some manual run scenarios, this is needed to put the repo in a good state.
+        # Otherwise the next step can fail with 'Refusing to fetch into current branch'.
+        if: github.event_name == 'workflow_dispatch'
+        uses: actions/checkout@v3
+        with:
+          ref: master
+          
+      - name: Checkout PR to generate base images
         if: github.event_name == 'workflow_dispatch'
         uses: dawidd6/action-checkout-pr@v1
         with:
           pr: ${{ inputs.pr }} 
 
-      - name: Setup Docker container, build and serve Jekyll site
+      - name: Setup Docker container to build and serve Jekyll site
         run: |
-          npm install
           docker build -t usds-website . --no-cache
           docker run -p 4080:4000 --name usdsweb usds-website &
+
+      - name: Cache node modules
+        uses: actions/cache@v3
+        env:
+          cache-name: cache-node-modules
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
+          
+      - name: Setup Cypress outside Docker container
+        # Avoid installing dependencies not needed here 
+        run: |
+          mv package.json _package.json
+          npm install --no-package-lock --no-save cypress cypress-visual-regression
+          mv _package.json package.json
 
       - name: Compare current actual screens with base images 
         if: github.event_name == 'pull_request'
@@ -52,7 +72,9 @@ jobs:
 
       - name: Generate new base images 
         if: github.event_name == 'workflow_dispatch'
-        run: npm run visual-refresh
+        run: |
+          npm run visual-refresh
+          echo ":+1: New base images generated." > /tmp/message.md
 
       - name: Commit new base images 
         if: github.event_name == 'workflow_dispatch'
@@ -60,7 +82,7 @@ jobs:
         with:
           message: "Update base images"
 
-      - name: Report results in PR comment
+      - name: Report comparison results in PR comment
         if: github.event_name == 'pull_request'
         uses: mshick/add-pr-comment@v2
         with:
@@ -69,5 +91,4 @@ jobs:
           allow-repeats: true
 
       - name: Write summary 
-        if: github.event_name == 'pull_request'
         run: cat /tmp/message.md >> $GITHUB_STEP_SUMMARY
