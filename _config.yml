@@ -95,4 +95,5 @@ exclude:
   - Staticfile
   - package-lock.json
   - .github
-
+  - documentation
+  - wiki-photos
