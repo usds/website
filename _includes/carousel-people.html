@@ -1,8 +1,15 @@
-<div class="site-c-cards margin-x-neg-2 site-js-carousel">
-  {% assign people = site.people | where_exp:"person","person.url != page.url" | sample: 9 %}
-  {% for person in people limit:9 %}
-  <div class="padding-x-2">
-    {% include card-people.html %}
-  </div>
-  {% endfor %}
+{% assign people = site.people | where_exp:"person","person.url != page.url" %}
+
+<div class="grid-container">
+  <section class="site-c-section">
+    <div class="site-c-section__body">
+      <div class="site-c-cards margin-x-neg-2 grid-row">
+        {% for person in people limit:3 %}
+        <div class="tablet:grid-col-6 desktop:grid-col-4 padding-x-2 margin-bottom-4">
+          {% include card-people.html %}
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
 </div>
