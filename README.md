@@ -59,11 +59,13 @@ A successful push will print a staging url next to `routes`, ex: `website-stagin
 
 ### Visual regression tests
 
-Cypress.io and cypress-visual-regression are used to compare screenshots; see `cypress/e2e/visual.cy.js`. The following instruction                   assume that the site is running locally as described above, without live reloading.
+[Cypress](https://cypress.io) and [cypress-visual-regression](https://github.com/cypress-visual-regression/cypress-visual-regression) are used to compare screenshots; see `cypress/e2e/visual.cy.js`. The following instructions assume that the site is running locally as described above, *without live reloading*.
 
 To compare current actual screenshots with the established base images: `npm run visual-regression`.
 
-When pages are intentionally changed, refresh the base images with `npm run visual-refresh`. Commit the new base images along with the page changes.
+When pages are intentionally changed, refresh the base images with `npm run visual-refresh`. This creates/updates base images and a `sitemap.json file`. Commit these along with the page changes.
+
+A GitHub workflow automatically runs the regression script when a pull request targeting the `staging` branch is created or updated. A summary of results will appear as a comment on the PR. If a refresh is needed, users can activate the refresh script by manually running the `Visual regression tesing` Action and providing the PR number. New/updated base images will be added to the PR.
 
 ## Maintenance
 
@@ -88,3 +90,4 @@ To update a major version of `uswds`, consult their documentation. The `package.
 #### Adding Content
 * [How to add people](https://github.com/usds/website/wiki/Adding-People-(carousel-and-pages))
 * [How to add projects](https://github.com/usds/website/wiki/Adding-projects-(carousel-and-pages))
+* [How to add a new page without HTML](https://github.com/usds/website/wiki/Adding-a-simple-page)
