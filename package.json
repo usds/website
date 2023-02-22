@@ -15,6 +15,7 @@
     "serve": "npm run css & bundle exec jekyll serve --livereload",
     "serve-all-hosts": "npm run css & bundle exec jekyll serve --host 0.0.0.0 --livereload",
     "start": "npm run serve",
+    "cypress:open": "npx cypress open",
     "visual-regression": "npx cypress run --browser chrome --env type=actual",
     "visual-refresh": "cd cypress/e2e && ./sitemap.sh && cd ../.. && npx cypress run --browser chrome --env type=base"
   },

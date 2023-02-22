@@ -65,6 +65,20 @@ To compare current actual screenshots with the established base images: `npm run
 
 When pages are intentionally changed, refresh the base images with `npm run visual-refresh`. Commit the new base images along with the page changes.
 
+### Automated Accessibility testing
+
+This website relies on Cypress and cypress-axe to identify page-level accessibility issues. Hopefully, the issues identified in this testing are caught earlier in the development process using a combination of a good accessibility linter and a browser plugin. This type of testing is to catch any errors missed.
+
+Currently, the tests are designed to test work as you develop locally. When you implement any changes in the UI, open the cypress e2e tests with `npm run cypress:open`. These tests will inject the axe-core library into the page-level instance and run the accessibility API. 
+
+Once you open cypress, select e2e testing and select your browser for testing. At this point you will want to click on each of the page-level tests. This will open a browser instance directly to the test, cypress will render the whole page. Accessibility violations will be visible on the left of the browser instance. 
+
+Additional output is in the browser console, which you'll want to open. With the console open, you can now click on any of the issues in the test body, and learn more information about the error and how to resolve it.
+
+Additional Resources about Cypress-axe:
+- [Cypress-axe](https://www.npmjs.com/package/cypress-axe)
+- []()
+
 ## Maintenance
 
 ### USWDS and custom styles
