@@ -1,13 +1,15 @@
-{% assign people = site.people | where_exp:"person","person.url != page.url" %}
+{% assign names = "David Holmes, Annie Nguyen, Anissa Pérez, Eunice Garcia, Brent Maravilla, Kasia Chmielinski" | split: ", " %}
 
 <div class="grid-container">
   <section class="site-c-section">
     <div class="site-c-section__body">
       <div class="site-c-cards margin-x-neg-2 grid-row">
-        {% for person in people limit:3 %}
-        <div class="tablet:grid-col-6 desktop:grid-col-4 padding-x-2 margin-bottom-4">
-          {% include card-people.html %}
-        </div>
+        {% for name in names %}
+          {% assign people = site.people | where_exp:"person","person.name == name" %} 
+          {% assign person = people[0] %}
+          <div class="tablet:grid-col-6 desktop:grid-col-4 padding-x-2 margin-bottom-4">
+            {% include card-people.html %}
+          </div>
         {% endfor %}
       </div>
     </div>
