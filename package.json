@@ -33,7 +33,6 @@
     "autoprefixer": "^10.2.4",
     "cypress": "^12.4.1",
     "cypress-visual-regression": "^2.1.0",
-    "jquery": "^3.5.1",
     "normalize.css": "^8.0.0",
     "postcss": "^8.2.5",
     "postcss-cli": "^10.1.0",
