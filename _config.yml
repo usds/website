@@ -97,3 +97,4 @@ exclude:
   - .github
   - documentation
   - wiki-photos
+  - pages/form.html
