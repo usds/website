@@ -19,18 +19,17 @@ permalink: /accessibility
 
 Updated: February 22, 2022
 
-## U.S. Digital Service commitment to accessibility
+## Our commitment to accessibility
 
-The U.S. Digital Service is committed to digital equality for all people, including individuals with disabilities. Our website content and functionality is designed to be digitally accessible for people of all abilities. 
+The U.S. Digital Service is committed to digital equality for all people, including individuals with disabilities. Our website content and functionality are designed to be digitally accessible for people of all abilities. 
 
 ## How we provide accessible content
 
-The U.S. Digital Service strives to conform to the Web Content Accessibility Guidelines (WCAG) version 2.1, level AA criteria. These guidelines help designers and developers to improve the digital accessibility of our website for all people, regardless of ability. 
+We strive to follow the Web Content Accessibility Guidelines (WCAG) version 2.1, level AA criteria. These guidelines help designers and developers to improve the digital accessibility of our website for all people, regardless of ability. 
 
 ## What to do if you find an accessibility issue
 
-We welcome your feedback on the accessibility of the U.S. Digital Service website. Please let us know if you encounter accessibility barriers on our website:
-- Email us at <a href="mailto:USDS@omb.eop.gov"><b>USDS@omb.eop.gov</b></a>
+If you run into a barrier when using our website, email us at <a href="mailto:USDS@omb.eop.gov"><b>USDS@omb.eop.gov</b></a>. We're committed to improving accessibility on our website and will work with you to figure out the issue and a possible solution.
 
 
 </div>
