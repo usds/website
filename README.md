@@ -59,8 +59,6 @@ A successful push will print a staging url next to `routes`, ex: `website-stagin
 
 ### Visual regression tests
 
-[Cypress](https://cypress.io) and [cypress-visual-regression](https://github.com/cypress-visual-regression/cypress-visual-regression) are used to compare screenshots; see `cypress/e2e/visual.cy.js`. The following instructions assume that the site is running locally as described above, *without live reloading*.
-
 To compare current actual screenshots with the established base images: `npm run visual-regression`.
 
 When pages are intentionally changed, refresh the base images with `npm run visual-refresh`. This creates/updates base images and a `sitemap.json file`. Commit these along with the page changes.
