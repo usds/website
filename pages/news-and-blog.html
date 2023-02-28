@@ -35,29 +35,32 @@ redirect_from:
         <a class="usa-button usa-button--outline" href="https://medium.com/@USDigitalService" class="usa-button usa-button--outline">{{ content.inside_look.heading_button_text }}</a>
       </div>
     </div>
+  </section>
 
+<div class="grid-container news-container">
+  <section class="site-c-section">
     <div class="site-c-section__body">
-      <div class="site-c-cards margin-x-neg-2 site-js-carousel">
-        {% for article in site.data.medium_posts %}
-        <div class="padding-x-2">
+      <ul class="site-c-cards margin-x-neg-2 grid-row">
+        {% for article in site.data.medium_posts limit: 3%}
+        <li class="tablet:grid-col-6 desktop:grid-col-4 padding-x-2 margin-bottom-4">
           <a class="site-c-card site-c-card--linked" href="{{ article.url }}" target="_blank">
             {% if article.image_name %}
               <img src="{{ site.baseurl }}/images/{{ article.image_name }}" alt="Photo of {{ article.name }}" />
             {% endif %}
             <div class="site-c-card__body">
-            <span class="site-c-card__title">{{ article.title }}</span>
+            <h3 class="site-c-card__title">{{ article.title }}</h3>
             {% if article.summary %}
             <p>{{ article.summary }}</p>
             <p class="site-c-card__affordance" aria-hidden="true">Read full post</p>
             {% endif %}
             </div>
           </a>
-        </div>
+        </li>
         {% endfor %}
-      </div>
+      </ul>
     </div>
   </section>
-
+</div>
   <hr aria-hidden="true">
 
   <section class="site-c-section">

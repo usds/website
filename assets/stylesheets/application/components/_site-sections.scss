@@ -71,6 +71,7 @@
 .site-c-section-heading__links {
   flex: 0 0 auto;
   margin: 0 auto units(2) auto;
+  text-align: right;
 
   @include at-media(tablet) {
     margin-left: 0;
@@ -78,7 +79,7 @@
   }
 
   @include at-media(tablet-lg) {
-    text-align: right;
+    // text-align: right;
     flex: 0 0 38%;
   }
 }
@@ -102,4 +103,17 @@
 // Body
 .site-c-section__body {
   margin-top: units(4);
+  .grid-container {
+    padding: 0;
+  }
+  ul {
+    padding: 0;
+    li {
+      list-style-type: none;
+    }
+  }
+}
+
+.news-container {
+  padding: 0;
 }
