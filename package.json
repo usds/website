@@ -1,6 +1,6 @@
 {
   "name": "usds-website-v2",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "",
   "main": "index.html",
   "engines": {
@@ -10,7 +10,7 @@
     "build": "npm run css & bundle exec jekyll build",
     "build-staging": "npm run css & JEKYLL_ENV=staging bundle exec jekyll build",
     "css": "npm run css:sass && npm run css:autoprefixer",
-    "css:sass": "sass assets/stylesheets/uswds/index.scss assets/stylesheets/uswds/styles.css --update --style=compressed --load-path='node_modules/@uswds/uswds/packages'",
+    "css:sass": "sass assets/stylesheets/uswds/index.scss assets/stylesheets/uswds/styles.css --update --style=compressed --embed-source-map--load-path='node_modules/@uswds/uswds/packages'",
     "css:autoprefixer": "npx postcss assets/stylesheets/uswds/styles.css --use autoprefixer -d assets/stylesheets",
     "serve": "npm run css & bundle exec jekyll serve --livereload",
     "serve-all-hosts": "npm run css & bundle exec jekyll serve --host 0.0.0.0 --livereload",
@@ -33,7 +33,6 @@
     "autoprefixer": "^10.2.4",
     "cypress": "^12.4.1",
     "cypress-visual-regression": "^2.1.0",
-    "jquery": "^3.5.1",
     "normalize.css": "^8.0.0",
     "postcss": "^8.2.5",
     "postcss-cli": "^10.1.0",
