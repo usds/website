@@ -1,3 +1,5 @@
+//This test loops through all the pages in the sitemap.
+
 const urls = require('../sitemap.json'); // see sitemap.sh
 
 describe('Entire Website accessibility', () => {

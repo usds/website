@@ -67,17 +67,19 @@ A GitHub workflow automatically runs the regression script when a pull request t
 
 ### Automated Accessibility testing
 
-This website relies on Cypress and cypress-axe to identify page-level accessibility issues. Hopefully, the issues identified in this testing are caught earlier in the development process using a combination of a good accessibility linter and a browser plugin. This type of testing is to catch any errors missed.
+This website relies on Cypress and cypress-axe to identify page-level accessibility issues. Hopefully, the issues identified in this testing are caught earlier in the development process using a combination of a good accessibility linter such as [axe-Linter](https://marketplace.visualstudio.com/items?itemName=deque-systems.vscode-axe-linter) and a browser plugin such as [Microsoft Accessibility Insights](https://accessibilityinsights.io/docs/web/overview/). This type of testing is to catch any errors missed.
 
 Currently, the tests are designed to test work as you develop locally. When you implement any changes in the UI, open the cypress e2e tests with `npm run cypress:open`. These tests will inject the axe-core library into the page-level instance and run the accessibility API. 
 
-Once you open cypress, select e2e testing and select your browser for testing. At this point you will want to click on each of the page-level tests. This will open a browser instance directly to the test, cypress will render the whole page. Accessibility violations will be visible on the left of the browser instance. 
+Once you open cypress, select e2e testing and select your browser for testing. At this point you may click on the individual page-level tests. This will open a browser instance directly to the test, cypress will render the whole page. Accessibility violations will be visible on the left of the browser instance. 
 
 Additional output is in the browser console, which you'll want to open. With the console open, you can now click on any of the issues in the test body, and learn more information about the error and how to resolve it.
 
+The accessibility.cy.js file runs a loop through all the pages, which may prove useful for future accessibility testing. A developer could more fully integrate cypress-axe testing with the CICD build process -- breaking the build if any accessibility error is detected.
+
 Additional Resources about Cypress-axe:
 - [Cypress-axe](https://www.npmjs.com/package/cypress-axe)
-- []()
+- [Setting up Cypress with axe for accessibility](https://timdeschryver.dev/blog/setting-up-cypress-with-axe-for-accessibility)
 
 ## Maintenance
 
