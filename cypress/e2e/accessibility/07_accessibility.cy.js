@@ -8,7 +8,9 @@ describe('Entire Website accessibility', () => {
       // Wait for page to load ...
       cy.intercept(url).as('getPage');
       cy.visit(url);
-      cy.checkPageA11y(url);    
+      cy.wait('@getPage').then(() => {
+        cy.checkPageA11y(url);  
+        })  
       });
     });
   });
