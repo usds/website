@@ -39,15 +39,173 @@ redirect_from:
   <hr aria-hidden="true">
 
   <section class="site-c-section">
-    <div class="grid-row grid-gap usa-prose">
-      <div class="tablet:grid-col-6">
-        {{ content.page_body.hiring_process | markdownify }}
+    <div class="usa-accordion usa-accordion--multiselectable" aria-multiselectable="true" data-allow-multiple>
+      <h2 class="usa-accordion__heading">
+        <button
+          type="button"
+          class="usa-accordion__button"
+          aria-expanded="true"
+          aria-controls="m-a1"
+        >
+          {{ content.page_body.accordion_header1 | markdownify }}
+
+        </button>
+      </h2>
+      <div id="m-a1" class="usa-accordion__content usa-prose">
+      <ol>
+        <li>{{ content.page_body.accordion_item1 | markdownify }}</li>
+        <li>{{ content.page_body.accordion_item2 | markdownify }}</li>
+        <li>{{ content.page_body.accordion_item3 | markdownify }}</li>
+        <li>{{ content.page_body.accordion_item4 | markdownify }}</li>
+      </ol>
+      <p>{{ content.page_body.accordion_content1 | markdownify }}</p>
       </div>
-      <div class="tablet:grid-col-6">
-        {{ content.page_body.requirements | markdownify }}
-        {{ content.page_body.compensation_benefits | markdownify }}
+      <h2 class="usa-accordion__heading">
+        <button
+          type="button"
+          class="usa-accordion__button"
+          aria-expanded="false"
+          aria-controls="m-a2"
+        >
+          {{ content.page_body.accordion_header2 | markdownify }}
+        </button>
+      </h2>
+      <div id="m-a2" class="usa-accordion__content usa-prose">
+        <p>
+          {{ content.page_body.accordion_content2 | markdownify }}
+        </p>
+        <ul>
+          <li>{{ content.page_body.accordion_example1 | markdownify }}</li>
+          <li>{{ content.page_body.accordion_example2 | markdownify }}</li>
+          <li>{{ content.page_body.accordion_example3 | markdownify }}</li>
+        </ul>
       </div>
-    </div>
+      <h2 class="usa-accordion__heading">
+        <button
+          type="button"
+          class="usa-accordion__button"
+          aria-expanded="false"
+          aria-controls="m-a3"
+        >
+          {{ content.page_body.accordion_header3 | markdownify }}
+        </button>
+      </h2>
+      <div id="m-a3" class="usa-accordion__content usa-prose" aria-multiselectable="true">{{ content.page_body.accordion_content3 | markdownify }}</div>
+      <h2 class="usa-accordion__heading">
+        <button
+          type="button"
+          class="usa-accordion__button"
+          aria-expanded="false"
+          aria-controls="m-a4"
+        >
+          {{ content.page_body.accordion_header4 | markdownify }}
+        </button>
+      </h2>
+      <div id="m-a4" class="usa-accordion__content usa-prose" aria-multiselectable="true">
+        <p>
+          {{ content.page_body.accordion_content4 | markdownify }}
+        </p>
+      </div>
+      <h2 class="usa-accordion__heading">
+        <button
+          type="button"
+          class="usa-accordion__button"
+          aria-expanded="false"
+          aria-controls="m-a5"
+        >
+          {{ content.page_body.accordion_header5 | markdownify }}
+        </button>
+      </h2>
+      <div id="m-a5" class="usa-accordion__content usa-prose" aria-multiselectable="true">
+        <p>
+          {{ content.page_body.accordion_content5a | markdownify }}
+        </p>
+        <div>
+        <ul class="benefits-list">
+          <li><span class="text-bold">{{ content.page_body.accordion_bullet1 | markdownify }}</span>
+            <ul>
+              <li>{{ content.page_body.accordion_bullet1_sub1 | markdownify }}</li>
+              <li>{{ content.page_body.accordion_bullet1_sub2 | markdownify }}</li>
+              <li>{{ content.page_body.accordion_bullet1_sub3 | markdownify }}</li>
+            </ul>
+          </li>
+          <li><span class="text-bold">{{ content.page_body.accordion_bullet2 | markdownify }}</span>
+            <ul>
+              <li class="margin-bottom-0 inline">{{ content.page_body.accordion_bullet2_sub1 | markdownify }}</li>
+            </ul>
+          </li>
+          <li><span class="text-bold">{{ content.page_body.accordion_bullet3 | markdownify }}</span>
+            <ul>
+              <li>{{ content.page_body.accordion_bullet3_sub1 | markdownify }}</li>
+              <li>{{ content.page_body.accordion_bullet3_sub2 | markdownify }}</li>
+              <li><p>{{ content.page_body.accordion_bullet3_sub3 | markdownify }}</p></li>
+            </ul>
+          </li>
+          <li><span class="text-bold">{{ content.page_body.accordion_bullet4 | markdownify }}</span>
+          <ul>
+              <li>{{ content.page_body.accordion_bullet4_sub1 | markdownify }}</li>
+              <li><p>{{ content.page_body.accordion_bullet4_sub2 | markdownify }}</li>
+            </ul>
+          </li>
+          <li><span class="text-bold">{{ content.page_body.accordion_bullet5 | markdownify }}</span>
+            <ul>
+              <li>{{ content.page_body.accordion_bullet5_sub1 | markdownify }}</li>
+              <li>{{ content.page_body.accordion_bullet5_sub2 | markdownify }}</li>
+            </ul>
+          </li>
+          <li><span class="text-bold">{{ content.page_body.accordion_bullet6 | markdownify }}</span>
+          <ul>
+              <li>{{ content.page_body.accordion_bullet6_sub1 | markdownify }}</li>
+              <li>{{ content.page_body.accordion_bullet6_sub2 | markdownify }}</li>
+            </ul>
+          </li>
+          <li><span class="text-bold">{{ content.page_body.accordion_bullet7 | markdownify }}</span>
+          <ul>
+              <li>{{ content.page_body.accordion_bullet7_sub1 | markdownify }}</li>
+            </ul>
+          </li>
+        </ul>
+        <p>{{ content.page_body.accordion_content5b | markdownify }}</p>
+     
+      </div>     
+      </div> 
+      <h2 class="usa-accordion__heading">
+        <button
+          type="button"
+          class="usa-accordion__button"
+          aria-expanded="false"
+          aria-controls="m-a6"
+        >
+          {{ content.page_body.accordion_header7 | markdownify }}
+        </button>
+      </h2>
+      <div id="m-a6" class="usa-accordion__content usa-prose" aria-multiselectable="true">
+        <ul>
+          <li>{{ content.page_body.accordion_header7_item1 | markdownify }}
+          <ul>
+              <li>{{ content.page_body.accordion_h7_item1_sub1 | markdownify }}</li>
+              <li>{{ content.page_body.accordion_h7_item1_sub2 | markdownify }}</li>
+            </ul>
+          </li> 
+          <li>{{ content.page_body.accordion_header7_item2 | markdownify }}
+          <ul>
+              <li>{{ content.page_body.accordion_h7_item2_sub1 | markdownify }}</li>
+              <li>{{ content.page_body.accordion_h7_item2_sub2 | markdownify }}</li>
+            </ul>
+          </li>
+          <li>{{ content.page_body.accordion_header7_item3 | markdownify }}
+          <ul>
+              <li>{{ content.page_body.accordion_h7_item3_sub1 | markdownify }}</li>
+            </ul>
+          </li>
+          <li>{{ content.page_body.accordion_h7_item4 | markdownify }}
+          <ul>
+              <li>{{ content.page_body.accordion_h7_item4_sub1 | markdownify }}</li>
+            </ul>
+          </li>
+        </ul> 
+      </div>
+    </div>        
   </section>
   
   <iframe id="applicationFrame" class="site-c-apply" src="https://eop-fra.secure.force.com/digitalservice/" title="Join USDS form"></iframe>
