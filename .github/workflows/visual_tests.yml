@@ -73,6 +73,7 @@ jobs:
       - name: Generate new base images 
         if: github.event_name == 'workflow_dispatch'
         run: |
+          rm -rf ./cypress/snapshots/base
           npm run visual-refresh
           echo ":+1: New base images generated." > /tmp/message.md
 

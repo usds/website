@@ -9,6 +9,17 @@ module.exports = defineConfig({
     baseUrl: "http://localhost:4080",
     setupNodeEvents(on, config) {
       getCompareSnapshotsPlugin(on, config);
+      on('task', {
+        log(message) {
+          console.log(message)
+          return null
+        },
+        table(message) {
+          console.table(message)
+
+          return null
+        }
+      })
     },
   },
 });
