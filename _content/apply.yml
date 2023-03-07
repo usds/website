@@ -1,35 +1,120 @@
 page_title:
   heading_title: "Apply to USDS"
   heading_text: |-
-    USDS operates on a tour-of-service model with a maximum term of four years. While most people serve for one or two years, we'll consider some shorter tours as well. Time commitments are not binding.
+    We're working to build a workforce that reflects the identities and lived experiences of the people we serve. We know that we better serve the public when our staff represents the country's diversity.
 
-    To learn about the developer, product, design, data science, and acquisition skills we're hiring for, see "[How we work](/how-we-work)".
+    Our projects impact people who come from diverse backgrounds, speak multiple languages, hold varying levels of education, and have differing access to technology. We want to build project teams that can understand a variety of lived experiences as we work to deliver services to all people, including those who have traditionally been underserved.
+  
+    USDS operates on a tour-of-service model where people can join for up to four years. We're always looking for mission-driven people to serve. To learn more about the skills we're hiring for, see ["How we work."](https://www.usds.gov/how-we-work)
   heading_button_text: "Read our hiring FAQ"
 page_body:
-  hiring_process: |-
-    **Hiring process**
-
-    1. Complete the application below and attach your resume (and portfolio, if you're a designer!).
-    2. People who progress to the interview process will connect with a member of our talent team over the phone.
-    3. Participate in interviews to assess for skills important to our communities of practice.
-    4. If selected, your talent partner will work with you to match you to a project.
-
-    Onboarding to USDS can take several weeks, and sometimes longer depending on completion of a required background check. Our talent team will be with you every step of the way, and your talent partner will keep you up-to-date throughout the process.
+  accordion_header1: |-
+    Hiring process
+  accordion_item1: |-
+    Complete the application below and attach your resume (and portfolio, if you're a designer).
+  accordion_item2: |-
+    People who progress to the interview process will connect with a member of our talent team over the phone.  
+  accordion_item3: |-
+    Participate in interviews to assess for skills important to our Communities of Practice.
+  accordion_item4: |-
+    If selected, your USDS Talent partner will work with you throughout the selection and onboarding process.
+  accordion_content1: |-  
+    Onboarding to USDS can take several weeks depending on completion of a required background check. Our Talent team will be with you every step of the way and your Talent partner will keep you up-to-date throughout the process.
 
     If you aren't selected to join USDS, you can apply again after one year with an updated resume.
-  requirements: |-
-    **Requirements**
+  accordion_header2: |-
+    Requesting accommodations
+  accordion_content2: |-
+    One of our core values is to hire and empower great people. We want all candidates to have the accommodations that will set them up for success in their interview.
 
-    To work at USDS, you must be a U.S. citizen, and pass a background check and a drug test. As a federal employee, you will need to be vaccinated against COVID-19 or receive a legal exemption prior to employment.
+    You can say that you'd like to request a disability accommodation when you submit your application. If you progress through the interview process, a member of our Talent team will contact you to talk about any accommodations that will best help you demonstrate your skills.
 
-    During the COVID-19 pandemic, most people at USDS are working remotely from many locations across the country. During normal times, we ask that you make Washington, D.C. or the surrounding area your base during the work week.
-  compensation_benefits: |-
-    **Compensation and benefits**
+    A few examples are:
+  accordion_example1: |-
+    Requesting a sign language interpreter or video relay service
+  accordion_example2: |-
+    Asking for a video interview instead of phone
+  accordion_example3: |-
+    Asking for extended breaks between interviews
+  accordion_header3: |-
+    Work requirements
+  accordion_content3: |-
+    To work at USDS, you must be a U.S. citizen and pass a background check and a drug test.
 
-    Salaries in government change every year. For 2023, you may be paid up to $183,500 depending on where you are located in the United States. We provide health care and other benefits, such as retirement savings accounts. For more information, see the <a href="https://www.opm.gov/healthcare-insurance/healthcare/plan-information/plans/" target="blank">Office of Personnel Management website</a>.
-eoe_statement: |-
-    <strong>U.S. Digital Service is proud to be an equal opportunity employer</strong>
+    You may have applied for a government job that previously required a COVID-19 vaccine. As of August 2022, you don't need a COVID-19 vaccine to be hired as a federal employee. We'll update our information if this changes in the future.
 
-    We strongly encourage people of color, members of racial and ethnic minority groups, women, LGBTQI+ people, those with disabilities, and Veterans to apply. We build better products when our team represents all of America.
-
-    We do not discriminate based off of color, race, age, religion, sex, gender identity, sexual orientation, political affiliation, pregnancy, status as a parent, national origin, disability (physical or mental), family medical history or genetic information, political affiliation, military service, or other non-merit based factors.
+    We're currently hiring both remote employees and people who are local to Washington, DC. If you have additional questions about remote or in-person work, please reach out to the USDS Talent Team at [talent@usds.gov](mailto:talent@usds.gov).
+  accordion_header4: |-
+    Compensation
+  accordion_content4: |-
+    Salaries in government change every year. For 2023, you may be paid up to $183,500 depending on your experience as well as where you're located in the United States or U.S. territories.
+  accordion_header5: |-
+    Benefits
+  accordion_content5a: |-
+    USDS offers an expansive portfolio of benefits, like health insurance, work-life programs, and retirement plans for employees. We highlighted some of the benefits that applicants typically have questions about below.
+  accordion_bullet1: |-
+    Health insurance
+  accordion_bullet1_sub1: |-
+    The federal government provides a [comparison tool](https://www.opm.gov/healthcare-insurance/healthcare/plan-information/compare-plans) that lets you see the plans that could be available to you. Plans very based on where you live.
+  accordion_bullet1_sub2: |-
+    Enter your zip code, select "Federal and U.S. postal service employee" for "enrollee type", and "biweekly" for "pay frequency" to see plans available to you.
+  accordion_bullet1_sub3: |-
+    Visit the [Healthcare section of OPM's website](https://www.opm.gov/healthcare-insurance/healthcare/) for more information.
+  accordion_bullet2: |-
+    Dental and vision insurance
+  accordion_bullet2_sub1: |-
+    Visit the [Dental & Vision section of OPM's website](https://www.opm.gov/healthcare-insurance/dental-vision) for more information.
+  accordion_bullet3: |-
+    Thrift savings plan (TSP)
+  accordion_bullet3_sub1: |-
+    Long-term retirement savings and investment plan similar to 401(k)
+  accordion_bullet3_sub2: |-
+    Employees are elegible to get up to 5% matching
+  accordion_bullet3_sub3: |-
+    Visit the ["TSP basics" section of the TSP website](https://www.tsp.gov/tsp-basics/) for more information.
+  accordion_bullet4: |-
+    Flexible spending plan
+  accordion_bullet4_sub1: |-
+    Pre-tax funds for out of pocket medical, dental, vision expenses as well as dependent and elder care expenses
+  accordion_bullet4_sub2: |-
+    Visit the [Flexible Spending Accounts section of OPM's website](https://www.opm.gov/healthcare-insurance/flexible-spending-accounts) for more information.    
+  accordion_bullet5: |-
+    Pension plan (Federal Employee Retirement System or FERS)
+  accordion_bullet5_sub1: |-
+   Pension for retirement that's calculated based on earnings and length of service
+  accordion_bullet5_sub2: |-
+    Visit the [FERS section of OPM's website](https://www.opm.gov/retirement-center/fers-information/) for more information.
+  accordion_bullet6: |-
+    Life insurance
+  accordion_bullet6_sub1: |-
+    Option to get life insurance, with additional voluntary life insurance available
+  accordion_bullet6_sub2: |-
+    Visit the [Life Insurance section of OPM's website](https://www.opm.gov/healthcare-insurance/life-insurance) for more information.
+  accordion_bullet7: |-
+    Work-life programs
+  accordion_bullet7_sub1: |-
+    Confidential Employee Assistance Programs (EAP) to assist with life challenges that may affect your job, health, and well-being
+  accordion_bullet7_content5b: |-
+    For more information on federal benefits, visit [OPM's guide for new employees](https://www.opm.gov/healthcare-insurance/Guide-Me/New-Prospective-Employees/#url=Overview).
+  accordion_header7: |-
+    Paid time off
+  accordion_header7_item1: |-
+    Paid time off
+  accordion_h7_item1_sub1: |-
+    13 days per year (for employees who are new to the federal government)
+  accordion_h7_item1_sub2: |-
+    Learn more about accruing paid time off [on OPM's website](https://www.opm.gov/policy-data-oversight/pay-leave/leave-administration/fact-sheets/annual-leave/)
+  accordion_header7_item2: |-
+    Paid sick days
+  accordion_h7_item2_sub1: |-
+    13 days per year
+  accordion_h7_item2_sub2: |-
+    Learn more about accruing sick leave [on OPM's website]()
+  accordion_header7_item3: |-
+    Paid federal holidays
+  accordion_h7_item3_sub1: |-
+    11 days per year
+  accordion_h7_item4: |-
+    Paid parental leave
+  accordion_h7_item4_sub1: |-
+    12 weeks (for employees who qualify)

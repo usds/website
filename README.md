@@ -65,7 +65,6 @@ When pages are intentionally changed, refresh the base images with `npm run visu
 
 A GitHub workflow automatically runs the regression script when a pull request targeting the `staging` branch is created or updated. A summary of results will appear as a comment on the PR. If a refresh is needed, users can activate the refresh script by manually running the `Visual regression tesing` Action and providing the PR number. New/updated base images will be added to the PR.
 
-
 ### Automated Accessibility testing
 
 This website relies on Cypress and cypress-axe to identify page-level accessibility issues. Hopefully, the issues identified in this testing are caught earlier in the development process using a combination of a good accessibility linter such as [axe-Linter](https://marketplace.visualstudio.com/items?itemName=deque-systems.vscode-axe-linter) and a browser plugin such as [Microsoft Accessibility Insights](https://accessibilityinsights.io/docs/web/overview/). This type of testing is to catch any errors missed.
