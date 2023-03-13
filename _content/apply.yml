@@ -55,15 +55,15 @@ page_body:
   accordion_bullet1: |-
     Health insurance
   accordion_bullet1_sub1: |-
-    The federal government provides a [comparison tool](https://www.opm.gov/healthcare-insurance/healthcare/plan-information/compare-plans) that lets you see the plans that could be available to you. Plans very based on where you live.
+    The federal government provides a <a class="usa-link usa-link--external" href="https://www.opm.gov/healthcare-insurance/healthcare/plan-information/compare-plans">comparison tool</a>  []() that lets you see the plans that could be available to you. Plans very based on where you live.
   accordion_bullet1_sub2: |-
     Enter your zip code, select "Federal and U.S. postal service employee" for "enrollee type", and "biweekly" for "pay frequency" to see plans available to you.
   accordion_bullet1_sub3: |-
-    Visit the [Healthcare section of OPM's website](https://www.opm.gov/healthcare-insurance/healthcare/) for more information.
+    Visit the <a class="usa-link usa-link--external" href="https://www.opm.gov/healthcare-insurance/healthcare/">Healthcare section of OPM's website</a> for more information.
   accordion_bullet2: |-
     Dental and vision insurance
   accordion_bullet2_sub1: |-
-    Visit the [Dental & Vision section of OPM's website](https://www.opm.gov/healthcare-insurance/dental-vision) for more information.
+    Visit the <a class="usa-link usa-link--external" href="https://www.opm.gov/healthcare-insurance/dental-vision">Dental & Vision section of OPM's website</a> for more information.
   accordion_bullet3: |-
     Thrift savings plan (TSP)
   accordion_bullet3_sub1: |-
@@ -71,31 +71,31 @@ page_body:
   accordion_bullet3_sub2: |-
     Employees are elegible to get up to 5% matching
   accordion_bullet3_sub3: |-
-    Visit the ["TSP basics" section of the TSP website](https://www.tsp.gov/tsp-basics/) for more information.
+    Visit the <a class="usa-link usa-link--external" href="https://www.tsp.gov/tsp-basics/">"TSP basics" section of the TSP website</a> for more information.
   accordion_bullet4: |-
     Flexible spending plan
   accordion_bullet4_sub1: |-
     Pre-tax funds for out of pocket medical, dental, vision expenses as well as dependent and elder care expenses
   accordion_bullet4_sub2: |-
-    Visit the [Flexible Spending Accounts section of OPM's website](https://www.opm.gov/healthcare-insurance/flexible-spending-accounts) for more information.    
+    Visit the <a class="usa-link usa-link--external" href="https://www.opm.gov/healthcare-insurance/flexible-spending-accounts">Flexible Spending Accounts section of OPM's website</a> for more information.    
   accordion_bullet5: |-
     Pension plan (Federal Employee Retirement System or FERS)
   accordion_bullet5_sub1: |-
    Pension for retirement that's calculated based on earnings and length of service
   accordion_bullet5_sub2: |-
-    Visit the [FERS section of OPM's website](https://www.opm.gov/retirement-center/fers-information/) for more information.
+    Visit the <a class="usa-link usa-link--external" href="https://www.opm.gov/retirement-center/fers-information/">FERS section of OPM's website</a> for more information.
   accordion_bullet6: |-
     Life insurance
   accordion_bullet6_sub1: |-
     Option to get life insurance, with additional voluntary life insurance available
   accordion_bullet6_sub2: |-
-    Visit the [Life Insurance section of OPM's website](https://www.opm.gov/healthcare-insurance/life-insurance) for more information.
+    Visit the <a class="usa-link usa-link--external" href="https://www.opm.gov/healthcare-insurance/life-insurance">Life Insurance section of OPM's website</a> for more information.
   accordion_bullet7: |-
     Work-life programs
   accordion_bullet7_sub1: |-
     Confidential Employee Assistance Programs (EAP) to assist with life challenges that may affect your job, health, and well-being
   accordion_bullet7_content5b: |-
-    For more information on federal benefits, visit [OPM's guide for new employees](https://www.opm.gov/healthcare-insurance/Guide-Me/New-Prospective-Employees/#url=Overview).
+    For more information on federal benefits, visit <a class="usa-link usa-link--external" href="https://www.opm.gov/healthcare-insurance/Guide-Me/New-Prospective-Employees/#url=Overview">OPM's guide for new employees</a>.
   accordion_header7: |-
     Time off
   accordion_header7_item1: |-
@@ -103,13 +103,13 @@ page_body:
   accordion_h7_item1_sub1: |-
     13 days per year (for employees who are new to the federal government)
   accordion_h7_item1_sub2: |-
-    Learn more about accruing annual leave [on OPM's website](https://www.opm.gov/policy-data-oversight/pay-leave/leave-administration/fact-sheets/annual-leave/)
+    Learn more about accruing annual leave <a class="usa-link usa-link--external" href="https://www.opm.gov/policy-data-oversight/pay-leave/leave-administration/fact-sheets/annual-leave/">on OPM's website</a>
   accordion_header7_item2: |-
     Paid sick days
   accordion_h7_item2_sub1: |-
     13 days per year
   accordion_h7_item2_sub2: |-
-    Learn more about accruing sick leave [on OPM's website]()
+    Learn more about accruing sick leave <a class="usa-link usa-link--external" href="https://www.opm.gov/policy-data-oversight/pay-leave/leave-administration/fact-sheets/sick-leave-general-information/">on OPM's website</a>
   accordion_header7_item3: |-
     Paid federal holidays
   accordion_h7_item3_sub1: |-
