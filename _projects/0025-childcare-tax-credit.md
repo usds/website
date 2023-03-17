@@ -14,7 +14,7 @@ carousel_image_name: project-childcare-tax-credit-card.jpg
 title: "Optimizing benefits for families"
 agency: Cross-agency
 permalink: projects/childcare-tax-credit
-project_url: https://www.childtaxcredit.gov/
+project_url: 
 
 # Impact statement (Edit this)
 impact_statement:
@@ -38,7 +38,7 @@ But families that didn’t earn enough income in 2020 to require a tax filing �
 
 ## The Solution
 
-The U.S. Digital Service partnered with The Department of Treasury and the White House to build [ChildTaxCredit.gov](https://www.childtaxcredit.gov/). The website launched in January 2022 to educate families about the expanded Earned Income Credit and Child Tax Credit and to encourage eligible families to file a tax return in order to receive the funds. Additionally, the website provides a free tool to find tax assistance.
+The U.S. Digital Service partnered with The Department of Treasury and the White House to build ChildTaxCredit.gov. The website launched in January 2022 to educate families about the expanded Earned Income Credit and Child Tax Credit and to encourage eligible families to file a tax return in order to receive the funds. Additionally, the website provides a free tool to find tax assistance.
 
 Working alongside our agency partners, the USDS team interviewed local governments, advocacy groups, non-profits, and tax filers to understand how these credits affected people’s lives. We learned that misinformation and confusion kept some families from taking the necessary steps to receive the tax credits. We launched the site to address the many needs we heard from user research, including that the site should be accessible, easy-to-read, and provide resources to find free tax filing services. 
 
@@ -52,7 +52,7 @@ The 2021 Child Tax Credit helps all families succeed and will reach nearly 40 mi
 
 These expanded benefits reduced food insufficiency among low-income families by 25% and helped bring child poverty to record lows in 2021, including record low Black and Hispanic child poverty.
 
-[ChildTaxCredit.gov](https://www.childtaxcredit.gov/) has helped close to 50,000 taxpayers file their taxes for free across a number of free services found in the lookup tool.
+ChildTaxCredit.gov has helped close to 50,000 taxpayers file their taxes for free across a number of free services found in the lookup tool.
 
 ## Press
 
