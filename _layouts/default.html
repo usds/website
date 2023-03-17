@@ -67,15 +67,13 @@ Meet Mollie the crab, our unofficial mascot :)
 
   {% include _header.html %}
 
-  {% if page.banner_file %}
+  <main id="main-content" role="main">
+ {% if page.banner_file %}
   <div class="site-c-page-banner">
     <img src="{{ site.baseurl }}/assets/img/{{ page.banner_file }}" srcset="{{ site.baseurl }}/assets/img/{{ page.banner_file_mobile }} 640w,
           {{ site.baseurl }}/assets/img/{{ page.banner_file }}" alt="">
   </div>
   {% endif %}
-
-  <main id="main-content" role="main">
-
     {% if page.project_page %}
       {% include _template--project-page.html %}
     {% elsif page.people_page %}
