@@ -11,7 +11,7 @@ carousel_summary: "Eight million lines of COBOL and 2.5 million lines of assembl
 carousel_image_name: project-hhs-payment-mod-card.jpg
 
 # Project detail page (Edit this)
-title: "Medicare Payment System Modernization"
+title: "Modernizing the Medicare Payment System"
 agency: Health and Human Services
 permalink: projects/medicare-payment-program
 project_url: 

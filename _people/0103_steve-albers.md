@@ -11,6 +11,7 @@ permalink: people/steve-albers
 # People Carousel and Page (Edit this)
 name: Steve Albers
 pronouns: He/His
+alumni: true
 cop: Engineering
 city_of_origin: Moline, Illinois
 image_name: people-steve-albers.jpg

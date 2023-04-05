@@ -12,7 +12,7 @@ permalink: /privacy
     </div>
   </section>
 
-  <hr>
+  <hr aria-hidden="true">
 
   <section class="site-c-section">
     <div class="site-c-section__body usa-prose" markdown="1">

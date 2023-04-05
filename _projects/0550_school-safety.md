@@ -11,7 +11,7 @@ carousel_summary: "A website that empowers emergency managers and K–12 adminis
 carousel_image_name: project-dhs-school-safety-card.jpg
 
 # Project detail page (Edit this)
-title: "SchoolSafety.gov"
+title: "Helping schools keep students safe"
 agency: Department of Homeland Security
 permalink: projects/school-safety
 project_url: https://schoolsafety.gov

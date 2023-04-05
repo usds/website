@@ -47,7 +47,7 @@
 
   <h1 class="margin-y-5">{{ page.name }}</h1>
 
-  <hr>
+  <hr aria-hidden="true">
 
   <section class="site-c-section">
     <div class="usa-prose">
@@ -55,19 +55,10 @@
     </div>
   </section>
 
-  <hr>
+  {% assign content = site.data.people %}
+  <div class="site-c-section-heading__links">
+    <a class="usa-button usa-button--outline" href="{{ site.baseurl }}{% link pages/people.html %}">{{ content.page_title.heading_button_text }}</a>
+  </div>
 
-  <section class="site-c-section">
-    {% assign content = site.data.people %}
-    <div class="site-c-section-heading">
-      <h2 class="site-c-section-heading__heading">{{ content.page_title.heading_title }}</h2>
-      <div class="site-c-section-heading__links">
-        <a class="usa-button usa-button--outline" href="{{ site.baseurl }}{% link pages/people.html %}">{{ content.page_title.heading_button_text }}</a>
-      </div>
-    </div>
-    <div class="site-c-section__body">
-      {% include carousel-people.html %}
-    </div>
-  </section>
 
 </div>

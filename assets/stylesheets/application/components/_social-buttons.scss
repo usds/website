@@ -1,3 +1,12 @@
+@use "uswds-core" as *;
+
+// Social colors
+$color-facebook-blue: #537BBE;
+$color-twitter-blue: #77CCF1;
+$color-instagram-red: #E4415F;
+$color-medium-green: #00AB6C;
+$color-linkedin-blue: #137BB8;
+
 .site-c-social-buttons {
   display: inline-block;
   list-style: none;
@@ -11,7 +20,7 @@
 }
 
 .site-c-social-buttons__link {
-  background-color: $color-usds-gray;
+  background-color: color('base');
   display: flex;
   align-content: center;
   align-items: center;
@@ -50,7 +59,7 @@
 }
 
 .site-c-social-buttons--mini {
-  margin-left: $units-neg-05;
+  margin-left: units(-0.5);
 }
 
 .site-c-social-buttons--mini .site-c-social-buttons__link {
