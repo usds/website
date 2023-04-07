@@ -1,0 +1,16 @@
+name: Test build
+
+on:
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Test Docker build
+        run: docker build -t usds-website . --no-cache
+
+      - name: Test website build
+        run: docker run --name usdsweb usds-website
