@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Test Docker build
-        run: docker build -t usds-website . --no-cache
+        run: docker build -t usds-website '${{ github.workspace }}' --no-cache
 
       - name: Test website build
         run: docker run --name usdsweb usds-website
