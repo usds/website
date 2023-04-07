@@ -9,8 +9,11 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
       - name: Test Docker build
-        run: docker build -t usds-website ./Dockerfile --no-cache
+        run: docker build -t usds-website . --no-cache
 
       - name: Test website build
         run: docker run --name usdsweb usds-website
