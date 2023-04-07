@@ -16,4 +16,4 @@ jobs:
         run: docker build -t usds-website . --no-cache
 
       - name: Test website build
-        run: docker run --name usdsweb usds-website --entrypoint bundle exec jekyll build
+        run: docker run --name usdsweb usds-website --entrypoint="npm run build"
