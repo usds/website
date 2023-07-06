@@ -10,11 +10,11 @@
 
         For example, don’t just list your tech stack or design approaches, but describe what you did and what the outcomes were. We want to be sure we capture your full breadth and depth of experience right away as we consider you through the application process.
 
-- q: "I applied, what’s next?"
+    - q: "I applied, what’s next?"
       a: |-
         First, your resume will be reviewed by a human – specifically one of our technical recruiters – and sorted to the appropriate Community of Practice within our organization. From there your resume will be reviewed by a subject-matter expert for technical qualifications.
 
-- q: "What is the process and how long does it take?"
+    - q: "What is the process and how long does it take?"
       a: |-
         Everyone’s onboarding journey in government is a little different. We have outlined the steps and average time below, but it may take more or less time because onboarding is unique to the person and steps including the security process are very dependent on individuals’ unique circumstances. 
 
@@ -35,7 +35,7 @@
         | **Total from application**                                       | **37 to 97**      |
 
 
-- q: "How do we interview?"
+    - q: "How do we interview?"
       a: |-
         USDS has always used phone interviews or a web-based platform to conduct our interviews.  
 
@@ -43,7 +43,7 @@
 
         Instructions and contacts will be provided to you by way of a calendar invite. Our Talent Team will be sure to give you insight into the interviewing process as well.
 
- - q: "Why don’t you have job descriptions?"
+    - q: "Why don’t you have job descriptions?"
       a: |-
         We actually do, although they are a little different from typical government position descriptions The best resource for candidates to understand our roles – and impact across government – are within the [How we Work](https://www.usds.gov/how-we-work) section of our website. The roles and responsibilities of any given USDS team member vary tremendously, because agencies have different technological needs. Even projects within the same agency require distinct skill sets. 
 
@@ -51,11 +51,11 @@
 
         We are always hiring for a number of different roles, so if you are an expert in your field and are interested in working at USDS, you should apply!
 
-- q: "Do you have internships?"
+    - q: "Do you have internships?"
       a: |-
         Yes, and it’s brand new as of 2023. USDS partners with the Office of Management and Budget to recruit and hire interns. The openings are announced through various channels – but keep a lookout for a communication push on our social media to apply. USDS interns must be actively enrolled in a degree program (which means we cannot accept recent graduates). When applying, make sure to select USDS as an office of interest to ensure we receive your application!
 
-- q: "USDS is an equal employment opportunity employer"
+    - q: "USDS is an equal employment opportunity employer"
       a: |-
         As part of the federal government, we’re building a team that reflects the full mosaic of our country. We do not discriminate in employment on the basis of race, color, religion, sex (including pregnancy and gender identity), national origin, political affiliation, sexual orientation, marital status, disability, genetic information, age, membership in an employee organization, retaliation, parental status, military service or other non-merit factors. 
 
@@ -90,7 +90,7 @@
         
         You will receive a formal offer letter after you have successfully passed your background check and drug test.
 
-- q: "When do I start?"
+    - q: "When do I start?"
       a: |-
         Close to the end of your process, we will work with you to set a tentative start date and we will confirm that date with you once you get the green light from HR (green light means passing your background investigation and a drug test).
         
@@ -123,12 +123,12 @@
   questions:
     - q: "What will I do during my time at USDS?"
       a: |-
-      There is no such thing as a “typical” USDS experience.
-
-      Depending on your skill set and interests, you’ll either get matched to an agency team (e.g., Veterans Affairs, Centers for Medicare & Medicaid Services, or Department Homeland Security), or you may bounce around to different projects depending on where the need is. 
-
-      The number and types of projects you’ll work on could vary wildly, and you may be doing things you never dreamed of. (Visit a mainframe warehouse in a mine? Check. Pitch a project to a Deputy Secretary? Check.)
-
+        There is no such thing as a typical USDS experience.
+      
+        Depending on your skill set and interests, you’ll either get matched to an agency team (e.g., Veterans Affairs, Centers for Medicare & Medicaid Services, or Department Homeland Security), or you may bounce around to different projects depending on where the need is.
+      
+        The number and types of projects you’ll work on could vary wildly, and you may be doing things you never dreamed of. Visit a mainframe warehouse in a mine? Check. Pitch a project to a Deputy Secretary? Check.
+   
     - q: "Is there a dress code?"
       a: |-
         We encourage USDSers to dress for your day. If you’re coming onsite to our offices at the White House, you may be plugging away, heads down on a project and not meeting with many stakeholders – and when we have days like that, most of us will dress fairly casually. But you’ll also have days where you’re meeting with leadership or stakeholders and may want to dress closer to business casual or even put on a suit – it does happen from time to time. Our culture is quite laid back and we encourage USDSers to use their best judgment, but you can always feel free to ask someone who’s been around for a while to help you navigate the situation.
