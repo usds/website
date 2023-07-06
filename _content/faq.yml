@@ -1,46 +1,116 @@
 - topic: Getting hired
   questions:
-    - q: "Why don’t you have job descriptions?"
+    - q: "Who is eligible to apply?"
       a: |-
-        The roles and responsibilities of any given USDS staff member vary tremendously, because agencies have different technological needs. Even projects within the same agency require distinct skill sets.
+        Anyone with U.S. citizenship, including dual citizenship, or those who are a national (a resident of American Samoa and Swain Island).
 
-        Because of the unpredictability and breadth of our engagements, we focus on hiring technical experts who can adapt to a project’s needs, though we also hire specialists for particular projects.
-
-        We are always hiring for a number of different roles, so if you are an expert in your field and are interested in working at USDS, you should apply!
-
-    - q: "Do you have internships?"
+    - q: "Do I need a federal resume?"
       a: |-
-        Unfortunately, we are not set up to support internships. We recommend looking into other civic tech organizations that are able to hire and support interns.
+        While resumes are typically in a different format for government jobs, we try to find a middle ground between private sector norms and the federal government. You should prepare your resume to be a bit more narrative than what you may be accustomed to — tell the story and detailed accomplishments of your work. We typically see resumes that are about three pages in length so the criteria fully outlines your experience. 
+
+For example, don’t just list your tech stack or design approaches, but describe what you did and what the outcomes were. We want to be sure we capture your full breadth and depth of experience right away as we consider you through the application process.
+
+- q: "I applied, what’s next?"
+      a: |-
+        First, your resume will be reviewed by a human – specifically one of our technical recruiters – and sorted to the appropriate Community of Practice within our organization. From there your resume will be reviewed by a subject-matter expert for technical qualifications.
+
+- q: "What is the process and how long does it take?"
+      a: |-
+        Everyone’s onboarding journey in government is a little different. We have outlined the steps and average time below, but it may take more or less time because onboarding is unique to the person and steps including the security process are very dependent on individuals’ unique circumstances. 
+
+Our HR and security partners work hard to fill critical roles across the Executive Office of the President, which includes USDS. As part of working with a White House component, all candidates must undergo background investigations. We’ve worked alongside our onboarding partners to streamline this process as much as possible and decreased our onboarding times when compared to federal government more broadly, but they are still more then what you might expect compared with the private sector.
+
+Onboarding to USDS can take several weeks depending on completion of your required background check. Our Talent team will be with you every step of the way and your Talent partner will keep you up-to-date throughout the process. 
+
+Below is designed to serve as a high-level example to help with expectation setting for joining us. 
+
+| **Phase**                                                    | **Business Days** |
+| ------------------------------------------------------------ | ----------------- |
+| Application and resume sorting                               | 1 to 3            |
+| Resume and application review                                | 5                 |
+| Interview (set of technical interviews and behavioral interview) | 10 to 15          |
+| Tentative offer of employment                                | 2 to 7            |
+| Background investigation                                     | 15 to 60          |
+| Final offer of employment                                    | 4 to 7            |
+| **Total from application**                                   | **37 to 97**      |
+
+
+- q: "How do we interview?"
+      a: |-
+        USDS has always used phone interviews or a web-based platform to conduct our interviews.  
+
+We typically do not use the camera feature to help eliminate implicit biases. Our interviews are generally setup in one-hour increments – and for some of our technical specialties (like engineering) candidates undergo a coding exercise.  
+
+Instructions and contacts will be provided to you by way of a calendar invite. Our Talent Team will be sure to give you insight into the interviewing process as well.
+
+ - q: "Why don’t you have job descriptions?"
+      a: |-
+        We actually do, although they are a little different from typical government position descriptions The best resource for candidates to understand our roles – and impact across government – are within the [How we Work](https://www.usds.gov/how-we-work) section of our website. The roles and responsibilities of any given USDS team member vary tremendously, because agencies have different technological needs. Even projects within the same agency require distinct skill sets. 
+
+Because of the unpredictability and breadth of our engagements, we focus on hiring technical experts who can adapt to a project’s needs, though we also hire specialists for particular projects. 
+
+We are always hiring for a number of different roles, so if you are an expert in your field and are interested in working at USDS, you should apply!
+
+- q: "Do you have internships?"
+      a: |-
+        Yes, and it’s brand new as of 2023. USDS partners with the Office of Management and Budget to recruit and hire interns. The openings are announced through various channels – but keep a lookout for a communication push on our social media to apply. USDS interns must be actively enrolled in a degree program (which means we cannot accept recent graduates). When applying, make sure to select USDS as an office of interest to ensure we receive your application!
+
+- q: "USDS is an equal employment opportunity employer"
+      a: |-
+        As part of the federal government, we’re building a team that reflects the full mosaic of our country. We do not discriminate in employment on the basis of race, color, religion, sex (including pregnancy and gender identity), national origin, political affiliation, sexual orientation, marital status, disability, genetic information, age, membership in an employee organization, retaliation, parental status, military service or other non-merit factors. 
+
+To learn more, please visit the [Office of Equal Opportunity](https://www.eeoc.gov/federal-sector/federal-employees-job-applicants).
+
 
 - topic: Onboarding
   questions:
     - q: "Where am I in the background check process?"
       a: |-
-        It’s a black hole; we know it’s not ideal. Typically we do not have insight into the background check process.
+        That’s a good question – unfortunately USDS does not have any insight into candidate’s background investigations, which includes the process, what’s needed, and an individual’s status. 
+
+Our security partners work closely with intelligence agencies to make sure things are moving as fast as possible – with consideration that we all need to be deemed suitable for employment by a White House component. 
+
+If you are being deployed to an agency you may undergo an investigation with that particular agency as well.
+
+    - q: "I turned in my background paperwork and haven't heard from anyone in two weeks. What is happening?"
+      a: |-
+        Once you have turned in your security paperwork (SF-86 or the eQIP), you will not hear from the security team until they have reviewed your materials or need additional information. You also may hear nothing if there is no need to submit additional information. We do not have insight into the security process, except when a candidate emails us to let us know what is happening. However, feel free to reach out to your USDS Talent Team guide anytime.
+        
+Once you clear the background check, you will hear from an HR or security colleague to help enroll you for a drug test.
 
     - q: "Did I pass my background check?"
       a: |-
-        You’ll receive a formal offer letter from HR when you have passed the background check and drug test. This typically happens closer to your tentative start date. Keep your USDS Talent Team guide informed of any changes to your timeline while onboarding.
+        You may know this before we do. You’ll receive a formal offer letter from HR when you have passed the background check and drug test. The HR team who issued your tentative offer letter will be in touch with more information once you are considered suitable for employment – but your actual investigation may continue to go on for many months after you’re employed. 
+Please keep your Talent Team guide informed of any changes to your timeline while onboarding.
 
-    - q: "I turned in my background paperwork and haven't heard from anyone in 2 weeks. What is happening?"
+    - q: "What is the process to receive an offer?"
       a: |-
-        Once you have turned in your security paperwork, you will not hear from the security team until they have reviewed the paperwork and need additional information (e.g. additional background or a drug test). This is the start of the background check black hole. We _do not_ have insight into the security process, except when a candidate emails us to let us know what is happening. However, feel free to reach out to your USDS Talent Team guide anytime!
+        You will receive a tentative offer letter that offers you a role conditional upon passing the background security check and drug test. Because it is conditional, we suggest that candidates hold off on long-term decisions until receiving a formal offer letter.
+        
+You will receive a formal offer letter after you have successfully passed your background check and drug test.
 
-    - q: "When do I start?"
+- q: "When do I start?"
       a: |-
-        You are eligible to start once your background check clears, you pass your drug test, and you receive a formal offer from HR. Close to the end of your process, we will work with you to set a tentative start date and we will confirm that date with you once you get the green light from HR. If you have taken a drug test as part of onboarding, you must start within 30 days of taking the drug test to avoid being required to take the test again.
+        Close to the end of your process, we will work with you to set a tentative start date and we will confirm that date with you once you get the green light from HR (green light means passing your background investigation and a drug test).
+Once you take the drug test you must start within 30 days or results go invalid.
+You are eligible to start once your background check clears, you pass your drug test, and you receive a formal offer from HR.
 
 - topic: Relocation
   questions:
     - q: "Where will I live?"
       a: |-
-        We’re currently hiring both remote employees and people who are local to Washington, DC. If you have additional questions about remote or in-person work, please reach out to the USDS Talent Team at talent@usds.gov.
+        As of April 2023, we began formally hiring remote as well as DC (local) based employees who report in-person to our D.C. office or the agency they are partnering with.
+        
+For any employees local to Washington, D.C. you will be hired as a telework employee which means you can work from home up to three days per week and that you will report onsite to either the USDS office or to an agency worksite, at least twice a week. You will also be assigned to the Washington, D.C. locality pay area. Government has an array of locality across the United States and territories for general schedule (GS) levels, all are detailed [here](https://www.opm.gov/policy-data-oversight/pay-leave/salaries-wages/). 
 
-        All conditional offer letters are conditional upon your passing the background check (including security and drug checks). Therefore, we suggest that candidates hold off on long‐term decisions until you receive a formal offer letter. You are responsible for your housing if relocating to D.C.
+For any employees who are remote, your work location is typically your home. This means you will be assigned to a locality pay area consistent with your home location. The federal government may fund travel to Washington, D.C. for work-related purposes. 
+
+If you have additional questions about remote or in-person work, please reach out to the USDS Talent Team at talent@usds.gov.
+
 
     - q: "Is there a relocation package?"
       a: |-
-        No. Unfortunately, the government does not allow us to cover moving or relocation expenses.
+        No. Unfortunately, the Office of Management and Budget, which USDS is part of, does not allow relocation incentives.
 
     - q: "I would like to visit the office in D.C. Can you help?"
       a: |-
@@ -50,12 +120,22 @@
   questions:
     - q: "What will I do during my time at USDS?"
       a: |-
-        There is no such thing as a “typical” USDS experience; it’s a bit of a choose-your-own-adventure. Depending on your skillsets and interests, you’ll either get matched to an agency team (e.g., Veterans Affairs or Homeland Security), or you may bounce around to different projects depending on where the need is. The number and types of projects you’ll work on could vary wildly, and you may be doing things you never dreamed of. (Visit a mainframe warehouse in a mine? Check. Pitch a project to a Deputy Secretary? Check.)
+       There is no such thing as a “typical” USDS experience.
+
+Depending on your skill set and interests, you’ll either get matched to an agency team (e.g., Veterans Affairs, Centers for Medicare & Medicaid Services, or Department Homeland Security), or you may bounce around to different projects depending on where the need is. 
+
+The number and types of projects you’ll work on could vary wildly, and you may be doing things you never dreamed of. (Visit a mainframe warehouse in a mine? Check. Pitch a project to a Deputy Secretary? Check.)
 
     - q: "Is there a dress code?"
       a: |-
-        Don’t worry — most days you can dress like you’re at any other startup. Every now and then we dress up for important meetings, so it’s good to have at least one formal outfit in your closet.
+        We encourage USDSers to dress for your day. If you’re coming onsite to our offices at the White House, you may be plugging away, heads down on a project and not meeting with many stakeholders – and when we have days like that, most of us will dress fairly casually. But you’ll also have days where you’re meeting with leadership or stakeholders and may want to dress closer to business casual or even put on a suit – it does happen from time to time. Our culture is quite laid back and we encourage USDSers to use their best judgment, but you can always feel free to ask someone who’s been around for a while to help you navigate the situation.
 
     - q: "What is the culture of USDS?"
       a: |-
-        USDS is full of people who are scrappy, mission-driven, and passionate. We don’t look like your typical government employees (hoodies and sneakers reign supreme here) and we’ve been known to attend Star Wars premieres together. We work hard because we know the work is worth doing and we can see the impact it makes on real people’s lives. Even if you run into roadblocks or bureaucracy, you can always rely on the USDS family to help you troubleshoot, back you up, and cheer you on.
+        USDS is full of people who are scrappy, mission-driven, and passionate. 
+
+We are unusual within government in many ways, both small and large. While all of them contribute to making this a special place, there are a handful of foundational and fundamental aspects of USDS that combine to give us the impact that we are able to have. Some of these are high-level cover and working directly alongside our government colleagues; our positioning within the Executive Office of the President; hands-on expertise in technology, design, and implementation; and our limited tour of duty model. 
+
+We don’t look like your typical government entity (hoodies and sneakers reign supreme here) and we’ve been known to attend all kinds of events together ranging from White House ceremonies to going to the movies together. 
+
+We work hard because we know the work is worth doing and we can see the impact it makes on real people’s lives. Even if you run into roadblocks or bureaucracy, you can always rely on the USDS community to help you troubleshoot, back you up, and cheer you on.
