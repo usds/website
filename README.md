@@ -83,6 +83,11 @@ Additional Resources about Cypress-axe:
 
 ## Maintenance
 
+### Tickets and stuff 
+Tickets and backlog are from [website-management](https://github.com/usds/website-management). Board is inside [this project](https://github.com/orgs/usds/projects/77/views/1). 
+
+**NOTE:** Make tickets in `website-maintenance`!
+
 ### USWDS and custom styles
 We use USWDS version 3. Most of the styles are built off of v2.12.0, but the underlying framework is v3. The `scss` is in `assets/stylesheets/uswds`, with the entry of `index.scss`. `uswds-settings.scss` has custom variables and `styles.scss` has custom scss.
 
