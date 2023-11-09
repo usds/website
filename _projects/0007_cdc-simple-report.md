@@ -97,9 +97,7 @@ The virality of COVID-19 meant that many people were testing for the disease and
 
 Through constant testing with actual users and quick updates, the USDS team worked with government contractors to build **Simple Report**, a free, easy-to-use, browser-based program for testing locations to collect and store results. Simultaneously, we addressed the other end of the test results pipeline and created a second program, **Report Stream**, that reformats and routes those test results (and test results from other software programs) to the correct public health department. *(Skip to learn more about Report Stream.)*
 
-![](../images/project-cdc-simple-report-animation1.gif)
-
-![](../images/project-cdc-simple-report-animation2.gif)
+![](../images/project-cdc-simple-report-animation1.gif)     ![](../images/project-cdc-simple-report-animation2.gif)
 
 
 <blockquote class="pullquote" markdown="1">
