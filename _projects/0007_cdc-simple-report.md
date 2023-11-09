@@ -15,6 +15,7 @@ title: "Preparing for the Next Pandemic While Building Tech for COVID"
 agency: Centers for Disease Control and Prevention
 permalink: projects/cdc-simple-report
 project_url: https://reportstream.cdc.gov/
+project_url: https://www.simplereport.gov/
 
 # Impact statement (Edit this)
 impact_statement:
