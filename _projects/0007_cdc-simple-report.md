@@ -7,7 +7,7 @@ project_page: true
 
 # Carousel (Edit this)
 carousel_title: "Preparing for the Next Pandemic"
-carousel_summary: "USDS worked with CDC to understand the needs of workers and volunteers on the frontlines of COVID-19 testing before building tools they would actually want to use."
+carousel_summary: "We worked with the Centers for Disease Control and Prevention to quickly create and scale technology programs that digitize and share infectious disease test results in real-time."
 carousel_image_name: project-cdc-simple-report-card.jpg
 
 # Project detail page (Edit this)
