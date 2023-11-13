@@ -152,10 +152,15 @@ At the start of our partnership with CDC, we advocated for a data strategy that 
 USDS is helping the Office of Public Health Data Surveillance & Technology, in conjunction with other CDC leaders, build new technology capabilities for a data-driven CDC. This includes championing practices that [we’ve vetted with other agency partners](https://playbook.cio.gov/), like: 
 
 •	building technology **iteratively** to allow for quick updates as conditions change
+
 •	investing in deep **field research** to understand the needs of the people who will use the software
+
 •	using **human-centered design** principles to make sure those needs are at the center of the products we build
+
 •	**removing data and technology silos** to cross analyze and efficiently use data from all available sources to drive critical policy and emergency decisions 
+
 •	promoting **interoperability** and **use of standards** so systems can connect safely, reliably, and quickly 
+
 •	helping to **[hire experienced technologists](https://www.usds.gov/projects/smeqa)**, data scientists, product managers, and designers
 
 
