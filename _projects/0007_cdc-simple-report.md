@@ -14,7 +14,6 @@ carousel_image_name: project-cdc-simple-report-card.jpg
 title: "Preparing for the Next Pandemic While Building Tech for COVID-19"
 agency: Centers for Disease Control and Prevention
 permalink: projects/cdc-simple-report
-project_url: https://reportstream.cdc.gov/
 project_url: https://www.simplereport.gov/
 
 # Impact statement (Edit this)
