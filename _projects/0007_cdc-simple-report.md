@@ -93,7 +93,7 @@ Simple Report cut my reporting time in half from one hour to 30 minutes.
 
 The virality of COVID-19 meant that many people were testing for the disease and recording the resulting data, even if they weren’t trained healthcare professionals. 
 
-Through constant testing with actual users and quick updates, the USDS team worked with government contractors to build **Simple Report**, a free, easy-to-use, browser-based program for testing locations to collect and store results. Simultaneously, we addressed the other end of the test results pipeline and created a second program, **Report Stream**, that reformats and routes those test results (and test results from other software programs) to the correct public health department. *(Skip to learn more about Report Stream.)*
+Through constant testing with actual users and quick updates, the USDS team worked with government contractors to build **Simple Report**, a free, easy-to-use, browser-based program for testing locations to collect and store results. Simultaneously, we addressed the other end of the test results pipeline and created a second program, **Report Stream**, that reformats and routes those test results (and test results from other software programs) to the correct public health department. <a href="#reportstream"> *(Skip to learn more about Report Stream.)* </a>
 
 ![](../images/project-cdc-simple-report-animation1.gif)  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   ![](../images/project-cdc-simple-report-animation2.gif)
 
@@ -106,7 +106,7 @@ Simple Report has been a key tool to progress Alaska as a state toward efficient
 Simple Report makes it easy for test sites to upload both of the most common types of COVID-19 test results: PCR and Antigen. It’s flexible enough to work for many types of places that need to test people often, including schools, cruise ships, and nursing homes. Simple Report is also, most importantly, really simple. Most people can learn how to use it in less than 15 minutes.
 
 
-**Helping Users at Test Sites Share Crucial Public Health Data**
+<a name="reportstream"> **Helping Users at Test Sites Share Crucial Public Health Data** </a>
 
 Quickly collecting test results was one part of the solution, but our team knew the test results needed to be sent to the right public health department – and they needed to be in the correct format for that department to quickly process and analyze the data. This is where Report Stream came in. 
 
