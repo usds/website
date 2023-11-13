@@ -40,7 +40,7 @@ impact_statement:
       Local, State, Tribal, and Territorial Public Health Departments Using Simple Report and/or Report Stream
   
   - figure: "6"
-    unit: "weeks"
+    unit: "&nbsp; weeks"
     description: |-
       from start of project to first Simple Report test result delivered
 ---
@@ -75,7 +75,7 @@ Neither of these functions existed in forms that states could easily use or that
 
 We had to understand the needs of workers and volunteers on the frontlines of COVID-19 testing before we could build tools that they would actually want to use. The USDS team used human-centered design principles[^3]  and methods of design research to understand the obstacles users, like school nurses, faced when capturing and submitting COVID-19 testing data.
 
-The team interviewed more than 100 people — including people from more than 20 local and state public health departments — in eight different states over the course of five months to “<u>design with users, not for them.<u>” We embedded with users as they collected COVID-19 tests and uploaded the test results to the tools we were building and re-building. We did this so we could design a tool that addressed common challenges for the end users, like the ability to enter new results into existing patient profiles, or open several patient profiles at the same time. By embedding with COVID-19 workers, we also helped to prevent or correct common data entry errors.
+The team interviewed more than 100 people — including people from more than 20 local and state public health departments — in eight different states over the course of five months to “**design with users, not for them**.” We embedded with users as they collected COVID-19 tests and uploaded the test results to the tools we were building and re-building. We did this so we could design a tool that addressed common challenges for the end users, like the ability to enter new results into existing patient profiles, or open several patient profiles at the same time. By embedding with COVID-19 workers, we also helped to prevent or correct common data entry errors.
 
 Using a methodology adapted from successful technology startups, we started lean with a “build only what’s necessary” philosophy. We recruited our users for these tools while creating the tools so we’d be able to get feedback and make updates immediately after launch. We worked quickly, using the incremental and iterative approach of agile development. We were able to continuously test the functionality, security, and ease-of-use of the tools and make improvements accordingly. 
 Saving time when onboarding new personnel with an intuitive interface meant that people didn't have to spend several hours in training to learn a new tool.
@@ -151,17 +151,21 @@ At the start of our partnership with CDC, we advocated for a data strategy that 
 
 USDS is helping the Office of Public Health Data Surveillance & Technology, in conjunction with other CDC leaders, build new technology capabilities for a data-driven CDC. This includes championing practices that [we’ve vetted with other agency partners](https://playbook.cio.gov/), like: 
 
-•	building technology **iteratively** to allow for quick updates as conditions change
-•	investing in deep **field research** to understand the needs of the people who will use the software
-•	using **human-centered design** principles to make sure those needs are at the center of the products we build
-•	**removing data and technology silos** to cross analyze and efficiently use data from all available sources to drive critical policy and emergency decisions 
-•	promoting **interoperability** and **use of standards** so systems can connect safely, reliably, and quickly 
-•	helping to **[hire experienced technologists](https://www.usds.gov/projects/smeqa)**, data scientists, product managers, and designers
+* building technology **iteratively** to allow for quick updates as conditions change
+
+* investing in deep **field research** to understand the needs of the people who will use the software
+
+* using **human-centered design** principles to make sure those needs are at the center of the products we build
+
+* **removing data and technology silos** to cross analyze and efficiently use data from all available sources to drive critical policy and emergency decisions 
+
+* promoting **interoperability** and **use of standards** so systems can connect safely, reliably, and quickly 
+
+* helping to **[hire experienced technologists](https://www.usds.gov/projects/smeqa)**, data scientists, product managers, and designers
 
 
 
 [^1]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8136644/
 [^2]: https://www.cdc.gov/museum/timeline/covid19.html#Early-2020 “April 4, 2020: More than 1 million cases of COVID-19 had been confirmed worldwide, a more than ten-fold increase in less than a month.”
 [^3]: According to Digital.gov, human-centered design is a qualitative research method that helps groups solve problems and seek solutions that prioritize customer needs over a system’s needs. It’s also a design and management framework to develop solutions to problems by involving the human perspective in all steps of the problem-solving process.
-
 
