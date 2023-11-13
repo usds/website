@@ -40,7 +40,7 @@ impact_statement:
       Local, State, Tribal, and Territorial Public Health Departments Using Simple Report and/or Report Stream
   
   - figure: "6"
-    unit: "weeks"
+    unit: " weeks"
     description: |-
       from start of project to first Simple Report test result delivered
 ---
