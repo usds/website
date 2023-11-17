@@ -9,6 +9,7 @@ project_page: true
 carousel_title: "Helping schools keep students safe"
 carousel_summary: "A website that empowers emergency managers and K–12 administrators with the information they need to improve school safety."
 carousel_image_name: project-dhs-school-safety-card.jpg
+hide: true
 
 # Project detail page (Edit this)
 title: "Helping schools keep students safe"
