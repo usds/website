@@ -55,7 +55,7 @@ Both the USDS team and CDC leaders recognized that the nation urgently needed th
 
 In the months following the first confirmed case of COVID-19 in the United States, the entire nation had become one giant testing site. Makeshift drive-up and walk-in testing stations popped up in strip mall parking lots and on street corners, contributing to the mass of test results flying around the country alongside test results from more established healthcare institutions like pharmacies and hospitals. 
 
-These testing sites were instructed to report their findings back to their local (or state, territorial, or Tribal) public health department, which resulted in piles of paper forms, stacked in boxes, being faxed from facilities to health officials. From there, public health department workers had to manually type in these paper results into computer systems — that were often particular and aging systems — to send to CDC. This led to these local, state, territorial, and Tribal departments calling in reinforcements to deal with the influx of paper: some hired contractors, some called in the National Guard to type in lab results. 
+These testing sites were instructed to report their findings back to their local (or state, territorial, or Tribal) public health department, which resulted in piles of paper forms, previously stored in boxes, being faxed from facilities to health officials. From there, public health department workers had to manually type in these paper results into computer systems — that were often particular and aging systems — to send to CDC. This led to these local, state, territorial, and Tribal departments calling in reinforcements to deal with the influx of paper: some hired contractors, some called in the National Guard to type in lab results. 
 
 ![](../images/project-cdc-simple-report-field.jpg)
 *Photos from field research.*
@@ -130,7 +130,7 @@ Without [Report Stream] we wouldn’t have received those reports at all, or we 
 
 Simple Report and Report Stream saved healthcare workers **more than 852,000 hours of manual labor** during the height of the COVID-19 pandemic – when every minute mattered. 
 
-This work helped the CDC develop an understanding of how to build technology for local public health departments. It also set expectations across the organization that data should be available quickly and that software tools could be built iteratively, deployed quickly, and should be easy-to-use. Another important takeaway was that the usability of a tool can drive adoption in circumstances where the CDC had previously struggled to collaborate with local public health departments. 
+This work helped the CDC develop an understanding of how to build technology for local public health departments. It also set expectations across the CDC that data should be available quickly and that software tools could be built iteratively, deployed quickly, and should be easy-to-use. Another important takeaway was that the usability of a tool can drive adoption in circumstances where the CDC had previously struggled to collaborate with local public health departments. 
 
 The technology that USDS teams co-created for responding to the COVID-19 pandemic was also repurposed for an unexpected Mpox outbreak in 2022 and is helping the CDC better understand seasonal flu outbreaks. Born in response to the COVID-19 pandemic, these technology programs are built to thrive and evolve within the complex public health environment.
 
