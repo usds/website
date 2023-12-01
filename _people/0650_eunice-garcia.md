@@ -11,7 +11,7 @@ permalink: people/eunice-garcia
 # People Carousel and Page (Edit this)
 name: Eunice Garcia
 pronouns: She/Her
-alumni: false
+alumni: true
 cop: Operations
 city_of_origin: Los Angeles, CA
 previously_at: Office of Presidential Records

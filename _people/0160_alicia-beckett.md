@@ -11,7 +11,7 @@ permalink: people/alicia-beckett
 # People Carousel and Page (Edit this)
 name: Alicia Beckett
 pronouns: She/Her
-alumni: false
+alumni: true
 cop: Product
 city_of_origin: Currently live in Carpinteria, CA, when I joined USDS I lived in DC, originally from Ann Arbor, MI
 image_name: people-alicia-beckett.jpg
