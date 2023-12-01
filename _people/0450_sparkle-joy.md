@@ -11,7 +11,7 @@ permalink: people/sparkle-joy
 # People Carousel and Page (Edit this)
 name: Sparkle Joy
 pronouns: She/Her
-alumni: false
+alumni: true
 cop: Product
 city_of_origin: Mountain View, CA
 previously_at: Facebook and BetterUp
