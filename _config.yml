@@ -37,6 +37,8 @@ collections:
     output: true
   reports_to_congress:
     output: true
+  blog_posts:
+    output: true
 
 instagram_url: https://www.instagram.com/usdigitalservice
 facebook_url: https://www.facebook.com/unitedstatesdigitalservice
@@ -74,27 +76,36 @@ logo: /img/usds-logo-onwhite.png
 
 # Exclude from processing.
 exclude:
+  - .github
+  - cypress
+  - documentation
+  - nginx
+  - pages/form.html
+  - wiki-photos
+  - .eslintrc
+  - .gitignore
   - ".ruby-version"
   - ".sass-cache"
+  - CNAME
+  - CODE_OF_CONDUCT.md
   - CONTRIBUTING.md
+  - cypress.config.js
+  - Dockerfile
   - Gemfile
   - Gemfile.lock
   - LICENSE.md
+  - manifest.yml
+  - package.json
+  - package-lock.json
   - README.md
+  - staticfile
   - config
   - js
   - vendor
-  - manifest.yml
   - node_modules
-  - package.json
   - gulpfile.js
   - circle.yml
   - css
   - image-templates
-  - CODE_OF_CONDUCT.md
   - Staticfile
-  - package-lock.json
-  - .github
-  - documentation
-  - wiki-photos
-  - pages/form.html
+  - _blog_posts/README.md

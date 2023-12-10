@@ -1,0 +1,15 @@
+<div class="grid-container">
+  <header class="padding-y-5">
+    <h1>{{ page.title }}</h1>
+    <div class="site-c-blog-dateline">{{ page.dateline_str }}</div>
+    <div class="site-c-blog-byline">{{ page.byline_str }}</div>
+  </header>
+  <hr aria-hidden="true">
+
+  <div class="grid-row tablet:flex-row-reverse padding-top-3">
+    <div class="tablet:grid-col-8 desktop:grid-col-12 margin-bottom-9 tablet:padding-right-4 site-c-project-content usa-prose">
+      {{ content }}
+    </div>
+  </div>
+
+</div>
