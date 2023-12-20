@@ -1,0 +1,33 @@
+// 1. Load USWDS settings
+@forward "uswds/uswds-settings";
+
+// 2. Load USWDS source code
+@forward "uswds";
+
+// 3. Load your project's custom Sass
+@forward "uswds/custom.scss";
+
+@forward "application/base/base";
+@forward "application/base/helpers";
+@forward "application/grid/grid";
+@forward "application/components/articles";
+@forward "application/components/billboard";
+@forward "application/components/blogs";
+@forward "application/components/cards";
+@forward "application/components/instagallery";
+@forward "application/components/lists";
+@forward "application/components/nav";
+@forward "application/components/page-banner";
+@forward "application/components/site-sections";
+@forward "application/components/footer";
+@forward "application/components/env-indicator";
+@forward "application/components/social-buttons";
+@forward "application/components/typography";
+@forward "application/components/where-we-worked";
+@forward "application/components/who-we-help";
+@forward "application/components/apply";
+
+@forward "application/utilities-add-ons/display";
+@forward "application/utilities-add-ons/flex";
+@forward "application/utilities-add-ons/position";
+
