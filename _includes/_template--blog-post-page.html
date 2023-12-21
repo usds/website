@@ -18,4 +18,19 @@
     </div>
   </div>
 
+  <hr aria-hidden="true">
+
+  <section class="site-c-section">
+    <div class="site-c-section-heading">
+      <h2 class="site-c-section-heading__heading">More posts</h2>
+      <div class="site-c-section-heading__links">
+        <a class="usa-button usa-button--outline" href="{{ site.baseurl }}{% link pages/news-and-blog.html %}" class="usa-button usa-button-outline">See all our posts</a>
+      </div>
+    </div>
+    <div class="site-c-section__body">
+      {% include carousel-blog-posts.html %}
+    </div>
+  </section>
+</div>
+
 </div>
