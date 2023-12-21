@@ -46,11 +46,12 @@ redirect_from:
               <img src="{{ site.baseurl }}/{{ item.carousel_image }}" alt="{{ item.carousel_image_alt_text }}" class="site-c-card__image"/>
             {% endif %}
             <div class="site-c-card__body">
-            <h3 class="site-c-card__title">{{ item.carousel_title }}</h3>
-            {% if item.carousel_summary %}
-            <p>{{ item.carousel_summary }}</p>
-            <p class="site-c-card__affordance" aria-hidden="true">Read full post</p>
-            {% endif %}
+              <span class="site-c-flag">{{ item.dateline_str }}</span>
+              <h3 class="site-c-card__title">{{ item.carousel_title }}</h3>
+              {% if item.carousel_summary %}
+              <p>{{ item.carousel_summary }}</p>
+              <p class="site-c-card__affordance" aria-hidden="true">Read full post</p>
+              {% endif %}
             </div>
           </a>
         </li>
