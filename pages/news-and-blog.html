@@ -49,8 +49,10 @@ redirect_from:
               <span class="site-c-flag">{{ item.dateline_str }}</span>
               <h3 class="site-c-card__title">{{ item.carousel_title }}</h3>
               {% if item.carousel_summary %}
-              <p>{{ item.carousel_summary }}</p>
-              <p class="site-c-card__affordance" aria-hidden="true">Read full post</p>
+                <div class="usa-prose margin-top-2">
+                  <p>{{ item.carousel_summary }}</p>
+                  <p class="site-c-card__affordance" aria-hidden="true">Read full post</p>
+                </div>
               {% endif %}
             </div>
           </a>
