@@ -1,3 +1,5 @@
+ruby '~> 2.7'
+
 source "https://rubygems.org"
 
 # Hello! This is where you manage which Jekyll version is used to run.
@@ -21,7 +23,6 @@ gem "minima", "~> 2.0"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem 'jekyll-feed'
-  # gem 'github-pages'
   gem 'jekyll-seo-tag'
   gem 'jekyll-sitemap'
   gem 'jekyll-redirect-from'

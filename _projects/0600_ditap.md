@@ -12,7 +12,7 @@ carousel_summary: "As the pace of innovation has accelerated, the government’s
 carousel_image_name: project-ditap-card.jpg
 
 # Project detail page (Edit this)
-title: "Digital IT Acquisition Professional Program (DITAP)"
+title: "Improving how the government buys technology"
 agency: Cross-agency
 permalink: projects/ditap
 project_url: 

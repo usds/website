@@ -11,17 +11,27 @@ carousel_summary: "With the American public eager for COVID-19 vaccinations, The
 carousel_image_name: project-vaccines-card.jpg
 
 # Project detail page (Edit this)
-title: "Vaccines.gov"
+title: "Critical code: building COVID-19 vaccine finder tools"
 agency: Health and Human Services
 permalink: projects/vaccines-dot-gov
 project_url: https://www.vaccines.gov/
 
 # Impact statement (Edit this)
 impact_statement:
-  - figure: 184
-    unit: "M+"
+  - figure: 105
+    unit: "M"
     description: |-
-      People visited Vaccines.gov or Vacunas.gov in its first year
+      People visited Vaccines.gov or Vacunas.gov since its launch
+      
+  - figure: 2.4
+    unit: "M"
+    description: |-
+      SMS messages (text and WhatsApp) received since launch
+      
+  - figure: 776
+    unit: "K"
+    description: |-
+      Call Center inquiries answered since launch
 ---
 
 ## The Challenge

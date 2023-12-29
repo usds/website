@@ -1,3 +1,5 @@
+@use "uswds-core" as *;
+
 .site-c-project-content {
   > h2 {
     font-size: size('body', 10);
@@ -25,13 +27,13 @@
   padding-left: 0 !important;
   line-height: 1.4;
 
-  @include at-media('tablet') {
+  @include at-media(tablet) {
     background-size: 58px 48px;
     font-size: size('body', 10);
     padding-top: 60px;
   }
 
-  @include at-media('desktop') {
+  @include at-media(desktop) {
     font-size: size('body', 12);
     max-width: 40ch;
   }

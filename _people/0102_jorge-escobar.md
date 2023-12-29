@@ -11,6 +11,7 @@ permalink: people/jorge-escobar
 # People Carousel and Page (Edit this)
 name: Jorge Escobar
 pronouns: He/Him
+alumni: true
 cop: Engineering
 city_of_origin: Caracas, Venezuela
 current_location: Brooklyn, NY

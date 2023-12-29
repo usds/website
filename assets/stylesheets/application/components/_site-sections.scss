@@ -1,12 +1,14 @@
+@use "uswds-core" as *;
+
 .site-c-section {
-  margin: $units-5 0;
+  margin: units(5) 0;
 }
 
 .site-c-section-heading {
   display: flex;
   flex-direction: column;
 
-  @include at-media('tablet-lg') {
+  @include at-media(tablet-lg) {
     align-items: flex-end;
     flex-direction: row;
     flex-wrap: wrap;
@@ -15,7 +17,7 @@
 }
 
 .site-c-section-heading--keep-column {
-  @include at-media('tablet-lg') {
+  @include at-media(tablet-lg) {
     align-items: flex-start;
     flex-direction: column;
     justify-content: flex-start;
@@ -33,14 +35,14 @@
   @include u-font-size('sans', 11);
   color: $theme-color-primary-dark;
   flex: 0 0 auto;
-  margin: 0 0 $units-2 0;
+  margin: 0 0 units(2) 0;
 
-  @include at-media('tablet-lg') {
+  @include at-media(tablet-lg) {
     @include u-font-size('sans', 11);
     flex: 0 0 62%;
   }
 
-  @include at-media('desktop') {
+  @include at-media(desktop) {
     @include u-font-size('sans', 12);
   }
 }
@@ -48,35 +50,36 @@
 .site-c-section-heading__heading--h1 {
   @include u-font-size('sans', 11);
 
-  @include at-media('tablet-lg') {
+  @include at-media(tablet-lg) {
     @include u-font-size('sans', 11);
   }
 
-  @include at-media('desktop') {
+  @include at-media(desktop) {
     @include u-font-size('sans', 14);
   }
 }
 
 .site-c-section-heading__text {
   flex: 0 0 auto;
-  margin: 0 0 $units-2 0;
+  margin: 0 0 units(2) 0;
 
-  @include at-media('tablet-lg') {
+  @include at-media(tablet-lg) {
     flex: 0 0 62%;
   }
 }
 
 .site-c-section-heading__links {
   flex: 0 0 auto;
-  margin: 0 auto $units-2 auto;
+  margin: 0 auto units(2) auto;
+  text-align: right;
 
-  @include at-media('tablet') {
+  @include at-media(tablet) {
     margin-left: 0;
     margin-right: 0;
   }
 
-  @include at-media('tablet-lg') {
-    text-align: right;
+  @include at-media(tablet-lg) {
+    // text-align: right;
     flex: 0 0 38%;
   }
 }
@@ -88,16 +91,29 @@
   font-weight: 300;
   width: 100%;
 
-  @include at-media('tablet') {
+  @include at-media(tablet) {
     font-size: size('body', 12)
   }
 
-  @include at-media('desktop') {
+  @include at-media(desktop) {
     font-size: size('body', 14);
   }
 }
 
 // Body
 .site-c-section__body {
-  margin-top: $units-4;
+  margin-top: units(4);
+  .grid-container {
+    padding: 0;
+  }
+  ul {
+    padding: 0;
+    li {
+      list-style-type: none;
+    }
+  }
+}
+
+.news-container {
+  padding: 0;
 }

@@ -12,7 +12,7 @@ carousel_image_name: project-dod-advisor-network-card.jpg
 hide: true
 
 # Project detail page (Edit this)
-title: "Advisor Network (ANET)"
+title: "Providing NATO advisors mission-critical information"
 agency: Department of Defense
 permalink: projects/advisor-network
 project_url:

@@ -17,14 +17,18 @@ title: United States Digital Service
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   The United States Digital Service is transforming how the federal government works for the American people. And we need you.
-domain: "https://usds.gov"
-baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+# GitHub Action overrides this with repo name when not in usds/website
+baseurl: ""
+
+# This custom var is used only in meta tags in _head.html. It does not break sites for staging, dev, etc.
+domain: "https://usds.gov"
+
 timezone: "America/New_York"
 social_image: social-card--default.png
 
 twitter_username: usds
-repository: usds/website
 
 collections:
   projects:
@@ -42,7 +46,7 @@ linkedin_url: https://www.linkedin.com/company/united-states-digital-service
 github_url: https://github.com/usds
 
 press_kit_file_name: USDS-Overview.pdf
-d_and_i_file_name: usds-di.pdf
+d_and_i_file_name: https://usds.org/deia
 impact_report_file_name: USDS-Impact-Report-2020.pdf
 
 # Build settings
@@ -90,3 +94,7 @@ exclude:
   - CODE_OF_CONDUCT.md
   - Staticfile
   - package-lock.json
+  - .github
+  - documentation
+  - wiki-photos
+  - pages/form.html

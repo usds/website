@@ -67,38 +67,13 @@ Meet Mollie the crab, our unofficial mascot :)
 
   {% include _header.html %}
 
-  {% if page.banner_file %}
+  <main id="main-content" role="main">
+ {% if page.banner_file %}
   <div class="site-c-page-banner">
-    {% if page.project_page or page.people_page %}
-    <div class="site-c-page-banner__text site-c-page-banner__text--alt padding-0">
-      <div class="grid-container height-full display-flex flex-align-center">
-        <p class="site-c-page-banner__header--alt">
-          {% if page.project_page %}
-            <a class="site-c-page-banner__header-link display-flex flex-align-center" href="{{ site.baseurl }}/projects">
-              <svg aria-hidden="true" class="width-3 height-4 margin-right-2">
-                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{{ site.baseurl }}/assets/img/fontawesome-sprite.svg#angle-left"></use>
-              </svg>
-              Projects
-            </a>
-          {% else %}
-            <a class="site-c-page-banner__header-link display-flex flex-align-center" href="{{ site.baseurl }}/people">
-              <svg aria-hidden="true" class="width-3 height-4 margin-right-2">
-                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{{ site.baseurl }}/assets/img/fontawesome-sprite.svg#angle-left"></use>
-              </svg>
-              People
-            </a>
-          {% endif %}
-        </p>
-      </div>
-    </div>
-    {% endif %}
     <img src="{{ site.baseurl }}/assets/img/{{ page.banner_file }}" srcset="{{ site.baseurl }}/assets/img/{{ page.banner_file_mobile }} 640w,
           {{ site.baseurl }}/assets/img/{{ page.banner_file }}" alt="">
   </div>
   {% endif %}
-
-  <main id="main-content" role="main" class="margin-bottom-9">
-
     {% if page.project_page %}
       {% include _template--project-page.html %}
     {% elsif page.people_page %}
@@ -107,9 +82,21 @@ Meet Mollie the crab, our unofficial mascot :)
       {% include _template--report-to-congress.html %}
     {% elsif page.project_charter %}
       {% include _template--charter.html %}
+    {% elsif page.markdown_only %}
+      {% include _markdown-only.html %}
     {% else %}
+    <div class="margin-bottom-9">
       {{ content }}
+      </div>
     {% endif %}
+
+      <section class="site-c-billboard">
+        <div class="grid-container">
+          <p>We need you.</p>
+          <p>Let’s help millions of people together.</p>
+          <p><a class="usa-button usa-button--outline usa-button--inverse" href="{{ site.baseurl }}/apply">Apply now</a></p>
+        </div>
+      </section>
 
   </main>
 

@@ -1,0 +1,95 @@
+name: Visual regression testing 
+
+on:
+  pull_request:
+    types: [opened, synchronize]
+    branches:
+      - staging
+
+  workflow_dispatch:
+    inputs:
+      pr:
+        description: "PR number to be updated with new base images"
+        required: true 
+        type: string 
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout for pull request events
+        if: github.event_name == 'pull_request'
+        uses: actions/checkout@v3
+          
+      - name: Checkout for manual runs 
+        # In some manual run scenarios, this is needed to put the repo in a good state.
+        # Otherwise the next step can fail with 'Refusing to fetch into current branch'.
+        if: github.event_name == 'workflow_dispatch'
+        uses: actions/checkout@v3
+        with:
+          ref: master
+          
+      - name: Checkout PR to generate base images
+        if: github.event_name == 'workflow_dispatch'
+        uses: dawidd6/action-checkout-pr@v1
+        with:
+          pr: ${{ inputs.pr }} 
+
+      - name: Setup Docker container to build and serve Jekyll site
+        run: |
+          docker build -t usds-website . --no-cache
+          docker run -p 4080:4000 --name usdsweb usds-website &
+
+      - name: Cache node modules
+        uses: actions/cache@v3
+        env:
+          cache-name: cache-node-modules
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
+          
+      - name: Setup Cypress outside Docker container
+        # Avoid installing dependencies not needed here 
+        run: |
+          mv package.json _package.json
+          npm install --no-package-lock --no-save cypress cypress-visual-regression
+          mv _package.json package.json
+
+      - name: Compare current actual screens with base images 
+        if: github.event_name == 'pull_request'
+        run: |
+          echo ":+1: No visual differences detected." > /tmp/message.md
+          npm run visual-regression || echo -e ":warning: Visual differences detected.\nFor details, click the green checkmark above.\nIf your PR makes intentional visual changes, update the base images by running the \`Visual regression testing\` Action." > /tmp/message.md
+
+      - name: Store comparison results
+        if: github.event_name == 'pull_request'
+        uses: actions/upload-artifact@v3
+        with:
+          name: actuals-and-diffs 
+          path: |
+            cypress/snapshots/actual
+            cypress/snapshots/diff
+
+      - name: Generate new base images 
+        if: github.event_name == 'workflow_dispatch'
+        run: |
+          rm -rf ./cypress/snapshots/base
+          npm run visual-refresh
+          echo ":+1: New base images generated." > /tmp/message.md
+
+      - name: Commit new base images 
+        if: github.event_name == 'workflow_dispatch'
+        uses: EndBug/add-and-commit@v9
+        with:
+          message: "Update base images"
+
+      - name: Report comparison results in PR comment
+        if: github.event_name == 'pull_request'
+        uses: mshick/add-pr-comment@v2
+        with:
+          message-path: /tmp/message.md
+          message-failure: ":question: No visual test results found."
+          allow-repeats: true
+
+      - name: Write summary 
+        run: cat /tmp/message.md >> $GITHUB_STEP_SUMMARY

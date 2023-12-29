@@ -5,6 +5,5 @@ _site
 .DS_Store
 .ruby-gemset
 .ruby-version
-
-# ignore gulp-generated vendor files
-scss/lib
+cypress/snapshots/actual
+cypress/snapshots/diff

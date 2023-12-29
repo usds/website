@@ -1,17 +1,19 @@
+@use "uswds-core" as *;
+
 .site-c-footer {
-  background: $color-usds-blue-bright-dark;
-  color: $color-cyan-5;
+  background: color('primary-vivid');
+  color: color('cyan-5');
   padding-top: units(5);
   padding-bottom: units(5);
 
-  @include at-media('desktop') {
+  @include at-media(desktop) {
     padding-top: units(8);
   }
 
   a,
   a:visited {
     text-decoration: none;
-    color: $color-cyan-5;
+    color: color('cyan-5');
   }
 
   a:hover {
@@ -23,13 +25,13 @@
   display: block;
   margin: 0 auto;
   width: 157px;
-  @include at-media('desktop') {
+  @include at-media(desktop) {
     margin: 0;
   }
 }
 
 .site-c-footer__heading {
-  color: $color-cyan-5;
+  color: color('cyan-5');
   font-size: size('body', 4);
   margin-bottom: units(2);
   text-transform: uppercase;
@@ -43,7 +45,7 @@
     padding-top: units(1);
     padding-bottom: units(1);
 
-    @include at-media('desktop') {
+    @include at-media(desktop) {
       padding-top: units(1);
       padding-bottom: units(1);
     }

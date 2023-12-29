@@ -1,8 +1,17 @@
-<div class="site-c-cards margin-x-neg-2 site-js-carousel">
-  {% assign people = site.people | where_exp:"person","person.url != page.url" | sample: 9 %}
-  {% for person in people limit:9 %}
-  <div class="padding-x-2">
-    {% include card-people.html %}
-  </div>
-  {% endfor %}
+{% assign names = "David Holmes, Annie Nguyen, Anissa Pérez, Eunice Garcia, Brent Maravilla, Kasia Chmielinski" | split: ", " %}
+
+<div class="grid-container">
+  <section class="site-c-section">
+    <div class="site-c-section__body">
+      <ul class="site-c-cards margin-x-neg-2 grid-row">
+        {% for name in names %}
+          {% assign people = site.people | where_exp:"person","person.name == name" %} 
+          {% assign person = people[0] %}
+          <li class="tablet:grid-col-6 desktop:grid-col-4 padding-x-2 margin-bottom-4">
+            {% include card-people.html %}
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </section>
 </div>

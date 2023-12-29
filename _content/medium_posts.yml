@@ -3,62 +3,17 @@
 # - Articles will appear in reverse chronological order, meaning
 #   that the first article will be the first item in the carousel
 
-- title: "Accessibility as a design philosophy?"
-  image_name: blog-accessibility.jpg
-  url: "https://medium.com/the-u-s-digital-service/martha-wilkes-designer-accessibility-strategist-120e6e2ecc25"
-  summary: "The Veterans Affairs project team was three years ahead of anyone else because we set such a high bar for design and we tested accessibility every day."
+- title: "Solutions by Families, for Families"
+  image_name: blog-families.jpg
+  url: "https://medium.com/the-u-s-digital-service/solutions-by-families-for-families-510dea4b8150"
+  summary: "We’re working with people across the country to pilot new ways of supporting families during the critical early years."
 
-- title: "The importance of Product Management in government"
-  image_name: blog-product-management.jpg
-  url: "https://medium.com/the-u-s-digital-service/the-importance-of-product-management-in-government-b59933d01874"
-  summary: "We can improve both user experience and cost efficiencies of digital product development in government by designating product managers to lead digital product development and evolving our national model of service."
+- title: "USDS Marks Nine Years of Transforming Government Services"
+  image_name: blog-nine.jpg
+  url: "https://medium.com/the-u-s-digital-service/usds-marks-nine-years-of-transforming-government-services-fc94d337fe17"
+  summary: "To celebrate, we’re highlighting nine projects that show how Government digital services can be improved by working in partnership with agencies."
 
-- title: "A day in the life - Jenn Noinaj, UX strategist and designer"
-  image_name: blog-jenn-day-in-the-life.jpg
-  url: "https://medium.com/the-u-s-digital-service/day-in-the-life-jenn-noinaj-ux-strategist-and-designer-7e093115ba72"
-  summary: "Currently I'm supporting the team at the Federal Emergency Management Agency (FEMA) working to improve the process to apply for and manage federal assistance."
-
-- title: "Hack the Marine Corps results are in!"
-  image_name: blog-hack-the-marines.jpg
-  url: "https://medium.com/the-u-s-digital-service/hack-the-marine-corps-results-are-in-5c9e45be0b26"
-  summary: "Ethical hackers work alongside Marines to discover and disclose nearly 150 vulnerabilities within the U.S. Marine Corps public-facing websites and services."
-
-- title: "A quick guide to inclusive design"
-  image_name: blog-inclusive-design.jpg
-  url: "https://medium.com/the-u-s-digital-service/a-quick-guide-to-inclusive-design-16ba41eece89"
-  summary: "We believe inclusive design is just good design, and so a priority for our design team is to ensure we are deliberate in our research, design, and content practices."
-
-- title: "Saving VA $100 million dollars"
-  image_name: blog-saving-va.jpg
-  url: "https://medium.com/the-u-s-digital-service/saving-va-100-million-dollars-c5d992e0cf54"
-  summary: "Our team helped Veterans Affairs become one of the earliest federal government adopters of modern, cloud-based IT infrastructure."
-
-- title: "Hacking bureaucracy in the federal government"
-  image_name: blog-bureaucracy-hacker-2.jpg
-  url: "https://medium.com/the-u-s-digital-service/serving-at-usds-stephanie-grosser-ad2099ed2d57"
-  summary: "What does a bureacracy hacker do? Find out from a USDSer who has worked across multiple agenceis and is finishing up her four-year tour of duty."
-
-- title: "Staying with the U.S. Digital Service"
-  image_name: blog-staying-with-usds.jpg
-  url: "https://medium.com/the-u-s-digital-service/staying-with-the-u-s-digital-service-d465685c921f"
-  summary: "Matt Cutts originally signed on for a three month tour of duty with USDS. Read why he stayed."
-
-- title: "How a 20-year old kernel feature helped USDS improve VA's network"
-  image_name: blog-20-year-kernel.jpg
-  url: "https://medium.com/the-u-s-digital-service/how-a-20-year-old-kernel-feature-helped-usds-improve-vas-network-33109cbcb2e6"
-  summary: "Our team is developing a React on Rails application, Caseflow, that will enable a better, more efficient process for managing Veterans' appeals by increasing productivity, preventing errors, and automating or eliminating manual steps."
-
-- title: "A personal story about modernizing Medicare"
-  image_name: blog-personal-story.jpg
-  url: "https://medium.com/the-u-s-digital-service/a-personal-story-about-modernizing-medicare-9f1e164fa3b2"
-  summary: "Within her first few months at USDS, product manager Ju-Lie McReynolds, impacts Medicare coverage of continuous glucose monitors."
-
-- title: "Scary challenges at the U.S. Digital Service"
-  image_name: blog-scary-challenges.jpg
-  url: "https://medium.com/the-u-s-digital-service/scary-challenges-at-the-u-s-digital-service-e5a809d0f87d"
-  summary: "Meet members of our team and read about scary challenges they have overcome."
-
-- title: "Blue Button API"
-  image_name: blog-blue-button.jpg
-  url: "https://medium.com/the-u-s-digital-service/blue-button-api-c1b47ff8c464"
-  summary: "Last year the Center for Medicare and Medicaid Services (CMS) tapped USDS to work alongside CMS in building an API that empowers Medicare beneficiaries to grant third-party developers access to their claims data."
+- title: "Why We’re Designing Government to Work Better and Smarter for Families"
+  image_name: blog-life-experience.jpg
+  url: "https://medium.com/the-u-s-digital-service/why-were-designing-government-to-work-better-and-smarter-for-families-abfb63dee5c2"
+  summary: "The Life Experience team spent the last year speaking with families nationwide about this moment in their lives, to better understand where government services could better support them."
