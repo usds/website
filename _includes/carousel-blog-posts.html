@@ -1,0 +1,30 @@
+<div class="grid-container">
+  <section class="site-c-section">
+    <div class="site-c-section__body">
+      <ul class="site-c-cards margin-x-neg-2 grid-row">        
+          {% assign blog_posts = site.blog_posts | where: "carousel_show", "true" %} 
+          {% for item in blog_posts reversed limit:3 %}
+            {% if item.url != page.url %}
+              <li class="tablet:grid-col-6 desktop:grid-col-4 padding-x-2 margin-bottom-4">
+                  <a class="site-c-card site-c-card--linked" href="{{ item.url }}" >
+                      {% if item.carousel_image %}
+                      <img src="{{ site.baseurl }}/{{ item.carousel_image }}" alt="{{ item.carousel_image_alt_text }}" class="site-c-card__image"/>
+                      {% endif %}
+                      <div class="site-c-card__body">
+                      <span class="site-c-flag">{{ item.dateline_str }}</span>
+                      <h3 class="site-c-card__title">{{ item.carousel_title }}</h3>
+                      {% if item.carousel_summary %}
+                        <div class="usa-prose margin-top-2">
+                          <p>{{ item.carousel_summary }}</p>
+                          <p class="site-c-card__affordance" aria-hidden="true">Read full post</p>
+                        </div>
+                      {% endif %}
+                      </div>
+                  </a>
+              </li>
+            {% endif %}
+        {% endfor %}            
+      </ul>
+    </div>
+  </section>
+</div>

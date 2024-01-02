@@ -10,9 +10,10 @@
     "build": "npm run css & bundle exec jekyll build",
     "build-staging": "npm run css & JEKYLL_ENV=staging bundle exec jekyll build",
     "css": "npm run css:sass && npm run css:autoprefixer",
-    "css:sass": "sass assets/stylesheets/uswds/index.scss assets/stylesheets/uswds/styles.css --update --style=compressed --embed-source-map--load-path='node_modules/@uswds/uswds/packages'",
-    "css:autoprefixer": "npx postcss assets/stylesheets/uswds/styles.css --use autoprefixer -d assets/stylesheets",
-    "serve": "npm run css & bundle exec jekyll serve --livereload",
+    "css:sass": "sass assets/stylesheets/styles.scss assets/stylesheets/styles.css --update --style=compressed --embed-source-map --load-path='node_modules/@uswds/uswds/packages'",
+    "css:sass:watch": "sass assets/stylesheets:assets/stylesheets --watch --style=compressed --embed-source-map --load-path='node_modules/@uswds/uswds/packages'",
+    "css:autoprefixer": "npx postcss assets/stylesheets/styles.css --use autoprefixer -d assets/stylesheets",
+    "serve": "npm run css:sass:watch & bundle exec jekyll serve --livereload",
     "serve-all-hosts": "npm run css & bundle exec jekyll serve --host 0.0.0.0 --livereload",
     "start": "npm run serve",
     "cypress:open": "npx cypress open",
@@ -33,12 +34,12 @@
     "@uswds/uswds": "3.3.0",
     "autoprefixer": "^10.2.4",
     "axe-core": "^4.6.3",
-    "cypress": "^12.4.1",
+    "cypress": "^12.17.4",
     "cypress-axe": "^1.3.0",
     "cypress-visual-regression": "^2.1.0",
     "normalize.css": "^8.0.0",
     "postcss": "^8.2.5",
     "postcss-cli": "^10.1.0",
-    "sass": "^1.57.1"
+    "sass": "^1.69.5"
   }
 }
