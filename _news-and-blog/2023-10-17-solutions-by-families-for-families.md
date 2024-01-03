@@ -7,7 +7,7 @@ blog_page: true
 carousel_title: "Solutions by Families, for Families"
 carousel_summary: "How we’re working with people across the country to pilot new ways of supporting families during the critical early years — By Maya Uppaluru Mechenbier, Alana Buroff, Alex Bornkessel, Allison Abbott, and Whitney Robinson This blog is part two in a …"
 # partial path to image
-carousel_image: news-and-blog/2023-10-17-solutions-by-families-for-families-img/carousel-families-card.jpg
+carousel_image: /news-and-blog/2023-10-17-solutions-by-families-for-families-img/carousel-families-card.jpg
 # accessibility text for image
 carousel_image_alt_text: "Solutions by Families, for Families"
 # should show on news and blog page. ordered by date prefix in filename
@@ -18,7 +18,7 @@ title: "Solutions by Families, for Families"
 dateline_str: "Oct 16, 2023"
 readtime_str: "13"
 byline_str: "By Maya Uppaluru Mechenbier, Alana Buroff, Alex Bornkessel, Allison Abbott, and Whitney Robinson"
-permalink: news-and-blog/solutions-by-families-for-families-4b8150
+permalink: /news-and-blog/solutions-by-families-for-families-4b8150
 ---
 
 _This blog is part two in a four-part series that highlights our work on [Having a Child and Early Childhood Life Experience](https://www.performance.gov/cx/life-experiences/having-a-child-and-early-childhood-for-low-income-families/). You can read the first post, “Why We’re Designing Government to Work Better and Smarter for Families” on [our blog](/blog/why-were-designing-government-to-work-better-and-smarter-for-families)._

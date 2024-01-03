@@ -1,14 +1,14 @@
 <div class="grid-container">
   <section class="site-c-section">
     <div class="site-c-section__body">
-      <ul class="site-c-cards margin-x-neg-2 grid-row">        
-          {% assign blog_posts = site.news-and-blog | where: "carousel_show", "true" %} 
+      <ul class="site-c-cards margin-x-neg-2 grid-row">
+          {% assign blog_posts = site.news-and-blog | where: "carousel_show", "true" %}
           {% for item in blog_posts reversed limit:3 %}
             {% if item.url != page.url %}
               <li class="tablet:grid-col-6 desktop:grid-col-4 padding-x-2 margin-bottom-4">
-                  <a class="site-c-card site-c-card--linked" href="{{ item.url }}" >
+                  <a class="site-c-card site-c-card--linked" href="{{ site.baseurl }}{{ item.url }}" >
                       {% if item.carousel_image %}
-                      <img src="{{ site.baseurl }}/{{ item.carousel_image }}" alt="{{ item.carousel_image_alt_text }}" class="site-c-card__image"/>
+                      <img src="{{ site.baseurl }}{{ item.carousel_image }}" alt="{{ item.carousel_image_alt_text }}" class="site-c-card__image"/>
                       {% endif %}
                       <div class="site-c-card__body">
                       <span class="site-c-flag">{{ item.dateline_str }}</span>
@@ -23,7 +23,7 @@
                   </a>
               </li>
             {% endif %}
-        {% endfor %}            
+        {% endfor %}
       </ul>
     </div>
   </section>

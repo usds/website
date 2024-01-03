@@ -7,7 +7,7 @@ blog_page: true
 carousel_title: "A quick guide to inclusive design"
 carousel_summary: "Designing for inclusion isn’t just about coding for accessibility or section 508 compliance, it’s about providing equitable and easy-to-use websites and services for diverse populations. Because good design is design that works for everyone."
 # partial path to image
-carousel_image: news-and-blog/2022-08-15-a-quick-guide-to-inclusive-design-img/carousel-inclusive-design-card.jpg
+carousel_image: /news-and-blog/2022-08-15-a-quick-guide-to-inclusive-design-img/carousel-inclusive-design-card.jpg
 # accessibility text for image
 carousel_image_alt_text: "Graphics with the quote Everyone benefits from inclusive design"
 # should show on news and blog page. ordered by date prefix in filename
@@ -18,7 +18,7 @@ title: "A quick guide to inclusive design"
 dateline_str: "Aug 15, 2022"
 readtime_str: "9"
 byline_str: "By Suzanne Chapman - UX designer, researcher, and content strategist at USDS"
-permalink: news-and-blog/a-quick-guide-to-inclusive-design-31ef2c
+permalink: /news-and-blog/a-quick-guide-to-inclusive-design-31ef2c
 ---
 
 _This post aims to describe a few basic, inclusive design concepts that help guide our projects at USDS but there are many additional resources available for those ready to explore more. (An [older version of this guide](https://medium.com/the-u-s-digital-service/a-quick-guide-to-inclusive-design-16ba41eece89) was published in Dec. 2018.)_

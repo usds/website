@@ -7,7 +7,7 @@ blog_page: true
 carousel_title: "Why we serve: Bill Chapman"
 carousel_summary: "In this series, you’ll hear stories from USDSers and learn why they decided to join, why they stay, and how their work is making an impact for Americans."
 # partial path to image
-carousel_image: news-and-blog/2023-04-07-why-we-serve-bill-chapman-img/carousel-why-we-serve-chapman.jpg
+carousel_image: /news-and-blog/2023-04-07-why-we-serve-bill-chapman-img/carousel-why-we-serve-chapman.jpg
 # accessibility text for image
 carousel_image_alt_text: ""
 # should show on news and blog page. ordered by date prefix in filename
@@ -18,7 +18,7 @@ title: "Why we serve: Bill Chapman"
 dateline_str: "Apr 7, 2023"
 readtime_str: "4"
 byline_str: "U.S. Digital Service"
-permalink: news-and-blog/why-we-serve-bill-chapman-83774e
+permalink: /news-and-blog/why-we-serve-bill-chapman-83774e
 ---
 
 _In this series, you’ll hear stories from USDSers and learn why they decided to join, why they stay, and how their work is making an impact for Americans._

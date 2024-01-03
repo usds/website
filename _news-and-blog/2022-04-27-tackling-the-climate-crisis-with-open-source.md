@@ -7,7 +7,7 @@ blog_page: true
 carousel_title: "Tackling the climate crisis with open source"
 carousel_summary: "Every one of us has the right to breathe clean air, drink clean water, eat safe, nourishing food, and live free from the threat of climate disasters wrecking our neighborhoods and livelihoods."
 # partial path to image
-carousel_image: news-and-blog/2022-04-27-tackling-the-climate-crisis-with-open-source-img/carousel-climate-card.jpg
+carousel_image: /news-and-blog/2022-04-27-tackling-the-climate-crisis-with-open-source-img/carousel-climate-card.jpg
 # accessibility text for image
 carousel_image_alt_text: "Image showing power windmills nestled in rolling green hills"
 # should show on news and blog page. ordered by date prefix in filename
@@ -18,7 +18,7 @@ title: "Tackling the climate crisis with open source"
 dateline_str: "Apr 27, 2022"
 readtime_str: "5"
 byline_str: "U.S. Digital Service"
-permalink: news-and-blog/tackling-the-climate-crisis-with-open-source-00a52a
+permalink: /news-and-blog/tackling-the-climate-crisis-with-open-source-00a52a
 ---
 
 Every one of us has the right to breathe clean air, drink clean water, eat safe, nourishing food, and live free from the threat of climate disasters wrecking our neighborhoods and livelihoods. But right now, many families and communities across the United States have to endure pollution in their air, water, food, and soil every day where they live and work.
