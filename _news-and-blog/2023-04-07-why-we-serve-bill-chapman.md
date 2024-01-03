@@ -18,7 +18,7 @@ title: "Why we serve: Bill Chapman"
 dateline_str: "Apr 7, 2023"
 readtime_str: "4"
 byline_str: "U.S. Digital Service"
-permalink: news-and-blog/why-we-serve-bill-chapman
+permalink: news-and-blog/why-we-serve-bill-chapman-83774e
 ---
 
 _In this series, you’ll hear stories from USDSers and learn why they decided to join, why they stay, and how their work is making an impact for Americans._

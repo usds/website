@@ -18,7 +18,7 @@ title: "Meeting veterans where they are with accessible mobile tech"
 dateline_str: "Nov 10, 2022"
 readtime_str: "5"
 byline_str: "U.S. Digital Service"
-permalink: news-and-blog/meeting-veterans-where-they-are-with-accessible-mobile-tech
+permalink: news-and-blog/meeting-veterans-where-they-are-with-accessible-mobile-tech-fba73d
 ---
 
 _This Veterans Day, we’re honoring our current and former service members by highlighting a collaboration between the Department of Veterans Affairs (VA) and the U.S. Digital Service, which improved Veterans’ access to critical health and benefits information._

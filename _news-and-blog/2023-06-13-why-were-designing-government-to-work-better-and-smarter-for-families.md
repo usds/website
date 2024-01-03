@@ -18,7 +18,7 @@ title: "Why we’re designing government to work better and smarter for families
 dateline_str: "Jun 13, 2023"
 readtime_str: "6"
 byline_str: "By Maya Uppaluru Mechenbier, Allison Abbott, Alex Bornkessel, Alana Buroff, and Phoebe Brauer"
-permalink: news-and-blog/why-were-designing-government-to-work-better-and-smarter-for-families
+permalink: news-and-blog/why-were-designing-government-to-work-better-and-smarter-for-families-dee5c2
 ---
 
 _This blog is part one in a four-part series that highlights our work on [Having a Child and Early Childhood Life Experience](https://www.performance.gov/cx/life-experiences/having-a-child-and-early-childhood-for-low-income-families/)._

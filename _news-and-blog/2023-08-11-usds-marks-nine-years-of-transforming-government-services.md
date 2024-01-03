@@ -18,7 +18,7 @@ title: "USDS marks nine years of transforming government services"
 dateline_str: "Aug 11, 2023"
 readtime_str: "8"
 byline_str: "Mina Hsiang, USDS Administrator"
-permalink: news-and-blog/usds-marks-nine-years-of-transforming-government-services
+permalink: news-and-blog/usds-marks-nine-years-of-transforming-government-services-37fe17
 ---
 
 _To celebrate, we’re highlighting nine projects that show how Government digital services can be improved by working in

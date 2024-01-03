@@ -18,7 +18,7 @@ title: "A quick guide to inclusive design"
 dateline_str: "Aug 15, 2022"
 readtime_str: "9"
 byline_str: "By Suzanne Chapman - UX designer, researcher, and content strategist at USDS"
-permalink: news-and-blog/a-quick-guide-to-inclusive-design
+permalink: news-and-blog/a-quick-guide-to-inclusive-design-31ef2c
 ---
 
 _This post aims to describe a few basic, inclusive design concepts that help guide our projects at USDS but there are many additional resources available for those ready to explore more. (An [older version of this guide](https://medium.com/the-u-s-digital-service/a-quick-guide-to-inclusive-design-16ba41eece89) was published in Dec. 2018.)_

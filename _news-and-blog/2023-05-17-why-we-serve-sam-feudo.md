@@ -18,7 +18,7 @@ title: "Why we serve: Sam Feudo"
 dateline_str: "May 17, 2023"
 readtime_str: "6"
 byline_str: "U.S. Digital Service"
-permalink: news-and-blog/why-we-serve-sam-feudo
+permalink: news-and-blog/why-we-serve-sam-feudo-66a3b5
 ---
 
 _In this series, you’ll hear stories from USDSers and learn why they decided to join, why they stay, and how their work is making an impact for Americans._
