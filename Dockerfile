@@ -1,4 +1,4 @@
-FROM ruby:3.1.1
+FROM ruby:3.2.2
 ENV NODE_VERSION=18.11.0
 ENV NVM_DIR=/root/.nvm
 ENV PATH="/root/.nvm/versions/node/v${NODE_VERSION}/bin/:${PATH}"
