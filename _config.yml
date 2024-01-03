@@ -18,7 +18,6 @@ email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   The United States Digital Service is transforming how the federal government works for the American people. And we need you.
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-
 # GitHub Action overrides this with repo name when not in usds/website
 baseurl: ""
 
@@ -37,7 +36,7 @@ collections:
     output: true
   reports_to_congress:
     output: true
-  blog_posts:
+  news-and-blog:
     output: true
 
 instagram_url: https://www.instagram.com/usdigitalservice
@@ -54,7 +53,7 @@ impact_report_file_name: USDS-Impact-Report-2020.pdf
 # Build settings
 markdown: kramdown
 # Data settings
-data_dir : _content
+data_dir: _content
 
 # Assets settings
 sass:
@@ -108,4 +107,4 @@ exclude:
   - css
   - image-templates
   - Staticfile
-  - _blog_posts/README.md
+  - _news-and-blog/README.md

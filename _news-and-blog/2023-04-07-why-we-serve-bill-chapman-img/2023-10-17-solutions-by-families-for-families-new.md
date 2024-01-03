@@ -7,7 +7,7 @@ blog_page: true
 carousel_title: "Solutions by Families, for Families"
 carousel_summary: "How we’re working with people across the country to pilot new ways of supporting families during the critical early years — By Maya Uppaluru Mechenbier, Alana Buroff, Alex Bornkessel, Allison Abbott, and Whitney Robinson This blog is part two in a …"
 # partial path to image
-carousel_image: blog_posts/2023-10-17-solutions-by-families-for-families-img/carousel_Lt2nwA.jpg
+carousel_image: news-and-blog/2023-10-17-solutions-by-families-for-families-img/carousel_Lt2nwA.jpg
 # accessibility text for image
 carousel_image_alt_text: "Solutions by Families, for Families"
 # should show on news and blog page. ordered by date prefix in filename
@@ -18,9 +18,10 @@ title: "Solutions by Families, for Families"
 dateline_str: "Oct 17, 2023"
 readtime_str: "11"
 byline_str: "Maya Uppaluru Mechenbier, Alana Buroff, Alex Bornkessel, Allison Abbott, and Whitney Robinson"
-permalink: blog_posts/solutions-by-families-for-families
+permalink: news-and-blog/solutions-by-families-for-families
 ---
-T_his blog is part two in a four-part series that highlights our work on the _[_Having a Child and Early Childhood Life Experience_](https://www.performance.gov/cx/life-experiences/having-a-child-and-early-childhood-for-low-income-families/)_. You can read the first blog, “Why We’re Designing Government to Work Better and Smarter for Families” on the _[_U.S. Digital Service blog_](blob_post/why-were-designing-government-to-work-better-and-smarter-for-families)_._
+
+T*his blog is part two in a four-part series that highlights our work on the *[_Having a Child and Early Childhood Life Experience_](https://www.performance.gov/cx/life-experiences/having-a-child-and-early-childhood-for-low-income-families/)_. You can read the first blog, “Why We’re Designing Government to Work Better and Smarter for Families” on the _[_U.S. Digital Service blog_](blob_post/why-were-designing-government-to-work-better-and-smarter-for-families)_._
 
 ![Image alt text: An image of a woman holding an infant’s hand.](2023-10-17-solutions-by-families-for-families-img/Lt2nwA.png)
 
@@ -160,7 +161,7 @@ On one end of the spectrum, many new parents are unaware of the available progra
 
 **2. Families face administrative barriers applying to programs.**
 
-![An image of a quote that says, “When you call to try to talk to somebody, you never can get through. \[…\] If I leave her a message, it’s probably that I have to leave her six messages before she’ll ever call me back. And it’s two or three weeks before they will call me back.”](2023-10-17-solutions-by-families-for-families-img/Oop3QQ.png)
+![An image of a quote that says, “When you call to try to talk to somebody, you never can get through. […] If I leave her a message, it’s probably that I have to leave her six messages before she’ll ever call me back. And it’s two or three weeks before they will call me back.”](2023-10-17-solutions-by-families-for-families-img/Oop3QQ.png)
 
 The application processes for expecting and new parents can be time-consuming and resource-intensive, with siloed procedures adding to the burden. Additionally, limited virtual options and inconvenient office hours prevent parents from being able to apply at a time that works for their work or transportation schedules.
 
@@ -184,7 +185,7 @@ Based on the insights we’ve gained from innovative community leaders and famil
 
 Learn more about our pilot solutions and projects, and how we’re testing them through continued co-design with families at the [Having a child and early childhood](https://www.performance.gov/cx/life-experiences/having-a-child-and-early-childhood-for-low-income-families/) life customer experience page.
 
-T_his blog is part two in a four-part series that highlights the “Birth and early childhood” Life Experience team’s work. Brought together by the Customer Experience Executive Order, teams are tackling the extraordinary challenge of modernizing and implementing government services that are simple, accessible, easy to use, and equitable for families._
+T*his blog is part two in a four-part series that highlights the “Birth and early childhood” Life Experience team’s work. Brought together by the Customer Experience Executive Order, teams are tackling the extraordinary challenge of modernizing and implementing government services that are simple, accessible, easy to use, and equitable for families.*
 
 _Read the team’s first blog, “Why We’re Designing Government to Work Better and Smarter for Families” on the _[_U.S. Digital Service blog_](blob_post/why-were-designing-government-to-work-better-and-smarter-for-families)_._
 
