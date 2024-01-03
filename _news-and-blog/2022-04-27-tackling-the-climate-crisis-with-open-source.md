@@ -7,7 +7,7 @@ blog_page: true
 carousel_title: "Tackling the climate crisis with open source"
 carousel_summary: "Every one of us has the right to breathe clean air, drink clean water, eat safe, nourishing food, and live free from the threat of climate disasters wrecking our neighborhoods and livelihoods."
 # partial path to image
-carousel_image: news-and-blog/2022-04-27-tackling-the-climate-crisis-with-open-source-img/carousel_CAOcvA.jpg
+carousel_image: news-and-blog/2022-04-27-tackling-the-climate-crisis-with-open-source-img/carousel-climate-card.jpg
 # accessibility text for image
 carousel_image_alt_text: "Image showing power windmills nestled in rolling green hills"
 # should show on news and blog page. ordered by date prefix in filename

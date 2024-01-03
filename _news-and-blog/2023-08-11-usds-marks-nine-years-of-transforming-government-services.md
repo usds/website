@@ -7,7 +7,7 @@ blog_page: true
 carousel_title: "USDS marks nine years of transforming government services"
 carousel_summary: "To celebrate our ninth anniversary, we’re highlighting nine projects that show how Government digital services can be improved by working in partnership with agencies."
 # partial path to image
-carousel_image: news-and-blog/2023-08-11-usds-marks-nine-years-of-transforming-government-services-img/carousel_9wLYFA.jpg
+carousel_image: news-and-blog/2023-08-11-usds-marks-nine-years-of-transforming-government-services-img/carousel-blog-nine.png
 # accessibility text for image
 carousel_image_alt_text: "Graphic montage of USDS posters"
 # should show on news and blog page. ordered by date prefix in filename

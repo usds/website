@@ -7,7 +7,7 @@ blog_page: true
 carousel_title: "A quick guide to inclusive design"
 carousel_summary: "Designing for inclusion isn’t just about coding for accessibility or section 508 compliance, it’s about providing equitable and easy-to-use websites and services for diverse populations. Because good design is design that works for everyone."
 # partial path to image
-carousel_image: news-and-blog/2022-08-15-a-quick-guide-to-inclusive-design-img/carousel_F1V5Ug.jpg
+carousel_image: news-and-blog/2022-08-15-a-quick-guide-to-inclusive-design-img/carousel-inclusive-design-card.jpg
 # accessibility text for image
 carousel_image_alt_text: "Graphics with the quote Everyone benefits from inclusive design"
 # should show on news and blog page. ordered by date prefix in filename

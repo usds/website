@@ -7,7 +7,7 @@ blog_page: true
 carousel_title: "Reducing burden of child care assistance applications"
 carousel_summary: "Nearly one million American families benefit from federally funded child care assistance. But it’s often difficult for families to navigate an application process that can be confusing and unnecessarily hard."
 # partial path to image
-carousel_image: news-and-blog/2023-03-29-reducing-burden-of-child-care-assistance-applications-img/carousel_8HnacQ.jpg
+carousel_image: news-and-blog/2023-03-29-reducing-burden-of-child-care-assistance-applications-img/carousel-reducing-burden-card.jpg
 # accessibility text for image
 carousel_image_alt_text: ""
 # should show on news and blog page. ordered by date prefix in filename

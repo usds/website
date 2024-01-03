@@ -7,7 +7,7 @@ blog_page: true
 carousel_title: "Why we’re designing government to work better and smarter for families"
 carousel_summary: "Too often, parents have to navigate a tangled web of government websites, offices, and phone numbers to access the services they are eligible to receive."
 # partial path to image
-carousel_image: news-and-blog/2023-06-13-why-were-designing-government-to-work-better-and-smarter-for-families-img/carousel_ws01Qg.jpg
+carousel_image: news-and-blog/2023-06-13-why-were-designing-government-to-work-better-and-smarter-for-families-img/carousel-families-card.jpg
 # accessibility text for image
 carousel_image_alt_text: "Image showing smiling parents with their toddler"
 # should show on news and blog page. ordered by date prefix in filename
