@@ -7,7 +7,7 @@ blog_page: true
 carousel_title: "Meeting veterans where they are with accessible mobile tech"
 carousel_summary: "This Veterans Day, we’re honoring our current and former service members by highlighting a collaboration between the Department of Veterans Affairs and the U.S. Digital Service."
 # partial path to image
-carousel_image: news-and-blog/2022-11-10-meeting-veterans-where-they-are-with-accessible-mobile-tech-img/carousel-veterans-card.jpg
+carousel_image: /news-and-blog/2022-11-10-meeting-veterans-where-they-are-with-accessible-mobile-tech-img/carousel-veterans-card.jpg
 # accessibility text for image
 carousel_image_alt_text: "U.S. Air Force Senior Airman Jamar Jackson, a United States Air Force Honor Guard ceremonial guardsman, marches in the Veterans Day Parade in New York, Nov. 11, 2018"
 # should show on news and blog page. ordered by date prefix in filename
@@ -18,7 +18,7 @@ title: "Meeting veterans where they are with accessible mobile tech"
 dateline_str: "Nov 10, 2022"
 readtime_str: "5"
 byline_str: "U.S. Digital Service"
-permalink: news-and-blog/meeting-veterans-where-they-are-with-accessible-mobile-tech-fba73d
+permalink: /news-and-blog/meeting-veterans-where-they-are-with-accessible-mobile-tech-fba73d
 ---
 
 _This Veterans Day, we’re honoring our current and former service members by highlighting a collaboration between the Department of Veterans Affairs (VA) and the U.S. Digital Service, which improved Veterans’ access to critical health and benefits information._

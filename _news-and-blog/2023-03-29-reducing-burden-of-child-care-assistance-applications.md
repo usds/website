@@ -7,7 +7,7 @@ blog_page: true
 carousel_title: "Reducing burden of child care assistance applications"
 carousel_summary: "Nearly one million American families benefit from federally funded child care assistance. But it’s often difficult for families to navigate an application process that can be confusing and unnecessarily hard."
 # partial path to image
-carousel_image: news-and-blog/2023-03-29-reducing-burden-of-child-care-assistance-applications-img/carousel-reducing-burden-card.jpg
+carousel_image: /news-and-blog/2023-03-29-reducing-burden-of-child-care-assistance-applications-img/carousel-reducing-burden-card.jpg
 # accessibility text for image
 carousel_image_alt_text: ""
 # should show on news and blog page. ordered by date prefix in filename
@@ -18,7 +18,7 @@ title: "Reducing burden of child care assistance applications"
 dateline_str: "Mar 29, 2023"
 readtime_str: "4"
 byline_str: "Allison Abbott, Coulton Bunney, T. Annie Nguyen, and Pooja Shaw"
-permalink: news-and-blog/reducing-burden-of-child-care-assistance-applications-e595d4
+permalink: /news-and-blog/reducing-burden-of-child-care-assistance-applications-e595d4
 ---
 
 ![Photograph of two women and two young children playing at a table covered in wooden blocks. Text overlaid on the image reads "Reducing child care assistance burdens for families."](2023-03-29-reducing-burden-of-child-care-assistance-applications-img/8HnacQ.png)

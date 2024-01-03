@@ -7,7 +7,7 @@ blog_page: true
 carousel_title: "Why we serve: Sam Feudo"
 carousel_summary: "In this series, you’ll hear stories from USDSers and learn why they decided to join, why they stay, and how their work is making an impact for Americans."
 # partial path to image
-carousel_image: news-and-blog/2023-05-17-why-we-serve-sam-feudo-img/carousel-why-we-serve-feudo.jpg
+carousel_image: /news-and-blog/2023-05-17-why-we-serve-sam-feudo-img/carousel-why-we-serve-feudo.jpg
 # accessibility text for image
 carousel_image_alt_text: "The first U.S. Digital Service intern, Sam, is standing in front of a U.S. government building."
 # should show on news and blog page. ordered by date prefix in filename
@@ -18,7 +18,7 @@ title: "Why we serve: Sam Feudo"
 dateline_str: "May 17, 2023"
 readtime_str: "6"
 byline_str: "U.S. Digital Service"
-permalink: news-and-blog/why-we-serve-sam-feudo-66a3b5
+permalink: /news-and-blog/why-we-serve-sam-feudo-66a3b5
 ---
 
 _In this series, you’ll hear stories from USDSers and learn why they decided to join, why they stay, and how their work is making an impact for Americans._
