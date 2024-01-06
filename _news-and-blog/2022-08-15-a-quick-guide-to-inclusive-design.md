@@ -186,7 +186,7 @@ overly complex.
   show them their longer content on a small screen, the low usability of this becomes unavoidable.
 - Remember that internal users benefit from mobile responsive tools too because they may shrink multiple windows down to fit on their screen side-by-side.
 
-![Squares made of dark blue, medium blue, gold and white triangles are piled on top of each other to form a pyramid of squares. This represents the USDS value of "hire and empower great people."](/2022-08-15-a-quick-guide-to-inclusive-design-img/rVj8FA.png)
+![Squares made of dark blue, medium blue, gold and white triangles are piled on top of each other to form a pyramid of squares. This represents the USDS value of "hire and empower great people."](2022-08-15-a-quick-guide-to-inclusive-design-img/rVj8FA.png)
 
 ### 5. Hire and empower great people
 
