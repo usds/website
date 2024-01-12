@@ -17,13 +17,13 @@ carousel_show: true
 title: "Why we’re designing government to work better and smarter for families"
 dateline_str: "Jun 13, 2023"
 readtime_str: "6"
-byline_str: "By Maya Uppaluru Mechenbier, Allison Abbott, Alex Bornkessel, Alana Buroff, and Phoebe Brauer"
+byline_str: "Maya Uppaluru Mechenbier, Allison Abbott, Alex Bornkessel, Alana Buroff, and Phoebe Brauer"
 permalink: /news-and-blog/why-were-designing-government-to-work-better-and-smarter-for-families-dee5c2
 ---
 
 _This blog is part one in a four-part series that highlights our work on [Having a Child and Early Childhood Life Experience](https://www.performance.gov/cx/life-experiences/having-a-child-and-early-childhood-for-low-income-families/)._
 
-![Photograph of a mother and father sitting with their young daughter. The daughter is touching their mother's nose while the father is looking on smiling.](2023-06-13-why-were-designing-government-to-work-better-and-smarter-for-families-img/ws01Qg.png)
+![Photograph of a mother and father sitting with their young daughter. The daughter is touching their mother's nose while the father is looking on smiling.](2023-06-13-why-were-designing-government-to-work-better-and-smarter-for-families-img/ws01Qg.jpg)
 
 For any parent, carrying and delivering a child is one of the most life changing experiences they will go through. And
 yet, the stresses and burdens are more difficult for low-income families. Too often, parents have to navigate a tangled

@@ -65,7 +65,7 @@ and efficient management of a large amount of information, which is crucial for 
 This project helped me gain valuable experience with our project teams and contributed to the organization’s long-term
 sustainability and capacity to allocate resources across various initiatives.
 
-![Photograph of USDS intern Sam Feudo in front of the White House while participating in the White House Easter Egg roll.](2023-05-17-why-we-serve-sam-feudo-img/7MTRpQ.png)
+![Photograph of USDS intern Sam Feudo standing in front of the West Wing of the White House.](2023-05-17-why-we-serve-sam-feudo-img/7MTRpQ.jpg)
 
 ## What’s your sales pitch for USDS?
 

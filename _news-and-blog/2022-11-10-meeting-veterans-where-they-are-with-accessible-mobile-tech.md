@@ -26,7 +26,7 @@ _This Veterans Day, we’re honoring our current and former service members by h
 _The_ [_Veterans Health Administration_](https://www.va.gov/health/) _is America’s largest integrated health care
 system, providing care at more than 1,200 facilities across the country and serving nine million Veterans annually._
 
-![A young man with dark brown skin wears a United States Air Force uniform and stands in the streets of New York City flanked by fellow airmen for the Veterans Day Parade in 2018.](2022-11-10-meeting-veterans-where-they-are-with-accessible-mobile-tech-img/cmJyOg.png)
+![A young man with dark brown skin wears a United States Air Force uniform and stands in the streets of New York City flanked by fellow airmen for the Veterans Day Parade in 2018.](2022-11-10-meeting-veterans-where-they-are-with-accessible-mobile-tech-img/cmJyOg.jpg)
 <small>U.S. Air Force Senior Airman Jamar Jackson, a United States Air Force Honor Guard ceremonial guardsman, marches in the Veterans Day Parade in New York, Nov. 11, 2018. The Honor Guard performed in the parade to honor Veterans and to
 inspire, recruit, and retain future Airmen. (U.S. Air Force photo by Airman 1st Class Michael S. Murphy). Original
 public domain image from [Flickr](https://www.flickr.com/photos/39955793@N07/31994342348/).</small>
