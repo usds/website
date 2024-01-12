@@ -9,7 +9,7 @@ carousel_summary: "In this series, you’ll hear stories from USDSers and learn 
 # partial path to image
 carousel_image: /news-and-blog/2023-04-07-why-we-serve-bill-chapman-img/carousel-why-we-serve-chapman.jpg
 # accessibility text for image
-carousel_image_alt_text: ""
+carousel_image_alt_text: "USDSer Bill Chapman wears a backpack standing at a cliff overlook with crashing waves."
 # should show on news and blog page. ordered by date prefix in filename
 carousel_show: true
 

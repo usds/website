@@ -9,7 +9,7 @@ carousel_summary: "Nearly one million American families benefit from federally f
 # partial path to image
 carousel_image: /news-and-blog/2023-03-29-reducing-burden-of-child-care-assistance-applications-img/carousel-reducing-burden-card.jpg
 # accessibility text for image
-carousel_image_alt_text: ""
+carousel_image_alt_text: "Photograph of two women and two young children playing at a table covered in wooden blocks. Text overlaid on the image reads 'Reducing child care assistance burdens for families.'"
 # should show on news and blog page. ordered by date prefix in filename
 carousel_show: true
 
