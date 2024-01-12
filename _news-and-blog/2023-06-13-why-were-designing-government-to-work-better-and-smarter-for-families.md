@@ -17,7 +17,7 @@ carousel_show: true
 title: "Why we’re designing government to work better and smarter for families"
 dateline_str: "Jun 13, 2023"
 readtime_str: "6"
-byline_str: "By Maya Uppaluru Mechenbier, Allison Abbott, Alex Bornkessel, Alana Buroff, and Phoebe Brauer"
+byline_str: "Maya Uppaluru Mechenbier, Allison Abbott, Alex Bornkessel, Alana Buroff, and Phoebe Brauer"
 permalink: /news-and-blog/why-were-designing-government-to-work-better-and-smarter-for-families-dee5c2
 ---
 

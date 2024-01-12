@@ -17,11 +17,11 @@ carousel_show: true
 title: "Solutions by Families, for Families"
 dateline_str: "Oct 16, 2023"
 readtime_str: "13"
-byline_str: "By Maya Uppaluru Mechenbier, Alana Buroff, Alex Bornkessel, Allison Abbott, and Whitney Robinson"
+byline_str: "Maya Uppaluru Mechenbier, Alana Buroff, Alex Bornkessel, Allison Abbott, and Whitney Robinson"
 permalink: /news-and-blog/solutions-by-families-for-families-4b8150
 ---
 
-_This blog is part two in a four-part series that highlights our work on [Having a Child and Early Childhood Life Experience](https://www.performance.gov/cx/life-experiences/having-a-child-and-early-childhood-for-low-income-families/). You can read the first post, “Why We’re Designing Government to Work Better and Smarter for Families” on [our blog](/blog/why-were-designing-government-to-work-better-and-smarter-for-families)._
+_This blog is part two in a four-part series that highlights our work on [Having a Child and Early Childhood Life Experience](https://www.performance.gov/cx/life-experiences/having-a-child-and-early-childhood-for-low-income-families/). You can read the first post, “Why We’re Designing Government to Work Better and Smarter for Families” on [our blog](why-were-designing-government-to-work-better-and-smarter-for-families-dee5c2)._
 
 ![A close-up photograph of a woman holding an infant’s hand.](2023-10-17-solutions-by-families-for-families-img/Lt2nwA.png)
 
@@ -247,4 +247,4 @@ _This blog is part two in a four-part series that highlights the “Birth and ea
 work. Brought together by the Customer Experience Executive Order, teams are tackling the extraordinary challenge of
 modernizing and implementing government services that are simple, accessible, easy to use, and equitable for families._
 
-_Read the team’s first post, “Why We’re Designing Government to Work Better and Smarter for Families” on [our blog](/blog/why-were-designing-government-to-work-better-and-smarter-for-families)._
+_Read the team’s first post, “Why We’re Designing Government to Work Better and Smarter for Families” on [our blog](why-were-designing-government-to-work-better-and-smarter-for-families-dee5c2)._

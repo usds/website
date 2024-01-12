@@ -33,7 +33,7 @@ blog_page: true
 carousel_title: "Meeting veterans where they are with accessible mobile tech"
 carousel_summary: "This Veterans Day, we’re honoring our current and former service members by highlighting a collaboration between the Department of Veterans Affairs and the U.S. Digital Service."
 # partial path to image
-carousel_image: news-and-blog/2022-11-10-meeting-veterans-where-they-are-with-accessible-mobile-tech-img/carousel_cmJyOg.jpg
+carousel_image: /news-and-blog/2022-11-10-meeting-veterans-where-they-are-with-accessible-mobile-tech-img/carousel_cmJyOg.jpg
 # accessibility text for image
 carousel_image_alt_text: "U.S. Air Force Senior Airman Jamar Jackson, a United States Air Force Honor Guard ceremonial guardsman, marches in the Veterans Day Parade in New York, Nov. 11, 2018"
 # should show on news and blog page. ordered by date prefix in filename
@@ -44,7 +44,7 @@ title: "Meeting veterans where they are with accessible mobile tech"
 dateline_str: "Nov 10, 2022"
 readtime_str: "5"
 byline_str: "U.S. Digital Service"
-permalink: news-and-blog/meeting-veterans-where-they-are-with-accessible-mobile-tech
+permalink: /news-and-blog/meeting-veterans-where-they-are-with-accessible-mobile-tech
 ---
 
 # markdown document here
@@ -62,7 +62,7 @@ blog_page: true
 carousel_title: "___"
 carousel_summary: "___"
 # partial path to image
-carousel_image: news-and-blog/___
+carousel_image: /news-and-blog/___
 # accessibility text for image
 carousel_image_alt_text: "___"
 # should show on news and blog page. ordered by date prefix in filename
@@ -71,7 +71,7 @@ carousel_show: true
 # Blog detail page (Edit this)
 title: "U.S. Digital Service"
 dateline_str: ""
-permalink: news-and-blog/___
+permalink: /news-and-blog/___
 ---
 
 ```
