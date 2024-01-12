@@ -57,7 +57,7 @@ In the months following the first confirmed case of COVID-19 in the United State
 
 These testing sites were instructed to report their findings back to their local (or state, territorial, or Tribal) public health department, which resulted in piles of paper forms, previously stored in boxes, being faxed from facilities to health officials. From there, public health department workers had to manually type in these paper results into computer systems — that were often particular and aging systems — to send to CDC. This led to these local, state, territorial, and Tribal departments calling in reinforcements to deal with the influx of paper: some hired contractors, some called in the National Guard to type in lab results. 
 
-![](../images/project-cdc-simple-report-field.jpg)
+![three small black and white photos showing test result papers in boxes](../images/project-cdc-simple-report-field.jpg)
 *Photos from field research.*
 
 Before COVID-19, processing test results in this way didn’t present enough burden or delay to prompt an overhaul. However, the swift spread of COVID-19 and the magnitude of tests required to track the disease overwhelmed the old system, which was extremely manual and laborious for places that offered, or required, COVID-19 tests. The old system was also slow, error-prone, and held back the public’s understanding of and response to the disease, partially because test results would often be sent to the wrong public health department. 
