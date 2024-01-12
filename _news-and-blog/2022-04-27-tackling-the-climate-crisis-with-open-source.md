@@ -28,7 +28,7 @@ are "[firmly on track toward an unlivable world.](https://www.un.org/press/en/20
 already experienced with worsening severe storms, extreme heat waves, drought, and wildfires have been exacerbated by
 racial injustice, economic injustice, and acutely unfair pollution burden.
 
-![Photograph of wind turbines sitting on rolling, green hills. A blue sky and clouds are in the background.](2022-04-27-tackling-the-climate-crisis-with-open-source-img/CAOcvA.png)
+![Photograph of wind turbines sitting on rolling, green hills. A blue sky and clouds are in the background.](2022-04-27-tackling-the-climate-crisis-with-open-source-img/CAOcvA.jpg)
 
 At the U.S. Digital Service, some of our talented teammates are hard at work trying to reduce the injustices of the
 climate crisis.
@@ -52,7 +52,7 @@ the Justice40 Initiative?
 This is where we have been eager and committed to help. Together with the Council on Environmental Quality (CEQ), USDS
 is building the [Climate and Economic Justice Screening Tool](https://screeningtool.geoplatform.gov/).
 
-![A screenshot of the website for the Climate and Economic Justice Screening Tool. The background of the site is white and “Explore the tool” is typed above an interactive map of the United States. Below the screenshot, “We partnered with the White House’s Council on Environmental Quality to launch the Climate and Economic Justice Screening Tool”](2022-04-27-tackling-the-climate-crisis-with-open-source-img/iEmnFA.png)
+![A screenshot of the website for the Climate and Economic Justice Screening Tool. The background of the site is white and “Explore the tool” is typed above an interactive map of the United States. Below the screenshot, “We partnered with the White House’s Council on Environmental Quality to launch the Climate and Economic Justice Screening Tool”](2022-04-27-tackling-the-climate-crisis-with-open-source-img/iEmnFA.jpg)
 
 Using a methodology determined by CEQ, in collaboration with other federal agencies and departments, this tool collects
 data from 13 different sources to create a definition of disadvantaged communities for the purposes of the Justice40

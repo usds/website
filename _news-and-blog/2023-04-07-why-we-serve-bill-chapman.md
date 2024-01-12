@@ -23,7 +23,7 @@ permalink: /news-and-blog/why-we-serve-bill-chapman-83774e
 
 _In this series, you’ll hear stories from USDSers and learn why they decided to join, why they stay, and how their work is making an impact for Americans._
 
-![Text: I start every day knowing I have an opportunity to make a difference to a lot of people. — Bill Chapman, Engineer, U.S. Digital Service. Photo of man with sunglasses on his head on a cliffside overlooking a coast.](2023-04-07-why-we-serve-bill-chapman-img/V3U7OQ.png)
+![Text: I start every day knowing I have an opportunity to make a difference to a lot of people. — Bill Chapman, Engineer, U.S. Digital Service. Photo of man with sunglasses on his head on a cliffside overlooking a coast.](2023-04-07-why-we-serve-bill-chapman-img/V3U7OQ.jpg)
 
 ## What led you to become an engineer at USDS?
 

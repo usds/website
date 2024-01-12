@@ -5,7 +5,7 @@ blog_page: true
 
 # Carousel (Edit this)
 carousel_title: "Solutions by Families, for Families"
-carousel_summary: "How we’re working with people across the country to pilot new ways of supporting families during the critical early years — By Maya Uppaluru Mechenbier, Alana Buroff, Alex Bornkessel, Allison Abbott, and Whitney Robinson This blog is part two in a …"
+carousel_summary: "How we’re working with people across the country to pilot new ways of supporting families during the critical early years of childhood."
 # partial path to image
 carousel_image: /news-and-blog/2023-10-17-solutions-by-families-for-families-img/carousel-families-card.jpg
 # accessibility text for image
@@ -23,7 +23,7 @@ permalink: /news-and-blog/solutions-by-families-for-families-4b8150
 
 _This blog is part two in a four-part series that highlights our work on [Having a Child and Early Childhood Life Experience](https://www.performance.gov/cx/life-experiences/having-a-child-and-early-childhood-for-low-income-families/). You can read the first post, “Why We’re Designing Government to Work Better and Smarter for Families” on [our blog](why-were-designing-government-to-work-better-and-smarter-for-families-dee5c2)._
 
-![A close-up photograph of a woman holding an infant’s hand.](2023-10-17-solutions-by-families-for-families-img/Lt2nwA.png)
+![A close-up photograph of a woman holding an infant’s hand.](2023-10-17-solutions-by-families-for-families-img/Lt2nwA.jpg)
 
 [Human-centered design](https://www.performance.gov/cx/hcd/) (HCD) is a problem-solving method that prioritizes
 research and collaborative creativity to develop solutions for people’s needs.
