@@ -9,6 +9,10 @@ project_page: true
 carousel_title: "Empowering beneficiaries with their own health data"
 carousel_summary: "Leveraging CMS APIs, providers can view of their patients’ full healthcare history without patient intervention. Providers save valuable time that they can better spend talking to patients and preventing conflicts or gaps in care."
 carousel_image_name: project-hhs-bbdpc-card.jpg
+# accessibility text for image
+carousel_image_alt_text: "Project photo"
+# should show on home page. ordered by date prefix in filename
+carousel_show: false
 
 # Project detail page (Edit this)
 title: "Empowering beneficiaries with their own health data"

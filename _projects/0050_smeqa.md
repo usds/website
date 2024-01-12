@@ -9,6 +9,10 @@ project_page: true
 carousel_title: "Changing how the government hires technical talent"
 carousel_summary: "We helped develop a process that allows HR to leverage subject matter experts to evaluate candidates for specialized roles. The result restores fair and open access for all applicants, shortens the hiring timeline, and ensures applicants are truly qualified."
 carousel_image_name: project-smeqa-card.jpg
+# accessibility text for image
+carousel_image_alt_text: "Project photo"
+# should show on home page. ordered by date prefix in filename
+carousel_show: true
 
 # Project detail page (Edit this)
 title: "Changing how the government hires technical talent"

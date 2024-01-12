@@ -9,7 +9,12 @@ project_page: true
 carousel_title: "Providing NATO advisors mission-critical information"
 carousel_summary: "Our defense team spent 18 weeks building a critical software system with small teams on rotation to Afghanistan, working directly with NATO advisors and leadership."
 carousel_image_name: project-dod-advisor-network-card.jpg
+# hides on project listing page (poorly named)
 hide: true
+# accessibility text for image
+carousel_image_alt_text: "Project photo"
+# should show on home page. ordered by date prefix in filename
+carousel_show: false
 
 # Project detail page (Edit this)
 title: "Providing NATO advisors mission-critical information"
