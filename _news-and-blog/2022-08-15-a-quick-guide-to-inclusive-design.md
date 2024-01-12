@@ -200,10 +200,10 @@ and develop more inclusive practices in our hiring and design process.
 
 **It’s always nice to end with a quote, so here’s one from a user research participant to one of our designers:**
 
-_“As a disabled Veteran it means \_a lot_ to me that this type of site is being built up for us! It already appears to be
+_“As a disabled Veteran it means a lot to me that this type of site is being built up for us! It already appears to be
 more user-friendly [than the old site] and that is going to be so helpful for the older, disabled Veterans, like my
-father. He is constantly asking me for help. I can start sending him to this site now. Thank _you_ for this
-opportunity to help.”\_
+father. He is constantly asking me for help. I can start sending him to this site now. Thank you for this
+opportunity to help.”_
 
 ## Learn more about inclusive design via these helpful resources:
 
