@@ -7,9 +7,12 @@ project_page: true
 
 # Carousel (Edit this)
 carousel_title: "Helping Veterans upgrade their Discharge Status"
-carousel_summary: "A customized, plain language tool gives Veterans
-step-by-step guidance for submitting a strong application to upgrade their discharge status."
+carousel_summary: "A customized, plain language tool gives Veterans step-by-step guidance for submitting a strong application to upgrade their discharge status."
 carousel_image_name: project-va-discharge-upgrade-card.jpg
+# accessibility text for image
+carousel_image_alt_text: "Project photo"
+# should show on home page. ordered by date prefix in filename
+carousel_show: false
 
 # Project detail page (Edit this)
 title: "Helping Veterans upgrade their Discharge Status"

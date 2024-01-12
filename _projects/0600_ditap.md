@@ -7,9 +7,12 @@ project_page: true
 
 # Carousel (Edit this)
 carousel_title: "Improving how the government buys technology"
-carousel_summary: "As the pace of innovation has accelerated, the government’s ability to meet people’s expectations of functional digital solutions has not kept pace. To meet this demand, we created an immersive development and training program to improve digital services acquisition expertise across government agencies.
-"
+carousel_summary: "As the pace of innovation has accelerated, the government’s ability to meet people’s expectations of functional digital solutions has not kept pace. To meet this demand, we created an immersive development and training program to improve digital services acquisition expertise across government agencies."
 carousel_image_name: project-ditap-card.jpg
+# accessibility text for image
+carousel_image_alt_text: "Project photo"
+# should show on home page. ordered by date prefix in filename
+carousel_show: false
 
 # Project detail page (Edit this)
 title: "Improving how the government buys technology"

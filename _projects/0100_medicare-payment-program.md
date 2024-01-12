@@ -9,6 +9,10 @@ project_page: true
 carousel_title: "Modernizing the Medicare Payment System"
 carousel_summary: "Eight million lines of COBOL and 2.5 million lines of assembly running on 15 mainframes. 4.5 percent of the entire American economy is fueled by Medicare payments and 53 million people depend on it for their healthcare."
 carousel_image_name: project-hhs-payment-mod-card.jpg
+# accessibility text for image
+carousel_image_alt_text: "Project photo"
+# should show on home page. ordered by date prefix in filename
+carousel_show: false
 
 # Project detail page (Edit this)
 title: "Modernizing the Medicare Payment System"

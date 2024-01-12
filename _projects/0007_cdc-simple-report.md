@@ -9,6 +9,10 @@ project_page: true
 carousel_title: "Preparing for the next pandemic while building tech for COVID-19"
 carousel_summary: "We worked with the Centers for Disease Control and Prevention to quickly create and scale technology programs that digitize and share infectious disease test results in real-time."
 carousel_image_name: project-cdc-simple-report-card.jpg
+# accessibility text for image
+carousel_image_alt_text: "Project photo"
+# should show on home page. ordered by date prefix in filename
+carousel_show: true
 
 # Project detail page (Edit this)
 title: "Preparing for the Next Pandemic While Building Tech for COVID-19"

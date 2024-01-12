@@ -1,17 +1,14 @@
-{% assign titles = "Continuously improving SSA.gov, Preparing for the next pandemic while building tech for COVID-19, Modernizing the child care application process, Optimizing benefits for families, Changing how the government hires technical talent, Simplifying Veteran‑facing services through VA.gov" | split: ", " %}  
 
 <div class="grid-container">
   <section class="site-c-section">
     <div class="site-c-section__body">
       <ul class="site-c-cards margin-x-neg-2 grid-row">
-        {% for title in titles %}
-          {% assign projects = site.projects | where_exp:"project","project.title == title" %} 
-          {% assign project = projects[0] %}
-          {% unless project.hide %}
+        {% assign projects = site.projects | where: "carousel_show", "true" %}
+        {% for project in projects %}
           {% if project.carousel_title %}
             <li class="tablet:grid-col-6 desktop:grid-col-4 padding-x-2 margin-bottom-4">
               <a class="site-c-card site-c-card--linked" href="{{ site.baseurl }}/{{ project.permalink }}">
-                <img class="site-c-card__image" src="{{ site.baseurl }}/images/{{ project.carousel_image_name }}" alt="Project photo" />
+                <img class="site-c-card__image" src="{{ site.baseurl }}/images/{{ project.carousel_image_name }}" alt="{{ item.carousel_image_alt_text }}" />
                 <div class="site-c-card__body">
                   <span class="site-c-flag">{{ project.agency }}</span>
                   <h3 class="site-c-card__title">{{ project.carousel_title }}</h3>
@@ -23,7 +20,6 @@
               </a>
             </li>
           {% endif %}
-          {% endunless %}
         {% endfor %}
       </ul>
     </div>
