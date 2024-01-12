@@ -65,7 +65,7 @@ Our support led the VA to build and launch a top-rated mobile app in late 2021 t
 of important tasks such as checking benefits, booking appointments, messaging healthcare providers, and looking at lists of VA payments.
 
 Since its launch, over one-million Veterans have used the app, and it’s garnered nearly perfect ratings in the app
-store, with over 80,000 five-star reviews. _Find out more about this project [on our blog](/blog/meeting-veterans-where-they-are-with-accessible-mobile-tech)._
+store, with over 80,000 five-star reviews. _Find out more about this project [on our blog](meeting-veterans-where-they-are-with-accessible-mobile-tech-fba73d)._
 
 ## 3. Reducing the burden of child care assistance applications
 
@@ -81,7 +81,7 @@ The result is a guide for states, territories, and tribes called the Guide to Cr
 Assistance Application, which will help reduce burdens and break down the barriers for families that need child care
 assistance.
 
-_Read more about this work [on our blog](/blog/reducing-burden-of-child-care-assistance-applications) and in [our projects](https://www.usds.gov/projects/acf)._
+_Read more about this work [on our blog](reducing-burden-of-child-care-assistance-applications-e595d4I did ) and in [our projects](https://www.usds.gov/projects/acf)._
 
 ## 4. Helping the government smartly buy technology
 
@@ -134,8 +134,8 @@ USDS collaborated with the Council on Environmental Quality and the Office of Ma
 This supports ongoing work to ensure that Government can appropriately support the communities and people most
 negatively impacted by the changing climate.
 
-_Read more about this program and our work [on our blog](/blog/tackling-the-climate-crisis-with-open-source)._
-
+_Read more about this program and our work [on our blog](tackling-the-climate-crisis-with-open-source-00a52a)._
+/news-and-blog/
 ## 8. Designing programs to help new parents
 
 Spurred by an Executive Order on Customer Experience to re-orient Government services around how people experience
@@ -158,7 +158,7 @@ that research, we are helping HHS pilot three programs:
 - The **Federal Notification Service** helps families stay connected to Government services at crucial moments (e.g.,
   when it’s time to enroll or renew benefits) through text messages.
 
-_Learn more about this work [on our blog](/blog/why-were-designing-government-to-work-better-and-smarter-for-families)
+_Learn more about this work [on our blog](why-were-designing-government-to-work-better-and-smarter-for-families-dee5c2)
 and [Performance.gov](https://www.performance.gov/cx/life-experiences/having-a-child-and-early-childhood-for-low-income-families/)._
 
 ## 9. Agency transformation: Helping the CDC become more pandemic-ready
