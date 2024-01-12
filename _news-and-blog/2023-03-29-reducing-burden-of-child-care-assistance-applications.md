@@ -21,7 +21,7 @@ byline_str: "Allison Abbott, Coulton Bunney, T. Annie Nguyen, and Pooja Shaw"
 permalink: /news-and-blog/reducing-burden-of-child-care-assistance-applications-e595d4
 ---
 
-![Photograph of two women and two young children playing at a table covered in wooden blocks. Text overlaid on the image reads "Reducing child care assistance burdens for families."](2023-03-29-reducing-burden-of-child-care-assistance-applications-img/8HnacQ.png)
+![Photograph of two women and two young children playing at a table covered in wooden blocks. Text overlaid on the image reads "Reducing child care assistance burdens for families."](2023-03-29-reducing-burden-of-child-care-assistance-applications-img/8HnacQ.jpg)
 
 Nearly one million American families benefit from federally funded child care assistance. But it’s often difficult for
 families to navigate an application process that can be confusing and unnecessarily hard, and for staff working in
@@ -81,7 +81,7 @@ apply to the applicant.
 Designers also tested the new application with real families to see where they got stuck or where they had questions,
 which informed the Model Application.
 
-![Graphic image of large text that reads "USDS Value: Design with users, not for them."](2023-03-29-reducing-burden-of-child-care-assistance-applications-img/g6RgdQ.png)
+![Graphic image of large text that reads "USDS Value: Design with users, not for them."](2023-03-29-reducing-burden-of-child-care-assistance-applications-img/g6RgdQ.jpg)
 
 In [keeping with our value](/mission#our-values) to “design with users, not for them,” we made sure to not only speak
 with families and states during the research phase, but to also continually involve them in the design process and show

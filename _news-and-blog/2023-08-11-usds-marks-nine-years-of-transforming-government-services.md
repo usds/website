@@ -136,6 +136,7 @@ negatively impacted by the changing climate.
 
 _Read more about this program and our work [on our blog](tackling-the-climate-crisis-with-open-source-00a52a)._
 /news-and-blog/
+
 ## 8. Designing programs to help new parents
 
 Spurred by an Executive Order on Customer Experience to re-orient Government services around how people experience
@@ -178,7 +179,7 @@ public health data work.
 
 _Learn more about this work on [CDC’s website](https://www.cdc.gov/surveillance/pdfs/prime_1-sheet_single-page.pdf)._
 
-![A brown thumb and index finger holding small cards that read: The greatest good, for the greatest number of people, in the greatest need.](2023-08-11-usds-marks-nine-years-of-transforming-government-services-img/fXIOSg.png)
+![A brown thumb and index finger holding small cards that read: The greatest good, for the greatest number of people, in the greatest need.](2023-08-11-usds-marks-nine-years-of-transforming-government-services-img/fXIOSg.jpg)
 
 And this is just a sampling of the diverse work we engage in daily.
 

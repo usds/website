@@ -43,7 +43,7 @@ obstacles.
 
 Understanding the range of contexts our users come from is key to designing quality government digital experiences.
 
-![Navy blue stars cover a dark blue background. Text reads “Everyone benefits from inclusive design,” with “everyone benefits from” in white and “inclusive design” in yellow. “Everyone benefits” is italicized. There is a bright blue stripe down the left edge of the image.](2022-08-15-a-quick-guide-to-inclusive-design-img/F1V5Ug.png)
+![Navy blue stars cover a dark blue background. Text reads “Everyone benefits from inclusive design,” with “everyone benefits from” in white and “inclusive design” in yellow. “Everyone benefits” is italicized. There is a bright blue stripe down the left edge of the image.](2022-08-15-a-quick-guide-to-inclusive-design-img/F1V5Ug.jpg)
 
 ## We have many different users with many different, and often evolving, needs
 
