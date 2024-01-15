@@ -9,6 +9,10 @@ project_page: true
 carousel_title: "Optimizing benefits for families"
 carousel_summary: "Working alongside The Department of Treasury and the White House, we built ChildTaxCredit.gov to educate families about the expanded Earned Income Credit and Child Tax Credit. The USDS team relied on in-depth research to create a site that is accessible, easy-to-read, and provides resources to find free tax services."
 carousel_image_name: project-childcare-tax-credit-card.jpg
+# accessibility text for image
+carousel_image_alt_text: "Project photo"
+# should show on home page. ordered by date prefix in filename
+carousel_show: true
 
 # Project detail page (Edit this)
 title: "Optimizing benefits for families"
