@@ -17,7 +17,7 @@
 $ rvm list
    ruby-3.0.5 [ x86_64 ]
 =* ruby-3.1.3 [ x86_64 ]
-$ rvm  install ruby-3.2.2
+$ rvm  install ruby-3.1.3
 [...]
 $ bundle install
 [...]
