@@ -1,7 +1,13 @@
-FROM ruby:3.2.2
+FROM ruby:3.1.3
 ENV NODE_VERSION=18.11.0
 ENV NVM_DIR=/root/.nvm
 ENV PATH="/root/.nvm/versions/node/v${NODE_VERSION}/bin/:${PATH}"
+
+# Set default locale for the environment so scss compiler works
+ENV LC_ALL C.UTF-8
+ENV LANG en_US.UTF-8
+ENV LANGUAGE en_US.UTF-8
+ENV LC_CTYPE=UTF-8
 
 RUN apt-get clean && \
     apt-get update && \

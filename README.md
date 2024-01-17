@@ -8,7 +8,7 @@ The USDS website is built with:
 
 Before getting started, install the following on your system:
 
-- [Ruby](https://www.ruby-lang.org/en/documentation/installation/)(v 3.2.2)
+- [Ruby](https://www.ruby-lang.org/en/documentation/installation/)(v 3.1.3)
 - [NPM](https://github.com/npm/cli)
 - Docker
 
