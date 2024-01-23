@@ -15,9 +15,9 @@ carousel_show: true
 
 # Blog detail page (Edit this)
 title: "Solutions by Families, for Families"
-dateline_str: "Oct 16, 2023"
-readtime_str: "13"
-byline_str: "Maya Uppaluru Mechenbier, Alana Buroff, Alex Bornkessel, Allison Abbott, and Whitney Robinson"
+date: "Oct 16, 2023"
+readtime_minutes: "13"
+author: "Maya Uppaluru Mechenbier, Alana Buroff, Alex Bornkessel, Allison Abbott, and Whitney Robinson"
 permalink: /news-and-blog/solutions-by-families-for-families-4b8150
 ---
 

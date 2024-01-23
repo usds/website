@@ -15,9 +15,9 @@ carousel_show: true
 
 # Blog detail page (Edit this)
 title: "Meeting veterans where they are with accessible mobile tech"
-dateline_str: "Nov 10, 2022"
-readtime_str: "5"
-byline_str: "U.S. Digital Service"
+date: "Nov 10, 2022"
+readtime_minutes: "5"
+author: "U.S. Digital Service"
 permalink: /news-and-blog/meeting-veterans-where-they-are-with-accessible-mobile-tech-fba73d
 ---
 

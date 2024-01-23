@@ -15,9 +15,9 @@ carousel_show: true
 
 # Blog detail page (Edit this)
 title: "Tackling the climate crisis with open source"
-dateline_str: "Apr 27, 2022"
-readtime_str: "5"
-byline_str: "U.S. Digital Service"
+date: "Apr 27, 2022"
+readtime_minutes: "5"
+author: "U.S. Digital Service"
 permalink: /news-and-blog/tackling-the-climate-crisis-with-open-source-00a52a
 ---
 

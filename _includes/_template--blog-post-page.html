@@ -1,14 +1,14 @@
 <div class="grid-container">
   <header class="padding-y-5">
     <span class="site-c-flag">News &amp; blog</span>
-    <h1>{{ page.title }}</h1>    
+    <h1>{{ page.title }}</h1>
     <div class="site-c-blog-dateline">
-      {{ page.dateline_str }}
-      {% if page.readtime_str %}
-      - {{ page.readtime_str }} min read
+      {{ page.date | date: "%b %d, %Y"  }}
+      {% if page.readtime_minutes %}
+      - {{ page.readtime_minutes }} min read
       {% endif %}
     </div>
-    <div class="site-c-blog-byline">By: {{ page.byline_str }}</div>
+    <div class="site-c-blog-byline">By: {{ page.author }}</div>
   </header>
   <hr aria-hidden="true">
 

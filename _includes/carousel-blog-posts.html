@@ -11,7 +11,7 @@
                       <img src="{{ site.baseurl }}{{ item.carousel_image }}" alt="{{ item.carousel_image_alt_text }}" class="site-c-card__image"/>
                       {% endif %}
                       <div class="site-c-card__body">
-                      <span class="site-c-flag">{{ item.dateline_str }}</span>
+                      <span class="site-c-flag">{{ item.date | date: "%b %d, %Y" }}</span>
                       <h3 class="site-c-card__title">{{ item.carousel_title }}</h3>
                       {% if item.carousel_summary %}
                         <div class="usa-prose margin-top-2">

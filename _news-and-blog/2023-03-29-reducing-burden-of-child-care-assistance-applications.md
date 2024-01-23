@@ -15,9 +15,9 @@ carousel_show: true
 
 # Blog detail page (Edit this)
 title: "Reducing burden of child care assistance applications"
-dateline_str: "Mar 29, 2023"
-readtime_str: "4"
-byline_str: "Allison Abbott, Coulton Bunney, T. Annie Nguyen, and Pooja Shaw"
+date: "Mar 29, 2023"
+readtime_minutes: "4"
+author: "Allison Abbott, Coulton Bunney, T. Annie Nguyen, and Pooja Shaw"
 permalink: /news-and-blog/reducing-burden-of-child-care-assistance-applications-e595d4
 ---
 
