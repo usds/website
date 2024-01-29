@@ -3,6 +3,9 @@
 .site-c-apply {
   overflow: auto;
   width: 100%;
-  min-height: 2500px;
+  min-height: 175rem; /* mobile first - taller 2800px*/
   border: none;
+  @include at-media(desktop) {
+    min-height: 157rem; /* breakpoint, can be shorter 2512px */
+  }
 }
