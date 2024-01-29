@@ -94,8 +94,7 @@ support the project’s mission of advancing environmental justice.
 
 Developing this tool with an open source community has been a labor of love, rewarding but also challenging. The team
 tried to reach out widely and openly to many environmental justice experts and researchers, but also acknowledges that
-some people were
-unintentionally [left out](https://grist.org/equity/the-little-known-open-source-community-behind-the-governments-new-environmental-justice-tool/).
+some people were unintentionally [left out](https://grist.org/equity/the-little-known-open-source-community-behind-the-governments-new-environmental-justice-tool/).
 But this is a starting point, not a finish line. The tool will be updated regularly throughout its life. We’re grateful
 it is built on a transparent foundation.
 
