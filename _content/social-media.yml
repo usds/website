@@ -6,10 +6,6 @@
   url: "https://twitter.com/USDS"
   sprite-ref: x-twitter
 
-- name: Facebook
-  url: "https://www.facebook.com/unitedstatesdigitalservice"
-  sprite-ref: facebook-f
-
 - name: Medium
   url: "https://medium.com/@USDigitalService"
   sprite-ref: medium-m
