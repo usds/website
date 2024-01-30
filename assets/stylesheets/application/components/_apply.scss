@@ -2,10 +2,13 @@
 
 .site-c-apply {
   overflow: auto;
-  width: 100%;
-  min-height: 175rem; /* mobile first - taller 2800px*/
+  min-height: 195em; /* mobile first - ~3120px @font-size=16*/
+  width: fit-content;
   border: none;
+  @include at-media(tablet) {
+    min-height: 180em; /* breakpoint, ~2880px @font-size=16*/
+  }
   @include at-media(desktop) {
-    min-height: 157rem; /* breakpoint, can be shorter 2512px */
+    min-height: 160em; /* breakpoint, ~2560px @font-size=16*/
   }
 }
