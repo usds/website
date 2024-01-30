@@ -9,7 +9,12 @@ project_page: true
 carousel_title: "Disability Compensation Application"
 carousel_summary: "Simplifying Veterans' application for disability compensation."
 carousel_image_name: project-va-seal-card.gif
+# hides on project listing page (poorly named)
 hide: true
+# accessibility text for image
+carousel_image_alt_text: "Project photo"
+# should show on home page. ordered by date prefix in filename
+carousel_show: false
 
 # Project detail page (Edit this)
 title: "Disability Compensation Application"

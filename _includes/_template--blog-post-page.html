@@ -1,0 +1,36 @@
+<div class="grid-container">
+  <header class="padding-y-5">
+    <span class="site-c-flag">News &amp; blog</span>
+    <h1>{{ page.title }}</h1>    
+    <div class="site-c-blog-dateline">
+      {{ page.dateline_str }}
+      {% if page.readtime_str %}
+      - {{ page.readtime_str }} min read
+      {% endif %}
+    </div>
+    <div class="site-c-blog-byline">By: {{ page.byline_str }}</div>
+  </header>
+  <hr aria-hidden="true">
+
+  <div class="grid-row tablet:flex-row-reverse padding-top-3">
+    <div class="tablet:grid-col-8 desktop:grid-col-12 margin-bottom-9 tablet:padding-right-4 site-c-project-content usa-prose">
+      {{ content }}
+    </div>
+  </div>
+
+  <hr aria-hidden="true">
+
+  <section class="site-c-section">
+    <div class="site-c-section-heading">
+      <h2 class="site-c-section-heading__heading">More posts</h2>
+      <div class="site-c-section-heading__links">
+        <a class="usa-button usa-button--outline" href="{{ site.baseurl }}{% link pages/news-and-blog.html %}" class="usa-button usa-button-outline">See all our posts</a>
+      </div>
+    </div>
+    <div class="site-c-section__body">
+      {% include carousel-blog-posts.html %}
+    </div>
+  </section>
+</div>
+
+</div>

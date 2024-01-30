@@ -11,7 +11,7 @@ permalink: people/anissa-perez
 # People Carousel and Page (Edit this)
 name: Anissa Pérez
 pronouns: She/Her
-alumni: false
+alumni: true
 cop: Talent
 city_of_origin: Silver Spring, MD
 previously_at: Congressional Hispanic Caucus Institute

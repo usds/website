@@ -9,7 +9,12 @@ project_page: true
 carousel_title: "Hacking the Pentagon"
 carousel_summary: "Since kicking off in 2016, the Hack the Pentagon program has engaged ethical hackers across the globe to help the Department of Defense identify and remedy thousands of security vulnerabilities."
 carousel_image_name: project-dod-hack-the-pentagon-card.jpg
+# hides on project listing page (poorly named)
 hide: true
+# accessibility text for image
+carousel_image_alt_text: "Project photo"
+# should show on home page. ordered by date prefix in filename
+carousel_show: false
 
 # Project detail page (Edit this)
 title: "Hacking the Pentagon"

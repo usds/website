@@ -18,7 +18,6 @@ email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   The United States Digital Service is transforming how the federal government works for the American people. And we need you.
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-
 # GitHub Action overrides this with repo name when not in usds/website
 baseurl: ""
 
@@ -37,6 +36,8 @@ collections:
     output: true
   reports_to_congress:
     output: true
+  news-and-blog:
+    output: true
 
 instagram_url: https://www.instagram.com/usdigitalservice
 facebook_url: https://www.facebook.com/unitedstatesdigitalservice
@@ -52,7 +53,7 @@ impact_report_file_name: USDS-Impact-Report-2020.pdf
 # Build settings
 markdown: kramdown
 # Data settings
-data_dir : _content
+data_dir: _content
 
 # Assets settings
 sass:
@@ -74,27 +75,36 @@ logo: /img/usds-logo-onwhite.png
 
 # Exclude from processing.
 exclude:
+  - .github
+  - cypress
+  - documentation
+  - nginx
+  - pages/form.html
+  - wiki-photos
+  - .eslintrc
+  - .gitignore
   - ".ruby-version"
   - ".sass-cache"
+  - CNAME
+  - CODE_OF_CONDUCT.md
   - CONTRIBUTING.md
+  - cypress.config.js
+  - Dockerfile
   - Gemfile
   - Gemfile.lock
   - LICENSE.md
+  - manifest.yml
+  - package.json
+  - package-lock.json
   - README.md
+  - staticfile
   - config
   - js
   - vendor
-  - manifest.yml
   - node_modules
-  - package.json
   - gulpfile.js
   - circle.yml
   - css
   - image-templates
-  - CODE_OF_CONDUCT.md
   - Staticfile
-  - package-lock.json
-  - .github
-  - documentation
-  - wiki-photos
-  - pages/form.html
+  - _news-and-blog/README.md
