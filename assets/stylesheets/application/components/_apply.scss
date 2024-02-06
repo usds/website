@@ -3,7 +3,7 @@
 .site-c-apply {
   overflow: auto;
   min-height: 210em; /* mobile first - ~3360px @font-size=16*/
-  width: fit-content;
+  width: 100%;
   border: none;
   @include at-media(tablet) {
     min-height: 200rem; /* breakpoint, ~3200px @font-size=16*/
