@@ -1,10 +1,14 @@
+page_alert:
+  alert_heading: Scheduled maintenance - February 10-11, 2024
+  alert_body: |-
+    Our job application page will be undergoing scheduled maintenance from February 10-11, 2004. Elements of the application form may be temporarily unavailable during this time. If you experience issues submitting an application, please try again on Monday February 12.
 page_title:
   heading_title: "Apply to USDS"
   heading_text: |-
     We're working to build a workforce that reflects the people we serve. We know that we better serve the public when our staff represents the country's diversity.
 
     Our projects impact people who come from diverse backgrounds, speak multiple languages, hold varying levels of education, and have differing access to technology. We want to build project teams that can understand a variety of lived experiences as we work to deliver services to all people, including those who have traditionally been underserved.
-  
+
     USDS operates on a tour-of-service model where people can join for up to four years. We're always looking for mission-driven people to serve. To learn more about the skills we're hiring for, see ["How we work."](https://www.usds.gov/how-we-work)
   heading_button_text: "Read our hiring FAQ"
 page_body:
@@ -13,12 +17,12 @@ page_body:
   accordion_item1: |-
     Complete the application below and attach your resume (and portfolio, if you're a designer).
   accordion_item2: |-
-    People who progress to the interview process will connect with a member of our talent team over the phone.  
+    People who progress to the interview process will connect with a member of our talent team over the phone.
   accordion_item3: |-
     Participate in interviews to assess for skills important to our disciplines.
   accordion_item4: |-
     If selected, your USDS Talent partner will work with you throughout the selection and onboarding process.
-  accordion_content1: |-  
+  accordion_content1: |-
     Onboarding to USDS can take several weeks depending on completion of a required background check. Our Talent team will be with you every step of the way and your Talent partner will keep you up-to-date throughout the process.
 
     If you aren't selected to join USDS, you can apply again after one year with an updated resume.
@@ -77,11 +81,11 @@ page_body:
   accordion_bullet4_sub1: |-
     Pre-tax funds for out of pocket medical, dental, vision expenses as well as dependent and elder care expenses
   accordion_bullet4_sub2: |-
-    Visit the <a class="usa-link usa-link--external" href="https://www.opm.gov/healthcare-insurance/flexible-spending-accounts">Flexible Spending Accounts section of OPM's website</a> for more information.    
+    Visit the <a class="usa-link usa-link--external" href="https://www.opm.gov/healthcare-insurance/flexible-spending-accounts">Flexible Spending Accounts section of OPM's website</a> for more information.
   accordion_bullet5: |-
     Pension plan (Federal Employee Retirement System or FERS)
   accordion_bullet5_sub1: |-
-   Pension for retirement that's calculated based on earnings and length of service
+    Pension for retirement that's calculated based on earnings and length of service
   accordion_bullet5_sub2: |-
     Visit the <a class="usa-link usa-link--external" href="https://www.opm.gov/retirement-center/fers-information/">FERS section of OPM's website</a> for more information.
   accordion_bullet6: |-
