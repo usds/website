@@ -81,7 +81,7 @@ The result is a guide for states, territories, and tribes called the Guide to Cr
 Assistance Application, which will help reduce burdens and break down the barriers for families that need child care
 assistance.
 
-_Read more about this work [on our blog](reducing-burden-of-child-care-assistance-applications-e595d4I did ) and in [our projects](https://www.usds.gov/projects/acf)._
+_Read more about this work [on our blog](reducing-burden-of-child-care-assistance-applications-e595d4) and in [our projects](https://www.usds.gov/projects/acf)._
 
 ## 4. Helping the government smartly buy technology
 

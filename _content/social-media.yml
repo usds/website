@@ -2,13 +2,9 @@
   url: "https://www.instagram.com/usdigitalservice"
   sprite-ref: instagram
 
-- name: Twitter
+- name: X-Twitter
   url: "https://twitter.com/USDS"
-  sprite-ref: twitter
-
-- name: Facebook
-  url: "https://www.facebook.com/unitedstatesdigitalservice"
-  sprite-ref: facebook-f
+  sprite-ref: x-twitter
 
 - name: Medium
   url: "https://medium.com/@USDigitalService"
