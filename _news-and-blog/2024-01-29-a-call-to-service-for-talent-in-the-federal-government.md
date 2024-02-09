@@ -5,7 +5,7 @@ blog_page: true
 
 # Carousel (Edit this)
 carousel_title: "A Call to Service for AI Talent in the Federal Government"
-carousel_summary: "This Executive Order lays out an ambitious agenda for the United States to meet this moment on AI. It directs federal agencies to establish new standards for AI safety and security, protect Americans’ privacy, and advance equity and civil rights—while also committing to harness AI for the public good."
+carousel_summary: "This Executive Order on the Safe, Secure, and Trustworthy Development and Use of Artificial Intelligence lays out an ambitious agenda for the United States to meet this moment on AI."
 carousel_image: /news-and-blog/2024-01-29-a-call-to-service-for-talent-in-the-federal-government-img/blog-card-AI.jpg
 # accessibility text for image
 carousel_image_alt_text: "Blue neon lights in the shape of AI are repeated on a yellow background"
