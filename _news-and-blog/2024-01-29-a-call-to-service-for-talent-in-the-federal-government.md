@@ -4,7 +4,7 @@ layout: default
 blog_page: true
 
 # Carousel (Edit this)
-carousel_title: "A Call to Service for AI Talent in the Federal Government"
+carousel_title: "A call to service for AI talent in the federal government"
 carousel_summary: "This Executive Order on the Safe, Secure, and Trustworthy Development and Use of Artificial Intelligence lays out an ambitious agenda for the United States to meet this moment on AI."
 carousel_image: /news-and-blog/2024-01-29-a-call-to-service-for-talent-in-the-federal-government-img/blog-card-AI.jpg
 # accessibility text for image
