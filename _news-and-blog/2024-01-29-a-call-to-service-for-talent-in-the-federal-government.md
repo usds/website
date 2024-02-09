@@ -12,7 +12,7 @@ carousel_image_alt_text: "Blue neon lights in the shape of AI are repeated on a 
 # should show on news and blog page. ordered by date prefix in filename
 carousel_show: true
 # Blog detail page (Edit this)
-title: "A call to service for AI talent in the Federal government"
+title: "A call to service for AI talent in the federal government"
 dateline_str: "Jan 29, 2024"
 readtime_str: "3"
 byline_str: "Principal Deputy U.S. Chief Technology Officer Deirdre K. Mulligan and U.S. Digital Service Administrator Mina Hsiang"
