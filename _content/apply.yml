@@ -1,7 +1,7 @@
-page_alert:
-  alert_heading: Scheduled maintenance - February 10-11, 2024
-  alert_body: |-
-    Our job application page will be undergoing scheduled maintenance from February 10-11, 2004. Elements of the application form may be temporarily unavailable during this time. If you experience issues submitting an application, please try again on Monday February 12.
+# Apply page alert/status content. Displays a standard USWDS info alert at the top of the page. Uncomment page_alert, alert_heading, alert_body to enable.
+# page_alert:
+#  alert_heading: [alert heading text here]
+#  alert_body: [alert body text here]
 page_title:
   heading_title: "Apply to USDS"
   heading_text: |-
