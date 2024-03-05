@@ -166,9 +166,9 @@ redirect_from:
           </li>
         </ul>
         <p>{{ content.page_body.accordion_content5b | markdownify }}</p>
-     
-      </div>     
-      </div> 
+
+      </div>
+      </div>
       <h2 class="usa-accordion__heading">
         <button
           type="button"
@@ -186,7 +186,7 @@ redirect_from:
               <li>{{ content.page_body.accordion_h7_item1_sub1 | markdownify }}</li>
               <li>{{ content.page_body.accordion_h7_item1_sub2 | markdownify }}</li>
             </ul>
-          </li> 
+          </li>
           <li><h3 class="usa-prose">{{ content.page_body.accordion_header7_item2 | markdownify }}</h3>
           <ul>
               <li>{{ content.page_body.accordion_h7_item2_sub1 | markdownify }}</li>
@@ -203,13 +203,13 @@ redirect_from:
               <li>{{ content.page_body.accordion_h7_item4_sub1 | markdownify }}</li>
             </ul>
           </li>
-        </ul> 
+        </ul>
       </div>
-    </div>        
+    </div>
   </section>
-  
+
   <iframe id="applicationFrame" class="site-c-apply" src="https://eop-fra.secure.force.com/digitalservice/" title="Join USDS form"></iframe>
-  
+
   <script>
     // Checks height of Salesforce apply form and applies to iframe
 
@@ -218,7 +218,7 @@ redirect_from:
 
     function resizeApplicationFrame(height){
       try{
-        var frameResizedHeight = parseInt(height) + 25;
+        const frameResizedHeight = parseInt(height) + 307; // in pixels but better if in em.
         if(isTestingMode){
           console.log(frameResizedHeight);
         } else{
