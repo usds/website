@@ -15,9 +15,9 @@ carousel_show: true
 
 # Blog detail page (Edit this)
 title: "A quick guide to inclusive design"
-dateline_str: "Aug 15, 2022"
-readtime_str: "9"
-byline_str: "Suzanne Chapman - UX designer, researcher, and content strategist at USDS"
+date: "Aug 15, 2022"
+readtime_minutes: "9"
+author: "Suzanne Chapman - UX designer, researcher, and content strategist at USDS"
 permalink: /news-and-blog/a-quick-guide-to-inclusive-design-31ef2c
 ---
 

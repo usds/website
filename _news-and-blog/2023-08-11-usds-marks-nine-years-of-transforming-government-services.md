@@ -15,9 +15,9 @@ carousel_show: true
 
 # Blog detail page (Edit this)
 title: "USDS marks nine years of transforming government services"
-dateline_str: "Aug 11, 2023"
-readtime_str: "8"
-byline_str: "Mina Hsiang, USDS Administrator"
+date: "Aug 11, 2023"
+readtime_minutes: "8"
+author: "Mina Hsiang, USDS Administrator"
 permalink: /news-and-blog/usds-marks-nine-years-of-transforming-government-services-37fe17
 ---
 
