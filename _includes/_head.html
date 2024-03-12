@@ -32,7 +32,7 @@
 {%- if page.description -%}
 {%-   assign page_description = page.description -%}
 {%- else -%}
-{%-   assign page_description = page.content | newline_to_br | strip_newlines | replace: '<br />', ' ' | strip_html | strip | truncatewords: 30 -%}
+{%-   assign page_description = content | newline_to_br | strip_newlines | replace: '<br />', ' ' | strip_html | strip | truncatewords: 30 -%}
 {%- endif -%}
 <head>
     <meta charset="utf-8" />
