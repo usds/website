@@ -9,6 +9,12 @@
 {%-   assign page_title = site.title -%}
 {%- endif -%}
 
+{%- if page.description -%}
+{%-   assign page_description = page.description -%}
+{%- else -%}
+{%-   assign page_description = content | newline_to_br | strip_newlines | replace: '<br />', ' ' | strip_html | strip | truncatewords: 30 -%}
+{%- endif -%}
+
 {%- if page.people_page -%}
 {%-   assign share_image = base_url | append: "/images/"  | append: page.image_name -%}
 {%- elsif page.project_page -%}
@@ -26,14 +32,9 @@
 {%- elsif page.carousel_image_alt_text -%}
 {%-   assign share_image_alt = page.carousel_image_alt_text -%}
 {%- else -%}
-{%-   assign share_image_alt =  page.name -%}
+{%-   assign share_image_alt =  page_description -%}
 {%- endif -%}
 
-{%- if page.description -%}
-{%-   assign page_description = page.description -%}
-{%- else -%}
-{%-   assign page_description = content | newline_to_br | strip_newlines | replace: '<br />', ' ' | strip_html | strip | truncatewords: 30 -%}
-{%- endif -%}
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
@@ -60,7 +61,8 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@usds" />
     <meta name="twitter:image" content="{{ share_image }}">
-    <script type="application/ld+json">{
+    <script type="application/ld+json">
+    {
         "description": "{{page_description}}",
         "@type": "BlogPosting",
         "url": "{{full_page_url}}",
@@ -79,7 +81,8 @@
             "@id": "{{full_page_url}}"
         },
         "@context": "http://schema.org"
-    }</script>
+    }
+    </script>
 
     <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/assets/img/favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/assets/img/favicons/favicon-32x32.png">
@@ -89,8 +92,8 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
 
-    <link rel="stylesheet" media="all" href="{{ site.baseurl }}/assets/stylesheets/styles.css"></link>
-    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | prepend: site.url }}"></link>
+    <link rel="stylesheet" media="all" href="{{ site.baseurl }}/assets/stylesheets/styles.css" />
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | prepend: site.url }}" />
     {{ include.append }}
     <script type="application/javascript" src="{{ site.baseurl }}/assets/js/vendor/uswds-init.min.js"></script>
 
