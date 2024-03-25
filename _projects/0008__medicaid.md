@@ -6,12 +6,12 @@ banner_file_mobile: banner--people-projects-sm.svg
 project_page: true
 
 # Carousel (Edit this)
-carousel_title: "Cutting red tape for Americans renewing their health coverage "
+carousel_title: "Cutting red tape for Americans renewing their health coverage"
 carousel_summary: "USDS worked with Centers for Medicaid and CHIP Services to partner with state Medicaid agencies to help improve state eligibility and enrollment systems."
 carousel_image_name: project-medicaid-card.jpg
 
 # Project detail page (Edit this)
-title: "Cutting red tape for Americans renewing their health coverage "
+title: "Cutting red tape for Americans renewing their health coverage"
 agency: Health and Human Services: Centers for Medicaid and CHIP Services 
 permalink: projects/medicaid
 project_url: URL or keep blank if not applicable
