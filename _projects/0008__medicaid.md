@@ -14,7 +14,6 @@ carousel_image_name: project-medicaid-card.jpg
 title: "Cutting red tape for Americans renewing their health coverage"
 agency: Health and Human Services | Centers for Medicaid and CHIP Services 
 permalink: projects/medicaid
-project_url: URL or keep blank if not applicable
 
 # Impact statement (Edit this)
 impact_statement:
