@@ -40,7 +40,7 @@ impact_statement:
 
 ## Background
 
-After the COVID-19 Public Health Emergency (PHE) ended, the Facing a Financial Shock team at the U.S. Digital Service (USDS) worked with Centers for Medicaid and CHIP Services (CMCS) to partner with state Medicaid agencies to help improve state eligibility and enrollment systems. By mobilizing a small strike team of implementers to analyze the software and processes that states use to complete health coverage renewals, USDS helped CMCS and state teams tackle some of their biggest challenges. 
+After the COVID-19 Public Health Emergency (PHE) ended, the [Facing a Financial Shock](https://www.performance.gov/cx/life-experiences/facing-a-financial-shock/) team at the U.S. Digital Service (USDS) worked with Centers for Medicaid and CHIP Services (CMCS) to partner with state Medicaid agencies to help improve state eligibility and enrollment systems. By mobilizing a small strike team of implementers to analyze the software and processes that states use to complete health coverage renewals, USDS helped CMCS and state teams tackle some of their biggest challenges. 
 
 
 
