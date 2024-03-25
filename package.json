@@ -11,7 +11,7 @@
     "build-staging": "npm run css && cross-env JEKYLL_ENV=staging LC_CTYPE=UTF-8 bundle exec jekyll build",
     "css": "npm run css:sass && npm run css:autoprefixer",
     "css:sass": "sass assets/stylesheets/styles.scss assets/stylesheets/styles.css --update --style=compressed --embed-source-map --load-path='node_modules/@uswds/uswds/packages'",
-    "css:sass:watch": "sass assets/stylesheets:assets/stylesheets --watch --style=compressed --embed-source-map --load-path='node_modules/@uswds/uswds/packages'",
+    "css:sass:watch": "sass assets/stylesheets/styles.scss assets/stylesheets/styles.css --watch --style=compressed --embed-source-map --load-path='node_modules/@uswds/uswds/packages'",
     "css:autoprefixer": "npx postcss assets/stylesheets/styles.css --use autoprefixer -d assets/stylesheets",
     "serve": "npm run css:sass:watch & cross-env LC_CTYPE=UTF-8 bundle exec jekyll serve --livereload",
     "serve-all-hosts": "npm run css & cross-env LC_CTYPE=UTF-8 bundle exec jekyll serve --host 0.0.0.0 --livereload",
