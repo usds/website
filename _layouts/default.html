@@ -57,58 +57,58 @@ MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
 Meet Mollie the crab, our unofficial mascot :)
 -->
 
-{% include _head.html %}
+{%- include _head.html -%}
 
 <body>
 
-  <a class="usa-skipnav" href="#main-content">Skip to main content</a>
+<a class="usa-skipnav" href="#main-content">Skip to main content</a>
 
-  {% include _banner.html %}
+{%- include _banner.html -%}
 
-  {% include _header.html %}
+{%- include _header.html -%}
 
-  <main id="main-content" role="main">
- {% if page.banner_file %}
+<main id="main-content" role="main">
+  {%- if page.banner_file -%}
   <div class="site-c-page-banner">
     <img src="{{ site.baseurl }}/assets/img/{{ page.banner_file }}" srcset="{{ site.baseurl }}/assets/img/{{ page.banner_file_mobile }} 640w,
           {{ site.baseurl }}/assets/img/{{ page.banner_file }}" alt="">
   </div>
-  {% endif %}
-    {% if page.project_page %}
-      {% include _template--project-page.html %}
-    {% elsif page.people_page %}
-      {% include _template--people-page.html %}
-    {% elsif page.collection == 'reports_to_congress' %}
-      {% include _template--report-to-congress.html %}
-    {% elsif page.project_charter %}
-      {% include _template--charter.html %}
-    {% elsif page.blog_page %}
-      {% include _template--blog-post-page.html %}
-    {% elsif page.markdown_only %}
-      {% include _markdown-only.html %}
-    {% else %}
-    <div class="margin-bottom-9">
-      {{ content }}
-      </div>
-    {% endif %}
+  {%- endif -%}
+  {%- if page.project_page -%}
+  {%-   include _template--project-page.html -%}
+  {%- elsif page.people_page -%}
+  {%-   include _template--people-page.html -%}
+  {%- elsif page.collection == 'reports_to_congress' -%}
+  {%-   include _template--report-to-congress.html -%}
+  {%- elsif page.project_charter -%}
+  {%-   include _template--charter.html -%}
+  {%- elsif page.blog_page -%}
+  {%-   include _template--blog-post-page.html -%}
+  {%- elsif page.markdown_only -%}
+  {%-   include _markdown-only.html -%}
+  {%- else -%}
+  <div class="margin-bottom-9">
+    {{ content }}
+  </div>
+  {%- endif -%}
 
-      <section class="site-c-billboard">
-        <div class="grid-container">
-          <p>We need you.</p>
-          <p>Let’s help millions of people together.</p>
-          <p><a class="usa-button usa-button--outline usa-button--inverse" href="{{ site.baseurl }}/apply">Apply now</a></p>
-        </div>
-      </section>
+  <section class="site-c-billboard">
+    <div class="grid-container">
+      <p>We need you.</p>
+      <p>Let’s help millions of people together.</p>
+      <p><a class="usa-button usa-button--outline usa-button--inverse" href="{{ site.baseurl }}/apply">Apply now</a></p>
+    </div>
+  </section>
 
-  </main>
+</main>
 
-  {% include _footer.html %}
-  {% include _env-indicator.html %}
+{% include _footer.html %}
+{% include _env-indicator.html %}
 
-  <script src="{{ site.baseurl }}/assets/js/application.js"></script>
-  <script src="{{ site.baseurl }}/assets/js/vendor/uswds.min.js"></script>
-  <script src="{{ site.baseurl }}/assets/js/shims/svg4everybody.js"></script>
-  <script>svg4everybody();</script>
+<script src="{{ site.baseurl }}/assets/js/application.js"></script>
+<script src="{{ site.baseurl }}/assets/js/vendor/uswds.min.js"></script>
+<script src="{{ site.baseurl }}/assets/js/shims/svg4everybody.js"></script>
+<script>svg4everybody();</script>
 
 </body>
 
