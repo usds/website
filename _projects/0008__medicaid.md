@@ -1,3 +1,4 @@
+---
 # Page template info (DO NOT EDIT)
 layout: default
 banner_file: banner--people-projects-lg.svg
