@@ -100,7 +100,7 @@ The teams also improved the renewal customer experience, redesigning renewal web
 ![](../images/project-medicaid-value.jpg)
 *Meeting with community organizations and enrollees across the country illuminated opportunities where human-centered design could drive better outcomes.*
 
-## IMPACT
+## Impact
 
 As of January 2024, partner states that have implemented changes with the USDS-CMCS team increased their monthly ex parte rates by an average of 21 percent and decreased their procedural termination rate by 10 percent. In 2024, these improvements are estimated to save over two million hours of state worker time and improve the experience of maintaining health coverage for millions of eligible Americans. 
 
@@ -109,4 +109,3 @@ These changes have made ex parte software more accurate and improved state polic
 While diving into state ex parte systems, USDS and CMCS also uncovered and fixed a [significant common system error](https://www.hhs.gov/about/news/2023/09/21/coverage-half-million-children-families-reinstated-thanks-hhs-swift-action.html) that impacted 29 states and was responsible for improper loss of coverage for over 400,000 children and families in Medicaid and CHIP. As a result of this fix, improperly disenrolled individuals regained their coverage and retroactively had their healthcare coverage reinstated for their period of improper disenrollment.
 
 Importantly, many of these improvements to ex parte systems and renewal processes will continue to benefit states over the long term. More compliant and accurate state systems will continue to save millions of hours of state worker time each year and keep millions of eligible Americans enrolled in their health coverage with less red tape.
-
