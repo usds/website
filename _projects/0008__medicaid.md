@@ -77,7 +77,7 @@ The USDS-CMCS team ran its first on-the-ground pilot in Michigan, where they wor
 The success in Michigan triggered interest from more state Medicaid agencies, and the USDS-CMCS team rapidly scaled to meet the demand. The team ran on-the-ground implementation sprints with Wisconsin, Hawaii, California, New York, South Carolina, Kansas, and New Jersey. At the same time, the team provided virtual support and mobilized other organizations, like the Digital Service at CMS, to leverage the USDS approaching even more states. This virtual work helped improve the renewal processes in Alaska, Nebraska, and Pennsylvania. 
 
 
-![](../images/project-medicaid-map.jpg)
+![Map titled "USDS Value: Go where the work is" Dark green states indicate technical assistance: California, Nebraska, Kansas, South Carolina, Wisconsin,Michigan, New York, New Jersey, Pennsylvania; light green states indicate discovery interviews: Washington, Oregon, Colorado, Oklahonma, Iowa, Minnesota, Virginia, North Carolina, Connecticut](../images/project-medicaid-map.jpg)
 *Meeting with state civil servants where they are means we can partner to create lasting change.*
 
 
@@ -97,7 +97,7 @@ In addition to the systems-based support, their team of human-centered designers
 
 The teams also improved the renewal customer experience, redesigning renewal websites, improving communications and notices, and supporting end-to-end process improvements. In a matter of weeks, the USDS-CMCS team and state agencies would identify, align on, and execute the highest impact opportunities together. 
 
-![](../images/project-medicaid-value.jpg)
+![Small blue and yellow circles and squares are overlapping to make a round shape, centered title reads "USDS value: design with users, not for them](../images/project-medicaid-value.jpg)
 *Meeting with community organizations and enrollees across the country illuminated opportunities where human-centered design could drive better outcomes.*
 
 ## Impact
