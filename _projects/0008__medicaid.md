@@ -20,12 +20,12 @@ impact_statement:
   - figure: "5M"
     unit: "+"
     description: |-
-      Americans estimated to be renewed for health coverage with less red tape via ex parte processing in 2024
+      additional Americans estimated to be renewed for health coverage via ex parte processing in 2024
       
   - figure: "2M"
     unit: "+"
     description: |-
-      hours of worker processing time estimated to be saved in 2024
+      hours of eligibility worker processing time estimated to be saved in 2024
 
   - figure: "10+"
     unit: " States"
@@ -41,7 +41,7 @@ impact_statement:
 
 ## Background
 
-After the COVID-19 Public Health Emergency (PHE) ended, the [Facing a Financial Shock](https://www.performance.gov/cx/life-experiences/facing-a-financial-shock/) team at the U.S. Digital Service (USDS) partnered with the Center for Medicaid and CHIP Services (CMCS) and state Medicaid agencies to improve eligibility and enrollment systems. By mobilizing a small strike team of implementers to analyze the software and processes that Medicaid uses to complete health coverage renewals, USDS helped CMCS and state teams tackle major challenges.
+After the COVID-19 Public Health Emergency (PHE) ended, the [Facing a Financial Shock](https://www.performance.gov/cx/life-experiences/facing-a-financial-shock/) team at the U.S. Digital Service (USDS) partnered with the Center for Medicaid and CHIP Services (CMCS) and state Medicaid agencies to improve eligibility and enrollment systems. By mobilizing a small strike team of implementers to analyze the software and processes that are used to complete health coverage renewals, USDS helped CMCS and state teams tackle major challenges.
  
 
 
@@ -54,16 +54,16 @@ Meanwhile, for many enrollees, this meant that maintaining their health coverage
 
 
 <blockquote class="pullquote" markdown="1">
-That wasn’t difficult to understand. I knew I needed to renew and had a deadline. It’s once you actually go on to renew when things became extremely challenging.
+I knew I needed to renew and had a deadline. It’s once you actually go on to renew when things became extremely challenging.
  <footer>– Medicaid Enrollee</footer>
 </blockquote>
 
 
 ## Solution
 
-USDS and CMCS conducted interviews with 20 states to assess Medicaid agencies’ implementation needs, capacity, and renewal policies. They discovered that the legally required ex parte renewals process—which utilizes federal data and systems and state data sources to renew eligible enrollees more efficiently and with less red tape—was inefficiently implemented across dozens of states and states wanted help making improvements.
+USDS and CMCS conducted interviews with 20 states to assess Medicaid agencies’ implementation needs, capacity, and renewal policies. They discovered that the legally required ex parte renewals process—which utilizes data from federal systems and state sources to renew eligible enrollees more efficiently and with less red tape—was inefficiently implemented across dozens of states and states wanted help making improvements.
 
-While some states could complete over 50% of their renewals through the lower-cost ex parte process, others completed less than 10% of renewals through the ex parte process.
+While some states could complete over 50% of their renewals through the lower-cost ex parte process, others completed less than 10% of renewals in this way.
 
 This indicated that improving the software that powered the ex parte renewal process in states could yield significant time and cost savings for those states. It would be a win-win-win for eligible enrollees, state eligibility workers, and state agencies:
 
@@ -75,7 +75,7 @@ This indicated that improving the software that powered the ex parte renewal pro
 
 The USDS-CMCS team ran its first on-the-ground pilot in Michigan, where they worked with state staff and vendors to pull and analyze data showing how enrollees were moving through the states’ systems. Together, they found several ways to better align the renewals software with state policy goals and integrate more data sources into the system. Once implemented, the changes improved system compliance, saved thousands of eligibility worker hours each month, and more than doubled the number of people being renewed with less red tape.
 
-The success in Michigan triggered interest from more state Medicaid agencies, and the USDS-CMCS team rapidly scaled to meet the demand. The team ran on-the-ground implementation sprints with Wisconsin, Hawaii, California, New York, South Carolina, Kansas, and New Jersey. At the same time, the team provided virtual support and mobilized other organizations, like the Digital Service at CMS, to leverage the USDS approaching even more states. This virtual work helped improve the renewal processes in Alaska, Nebraska, and Pennsylvania. 
+The success in Michigan triggered interest from more state Medicaid agencies, and the USDS-CMCS team rapidly scaled to meet the demand. The team ran on-the-ground implementation sprints with Wisconsin, Hawaii, California, New York, South Carolina, Kansas, and New Jersey. At the same time, the team provided virtual support and mobilized other organizations, like the Digital Service at CMS, to leverage the USDS approach in even more states. This virtual work helped improve the renewal processes in Alaska, Nebraska, and Pennsylvania. 
 
 
 ![Map titled "USDS Value: Go where the work is" Dark green states indicate technical assistance: California, Nebraska, Kansas, South Carolina, Wisconsin,Michigan, New York, New Jersey, Pennsylvania; light green states indicate discovery interviews: Washington, Oregon, Colorado, Oklahonma, Iowa, Minnesota, Virginia, North Carolina, Connecticut](../images/project-medicaid-map.jpg)
@@ -83,9 +83,9 @@ The success in Michigan triggered interest from more state Medicaid agencies, an
 
 
 
-USDS and CMCS worked alongside state staff to diagnose problems in each state’s renewal system and rapidly implemented improvements. Together, the teams used data to construct a state’s renewal funnel to give state policy teams more insight into and control over their renewal software and processes. Using this data to prioritize focus, the team found ways to improve the software logic to better comply with state and federal law, integrate more data sources into systems to improve accuracy and reduce manual eligibility worker burden, and empower state agencies to manage and lead their vendors. Together, the teams worked to close the most significant implementation gaps—ensuring states’ policy goals were realized by the lines of code in their software.
+USDS and CMCS worked alongside state staff to diagnose problems in each state’s renewal system and rapidly implement improvements. Together, the teams used data to construct a state’s renewal funnel to give state policy teams more insight into and control over their renewal software and processes. Using this data to prioritize focus, the team found ways to improve the software logic to better comply with state and federal law, integrate more data sources into systems to improve accuracy and reduce manual eligibility worker burden, and empower state agencies to manage and lead their vendors. Together, the teams worked to close the most significant implementation gaps—ensuring states’ policy goals were realized by the lines of code in their software.
 
-For example, the USDS-CMCS team worked on-the-ground with California to analyze renewal data and identify strategies to ensure that CMCS policy flexibilities were accurately and efficiently implemented in eligibility and enrollment systems. As detailed in [an issue brief by the California Department of Health Care Services](https://www.chhs.ca.gov/wp-content/uploads/2024/03/California-USDS-Issue-Brief-March-2024.pdf), the improvements that the teams made increased California’s ex parte rate from an average of 34% from June to November to 66% in December 2023. With the improvement in ex parte processing, California’s disenrollments dropped from an average of 20% to 9% in December.
+For example, the USDS-CMCS team worked on-the-ground with California to analyze renewal data and identify strategies to ensure that CMCS policy flexibilities were accurately and efficiently implemented in eligibility and enrollment systems. As detailed in [an issue brief by the California Department of Health Care Services](https://www.chhs.ca.gov/wp-content/uploads/2024/03/California-USDS-Issue-Brief-March-2024.pdf), the improvements that the teams made increased California’s ex parte rate from an average of 34% from June to November to 66% in December 2023. With these improvements to ex parte processing, California’s disenrollments dropped from an average of 20% to 9% over the same period.
 
 <blockquote class="pullquote" markdown="1">
 [USDS-CMCS] quickly walked our business and system teams through the identified areas and executed technical support to help make the changes as quickly as possible. We were able to implement the system change in two weeks and the next month, our ex parte rate had increased by 15%! 
