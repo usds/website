@@ -28,7 +28,7 @@ impact_statement:
       hours of worker processing time estimated to be saved in 2024
 
   - figure: "10+"
-    unit: " states"
+    unit: " States"
     description: |-
       supported through in-depth technical assistance across diverse geographies, populations, and needs
 
