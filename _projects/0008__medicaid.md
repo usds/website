@@ -37,6 +37,7 @@ impact_statement:
     description: |-
       children and families reinstated for coverage across 29 states as a result of actions taken by CMCS and supported by USDS
 ---
+<base target="_blank">
 
 ## Background
 
