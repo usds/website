@@ -30,7 +30,7 @@ impact_statement:
   - figure: "10+"
     unit: "states"
     description: |-
-    supported through in-depth technical assistance across diverse geographies, populations, and needs
+      supported through in-depth technical assistance across diverse geographies, populations, and needs
 
   - figure: "400K"
     unit: "+"
