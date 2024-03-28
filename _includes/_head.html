@@ -1,36 +1,88 @@
+{%- assign base_url = site.domain | append: site.baseurl -%}
+{%- assign full_page_url = base_url | append: page.url -%}
+
+{%- if page.people_page -%}
+{%-   assign page_title = page.name  | append: " | " | append: site.title -%}
+{%- elsif page.title -%}
+{%-   assign page_title = page.title | append: " | " | append: site.title -%}
+{%- else -%}
+{%-   assign page_title = site.title -%}
+{%- endif -%}
+
+{%- if page.description -%}
+{%-   assign page_description = page.description -%}
+{%- else -%}
+{%-   assign page_description = content | newline_to_br | strip_newlines | replace: '<br />', ' ' | strip_html | strip | truncatewords: 30 -%}
+{%- endif -%}
+
+{%- if page.people_page -%}
+{%-   assign share_image = base_url | append: "/images/"  | append: page.image_name -%}
+{%- elsif page.project_page -%}
+{%-   assign share_image = base_url | append: "/images/"  | append: page.carousel_image_name -%}
+{%- elsif page.social_image -%}
+{%-   assign share_image = base_url | append: "/assets/img/" | append: page.social_image -%}
+{%- elsif site.social_image -%}
+{%-   assign share_image = base_url | append: "/assets/img/" | append: site.social_image -%}
+{%- else -%}
+{%-   assign share_image = base_url | append: "/assets/img/social-card--default.png" -%}
+{%- endif -%}
+
+{%- if page.social_image -%}
+{%-   assign share_image_alt = page.social_image_alt_text -%}
+{%- elsif page.carousel_image_alt_text -%}
+{%-   assign share_image_alt = page.carousel_image_alt_text -%}
+{%- else -%}
+{%-   assign share_image_alt =  page_description -%}
+{%- endif -%}
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-{% capture url_path %}{{site.domain}}{{site.baseurl}}{{page.url}}{% endcapture %}
-
-{% capture page_title %}{% if page.people_page %}{{ page.name }} | {{ site.title }}{% elsif page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}{% endcapture %}
-
-{% capture share_image %}{% if page.people_page %}{{site.domain}}{{ site.baseurl }}/images/{{ page.image_name }}{% elsif page.project_page %}{{site.domain}}{{ site.baseurl }}/images/{{ page.carousel_image_name }}{% elsif page.social_image %}{{site.domain}}{{ site.baseurl }}/assets/img/{{ page.social_image }}{% else %}{{site.domain}}{{ site.baseurl }}/assets/img/{{ site.social_image }}{% endif %}{% endcapture %}
-
-{% capture page_description %}{% if page.description %}{{ page.description }}{% else %}{{ content | newline_to_br | strip_newlines | replace: '<br />', ' ' | strip_html | strip | truncatewords: 30 }}{% endif %}{% endcapture %}
-
     <title>{{ page_title }}</title>
 
-    {% if page.hide_from_search or jekyll.environment !='production' %}
+    {% if page.hide_from_search or jekyll.environment !='production' -%}
     <meta name="robots" content="noindex, nofollow" />
-    {% endif %}
+    {% else -%}
+    <meta name="robots" content="index" />
+    {% endif -%}
 
     <meta name="description" content="{{ page_description }}" />
-    <link rel="canonical" href="{{ url_path }}" />
+    <link rel="canonical" href="{{ full_page_url }}" />
     <meta property="og:title" content="{{ page_title }}" />
     <meta property="og:locale" content="en_US" />
     <meta property="og:description" content="{{ page_description }}" />
-    <meta property="og:url" content="{{ url_path }}" />
+    <meta property="og:url" content="{{ full_page_url }}" />
     <meta property="og:site_name" content="{{ site.title }}" />
     <meta property="og:type" content="article" />
     <meta property="og:image" content="{{ share_image }}">
+    <meta property="og:image:alt" content="{{ share_image_alt }}">
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@usds" />
     <meta name="twitter:image" content="{{ share_image }}">
     <script type="application/ld+json">
-    {"description":"{{ page_description ","@type":"BlogPosting","url":"{{url_path }}","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"{{site.baseurl}}/img/usds-logo-onwhite.png"}},"headline":"{{ page_title }}","dateModified":"{{site.time}}","datePublished":"{{site.time}}","mainEntityOfPage":{"@type":"WebPage","@id":"{{url_path }}"},"@context":"http://schema.org"}</script>
+    {
+        "description": "{{page_description}}",
+        "@type": "BlogPosting",
+        "url": "{{full_page_url}}",
+        "publisher": {
+            "@type": "Organization",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "{{site.baseurl}}/img/usds-logo-onwhite.png"
+            }
+        },
+        "headline": "{{page_title}}",
+        "dateModified": "{{site.time}}",
+        "datePublished": "{{site.time}}",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "{{full_page_url}}"
+        },
+        "@context": "http://schema.org"
+    }
+    </script>
 
     <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/assets/img/favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/assets/img/favicons/favicon-32x32.png">
@@ -40,14 +92,12 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
 
-    <link rel="stylesheet" media="all" href="{{ site.baseurl }}/assets/stylesheets/styles.css"></link>
-    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.url }}">
-
+    <link rel="stylesheet" media="all" href="{{ site.baseurl }}/assets/stylesheets/styles.css" />
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | prepend: site.url }}" />
     {{ include.append }}
-
     <script type="application/javascript" src="{{ site.baseurl }}/assets/js/vendor/uswds-init.min.js"></script>
 
-    {% if jekyll.environment == 'production' %}
+    {% if jekyll.environment == 'production' -%}
       <!-- We participate in the US government's analytics program. See the data at analytics.usa.gov. -->
       <script async type="text/javascript" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=EOP&amp;sub-agency=USDS" id="_fed_an_ua_tag"></script>
 
@@ -59,6 +109,5 @@
         gtag('js', new Date());
         gtag('config', 'UA-132706295-1', { 'anonymize_ip': true });
       </script>
-    {% endif %}
-
+    {% endif -%}
 </head>
