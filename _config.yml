@@ -66,7 +66,6 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-redirect-from
-  - jekyll-relative-links
   - jekyll-target-blank
 
 # jekyll-target-blank plugin
@@ -75,12 +74,6 @@ plugins:
 # this css class is added to those links. multiple class name separated by spaces
 target-blank:
   add_css_classes: usa-link--external
-
-# jekyll-relative-links plugin
-# https://github.com/benbalter/jekyll-relative-links
-relative_links:
-  enabled:     false
-  collections: false
 
 # Jekyll SEO Tag
 # See https://github.com/jekyll/jekyll-seo-tag
