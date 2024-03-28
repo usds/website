@@ -20,7 +20,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 
 # site.url as per https://jekyllrb.com/docs/variables/
 # See https://mademistakes.com/mastering-jekyll/site-url-baseurl/ for more help
-url: "https://usds.gov"
+url: "https://www.usds.gov"
 # GitHub Action overrides this with repo name when not in usds/website
 baseurl: ""
 

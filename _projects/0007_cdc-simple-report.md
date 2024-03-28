@@ -147,7 +147,7 @@ fix how diseases are reported and we developed recommendations that are being im
 
 **The Foundation for Ongoing Pandemic Needs**
 
-At the start of our partnership with CDC, we advocated for a data strategy that went beyond test results. USDS teams worked with the agency to set an expectation that we’d need to collect real-time data on hospitalizations, bed availability, new COVID-19 cases, and vaccine availability. This strategy also directly tied to a later project, launching Vaccines.gov and Vacunas.gov to help people find COVID-19 vaccinations. (Read more about [that project here.](https://www.usds.gov/projects/vaccines-dot-gov))
+At the start of our partnership with CDC, we advocated for a data strategy that went beyond test results. USDS teams worked with the agency to set an expectation that we’d need to collect real-time data on hospitalizations, bed availability, new COVID-19 cases, and vaccine availability. This strategy also directly tied to a later project, launching Vaccines.gov and Vacunas.gov to help people find COVID-19 vaccinations. (Read more about [that project here.](projects/vaccines-dot-gov))
 
 
 **A Data-Driven CDC**
@@ -164,7 +164,7 @@ USDS is helping the Office of Public Health Data Surveillance & Technology, in c
 
 * promoting **interoperability** and **use of standards** so systems can connect safely, reliably, and quickly 
 
-* helping to **[hire experienced technologists](https://www.usds.gov/projects/smeqa)**, data scientists, product managers, and designers
+* helping to **[hire experienced technologists](projects/smeqa)**, data scientists, product managers, and designers
 
 
 

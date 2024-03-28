@@ -92,7 +92,7 @@ What follows is a living document, which outlines the collaboration between Agen
 
 Project Objectives:
 
-In uniformity with [USDS values](https://www.usds.gov/mission) this charter and engagement aims to deliver better government services to the American people through technology and design. The goal of USDS&#39; involvement is to drive the design process for a replacement of the Widget Application. Based upon USDS&#39; understanding and evaluation of the current Widget Application, the best approach is one that meets the following objectives:
+In uniformity with [USDS values](mission) this charter and engagement aims to deliver better government services to the American people through technology and design. The goal of USDS&#39; involvement is to drive the design process for a replacement of the Widget Application. Based upon USDS&#39; understanding and evaluation of the current Widget Application, the best approach is one that meets the following objectives:
 
 - Provides a significant improvement in usability for the Widget Workers
 - Utilizes usability principles and styles in line with Agency X&#39;s existing design system.
