@@ -28,7 +28,7 @@ partnership with agencies._
 
 Nine years ago, the United States Digital Service, or “USDS,” got our start as a small team based at the White House to
 change how Government delivers services in a digital age. Since August 11, 2014, we’ve been laser-focused
-on [our mission](/mission) to deliver better Government services to the American people through
+on [our mission](mission) to deliver better Government services to the American people through
 technology and design.
 
 We do this by partnering with Federal agencies — we’ve worked with more than 20 at this point — to create, update,
@@ -81,7 +81,7 @@ The result is a guide for states, territories, and tribes called the Guide to Cr
 Assistance Application, which will help reduce burdens and break down the barriers for families that need child care
 assistance.
 
-_Read more about this work [on our blog](reducing-burden-of-child-care-assistance-applications-e595d4) and in [our projects](https://www.usds.gov/projects/acf)._
+_Read more about this work [on our blog](news-and-blog/reducing-burden-of-child-care-assistance-applications-e595d4) and in [our projects](projects/acf)._
 
 ## 4. Helping the government smartly buy technology
 
@@ -121,7 +121,7 @@ infrastructure, like re-launching the 9–8–8 Suicide and Crisis Lifeline, mod
 year in Medicare claims, implementing the Quality Payment Program, launching the No Surprises Act webpage; and promoting the importance of seamless and straightforward digital services at the agency.
 
 _Read more about one of CMS’s
-projects in [our projects](/projects/medicare-payment-program)._
+projects in [our projects](projects/medicare-payment-program)._
 
 ## 7. Creating open-source tools to understand the impact of climate change
 

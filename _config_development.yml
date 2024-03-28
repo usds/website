@@ -1,0 +1,7 @@
+
+# The next line can be used to verify staging and production will both work, but locally
+# staging uses a "/subpath" of "/website-staging" (https://usds.github.io/website-staging/)
+# and production uses ""
+url: "http://127.0.0.1:4000"
+baseurl: "" # "/website-dev"
+

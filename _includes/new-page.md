@@ -35,7 +35,7 @@ The first paragraph above has an example of a markdown link to a different site.
 For links within USDS, there is a special URL format that is needed to make things work across development, staging and on the live site. The brackets-followed-by-parentheses still applies. Inside those parentheses, the first part of the URL must be double curly braces containing `site.baseurl`
 
 - Yes: [this link]({{ site.baseurl }}/mission) will always be right.
-- No: [this link](/mission) will sometimes be broken.
+- No: [this link](mission) will sometimes be broken.
 - No: [this link](https://usds.gov/mission) may never break, but it might not be the "version" you want.
 
 ### Images

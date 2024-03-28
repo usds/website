@@ -75,7 +75,7 @@ keep things simple and follow a few key principles, you are already most of the 
 
 ### 1. Design with users, not for them
 
-One of the [six USDS values](/mission#our-values) is to “design with users, not for them.” What’s implicit in that is that designing _with_ users means _all_ users regardless of their ability, context, or demographics. We’re designing technology and services for a diverse population so our research participants should be equally diverse. So, not only do we strive to do research with diverse populations, we also strive to make sure our research sessions are inclusive and equitable.
+One of the [six USDS values](mission#our-values) is to “design with users, not for them.” What’s implicit in that is that designing _with_ users means _all_ users regardless of their ability, context, or demographics. We’re designing technology and services for a diverse population so our research participants should be equally diverse. So, not only do we strive to do research with diverse populations, we also strive to make sure our research sessions are inclusive and equitable.
 
 - Include people from the disability community.
 - Include people who are non-native English speakers (for English websites and for translated versions of English
@@ -153,7 +153,7 @@ and easily.
   e.g., “[progressive disclosure](https://www.uxmatters.com/mt/archives/2020/05/designing-for-progressive-disclosure.php)”
   to let complex information unfold and “wizards” to present one question at a time that result in a custom message for
   their situation — a great example of this is
-  the [VA discharge status tool](/projects/discharge-upgrade-tool)).
+  the [VA discharge status tool](projects/discharge-upgrade-tool)).
 - Make sure your text and background colors have good contrast.
 - Avoid unnecessary visual graphics or stock photos of little value that clog bandwidth on mobile phones.
 - Design to support your content by having designers work side-by-side with the people writing the content. Make sure
@@ -190,7 +190,7 @@ overly complex.
 
 ### 5. Hire and empower great people
 
-Another one of the [six USDS values](/mission#our-values) is to “hire and empower great people.”
+Another one of the [six USDS values](mission#our-values) is to “hire and empower great people.”
 
 As part of this, we strive to make sure that our own teams reflect the great diversity of the populations we’re serving. And once they’re in place, they are fully empowered and encouraged to do what’s needed to make sure our products are inclusive, easy-to-use, and equitable.
 

@@ -19,7 +19,10 @@ byline_str: "Principal Deputy U.S. Chief Technology Officer Deirdre K. Mulligan 
 permalink: /news-and-blog/a-call-to-service-for-talent-in-the-federal-government
 ---
 
-As President Biden said, “To realize the promise of AI and avoid the risks, we need to govern this technology.” Last October, President Biden signed the landmark [Executive Order on the Safe, Secure, and Trustworthy Development and Use of Artificial Intelligence](https://www.whitehouse.gov/briefing-room/presidential-actions/2023/10/30/executive-order-on-the-safe-secure-and-trustworthy-development-and-use-of-artificial-intelligence/). This Executive Order lays out an ambitious agenda for the United States to meet this moment on AI. It directs federal agencies to establish new standards for AI safety and security, protect Americans’ privacy, and advance equity and civil rights—while also committing to harness AI for the public good.
+As President Biden said, “To realize the promise of AI and avoid the risks, we need to govern this technology.” 
+Last October, President Biden signed the landmark 
+[Executive Order on the Safe, Secure, and Trustworthy Development and Use of Artificial Intelligence](https://www.whitehouse.gov/briefing-room/presidential-actions/2023/10/30/executive-order-on-the-safe-secure-and-trustworthy-development-and-use-of-artificial-intelligence/). 
+This Executive Order lays out an ambitious agenda for the United States to meet this moment on AI. It directs federal agencies to establish new standards for AI safety and security, protect Americans’ privacy, and advance equity and civil rights—while also committing to harness AI for the public good.
 
 ## We need your help to accomplish these ambitious and essential goals.
 

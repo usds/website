@@ -110,4 +110,11 @@
         gtag('config', 'UA-132706295-1', { 'anonymize_ip': true });
       </script>
     {% endif -%}
+    {% if site.baseurl != '' %}
+    <!-- make misc top-level urls work on **staging** when baseurl is not "",
+        but it breaks "#relative" anchor links (again, only on staging) because the HTML standard is broken
+        the fix is to build anchor tags like
+          `href="{{ site.baseurl }}{{ page.url }}#main-content"` -->
+    <base href="{{ site.url }}{{ site.baseurl}}/" />
+    {% endif %}
 </head>

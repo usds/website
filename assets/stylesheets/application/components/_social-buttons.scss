@@ -29,6 +29,10 @@ $color-linkedin-blue: #137BB8;
   height: units(6);
   text-align: center;
 }
+// the "target-blank" plugin adds a open graphics, don't display it.
+.site-c-social-buttons__link:after {
+  display: none;
+}
 
 .site-c-social-buttons__link--facebook {
   background-color: $color-facebook-blue;

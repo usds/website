@@ -89,4 +89,4 @@ humans either and humans are fascinating when you actively pay attention to us.
 **_If you’d like to work on these important projects, join us!_**
 
 _**We’re hiring mission-driven talent professionals, engineers, designers, product managers, bureaucracy hackers,
-procurement specialists, and operations pros who want to make an impact on the lives of their fellow Americans. [Apply here](/apply)**_.
+procurement specialists, and operations pros who want to make an impact on the lives of their fellow Americans. [Apply here](apply)**_.

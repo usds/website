@@ -193,6 +193,6 @@ _Read the team’s first blog, “Why We’re Designing Government to Work Bette
 
 If you’d like to work on projects like this, consider joining USDS! We’re hiring mission-driven engineers, product managers, designers, bureaucracy hackers, procurement specialists, and operations experts who want to make an impact on the lives of their fellow Americans.
 
-[**Apply here**](/apply)** and learn more about us at the links below.**
+[**Apply here**](apply)** and learn more about us at the links below.**
 
 ![](2023-10-17-solutions-by-families-for-families-img/s0hKAJ.png)

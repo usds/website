@@ -17,12 +17,12 @@ title: United States Digital Service
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   The United States Digital Service is transforming how the federal government works for the American people. And we need you.
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+# site.url as per https://jekyllrb.com/docs/variables/
+# See https://mademistakes.com/mastering-jekyll/site-url-baseurl/ for more help
+url: "https://usds.gov"
 # GitHub Action overrides this with repo name when not in usds/website
 baseurl: ""
-
-# This custom var is used only in meta tags in _head.html. It does not break sites for staging, dev, etc.
-domain: "https://usds.gov"
 
 timezone: "America/New_York"
 social_image: social-card--default.png
@@ -66,6 +66,21 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-redirect-from
+  - jekyll-relative-links
+  - jekyll-target-blank
+
+# jekyll-target-blank plugin
+# https://github.com/keithmifsud/jekyll-target-blank
+# offsite urls open in a new tab
+# this css class is added to those links. multiple class name separated by spaces
+target-blank:
+  add_css_classes: usa-link--external
+
+# jekyll-relative-links plugin
+# https://github.com/benbalter/jekyll-relative-links
+relative_links:
+  enabled:     false
+  collections: false
 
 # Jekyll SEO Tag
 # See https://github.com/jekyll/jekyll-seo-tag

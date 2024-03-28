@@ -25,7 +25,7 @@ The U.S. Digital Service is committed to protecting individual privacy and secur
 
 **Automatically Collected.** When you visit USDS.gov, information is automatically received and stored by the web servers hosting USDS.gov, including:
 
-*   The originating [Internet Protocol (IP)](https://www.whitehouse.gov/privacy#ip)address;
+*   The originating [Internet Protocol (IP)](https://www.whitehouse.gov/privacy#ip) address;
 *   The internet [domain name](https://www.whitehouse.gov/privacy#domain);
 *   The date and time of your visit;
 *   Information about your computer or mobile set-up (e.g. type and version of web browser, operating system, screen resolution, language, and connection speed);

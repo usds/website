@@ -83,7 +83,7 @@ which informed the Model Application.
 
 ![Graphic image of large text that reads "USDS Value: Design with users, not for them."](2023-03-29-reducing-burden-of-child-care-assistance-applications-img/g6RgdQ.jpg)
 
-In [keeping with our value](/mission#our-values) to “design with users, not for them,” we made sure to not only speak
+In [keeping with our value](mission#our-values) to “design with users, not for them,” we made sure to not only speak
 with families and states during the research phase, but to also continually involve them in the design process and show
 them drafts of the product as we created it.
 
@@ -104,4 +104,4 @@ put these practices to work and improve efforts to reduce burden on working fami
 
 _If you’d like to work on projects like this, consider joining USDS! We’re hiring mission-driven engineers, product
 managers, designers, bureaucracy hackers, procurement specialists, and operations experts who want to make an impact on
-the lives of their fellow Americans. [Apply here](/apply)._
+the lives of their fellow Americans. [Apply here](apply)._

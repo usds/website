@@ -158,6 +158,9 @@ GEM
     jekyll-sitemap (1.4.0)
       jekyll (>= 3.7, < 5.0)
     jekyll-swiss (1.0.0)
+    jekyll-target-blank (2.0.2)
+      jekyll (>= 3.0, < 5.0)
+      nokogiri (~> 1.10)
     jekyll-theme-architect (0.2.0)
       jekyll (> 3.5, < 5.0)
       jekyll-seo-tag (~> 2.0)
@@ -275,8 +278,10 @@ DEPENDENCIES
   github-pages (~> 228)
   jekyll-feed
   jekyll-redirect-from
+  jekyll-relative-links
   jekyll-seo-tag
   jekyll-sitemap
+  jekyll-target-blank
   minima (~> 2.0)
   tzinfo-data
   webrick (~> 1.8)
