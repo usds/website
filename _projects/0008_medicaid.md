@@ -9,6 +9,10 @@ project_page: true
 carousel_title: "Cutting red tape for Americans renewing their health coverage"
 carousel_summary: "USDS worked with Center for Medicaid and CHIP Services to partner with state Medicaid agencies to help improve state eligibility and enrollment systems."
 carousel_image_name: project-medicaid-card.jpg
+# accessibility text for image
+carousel_image_alt_text: "Project photo"
+# Do not show on homepage yet
+carousel_show: false
 
 # Project detail page (Edit this)
 title: "Cutting red tape for Americans renewing their health coverage"
@@ -37,7 +41,6 @@ impact_statement:
     description: |-
       children and families reinstated for coverage across 29 states as a result of actions taken by CMCS and supported by USDS
 ---
-<base target="_blank">
 
 ## Background
 
