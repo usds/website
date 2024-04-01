@@ -278,7 +278,6 @@ DEPENDENCIES
   github-pages (~> 228)
   jekyll-feed
   jekyll-redirect-from
-  jekyll-relative-links
   jekyll-seo-tag
   jekyll-sitemap
   jekyll-target-blank

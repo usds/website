@@ -26,7 +26,6 @@ group :jekyll_plugins do
   gem 'jekyll-seo-tag'
   gem 'jekyll-sitemap'
   gem 'jekyll-redirect-from'
-  gem 'jekyll-relative-links'
   gem 'jekyll-target-blank'
 end
 
