@@ -10,8 +10,7 @@ window.addEventListener('DOMContentLoaded', () => {
         if (!(link instanceof HTMLButtonElement || link instanceof HTMLAnchorElement || link instanceof HTMLLinkElement)) {
           continue;
         }
-        // for staging/dev instance, we don't want external links for fully qualified urls to usds.gov
-        // these are likely
+        // for staging/dev instance, we don't want treat fully qualified urls to usds.gov as external
         if (link.href.startsWith("https://www.usds.gov") || link.href.startsWith("https://usds.gov")) {
           continue;
         }
