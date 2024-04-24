@@ -114,3 +114,22 @@ a {
 .usa-prose > h6 {
   @include u-font-family('sans');
 }
+
+/** open in new tab links urls **/
+.usa-link--external {
+  @include external-link();
+  padding-right: 1.15em;
+
+  &.usa-link--alt {
+    @include external-link($contrast-bg: "base-darker");
+    padding-right: 1.15em;
+  }
+}
+
+/** footer links ONLY **/
+.site-c-footer__list .usa-link--external {
+  @include external-link();
+  &::after {
+    top: 0.3em;
+  }
+}
