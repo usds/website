@@ -56,10 +56,10 @@ markdown: kramdown
 data_dir: _content
 
 # Assets settings - see scripts in package.json for SASS settings.
-# sass:
-#  sass_dir: assets/stylesheets/
-#  style: compressed
-#  sourcemap: never
+sass:
+  sass_dir: assets/stylesheets/
+  style: compressed
+  sourcemap: never
 
 # Plugins
 plugins:
