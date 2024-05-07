@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 2024 Report to Congress
-short: A note from our Administrator
+short: Hearing from our Administrator
 report: 2024
 report_title: 2024 Report to Congress
 permalink: /report-to-congress/2024/
