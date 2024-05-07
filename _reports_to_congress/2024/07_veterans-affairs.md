@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Ensuring America’s 18.25 million Veterans have access to the benefits they have earned
-short: Veterans Affairs
+short: Giving Veterans better access
 report: 2024
 permalink: /report-to-congress/2024/veterans-affairs/
 ---
