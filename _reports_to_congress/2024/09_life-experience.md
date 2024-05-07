@@ -5,7 +5,7 @@ short: 0-5 Life Experience Solutions
 report: 2024
 permalink: /report-to-congress/2024/life-experience/
 ---
-######  *The Department of Health and Human Services*
+####  The Department of Health and Human Services
 
 As part of an interagency Life Experience Research Team, including professionals from:
 
