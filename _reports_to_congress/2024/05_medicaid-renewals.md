@@ -4,6 +4,29 @@ title: Cutting red tape for Americans renewing health coverage and government wo
 short: Cutting red tape in Medicaid
 report: 2024
 permalink: /report-to-congress/2024/medicaid-renewals/
+
+# Impact statement (Edit this)
+impact_statement:
+  - figure: "10"
+    unit: ""
+    description: |-
+      states supported through in-depth technical assistance across diverse geographies, populations, and needs
+      
+  - figure: "5+"
+    unit: "M"
+    description: |-
+      Americans estimated to be renewed for health coverage with less red tape via ex parte processing in 2024
+
+  - figure: "2+"
+    unit: "M"
+    description: |-
+      hours of worker processing time estimated to be saved in 2024
+
+  - figure: "~400"
+    unit: "K"
+    description: |-
+      children and families reinstated for coverage across 29 states as a result of actions taken by CMCS and supported by USDS 
+
 ---
 #### The Department of Health and Human Services: Center for Medicaid and CHIP Services
 
