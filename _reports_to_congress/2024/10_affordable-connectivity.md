@@ -5,7 +5,7 @@ short: Affordable Connectivity Program
 report: 2024
 permalink: /report-to-congress/2024/affordable-connectivity/
 ---
-######  *Federal Communications Commission*
+####  Federal Communications Commission
 
 The Federal Communications Commission’s (FCC) Affordable Connectivity Program (ACP) helps households afford the broadband they need for work, school, healthcare, and more. However, since the initial outreach program had not begun, it was only reaching 10 million out of 48 million potential households. The FCC enlisted USDS to help reach more of the eligible population.
 
