@@ -28,6 +28,8 @@ This report demonstrates the tremendous impact that USDS has had and serves as a
 The return on investment for technical talent in government is huge. USDS is both the proof of concept and remains a leader at the highest level, bringing technical expertise and driving outsize improvements across the government. We are excited to share these stories of impact and even more excited about the impact yet to come.  
 
 Sincerely, 
+
 Mina Hsiang
+
 *Administrator, U.S. Digital Service* 
 

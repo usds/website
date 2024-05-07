@@ -5,7 +5,7 @@ short: Digital Service at CMS
 report: 2024
 permalink: /report-to-congress/2024/dsac/
 ---
-######  *Centers for Medicare and Medicaid Services*
+####  Centers for Medicare and Medicaid Services
 
 The Digital Service at the Centers for Medicare and Medicaid Services (DSAC) originated with the launch of the Health Insurance Marketplace in 2014 and was started by a team of current and former USDS staff. CMS has continually invested in technology talent and innovation to ensure adequate, up-to-date health care coverage and to promote quality care for beneficiaries.
 

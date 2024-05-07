@@ -38,7 +38,7 @@ impact_statement:
 
 
 
-######  *Social Security Administration*
+####  Social Security Administration
 
 ###  Challenge
 
@@ -74,5 +74,5 @@ The partnership created momentum to improve service delivery through several tec
 
 USDS’s most impactful contribution to its partnership with SSA was advocating for the agency to establish a cross-disciplinary team to continue the digital transformation. The new team establishes sustainable standards and processes, shares research findings, and develops data-driven strategies to improve design and development solutions for the public.
 
-###### Visit [SSA.gov](https://www.ssa.gov/) to see the live result of the partnership between USDS and SSA.
+#### Visit [SSA.gov](https://www.ssa.gov/) to see the live result of the partnership between USDS and SSA.
 
