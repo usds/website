@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Delivering 749 million free COVID-19 tests
-short: Delivering COVID tests
+short: Delivering COVID-19 tests
 report: 2024
 permalink: /report-to-congress/2024/covid-tests/
 ---
