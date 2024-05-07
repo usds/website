@@ -17,9 +17,9 @@ impact_statement:
 
 ###  Challenge
 
-In mid-2022, a manufacturer product recall on infant formula, combined with weakened supply chains after the COVID-19 pandemic caused a significant decrease in the availability of infant formula, especially specialty formula for babies with intolerances, allergies, and metabolic issues. Parents and caregivers of infants who did not have other options to feed their children became desperate and panicked.
+In mid-2022, a manufacturer product recall on infant formula, combined with weakened supply chains after the COVID-19 pandemic, caused a significant decrease in the availability of infant formula, especially specialty formula for babies with intolerances, allergies, and metabolic issues. Parents and caregivers of infants who did not have other options to feed their children became desperate and panicked.
 
-In May 2022, the actual in-stock rates of formula were only 47%, a significant drop from the post-COVID-19 average of 85-90%. However, there was no centralized system to keep track of these rates. The commercially available data sources showed conflicting and often much higher in-stock rates. By June 2022, retailers reported historically low in-stock rates, as low as 19% for formula at some major retailers. As most infants in the U.S. depend on formula for food, this shortage caused concern among parents, leading to panic-buying that worsened the situation.
+In May 2022, the actual in-stock rates of formula were only 47%, a significant drop from the post-COVID-19 average of 85-90%. However, there was no centralized system to keep track of these rates. The commercially available data sources showed conflicting, and often much higher, in-stock rates. By June 2022, retailers reported historically low in-stock rates, as low as 19% for formula at some major retailers. As most infants in the U.S. depend on formula for food, this shortage caused concern among parents, leading to panic-buying that worsened the situation.
 
 ### Solution
 
