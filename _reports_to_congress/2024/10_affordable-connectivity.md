@@ -15,7 +15,7 @@ Together, FCC and USDS designed and implemented a simplified application and enr
 
 ###  Impact
 
-- 130% increase in ACP enrollment after USDS engagement (*from 1o million to 23 million households*)
+- 130% increase in ACP enrollment after USDS engagement (*from 10 million to 23 million households*)
 
 
 
