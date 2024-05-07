@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 2024 Report to Congress
-short: USDS: Delivering for the people
+short: Delivering for the people
 report: 2024
 report_title: 2024 Report to Congress
 permalink: /report-to-congress/2024/intro
