@@ -30,7 +30,7 @@ Since its founding, USDS has collaborated with 31 federal agencies. It has four 
 USDS enables the government to consistently deliver digital services to the American public, catalyzing long-term change and resulting in secure, efficient, and mission-serving technology. Over the last 10 years, USDS has partnered with agencies to deliver material improvements to the American public. Some of the short- and long-term impacts include: 
 
 -  18.25 million Veterans able to use simpler, more accessible tools for health and benefit services
--  52.8% increase in customer satisfaction for 180 million annual SSA.gov visitorS
+-  52.8% increase in customer satisfaction for 180 million annual SSA.gov visitors
 -  Over 749 million free COVID-19 tests delivered 
 -  130% increase in the number of rural and under-resourced families with broadband internet through the Affordable Connectivity Program 
 -  388 million bottles of infant formula, imported in a crisis, and deployed to the places that needed it most based on new data and analytics
