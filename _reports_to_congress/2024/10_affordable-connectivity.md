@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Closing the digital divide by bringing internet to 23 million underserved households
-short: Affordable Connectivity Program
+short: Using human-centered design
 report: 2024
 permalink: /report-to-congress/2024/affordable-connectivity/
 ---
