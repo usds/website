@@ -1,19 +1,33 @@
 ---
 layout: default
 title: Increasing access and understanding of health care for millions of people
-short: DSAC
-report: 2023
-permalink: /report-to-congress/2023/dsac/
+short: Digital Service at CMS
+report: 2024
+permalink: /report-to-congress/2024/dsac/
 ---
-###  Challenge
+######  *Centers for Medicare and Medicaid Services*
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vel pharetra vel turpis nunc. Commodo viverra maecenas accumsan lacus. Tincidunt ornare massa eget egestas purus viverra accumsan in nisl. Dis parturient montes nascetur ridiculus mus mauris vitae ultricies. Facilisis gravida neque convallis a. Felis bibendum ut tristique et egestas quis. Faucibus a pellentesque sit amet porttitor eget dolor morbi non. Mauris rhoncus aenean vel elit scelerisque mauris pellentesque. Quam vulputate dignissim suspendisse in est ante in. Sed risus ultricies tristique nulla aliquet. Morbi blandit cursus risus at ultrices.
+The Digital Service at the Centers for Medicare and Medicaid Services (DSAC) originated with the launch of the Health Insurance Marketplace in 2014 and was started by a team of current and former USDS staff. CMS has continually invested in technology talent and innovation to ensure adequate, up-to-date health care coverage and to promote quality care for beneficiaries.
 
-### Solution
+CMS provides health coverage to systemically vulnerable populations—people over 65, people with low income, people with disabilities, pregnant women, and children—through its core programs:
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vel pharetra vel turpis nunc. Commodo viverra maecenas accumsan lacus. Tincidunt ornare massa eget egestas purus viverra accumsan in nisl. Dis parturient montes nascetur ridiculus mus mauris vitae ultricies. Facilisis gravida neque convallis a. Felis bibendum ut tristique et egestas quis. Faucibus a pellentesque sit amet porttitor eget dolor morbi non. Mauris rhoncus aenean vel elit scelerisque mauris pellentesque. Quam vulputate dignissim suspendisse in est ante in. Sed risus ultricies tristique nulla aliquet. Morbi blandit cursus risus at ultrices.
+- Medicaid and CHIP (87 million beneficiaries)
+- Medicare (65 million beneficiaries), and
+- The Health Insurance Marketplaces (21 million customers[^1]
+
+DSAC’s team of engineers, designers, and product managers tackle projects that make health care and health care information more seamless and accessible for hundreds of millions of people, and USDS continues to partner on specific projects to support that mission. 
+
+------
+
+[^1]: https://www.cms.gov/newsroom/fact-sheets/marketplace-2024-open-enrollment-period-report-final-national-snapshot
+
+
 
 ###  Impact
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vel pharetra vel turpis nunc. Commodo viverra maecenas accumsan lacus. Tincidunt ornare massa eget egestas purus viverra accumsan in nisl. Dis parturient montes nascetur ridiculus mus mauris vitae ultricies. Facilisis gravida neque convallis a. Felis bibendum ut tristique et egestas quis. Faucibus a pellentesque sit amet porttitor eget dolor morbi non. Mauris rhoncus aenean vel elit scelerisque mauris pellentesque. Quam vulputate dignissim suspendisse in est ante in. Sed risus ultricies tristique nulla aliquet. Morbi blandit cursus risus at ultrices.
+DSAC has:
+
+- Partnered with the Substance Abuse and Mental Health Services Administration to re-launch the 988 Suicide and Crisis Lifeline and decreased average answer speed from 2.5 minutes to 42 seconds
+- Increased the completion rate of the complaint form on the No Surprises Act website—a website that educates providers and patients on laws promoting up-front medical billing information 
+- Launched FindSupport.gov/EncuentraApoyo.gov to help people on Medicare, Medicaid, and Marketplace health plans access mental health care
 

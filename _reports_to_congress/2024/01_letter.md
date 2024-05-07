@@ -1,25 +1,33 @@
 ---
 layout: default
-title: 2023 Report to Congress
-short: Letter from the Administrator
-report: 2023
-report_title: 2023 Report to Congress
-permalink: /report-to-congress/2023/
+title: 2024 Report to Congress
+short: A note from our Administrator
+report: 2024
+report_title: 2024 Report to Congress
+permalink: /report-to-congress/2024/
 front: true
 ---
-## Letter from the Administrator
+## A note from our Administrator 
 
-Since our founding in 2014, we have rolled up our sleeves to debug networks, write code, use discovery sprints, conduct user research, apply human-centered design, deploy websites, digitize applications, launch mobile applications, make compliance less painful, and more to improve government through citizen-focused tech. I’ve held various roles in this organization for six of these ten transformative years and have seen firsthand our lasting impact at the 31 agencies we’ve collaborated with. 
+Since the U.S. Digital Service (USDS) was founded in 2014, we have jumped in to help tackle the most challenging technology implementation problems across the government, bringing top-notch technical talent into government and partnering with federal agencies to get things done right for the public.
 
-The most important thing we are doing, and will continue to do, is bringing in and retaining top-notch tech talent into the federal government. Over the last decade, we have recruited more than 500 Digital Service Experts. Of those, 50 are taking technology and design best practices to XX federal agencies that cut hidden costs of legacy software and mitigate security vulnerabilities while enhancing federal digital services with leading technology approaches, including AI. 
+Our work has spanned 31 agencies and over a hundred programs, with profound impacts—including helping working families, Veterans, refugees, students, children, small businesses and retirees, we have helped make their lives easier and the departments that serve them more efficient and effective. Along the way, we have opened doors for agencies to think differently about what is possible by encouraging them to ask questions like:
 
-We understand that the best way to empower Americas is through technology, so we approach every project from a human-centered lens and develop cost-effective solutions that make government more accessible, accountable, and efficient. By doing so, we're catalyzing broader change—both with agencies and the American people. As adopting our best practices spreads widely through government, we'll see less waste, more savings, and customers who trust us.
+- How technology simplifies rather than complicates their work and services?
+- How can they increase efficiency while decreasing IT spending?
+- How can they use technology tools to make their services more accessible to their customers and build trust with the public?  
 
-We are now at the largest and highest performing our agency has ever been, with 230 resilient and highly emotionally intelligent public servants making forms simpler, language more understandable, services more accessible, and websites more secure. Below is a collection of impactful stories that these talented folks have worked on, including a website with modern infrastructure that is saving $285 million in projected estimated savings over five years and a swiftly implemented optimization strategy that is improving customer service for over three million Medicaid enrollees.
+I have been here for six of the nearly ten transformational years and have seen the changes. Some things have stayed the same—we still jump in and roll up our sleeves to tackle tech challenges from the ground up, debugging networks, running scrums, using technologies better, and testing tools with real users. But over that time, we have also demonstrated the ability to catalyze broader transformational change. Through consistent on-the-ground execution and agency commitment to building a stronger technology organization, we have helped enable more substantial and trusted agencies like the VA and CMS. By building in-house digital services teams at these agencies who’ve increased service delivery to the American public. Other agencies have taken note and are working with USDS to scope an internal digital service capacity. 
 
-There is still so much work to be done. As civic technologists in the highest office, I believe we are positioned to correct some of the mistakes of the past and build on our emerging successes. We are full of excitement for what’s to come and every day, we'll continue to do the greatest good for the greatest number of people in the greatest need.
+The most important thing we have done, and continue to do, is to bring top-notch tech talent into the federal government and retain it. Over the last decade, we have recruited over 700 Digital Service Experts into federal service. Many of them have decided to stay. They understand the transformational impact they can have by bringing their expertise to the federal government to work on services that change lives. 
 
+Yet even at our current size – the largest in our history – we now get far more requests for USDS help and engagement than we can meet. This is a sign of shifting expectations and ambitions but also reflects a vast need for more technical talent across the government.
 
+This report demonstrates the tremendous impact that USDS has had and serves as a call to action for all of us to find a way to do even more. In the pages that follow, you’ll see how the right small teams can catalyze a 53% increase in customer satisfaction at SSA, can reliably deliver 750 million COVID-19 tests across the country, and can change how the CDC collects data to make us ready for the next pandemic. 
 
+The return on investment for technical talent in government is huge. USDS is both the proof of concept and remains a leader at the highest level, bringing technical expertise and driving outsize improvements across the government. We are excited to share these stories of impact and even more excited about the impact yet to come.  
+
+Sincerely, 
 Mina Hsiang
-Administrator, U.S. Digital Service
+*Administrator, U.S. Digital Service* 
+
