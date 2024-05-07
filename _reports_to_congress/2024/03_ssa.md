@@ -38,7 +38,7 @@ impact_statement:
 
 
 
-####  *Social Security Administration*
+####  Social Security Administration
 
 ###  Challenge
 
