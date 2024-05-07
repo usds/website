@@ -17,7 +17,7 @@ As part of an interagency Life Experience Research Team, including professionals
 - the Department of Agriculture (USDA),
 - and the Department of Education (ED),
 
-USDS conducted extensive research nationwide with [121 participants](https://www.performance.gov/cx/life-experiences/having-a-child-and-early-childhood/), documenting their experiences during pregnancy and childbirth and how they interacted with the federal government from the birth of their child to age five. Based on their findings, the teams developed and piloted three customer-centric solutions to alleviate the burden and provide better support and resources to these families:
+USDS conducted extensive research nationwide with [121 participants](https://www.performance.gov/cx/life-experiences/having-a-child-and-early-childhood/){:target="_blank"}, documenting their experiences during pregnancy and childbirth and how they interacted with the federal government from the birth of their child to age five. Based on their findings, the teams developed and piloted three customer-centric solutions to alleviate the burden and provide better support and resources to these families:
 
 - The **Alumni Peer Navigator (APN)** services help moms access social-emotional support, federally funded programs, and community resources, such as Medicaid, WIC, and Temporary Assistance for Needy Families (TANF), in a culturally responsive way.
 - The **Newborn Supply Kit** provides families with basic physical supplies and resources crucial to the first few weeks after birth.
