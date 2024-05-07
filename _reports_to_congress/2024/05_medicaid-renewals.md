@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Cutting red tape for Americans renewing health coverage and government workers
-short: Medicaid Renewals
+short: Cutting red tape in Medicaid
 report: 2024
 permalink: /report-to-congress/2024/medicaid-renewals/
 ---
