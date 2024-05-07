@@ -5,7 +5,7 @@ short: Veterans Affairs
 report: 2024
 permalink: /report-to-congress/2024/veterans-affairs/
 ---
-######  *The Department of Veterans Affairs*
+####  The Department of Veterans Affairs
 
 Services provided by the Department of Veterans Affairs (VA) are essential to the 18.25 million Veterans and their families in the United States. The Veterans Health Administration, which operates under the VA, is the most extensive healthcare system in the U.S., serving around 9 million Veterans annually through its 1,200 facilities.
 
