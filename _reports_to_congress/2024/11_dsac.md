@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Increasing access and understanding of health care for millions of people
-short: Digital Service at CMS
+short: Building agency capacity
 report: 2024
 permalink: /report-to-congress/2024/dsac/
 ---
