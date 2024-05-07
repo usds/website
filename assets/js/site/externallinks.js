@@ -1,9 +1,9 @@
 window.addEventListener('DOMContentLoaded', () => {
   try {
     const origin = (new URL(document.location.href))?.origin ?? "";
-    // query selector is faster and removes any links that are obviously on our site.
-    // Next we don't want mailto:, so we filter
-    const links = [...document.querySelectorAll(`a:not([href*='${origin}'])`)].filter(a => a.href.startsWith("https://"));
+    // Removes any links that are obviously on our site. !a.href.startsWith(origin)
+    // Next we don't want mailto:, so we filter by a.href.startsWith("https://")
+    const links = [...document.querySelectorAll(`a[href]`)].filter(a => !a.href.startsWith(origin) && a.href.startsWith("https://"));
     for (const link of links) {
       try {
         // could be HTMLButtonElement or HTMLLinkElement or HTMLAnchorElement
