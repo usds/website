@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Connecting new parents to federal benefits faster with three customer-centered solutions
-short: 0-5 Life Experience Solutions
+short: Using human-centered design
 report: 2024
 permalink: /report-to-congress/2024/life-experience/
 ---
