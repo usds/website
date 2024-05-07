@@ -5,7 +5,7 @@ short: Infant Formula
 report: 2024
 permalink: /report-to-congress/2024/infant-formula/
 ---
-######  *The White House, the Department of Health and Human Services, the Department of Agriculture, and the Food and Drug Administration*
+####  The White House, the Department of Health and Human Services, the Department of Agriculture, and the Food and Drug Administration
 
 ###  Challenge
 
