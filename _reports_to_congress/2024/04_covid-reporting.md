@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Building software tools that saved frontline COVID-19 testers 852,000 hours 
+title: Building software tools that saved frontline COVID-19 testers 700,000 hours 
 short: Building software with CDC 
 report: 2024
 permalink: /report-to-congress/2024/covid-reporting/
@@ -58,7 +58,9 @@ Using innovative thinking and technology best practices, the project team built 
 
 ###  Impact
 
-As of early 2024, Report Stream routed more than 40 million COVID-19 test results to the correct public health departments, significantly increasing the data available for monitoring disease outbreaks and improving the accuracy and speed of reporting. The Simple Report system has connected with over 15,000 testing sites, including non-traditional healthcare organizations such as schools, nursing homes, and cruise ships. These software tools have saved workers countless hours of manual labor. Furthermore, they have been repurposed for other viral diseases such as Mpox and seasonal flu outbreaks.
+As of early 2024, Report Stream routed more than 40 million COVID-19 test results to the correct public health departments, significantly increasing the data available for monitoring disease outbreaks and improving the accuracy and speed of reporting. 
+
+The Simple Report system has connected with over 15,000 testing sites, including non-traditional healthcare organizations such as schools, nursing homes, and cruise ships. These software tools have saved workers countless hours of manual labor. Furthermore, they have been repurposed for other viral diseases such as Mpox and seasonal flu outbreaks.
 
 This rapid response project began a years-long partnership between USDS and CDC, setting the stage for future high-impact projects like Vaccines.gov/Vacunas.gov and the further modernization of CDC systems.
 
