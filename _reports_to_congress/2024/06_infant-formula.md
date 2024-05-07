@@ -24,7 +24,7 @@ In order for the federal government to design solutions, it needed real-time dat
 
 The USDS project team collaborated with retailers and manufacturers and conducted several data analyses to understand the supply chain better and identify areas where government policy could make the most positive impact.
 
-The results of the data analysis supported the development of Operation Fly Formula, which authorized the U.S. Department of Defense to use their planes to fly infant formula from other countries that the Food and Drug Administration had determined met the U.S.'s health and safety standards into the country. President Biden also leveraged the [Defense Production Act](https://www.whitehouse.gov/formula/) to quickly ramp up greater manufacturing capacity.
+The results of the data analysis supported the development of Operation Fly Formula, which authorized the U.S. Department of Defense to use their planes to fly infant formula from other countries that the Food and Drug Administration had determined met the U.S.'s health and safety standards into the country. President Biden also leveraged the [Defense Production Act](https://www.whitehouse.gov/formula/){:target="_blank"} to quickly ramp up greater manufacturing capacity.
 
 ###  Impact
 
