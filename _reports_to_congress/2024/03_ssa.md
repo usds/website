@@ -60,13 +60,13 @@ USDS partnered with SSA to observe customers and discover how they engaged with 
 
 - apply for benefits, 
 - sign up for Medicare, and 
-- apply for Supplemental Security Income (SSI). 
+- apply for SSI. 
 
 The partnership created momentum to improve service delivery through several technical building blocks:
 
 - **Task-focused information architecture** transformed a static homepage with broad categories of topics to a simpler interface with actionable links for common tasks such as applying for benefits, signing up for Medicare, and checking eligibility.
 - A **conversational eligibility screener** replaced complicated policy language, creating a more user-friendly eligibility process. As a result, 50.2% of SSA customers start an online application when they discover they may be eligible for benefits.
-- **Clear, organized content** in plain language provides reliable, consistent information to customers so they can make critical decisions. One million more customers per week to log into SSA.gov to complete tasks, and less time is wasted second-guessing and interpreting complicated language.
+- **Clear, organized content** in plain language provides reliable, consistent information to customers so they can make critical decisions. One million more customers per week log into SSA.gov to complete tasks, and less time is wasted second-guessing and interpreting complicated language.
 - Building a **modern development infrastructure** that includes a content management system, a content delivery network, and cloud services is expected to save taxpayers an estimated $285 million over five years. Enhancing the site's performance and reliability has replaced expensive and time-consuming development support. 
 - Implementing the **U.S. Web Design System** has increased mobile device usability, removing the need for customers to sift through pages of lengthy content.
 
