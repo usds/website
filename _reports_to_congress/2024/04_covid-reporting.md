@@ -35,5 +35,5 @@ As of early 2024, Report Stream routed more than 40 million COVID-19 test result
 
 This rapid response project began a years-long partnership between USDS and CDC, setting the stage for future high-impact projects like Vaccines.gov/Vacunas.gov and the further modernization of CDC systems.
 
-#### Visit [USDS.gov/projects](https://www.usds.gov/projects) to learn more about the partnership between USDS and the CDC.
+#### Visit [USDS.gov/projects](https://www.usds.gov/projects){:target="_blank"} to learn more about the partnership between USDS and the CDC.
 
