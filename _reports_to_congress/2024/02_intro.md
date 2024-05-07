@@ -18,7 +18,7 @@ USDS is a group of skilled technology professionals who work on short-term appoi
 
 Agencies are where the real work happens. To support their work and evolution, USDS partners with agencies by assigning small, interdisciplinary teams to work hand-in-hand with agency staff and contractors to deliver critical programs through technology and design. USDS can help an agency procure new technology, improve existing systems, or develop its own technical capacity, and learn by doing the work together. USDS transfers knowledge and expertise to agency staff, helps them hire additional talent, evolves their processes, and updates expectations. As the agency builds the right capabilities, USDS staff are recalled to the Office of Management and Budget (OMB) and assigned to another project.
 
-Since its founding, USDS has collaborated with 31 federal agencies. It has four types of projects in its portfolio:
+Since its founding, USDS has collaborated with 31 federal agencies. It has four project categories in its portfolio:
 
 -    **Agency transformation**: Agencies looking to modernize or transform their technical capabilities come to USDS for help with implementation, process evolution, and technical staffing expertise.
 -   **Policy implementation consultation**: As part of OMB, USDS provides perspective on the technology implications of policy decisions.
@@ -30,7 +30,7 @@ Since its founding, USDS has collaborated with 31 federal agencies. It has four 
 USDS enables the government to consistently deliver digital services to the American public, catalyzing long-term change and resulting in secure, efficient, and mission-serving technology. Over the last 10 years, USDS has partnered with agencies to deliver material improvements to the American public. Some of the short- and long-term impacts include: 
 
 -  18.25 million Veterans able to use simpler, more accessible tools for health and benefit services
--  52.8% increase in customer satisfaction for 180 million annual SSA.gov visitors
+-  53% increase in customer satisfaction for 180 million annual SSA.gov visitors
 -  Over 749 million free COVID-19 tests delivered 
 -  130% increase in the number of rural and under-resourced families with broadband internet through the Affordable Connectivity Program 
 -  388 million bottles of infant formula, imported in a crisis, and deployed to the places that needed it most based on new data and analytics
