@@ -35,5 +35,5 @@ While investigating state ex parte systems, USDS and CMCS also uncovered and fix
 
 Notably, many of these improvements to ex-parte systems and renewal processes will continue to benefit CMCS and states over the long term. More compliant and accurate state systems will continue to save millions of hours of state worker time each year and keep millions of eligible Americans in their health coverage with less red tape. 
 
-#### USDS delivered sustainable, long-term policy and* *delivery impact in the Medicaid enrollment process.* *View live results of the project at* [*CMS.gov*](https://www.cms.gov/newsroom/press-releases/coverage-half-million-children-and-families-will-be-reinstated-thanks-hhs-swift-action).
+#### USDS delivered sustainable, long-term policy and delivery impact in the Medicaid enrollment process. View live results of the project at [CMS.gov](https://www.cms.gov/newsroom/press-releases/coverage-half-million-children-and-families-will-be-reinstated-thanks-hhs-swift-action){:target="_blank"}.
 
