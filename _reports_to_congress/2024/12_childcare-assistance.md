@@ -5,7 +5,7 @@ short: Child Care Assistance Application
 report: 2024
 permalink: /report-to-congress/2024/childcare/
 ---
-######  *The Department of Health and Human Services*
+####  The Department of Health and Human Services
 
 The child care assistance program administered by the Office of Child Care (OCC) at HHS helps nearly one million families with lower incomes nationwide pay for child care. Overburdened state, territorial, and tribal public servants are responsible for creating the application, and the process can be complicated for families, which can discourage and delay families receiving the help they need.
 
