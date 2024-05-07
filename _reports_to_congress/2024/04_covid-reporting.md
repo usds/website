@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Building software tools that saved frontline COVID-19 testers 852,000 hours 
-short: COVID Reporting 
+short: Building software with CDC 
 report: 2024
 permalink: /report-to-congress/2024/covid-reporting/
 ---
