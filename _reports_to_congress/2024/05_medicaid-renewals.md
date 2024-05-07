@@ -36,7 +36,7 @@ After the COVID-19 public health emergency (PHE) ended on March 31, 2023, many f
 
 ### Solution
 
-USDS partnered with the Center for Medicaid and CHIP Services (CMCS) and state Medicaid agencies to rapidly implement more efficient and accurate renewal processes. The team interviewed state agencies and government workers and found that the legally required ex parte renewal process was inefficiently implemented in many states. This process uses federal data and systems and state government data sources to renew eligible enrollees more efficiently, with less red tape, and with less burden on state workers.
+USDS partnered with the Center for Medicaid and CHIP Services (CMCS) and state Medicaid agencies to rapidly implement more efficient and accurate renewal processes. The team interviewed state agencies and government workers and found that the legally required ex parte (automatic) renewal process was inefficiently implemented in many states. This process uses federal data and systems and state government data sources to renew eligible enrollees more efficiently, with less red tape and burden on state workers.
 
 While some states were able to complete over 50% of their renewals through the lower cost ex parte process, other states were completing less than 10% of renewals through the ex parte process.
 
