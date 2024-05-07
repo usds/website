@@ -5,7 +5,7 @@ short: COVID Tests
 report: 2024
 permalink: /report-to-congress/2024/covid-tests/
 ---
-######  *The United States Postal Service and the Department of Health and Human Services*
+####  The United States Postal Service and the Department of Health and Human Services
 
 In late 2021, a new and more infectious variant of COVID-19 made its way through the U.S. population. In response, the White House initiated an ambitious program that allowed every U.S. household to order free, at-home COVID-19 tests.
 
