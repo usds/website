@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Reducing the burden of child care assistance applications
-short: Child Care Assistance Application
+short: Reducing burden for parents
 report: 2024
 permalink: /report-to-congress/2024/childcare/
 ---
