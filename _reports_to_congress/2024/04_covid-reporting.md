@@ -9,7 +9,7 @@ permalink: /report-to-congress/2024/covid-reporting/
 
 ###  Challenge
 
-In the early months of 2020, the U.S. was hit hard by COVID-19. After over [118,000 cases in 114 countries and 4,291 deaths](https://www.cdc.gov/museum/timeline/covid19.html), the World Health Organization (WHO) declared a pandemic on March 11, 2020. With the virus spreading rapidly and invisibly, the Centers for Disease Control and Prevention (CDC) struggled to track active COVID-19 cases across states, territories, and tribal nations to understand it better and contain its spread.
+In the early months of 2020, the U.S. was hit hard by COVID-19. After over [118,000 cases in 114 countries and 4,291 deaths](https://www.cdc.gov/museum/timeline/covid19.html){:target="_blank"}, the World Health Organization (WHO) declared a pandemic on March 11, 2020. With the virus spreading rapidly and invisibly, the Centers for Disease Control and Prevention (CDC) struggled to track active COVID-19 cases across states, territories, and tribal nations to understand it better and contain its spread.
 
 CDC needed two functions that didn’t exist: user-friendly software for frontline workers to collect COVID-19 test results and automation that would route those results to the appropriate municipality and then to CDC. 
 
