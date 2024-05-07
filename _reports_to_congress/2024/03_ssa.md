@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Increasing customer satisfaction on SSA.gov by 53%
-short: SSA
+short: Continuously improving SSA.gov
 report: 2024
 permalink: /report-to-congress/2024/ssa/
 
