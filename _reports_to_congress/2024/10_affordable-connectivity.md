@@ -2,18 +2,25 @@
 layout: default
 title: Closing the digital divide by bringing internet to 23 million underserved households
 short: Affordable Connectivity Program
-report: 2023
-permalink: /report-to-congress/2023/affordable-connectivity/
+report: 2024
+permalink: /report-to-congress/2024/affordable-connectivity/
 ---
-###  Challenge
+######  *Federal Communications Commission*
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vel pharetra vel turpis nunc. Commodo viverra maecenas accumsan lacus. Tincidunt ornare massa eget egestas purus viverra accumsan in nisl. Dis parturient montes nascetur ridiculus mus mauris vitae ultricies. Facilisis gravida neque convallis a. Felis bibendum ut tristique et egestas quis. Faucibus a pellentesque sit amet porttitor eget dolor morbi non. Mauris rhoncus aenean vel elit scelerisque mauris pellentesque. Quam vulputate dignissim suspendisse in est ante in. Sed risus ultricies tristique nulla aliquet. Morbi blandit cursus risus at ultrices.
+The Federal Communications Commission’s (FCC) Affordable Connectivity Program (ACP) helps households afford the broadband they need for work, school, healthcare, and more. However, since the initial outreach program had not begun, it was only reaching 10 million out of 48 million potential households. The FCC enlisted USDS to help reach more of the eligible population.
 
-### Solution
+The USDS project team evaluated the existing technical foundation of the program and conducted user research and data analysis to identify common barriers to access. Based on qualitative and quantitative research and data, the USDS team recommended high-impact, low-lift changes to the program and the enrollment process. The changes included reducing the number of steps and simplifying the language in the online form to prevent families from dropping out during the application process.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vel pharetra vel turpis nunc. Commodo viverra maecenas accumsan lacus. Tincidunt ornare massa eget egestas purus viverra accumsan in nisl. Dis parturient montes nascetur ridiculus mus mauris vitae ultricies. Facilisis gravida neque convallis a. Felis bibendum ut tristique et egestas quis. Faucibus a pellentesque sit amet porttitor eget dolor morbi non. Mauris rhoncus aenean vel elit scelerisque mauris pellentesque. Quam vulputate dignissim suspendisse in est ante in. Sed risus ultricies tristique nulla aliquet. Morbi blandit cursus risus at ultrices.
+Together, FCC and USDS designed and implemented a simplified application and enrollment process, increasing access to affordable, high-quality broadband to 23 million households in America, including rural homes. 
 
 ###  Impact
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vel pharetra vel turpis nunc. Commodo viverra maecenas accumsan lacus. Tincidunt ornare massa eget egestas purus viverra accumsan in nisl. Dis parturient montes nascetur ridiculus mus mauris vitae ultricies. Facilisis gravida neque convallis a. Felis bibendum ut tristique et egestas quis. Faucibus a pellentesque sit amet porttitor eget dolor morbi non. Mauris rhoncus aenean vel elit scelerisque mauris pellentesque. Quam vulputate dignissim suspendisse in est ante in. Sed risus ultricies tristique nulla aliquet. Morbi blandit cursus risus at ultrices.
+- 130% increase in ACP enrollment after USDS engagement (*from 1o million to 23 million households*)
 
+
+
+<blockquote class="pullquote" markdown="1">
+The Affordable Connectivity Program application enhancements will streamline the process and ensure that benefits reach as many households as possible with as little friction as possible.
+ <footer>– Cori Zarek, Deputy Administrator at the U.S. Digital Service
+</footer>
+</blockquote>
