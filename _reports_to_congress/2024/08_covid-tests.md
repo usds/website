@@ -11,7 +11,7 @@ In late 2021, a new and more infectious variant of COVID-19 made its way through
 
 USDS collaborated with the United States Postal Service (USPS) and HHS’ Administration for Strategic Preparedness and Response (ASPR) to make the simple, reliable, and accessible technology required to implement this program. The combined teams deployed the USDS model of human-centered design and modern technology to build a simple website that made it quick and easy for the public to order COVID-19 tests.
 
-The launch of COVID.gov/tests was successful, as it processed up to 10 million orders per hour. The simple website interface allowed a variety of houses to use the application and the infrastructure was able to accommodate the significant order volume. 
+The launch of COVID.gov/tests was successful, as it processed up to 10 million orders per hour. The simple website interface allowed a variety of households to use the application and the infrastructure was able to accommodate the significant order volume. 
 
 ###  Impact
 
