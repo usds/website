@@ -4,6 +4,33 @@ title: Building software tools that saved frontline COVID-19 testers 852,000 hou
 short: Building software with CDC 
 report: 2024
 permalink: /report-to-congress/2024/covid-reporting/
+
+# Impact statement (Edit this)
+impact_statement:
+  - figure: "15K"
+    unit: "+"
+    description: |-
+      facilities connected to CDC’s test data reporting platforms
+
+  - figure: "40+"
+    unit: "M"
+    description: |-
+      COVID-19 test results sent to public health departments
+
+  - figure: "45"
+    unit: "+"
+    description: |-
+      local, state, tribal and territorial public health departments using Simple Report and/or Report Stream
+
+  - figure: "852"
+    unit: "K"
+    description: |-
+      working hours saved from 2020-2022
+      
+  - figure: "8"
+    unit: ""
+    description: |-
+      weeks from start of project to first Simple Report test result delivered
 ---
 ####  Centers for Disease Control and Prevention
 
