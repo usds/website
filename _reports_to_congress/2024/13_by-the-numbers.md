@@ -1,7 +1,7 @@
 ---
 layout: default
 title: USDS by the numbers
-short: By the Numbers
+short: USDS by the numbers
 report: 2024
 permalink: /report-to-congress/2024/numbers/
 ---
