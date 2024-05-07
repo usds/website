@@ -4,6 +4,14 @@ title: Addressing a historic formula shortage for desperate parents of babies in
 short: Responding to a formula crisis
 report: 2024
 permalink: /report-to-congress/2024/infant-formula/
+
+# Impact statement (Edit this)
+impact_statement:
+  - figure: "80"
+    unit: "%"
+    description: |-
+      in-stock rates currently from the historically low formula in-stock rate of 19%
+
 ---
 ####  The White House, the Department of Health and Human Services, the Department of Agriculture, and the Food and Drug Administration
 
