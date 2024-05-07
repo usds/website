@@ -13,11 +13,9 @@ CMS provides health coverage to systemically vulnerable populations—people ove
 
 - Medicaid and CHIP (87 million beneficiaries)
 - Medicare (65 million beneficiaries), and
-- The Health Insurance Marketplaces (21 million customers[^1]
+- The Health Insurance Marketplaces (21 million customers)[^1]
 
 DSAC’s team of engineers, designers, and product managers tackle projects that make health care and health care information more seamless and accessible for hundreds of millions of people, and USDS continues to partner on specific projects to support that mission. 
-
-------
 
 [^1]: https://www.cms.gov/newsroom/fact-sheets/marketplace-2024-open-enrollment-period-report-final-national-snapshot
 
