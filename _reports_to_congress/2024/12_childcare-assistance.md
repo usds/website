@@ -3,7 +3,7 @@ layout: default
 title: Reducing the burden of child care assistance applications
 short: Reducing burden for parents
 report: 2024
-permalink: /report-to-congress/2024/childcare/
+permalink: /impact-report/2024/childcare/
 ---
 ####  The Department of Health and Human Services
 
