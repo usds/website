@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 2024 Impact Report
-short: Delivering for the people
+short: How USDS delivers
 report: 2024
 report_title: 2024 Impact Report
 permalink: /impact-report/2024/intro
