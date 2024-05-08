@@ -4,7 +4,7 @@ title: 2024 Impact Report
 short: Delivering for the people
 report: 2024
 report_title: 2024 Impact Report
-permalink: /report-to-congress/2024/intro
+permalink: /impact-report/2024/intro
 ---
 ## For the people, by the people 
 
