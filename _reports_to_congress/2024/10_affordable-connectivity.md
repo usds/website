@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Closing the digital divide by bringing internet to 23 million underserved households
-short: Closing the digital divide
+short: Bringing households online
 report: 2024
 permalink: /impact-report/2024/affordable-connectivity/
 ---
