@@ -14,7 +14,7 @@ As part of an interagency Life Experience Research Team, including professionals
 - General Services Administration (GSA), 
 - the Department of Labor (DOL), 
 - the Department of Housing and Urban Development (HUD), 
-- the Department of Agriculture (USDA),
+- the Department of Agriculture (USDA), and
 - and the Department of Education (ED),
 
 USDS conducted extensive research nationwide with [121 participants](https://www.performance.gov/cx/life-experiences/having-a-child-and-early-childhood/){:target="_blank"}, documenting their experiences during pregnancy and childbirth and how they interacted with the federal government from the birth of their child to age five. Based on their findings, the teams developed and piloted three customer-centric solutions to alleviate the burden and provide better support and resources to these families:
@@ -27,7 +27,7 @@ USDS conducted extensive research nationwide with [121 participants](https://www
 
 The human-centered design research process that USDS contributed to the interagency team—a problem-solving method that prioritizes research and collaborative creativity to develop solutions for people’s needs—is helping to modernize and implement services that are simpler, more accessible, and equitable.
 
-- **APN services** launched in six community-based organizations under Health Resources and Services Administration’s (HRSA) Healthy Start program in July 2023. Fifteen navigators helped over 200 families across the U.S. in Atlanta, Baton Rouge, Turtle Mountain Reservation, Harlem, Pee Dee, and Los Angeles. Fifty-four percent of 39 surveyed families felt less lonely with a peer navigator. Health Start pilot site leadership reported 100% positive impact by APNs on care teams.
+- **APN services** launched in six community-based organizations under Health Resources and Services Administration’s (HRSA) Healthy Start program in July 2023. Fifteen navigators helped over 200 families across the U.S. in Atlanta, Baton Rouge, Turtle Mountain Reservation, Harlem, Pee Dee, and Los Angeles. 54% of 39 surveyed families felt less lonely with a peer navigator. Health Start pilot site leadership reported 100% positive impact by APNs on care teams.
 
 - The **Newborn Supply Kit** has distributed 3,000 kits to families in Arkansas, Louisiana, and New Mexico. The team also launched a new, easy-to-understand website, hhs.gov/newbaby, with content from the federal government. 
 
