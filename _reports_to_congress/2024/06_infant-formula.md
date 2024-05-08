@@ -3,7 +3,7 @@ layout: default
 title: Addressing a historic formula shortage for desperate parents of babies in the US
 short: Responding to a formula crisis
 report: 2024
-permalink: /report-to-congress/2024/infant-formula/
+permalink: /impact-report/2024/infant-formula/
 
 # Impact statement (Edit this)
 impact_statement:
