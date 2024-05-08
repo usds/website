@@ -3,7 +3,7 @@ layout: default
 title: 2024 Impact Report
 short: Hearing from our Administrator
 report: 2024
-report_title: 2024 Report to Congress
+report_title: 2024 Impact Report
 permalink: /report-to-congress/2024/
 front: true
 ---
