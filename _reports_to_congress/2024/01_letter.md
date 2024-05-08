@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 2024 Report to Congress
+title: 2024 Impact Report
 short: Hearing from our Administrator
 report: 2024
 report_title: 2024 Report to Congress
