@@ -13,6 +13,6 @@ To simplify it, USDS partnered with OCC and used human-centered design to create
 
 ###  Impact
 
-- In 2023, seven states and territories adopted practices from this guide to streamline and reduce burden on families applying for child care assistance.
-- In July 2023, Health and Human Services and Vice President Harris announced a[ notice of proposed rulemaking](https://www.whitehouse.gov/briefing-room/statements-releases/2023/07/11/fact-sheet-vice-president-harris-announces-actions-to-lower-child-care-costs-and-support-child-care-providers/){:target="_blank"} (NPRM) that directly referenced this guide to encourage states to streamline eligibility and enrollment processes for child care assistance.
+- In 2023, seven states and territories adopted practices from this guide to streamline and reduce burden on families applying for child care assistance
+- In July 2023, Health and Human Services and Vice President Harris announced a[ notice of proposed rulemaking](https://www.whitehouse.gov/briefing-room/statements-releases/2023/07/11/fact-sheet-vice-president-harris-announces-actions-to-lower-child-care-costs-and-support-child-care-providers/){:target="_blank"} (NPRM) that directly referenced this guide to encourage states to streamline eligibility and enrollment processes for child care assistance
 

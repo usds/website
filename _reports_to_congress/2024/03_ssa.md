@@ -27,7 +27,7 @@ impact_statement:
     description: |-
       more logins per week since relaunch of SSA.gov in December 2022
 
-  - figure: "52.8"
+  - figure: "53"
     unit: "%"
     description: |-
       increase in customer satisfaction from the relaunch of SSA.gov in December 2022 to September 2023
@@ -55,7 +55,7 @@ USDS partnered with SSA to observe customers and discover how they engaged with 
 
 - apply for benefits,
 - sign up for Medicare, and
-- apply for SSI.
+- apply for SSI
 
 The partnership created momentum to improve service delivery through several technical building blocks:
 

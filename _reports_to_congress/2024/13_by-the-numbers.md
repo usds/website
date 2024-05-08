@@ -24,7 +24,7 @@ permalink: /impact-report/2024/by-the-numbers/
 
 ##  Impact and ROI
 
-- 52.8% increase in customer satisfaction since the relaunch of SSA.gov, the second-most visited federal website, with 180 million people visiting annually.
+- 53% increase in customer satisfaction since the relaunch of SSA.gov, the second-most visited federal website, with 180 million people visiting annually.
 - Providing 18.25 million Veterans access for health and benefit services and increased Veterans’ trust in the VA by 9% to 79.3% 
 - 749 million free COVID-19 tests delivered to the American public 
 - Over 400,000 eligible children across 29 states regained Medicaid coverage after USDS identified and resolved a technical error that had caused them to lose it.
@@ -32,7 +32,7 @@ permalink: /impact-report/2024/by-the-numbers/
 - USDS projects have touched a majority of the United States population
 - USDS is able to invest baseline resources to partner with agencies and vendors to yield better scaled outcomes 
 - USDS programs have an incredible return on investment: 
-  - 852,000 hours of COVID-19 testers time was saved because of a tool that USDS built with 12 people over 3 years
+  - 400,000 hours of COVID-19 testers time was saved because of a tool that USDS built with 12 people over 3 years
   - 60% increase of in-stock rates of infant formula from the historic low of 19% in 2022 due to a USDS team of 11 people providing data analyses of the supply chain and public needs over 5 months
 
 ##  Savings
