@@ -11,7 +11,7 @@ impact_statement:
     unit: "M"
     description: |-
       in projected estimated savings over five years in infrastructure expenses
-      
+
   - figure: "99"
     unit: "%"
     description: |-
@@ -26,21 +26,16 @@ impact_statement:
     unit: "M"
     description: |-
       more logins per week since relaunch of SSA.gov in December 2022
-      
+
   - figure: "52.8"
     unit: "%"
     description: |-
       increase in customer satisfaction from the relaunch of SSA.gov in December 2022 to September 2023
-
 ---
 
+#### Social Security Administration
 
-
-
-
-####  Social Security Administration
-
-###  Challenge
+### Challenge
 
 The Social Security Administration’s (SSA) website is visited by 180 million people annually seeking information and services, making it the second-most visited federal website. It is essential for accessing and managing benefits such as Social Security Disability Insurance (SSDI), Supplemental Security Income (SSI), and Retirement benefits for more than 72 million people and maintaining personal records, including Social Security numbers.
 
@@ -56,23 +51,22 @@ We have millions of people visiting the site, some during challenging times in t
 
 ### Solution
 
-USDS partnered with SSA to observe customers and discover how they engaged with the SSA website. Collected insights informed recommendations for design and modern development practices to ensure customers can better use the website to complete high-priority tasks such as 
+USDS partnered with SSA to observe customers and discover how they engaged with the SSA website. Collected insights informed recommendations for design and modern development practices to ensure customers can better use the website to complete high-priority tasks such as
 
-- apply for benefits, 
-- sign up for Medicare, and 
-- apply for SSI. 
+- apply for benefits,
+- sign up for Medicare, and
+- apply for SSI.
 
 The partnership created momentum to improve service delivery through several technical building blocks:
 
 - **Task-focused information architecture** transformed a static homepage with broad categories of topics to a simpler interface with actionable links for common tasks such as applying for benefits, signing up for Medicare, and checking eligibility.
 - A **conversational eligibility screener** replaced complicated policy language, creating a more user-friendly eligibility process. As a result, 50.2% of SSA customers start an online application when they discover they may be eligible for benefits.
 - **Clear, organized content** in plain language provides reliable, consistent information to customers so they can make critical decisions. One million more customers per week log into SSA.gov to complete tasks, and less time is wasted second-guessing and interpreting complicated language.
-- Building a **modern development infrastructure** that includes a content management system, a content delivery network, and cloud services is expected to save taxpayers an estimated $285 million over five years. Enhancing the site's performance and reliability has replaced expensive and time-consuming development support. 
+- Building a **modern development infrastructure** that includes a content management system, a content delivery network, and cloud services is expected to save taxpayers an estimated $285 million over five years. Enhancing the site's performance and reliability has replaced expensive and time-consuming development support.
 - Implementing the **U.S. Web Design System** has increased mobile device usability, removing the need for customers to sift through pages of lengthy content.
 
-###  Impact
+### Impact
 
 USDS’s most impactful contribution to its partnership with SSA was advocating for the agency to establish a cross-disciplinary team to continue the digital transformation. The new team establishes sustainable standards and processes, shares research findings, and develops data-driven strategies to improve design and development solutions for the public.
 
-#### Visit [SSA.gov](https://www.ssa.gov/){:target="_blank"} to see the live result of the partnership between USDS and SSA.
-
+#### Visit [SSA.gov](https://www.ssa.gov/){:target="\_blank"} to see the live result of the partnership between USDS and SSA.
