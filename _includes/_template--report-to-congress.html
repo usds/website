@@ -44,6 +44,21 @@
     <div class="tablet:grid-col-8 desktop:grid-col-9 margin-bottom-9 tablet:padding-right-4 site-c-report-to-congress">
       {{ content }}
 
+      {% if page.impact_statement %}
+        <h3>By the numbers</h3>
+          <div class="site-c-cards margin-x-neg-2 grid-row flex-wrap">
+            {% for item in page.impact_statement %}
+            <div class="padding-x-2 tablet:grid-col-6 desktop:grid-col-6 flex-align-stretch margin-bottom-3">
+              <div cass="site-c-card">
+                <span class="text-primary text-bold font-body-3xl">{{ item.figure }}</span><span
+                  class="text-primary text-bold font-body-2xl">{{ item.unit}}</span>
+              </div>
+              <div>{{ item.description | replace: 'site.baseurl', site.baseurl | markdownify }}</div>
+            </div>
+            {% endfor %}
+          </div>
+      {% endif %}
+
       {% if page.previous_entry %}
         {% assign previous_entry = site.reports_to_congress | where: "url", page.previous_entry | first %}
         {% if previous_entry %}
@@ -63,7 +78,7 @@
         <li class="pdf"><a href="{{ site.baseurl }}/resources/USDS-{{ page.report | replace: " ", "-" }}-Impact-Report.pdf">Download the<br/>full report (PDF)</a></li>
       </ul>
 
-      
+
     </div>
   </div>
 </div>
