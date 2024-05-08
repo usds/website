@@ -21,7 +21,7 @@ USDS conducted extensive research nationwide with [121 participants](https://www
 
 - The **Alumni Peer Navigator (APN)** services help moms access social-emotional support, federally funded programs, and community resources, such as Medicaid, WIC, and Temporary Assistance for Needy Families (TANF), in a culturally responsive way.
 - The **Newborn Supply Kit** provides families with basic physical supplies and resources crucial to the first few weeks after birth.
-- **Notify.gov for Families** sends families text message reminders and guidance to help families know about, enroll in, and re-certify for federal benefit and support programs.
+- **Notify.gov** sends families text message reminders and guidance to help families know about, enroll in, and re-certify for federal benefit and support programs.
 
 ###  Impact
 
