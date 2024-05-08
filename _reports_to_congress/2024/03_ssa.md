@@ -27,7 +27,7 @@ impact_statement:
     description: |-
       more logins per week since relaunch of SSA.gov in December 2022
 
-  - figure: "52.8"
+  - figure: "53"
     unit: "%"
     description: |-
       increase in customer satisfaction from the relaunch of SSA.gov in December 2022 to September 2023
