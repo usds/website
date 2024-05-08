@@ -3,7 +3,7 @@ layout: default
 title: Closing the digital divide by bringing internet to 23 million underserved households
 short: Closing the digital divide
 report: 2024
-permalink: /report-to-congress/2024/affordable-connectivity/
+permalink: /impact-report/2024/affordable-connectivity/
 ---
 ####  Federal Communications Commission
 
