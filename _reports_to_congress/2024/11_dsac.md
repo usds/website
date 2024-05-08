@@ -3,7 +3,7 @@ layout: default
 title: Increasing access and understanding of health care for millions of people
 short: Building agency capacity
 report: 2024
-permalink: /report-to-congress/2024/dsac/
+permalink: /impact-report/2024/dsac/
 ---
 ####  Centers for Medicare and Medicaid Services
 
