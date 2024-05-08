@@ -3,7 +3,7 @@ layout: default
 title: Connecting new parents to federal benefits faster with three customer-centered solutions
 short: Using human-centered design
 report: 2024
-permalink: /report-to-congress/2024/life-experience/
+permalink: /impact-report/2024/life-experience/
 ---
 ####  The Department of Health and Human Services
 
