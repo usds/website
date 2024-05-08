@@ -3,7 +3,7 @@ layout: default
 title: Delivering 749 million free COVID-19 tests
 short: Delivering COVID-19 tests
 report: 2024
-permalink: /report-to-congress/2024/covid-tests/
+permalink: /impact-report/2024/covid-tests/
 ---
 ####  The United States Postal Service and the Department of Health and Human Services
 
