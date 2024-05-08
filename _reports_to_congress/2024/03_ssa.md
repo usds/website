@@ -55,7 +55,7 @@ USDS partnered with SSA to observe customers and discover how they engaged with 
 
 - apply for benefits,
 - sign up for Medicare, and
-- apply for SSI.
+- apply for SSI
 
 The partnership created momentum to improve service delivery through several technical building blocks:
 
