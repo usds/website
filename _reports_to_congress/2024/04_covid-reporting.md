@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Building software tools that saved frontline COVID-19 testers 700,000 hours 
+title: Building software tools that saved frontline COVID-19 testers 400,000 hours 
 short: Building software with CDC 
 report: 2024
 permalink: /impact-report/2024/covid-reporting/
@@ -22,7 +22,7 @@ impact_statement:
     description: |-
       local, state, tribal and territorial public health departments using Simple Report and/or Report Stream
 
-  - figure: "852"
+  - figure: "400"
     unit: "K"
     description: |-
       working hours saved from 2020-2022
