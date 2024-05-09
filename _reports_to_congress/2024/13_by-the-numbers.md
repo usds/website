@@ -38,6 +38,6 @@ permalink: /impact-report/2024/by-the-numbers/
 ##  Savings
 
 - $285 million in projected estimated savings over five years in infrastructure expenses for the SSA
-- 852,000 working hours saved for frontline COVID-19 testers from 2020-2022 across 45+ local, state, tribal and territorial public health departments using Simple Report and/or Report Stream
+- 400,000 working hours saved for frontline COVID-19 testers from 2020-2022 across 45+ local, state, tribal and territorial public health departments using Simple Report and/or Report Stream
 - 2+ million hours of worker processing time saved due to the actions taken by USDS and CMCS
 
