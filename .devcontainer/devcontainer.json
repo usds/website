@@ -1,0 +1,3 @@
+{
+    "postCreateCommand": "docker build -t usds-website . --no-cache && docker run -p 4080:4000  -p 35729:35729 -v $(pwd):/app --name usdsweb usds-website"
+}
