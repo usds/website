@@ -7,7 +7,7 @@ blog_page: true
 carousel_title: "Collective Motherhood: Improving the Parenthood Journey through Peer Support"
 carousel_summary: "Fifteen mothers created the future of maternal health. It started with a simple question: How can I help? "
 # partial path to image
-carousel_image: /news-and-blog/2024-06-18-news-and-blog-page-img/peer-navigator.jpg
+carousel_image: /news-and-blog/2024-06-18-improving-the-parenthood-journey-through-peer-support/peer-navigator.jpg
 # accessibility text for image
 carousel_image_alt_text: "African American woman wearing glasses looks down at baby she holds against her chest."
 # should show on news and blog page. ordered by date prefix in filename
@@ -37,17 +37,19 @@ impact_statement: []
 
 ---
 
-_This blog is part of a series highlighting our work on the_ [_Having a Child and Early Childhood Life Experience_](https://www.performance.gov/cx/life-experiences/having-a-child-and-early-childhood/){:target="_blank"}, one of five “life experience” projects under the President’s Executive Order on Improving Customer Experience. You can read the previous entries on the_ [_U.S. Digital Service blog_](https://www.usds.gov/news-and-blog){:target="_blank"}.
+_This blog is part of a series highlighting our work on the_ [_Having a Child and Early Childhood Life Experience_](https://www.performance.gov/cx/life-experiences/having-a-child-and-early-childhood/){:target="_blank"}, one of five “life experience” projects under the President’s Executive Order on Improving Customer Experience. You can read the previous entries on the [_U.S. Digital Service blog_](https://www.usds.gov/news-and-blog).
 
 Active listening is a simple act that, for moms, can make all the difference.&#x20;
 
 In the summer of 2023, the U.S. Digital Service (USDS), our partners at the Health Resources and Services Administration (HRSA), and six community-based organizations in [HRSA’s Healthy Start program](https://mchb.hrsa.gov/programs-impact/healthy-start){:target="_blank"} launched a pilot service for moms—[Alumni Peer Navigator](https://www.performance.gov/cx/life-experiences/having-a-child-and-early-childhood/){:target="_blank"} (APN). This program was designed to help moms access social-emotional support, federal programs, and community resources. With mental health conditions comprising [the leading cause of maternal mortality in the United States](https://www.cdc.gov/media/releases/2022/p0919-pregnancy-related-deaths.html){:target="_blank"}, interventions that increase social connection and support are more crucial than ever.&#x20;
 
 <blockquote class="pullquote" markdown="1">
-For some people, you could be the only opportunity to get a meal, a warm voice, shelter, diapers for their baby. Everyone has their story.<footer>– Markeitha Benton, an Alumni Peer Navigator at Family Road Healthy Start, Baton Rouge</footer>
-</blockquote>
+For some people, you could be the only opportunity to get a meal, a warm voice, shelter, diapers for their baby. Everyone has their story.
+  <footer>– Markeitha Benton, an Alumni Peer Navigator at Family Road Healthy Start, Baton Rouge
+  </footer>
+  </blockquote>
 
-```
+~~~
 #### Why APN Services?&#x20;
 
 Within the first six months of the pilot’s launch, APN services supported over 200 families. Fifteen APNs were dedicated to six Healthy Start sites.
@@ -62,7 +64,6 @@ Within the first six months of the pilot’s launch, APN services supported over
 
 63% of families who have received support from an APN enrolled in benefits, and 71% of families found it easier to access federal or community resources with their APN's help.
 
-
 #### Who are APNs?
 
 APS are moms who have graduated from the Healthy Start program within the last four years and live within its service area. They act as guides who bring strong knowledge of community resources, support services, and benefits programs for families.
@@ -70,7 +71,7 @@ APS are moms who have graduated from the Healthy Start program within the last f
 #### What do families have to say about APNs?&#x20;
 
 The pilot scored 4.5 out of 5 in satisfaction among 44 interviewed families.
-```
+~~~
 
 ## The participatory design approach delivered initial promising results
 
@@ -87,8 +88,10 @@ Our team discovered that a triple win was possible:
 ## Helping moms connect beyond benefits
 
 <blockquote class="pullquote" markdown="1">
-I feel I am the right person because...I have the client’s experience. I get to give support to moms, which I didn’t have during my term. I feel like I have a lot of ideas I can share to add to the program based on what clients need.<footer>– Alumni Peer Navigator at SHIELDS for Families Healthy Start (South Los Angeles)</footer>
-</blockquote>
+I feel I am the right person because...I have the client’s experience. I get to give support to moms, which I didn’t have during my term. I feel like I have a lot of ideas I can share to add to the program based on what clients need.
+  <footer>– Alumni Peer Navigator at SHIELDS for Families Healthy Start (South Los Angeles)
+  </footer>
+  </blockquote>
 
 In July 2023, as the pilot was implemented across a diverse range of communities, APN services could not be a “one size fits all” approach. Families also shared how meaningful and life-giving it was to have someone listen and check in on them.
 
@@ -141,15 +144,19 @@ Our initial focus on streamlining benefits enrollment was just the beginning. AP
 
 
 <blockquote class="pullquote" markdown="1">
-Adding capacity means adding a dish to a bowl to catch overflow. This adds a wealth [of] worth of capacity to the organization. It allows us to serve better the community, which allows us to think about diversifying the funding.  When you add more money to case managers, you are expanding the workload; you aren't addressing the depth of the work. By adding depth, I can add breadth. The Navigator has closed the gaps that have developed due to associated challenges that come with large case loads.<footer>– Krystal “Jet” Stewart, Harlem Pilot Site Lead</footer>
-</blockquote>
+Adding capacity means adding a dish to a bowl to catch overflow. This adds a wealth [of] worth of capacity to the organization. It allows us to serve better the community, which allows us to think about diversifying the funding.  When you add more money to case managers, you are expanding the workload; you aren't addressing the depth of the work. By adding depth, I can add breadth. The Navigator has closed the gaps that have developed due to associated challenges that come with large case loads.
+  <footer>– Krystal “Jet” Stewart, Harlem Pilot Site Lead
+  </footer>
+  </blockquote>
 
 ## Looking to the future
 
 We're not just stopping at launch; we're committed to continuous learning and improvement alongside HRSA and our pilot sites in 2024 and beyond.&#x20;
 
 <blockquote class="pullquote" markdown="1">
-I can see and feel the difference I’m making. One mom thought she was three months pregnant and was too scared of going to the doctor. Because of that she also couldn’t qualify for WIC. I kept encouraging her, and accompanied her so she would feel safe to go.  It turns out she was actually eight months pregnant! She now has a healthy baby she sends me pictures of, and was able to qualify for WIC. I am so happy I could support her.<footer>– Alumni Peer Navigator in Harlem Healthy Start</footer>
-</blockquote>
+I can see and feel the difference I’m making. One mom thought she was three months pregnant and was too scared of going to the doctor. Because of that she also couldn’t qualify for WIC. I kept encouraging her, and accompanied her so she would feel safe to go.  It turns out she was actually eight months pregnant! She now has a healthy baby she sends me pictures of, and was able to qualify for WIC. I am so happy I could support her.
+  <footer>– Alumni Peer Navigator in Harlem Healthy Start
+  </footer>
+  </blockquote>
 
 Want to learn more? Watch the [public webinar](https://www.performance.gov/blog/2024-pma-0-5-webinar-recording/){:target="_blank"}, in which initial pilot results were shared across the 0-5 team's portfolio, including APN services.
