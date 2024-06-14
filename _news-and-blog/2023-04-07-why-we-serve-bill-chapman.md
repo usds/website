@@ -15,9 +15,9 @@ carousel_show: true
 
 # Blog detail page (Edit this)
 title: "Why we serve: Bill Chapman"
-dateline_str: "Apr 7, 2023"
-readtime_str: "4"
-byline_str: "U.S. Digital Service"
+date: "Apr 7, 2023"
+readtime_minutes: "4"
+author: "U.S. Digital Service"
 permalink: /news-and-blog/why-we-serve-bill-chapman-83774e
 ---
 

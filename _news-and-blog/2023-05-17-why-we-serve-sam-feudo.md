@@ -15,9 +15,9 @@ carousel_show: true
 
 # Blog detail page (Edit this)
 title: "Why we serve: Sam Feudo"
-dateline_str: "May 17, 2023"
-readtime_str: "6"
-byline_str: "U.S. Digital Service"
+date: "May 17, 2023"
+readtime_minutes: "6"
+author: "U.S. Digital Service"
 permalink: /news-and-blog/why-we-serve-sam-feudo-66a3b5
 ---
 
