@@ -45,8 +45,7 @@ In the summer of 2023, the U.S. Digital Service (USDS), our partners at the Heal
 
 <blockquote class="pullquote" markdown="1">
 For some people, you could be the only opportunity to get a meal, a warm voice, shelter, diapers for their baby. Everyone has their story.
-  <footer>– Markeitha Benton, 
-an Alumni Peer Navigator at Family Road Healthy Start, Baton Rouge
+  <footer>– Markeitha Benton, an Alumni Peer Navigator at Family Road Healthy Start Baton Rouge
   </footer>
   </blockquote>
 
