@@ -7,7 +7,7 @@ blog_page: true
 carousel_title: "Collective Motherhood: Improving the Parenthood Journey through Peer Support"
 carousel_summary: "Fifteen mothers created the future of maternal health. It started with a simple question: How can I help? "
 # partial path to image
-carousel_image: /news-and-blog/2024-06-18-news-and-blog-page-img/peer-navigator.jpg
+carousel_image: /news-and-blog/2024-06-18-improving-the-parenthood-journey-through-peer-support/peer-navigator.jpg
 # accessibility text for image
 carousel_image_alt_text: "African American woman wearing glasses looks down at baby she holds against her chest."
 # should show on news and blog page. ordered by date prefix in filename
