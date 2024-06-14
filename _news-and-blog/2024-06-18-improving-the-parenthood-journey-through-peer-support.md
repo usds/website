@@ -45,11 +45,12 @@ In the summer of 2023, the U.S. Digital Service (USDS), our partners at the Heal
 
 <blockquote class="pullquote" markdown="1">
 For some people, you could be the only opportunity to get a meal, a warm voice, shelter, diapers for their baby. Everyone has their story.
-  <footer>– Markeitha Benton, an Alumni Peer Navigator at Family Road Healthy Start, Baton Rouge
+  <footer>– Markeitha Benton, 
+an Alumni Peer Navigator at Family Road Healthy Start, Baton Rouge
   </footer>
   </blockquote>
 
-~~~
+
 #### Why APN Services?&#x20;
 
 Within the first six months of the pilot’s launch, APN services supported over 200 families. Fifteen APNs were dedicated to six Healthy Start sites.
@@ -71,7 +72,7 @@ APS are moms who have graduated from the Healthy Start program within the last f
 #### What do families have to say about APNs?&#x20;
 
 The pilot scored 4.5 out of 5 in satisfaction among 44 interviewed families.
-~~~
+
 
 ## The participatory design approach delivered initial promising results
 
@@ -107,23 +108,16 @@ Sites were given a folder of customizable templates to help onboard APNs:&#x20;
 Since July 2023, APN services have been launched in six communities nationwide, and 15 navigators have served 200+ families across the United States in tribal, urban, and rural areas. Our initial pilot sites, all community-based organizations, include:&#x20;
 
 - Center for Black Women's Wellness, Atlanta Healthy Start Initiative, Atlanta, GA&#x20;
-
 - Family Road Healthy Start, Baton Rouge, Louisiana&#x20;
-
 - Great Plains Tribal Leaders' Health Board Healthy Start, Turtle Mountain Reservation, North Dakota&#x20;
-
 - Greater Harlem Healthy Start at Northern Manhattan Perinatal Partnership, Harlem, New York&#x20;
-
 - Pee Dee Healthy Start, Inc., Florence and surrounding Pee Dee Region, South Carolina&#x20;
-
 - SHIELDS for Families Healthy Start, South Los Angeles, California&#x20;
-
   
 
 Midway through the pilot, the team visited each community to connect with families and the APNs supporting them.&#x20;
 
 - 81% of families reported their APN made it easier for them to get access to resources&#x20;
-
 - 61% reported that after working with an APN, they felt confident they could find resources for themselves and their children.&#x20;
 
 Moms also shared how APNs directly improved their experience applying for benefits and community resources. "Navigators…they put a 'umph' in \[the process], and we get approved quicker," a mom in Baton Rouge told our team. &#x20;
