@@ -18,10 +18,6 @@ date: "Jun 18, 2024"
 readtime_minutes: "7"
 author: "Whitney Robinson, Alexandra Bornkessel, Samantha Noor, Alicia Siman, Daphney Dupervil and Maya Mechenbier"
 permalink: /news-and-blog/collective-motherhood-improving-parenthood-journey-through-peer-support
-
-# These are in the process of being renamed and are here for the transition, they should be removed
-dateline_str: "Jun 18, 2024"
-byline_str: "Whitney Robinson, Alexandra Bornkessel, Samantha Noor, Alicia Siman, Daphney Dupervil and Maya Mechenbier"
 ---
 
 _This blog is part of a series highlighting our work on the_ [_Having a Child and Early Childhood Life Experience_](https://www.performance.gov/cx/life-experiences/having-a-child-and-early-childhood/){:target="_blank"}, one of five “life experience” projects under the President’s Executive Order on Improving Customer Experience. You can read the previous entries on the [_U.S. Digital Service blog_](https://www.usds.gov/news-and-blog).
@@ -32,7 +28,7 @@ In the summer of 2023, the U.S. Digital Service (USDS), our partners at the Heal
 
 <blockquote class="pullquote" markdown="1">
 For some people, you could be the only opportunity to get a meal, a warm voice, shelter, diapers for their baby. Everyone has their story.
-  <footer>– Markeitha Benton, an Alumni Peer Navigator at Family Road Healthy Start Baton Rouge
+  <footer>– Markeitha B., Alumni Peer Navigator, Family Road Healthy Start Baton Rouge
   </footer>
   </blockquote>
 
