@@ -19,8 +19,6 @@ date: "Jun 18, 2024"
 readtime_minutes: "7"
 author: "Whitney Robinson, Alexandra Bornkessel, Samantha Noor, Alicia Siman, Daphney Dupervil and Maya Mechenbier"
 permalink: /news-and-blog/collective-motherhood-improving-parenthood-journey-through-peer-support
-basename: "news-and-blog-page"
-tags: []
 
 
 # These are in the process of being renamed and are here for the transition, they should be removed
