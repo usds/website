@@ -4,7 +4,7 @@ layout: default
 blog_page: true
 
 # Carousel (Edit this)
-carousel_title: "Collective Motherhood: Improving the Parenthood Journey through Peer Support"
+carousel_title: "Collective motherhood: Improving the parenthood journey through peer support"
 carousel_summary: "Fifteen mothers created the future of maternal health. It started with a simple question: How can I help? "
 # partial path to image
 carousel_image: /news-and-blog/2024-06-18-improving-the-parenthood-journey-through-peer-support/peer-navigator.jpg
