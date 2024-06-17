@@ -12,27 +12,15 @@ carousel_image: /news-and-blog/2024-06-18-improving-the-parenthood-journey-throu
 carousel_image_alt_text: "African American woman wearing glasses looks down at baby she holds against her chest."
 # should show on news and blog page. ordered by date prefix in filename
 carousel_show: true
-
 # Blog detail page (Edit this)
 title: "Collective Motherhood: Improving the Parenthood Journey through Peer Support"
 date: "Jun 18, 2024"
 readtime_minutes: "7"
 author: "Whitney Robinson, Alexandra Bornkessel, Samantha Noor, Alicia Siman, Daphney Dupervil and Maya Mechenbier"
 permalink: /news-and-blog/collective-motherhood-improving-parenthood-journey-through-peer-support
-
-
 # These are in the process of being renamed and are here for the transition, they should be removed
 dateline_str: "Jun 18, 2024"
 byline_str: "Whitney Robinson, Alexandra Bornkessel, Samantha Noor, Alicia Siman, Daphney Dupervil and Maya Mechenbier"
-
-# Project details page specifics. (Edit this)
-agency: 
-project_url: 
-
-# Project Impact statement (Edit this)
-impact_statement: []
-
-
 ---
 
 _This blog is part of a series highlighting our work on the_ [_Having a Child and Early Childhood Life Experience_](https://www.performance.gov/cx/life-experiences/having-a-child-and-early-childhood/){:target="_blank"}, one of five “life experience” projects under the President’s Executive Order on Improving Customer Experience. You can read the previous entries on the [_U.S. Digital Service blog_](https://www.usds.gov/news-and-blog).
