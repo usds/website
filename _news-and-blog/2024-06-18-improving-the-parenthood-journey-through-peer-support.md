@@ -37,9 +37,9 @@ impact_statement: []
 
 _This blog is part of a series highlighting our work on the_ [_Having a Child and Early Childhood Life Experience_](https://www.performance.gov/cx/life-experiences/having-a-child-and-early-childhood/){:target="_blank"}, one of five “life experience” projects under the President’s Executive Order on Improving Customer Experience. You can read the previous entries on the [_U.S. Digital Service blog_](https://www.usds.gov/news-and-blog).
 
-Active listening is a simple act that, for moms, can make all the difference.&#x20;
+Active listening is a simple act that, for moms, can make all the difference.
 
-In the summer of 2023, the U.S. Digital Service (USDS), our partners at the Health Resources and Services Administration (HRSA), and six community-based organizations in [HRSA’s Healthy Start program](https://mchb.hrsa.gov/programs-impact/healthy-start){:target="_blank"} launched a pilot service for moms—[Alumni Peer Navigator](https://www.performance.gov/cx/life-experiences/having-a-child-and-early-childhood/){:target="_blank"} (APN). This program was designed to help moms access social-emotional support, federal programs, and community resources. With mental health conditions comprising [the leading cause of maternal mortality in the United States](https://www.cdc.gov/media/releases/2022/p0919-pregnancy-related-deaths.html){:target="_blank"}, interventions that increase social connection and support are more crucial than ever.&#x20;
+In the summer of 2023, the U.S. Digital Service (USDS), our partners at the Health Resources and Services Administration (HRSA), and six community-based organizations in [HRSA’s Healthy Start program](https://mchb.hrsa.gov/programs-impact/healthy-start){:target="_blank"} launched a pilot service for moms—[Alumni Peer Navigator](https://www.performance.gov/cx/life-experiences/having-a-child-and-early-childhood/){:target="_blank"} (APN). This program was designed to help moms access social-emotional support, federal programs, and community resources. With mental health conditions comprising [the leading cause of maternal mortality in the United States](https://www.cdc.gov/media/releases/2022/p0919-pregnancy-related-deaths.html){:target="_blank"}, interventions that increase social connection and support are more crucial than ever.
 
 <blockquote class="pullquote" markdown="1">
 For some people, you could be the only opportunity to get a meal, a warm voice, shelter, diapers for their baby. Everyone has their story.
@@ -55,7 +55,7 @@ Within the first six months of the pilot’s launch, APN services supported over
 #### Three goals guided the APN service pilot:
 
 1. Making benefits enrollment easier
-2. Strengthening client support teams&#x20;
+2. Strengthening client support teams
 3. Reducing maternal and caregiver stress
 
 #### To date, how are APNs impacting families? &#x20;
@@ -93,45 +93,45 @@ I feel I am the right person because...I have the client’s experience. I get t
 
 In July 2023, as the pilot was implemented across a diverse range of communities, APN services could not be a “one size fits all” approach. Families also shared how meaningful and life-giving it was to have someone listen and check in on them.
 
-Sites were given a folder of customizable templates to help onboard APNs:&#x20;
+Sites were given a folder of customizable templates to help onboard APNs:
 
-- A menu of services presented the ways APNs can support clients,&#x20;
-- A role description to help identify and recruit alums into the APN role,   &#x20;
-- An offering description to help promote the service to their clients, and finally,&#x20;
+- A menu of services presented the ways APNs can support clients,
+- A role description to help identify and recruit alums into the APN role,   
+- An offering description to help promote the service to their clients, and finally,
 - Refresher documents on how to navigate the Medicaid and WIC enrollment process
 
 ## How it's going
 
-Since July 2023, APN services have been launched in six communities nationwide, and 15 navigators have served 200+ families across the United States in tribal, urban, and rural areas. Our initial pilot sites, all community-based organizations, include:&#x20;
+Since July 2023, APN services have been launched in six communities nationwide, and 15 navigators have served 200+ families across the United States in tribal, urban, and rural areas. Our initial pilot sites, all community-based organizations, include:
 
-- Center for Black Women's Wellness, Atlanta Healthy Start Initiative, Atlanta, GA&#x20;
-- Family Road Healthy Start, Baton Rouge, Louisiana&#x20;
-- Great Plains Tribal Leaders' Health Board Healthy Start, Turtle Mountain Reservation, North Dakota&#x20;
-- Greater Harlem Healthy Start at Northern Manhattan Perinatal Partnership, Harlem, New York&#x20;
-- Pee Dee Healthy Start, Inc., Florence and surrounding Pee Dee Region, South Carolina&#x20;
-- SHIELDS for Families Healthy Start, South Los Angeles, California&#x20;
+- Center for Black Women's Wellness, Atlanta Healthy Start Initiative, Atlanta, GA
+- Family Road Healthy Start, Baton Rouge, Louisiana
+- Great Plains Tribal Leaders' Health Board Healthy Start, Turtle Mountain Reservation, North Dakota
+- Greater Harlem Healthy Start at Northern Manhattan Perinatal Partnership, Harlem, New York
+- Pee Dee Healthy Start, Inc., Florence and surrounding Pee Dee Region, South Carolina
+- SHIELDS for Families Healthy Start, South Los Angeles, California
   
 
-Midway through the pilot, the team visited each community to connect with families and the APNs supporting them.&#x20;
+Midway through the pilot, the team visited each community to connect with families and the APNs supporting them.
 
-- 81% of families reported their APN made it easier for them to get access to resources&#x20;
-- 61% reported that after working with an APN, they felt confident they could find resources for themselves and their children.&#x20;
+- 81% of families reported their APN made it easier for them to get access to resources
+- 61% reported that after working with an APN, they felt confident they could find resources for themselves and their children.
 
-Moms also shared how APNs directly improved their experience applying for benefits and community resources. "Navigators…they put a 'umph' in \[the process], and we get approved quicker," a mom in Baton Rouge told our team. &#x20;
+Moms also shared how APNs directly improved their experience applying for benefits and community resources. "Navigators…they put a 'umph' in \[the process], and we get approved quicker," a mom in Baton Rouge told our team. 
 
-Moms felt that the peer aspect of the service allowed for a comfortable and safe space to ask for help.&#x20;
+Moms felt that the peer aspect of the service allowed for a comfortable and safe space to ask for help.
 
-"Honestly, I am receiving more than I thought I would. I would feel like she was a very easy person to talk to. I feel safe with her. Just knowing that she wants to help me…Just having someone open doesn't feel like a job for her. It is genuine," a mom in Atlanta shared.  &#x20;
+"Honestly, I am receiving more than I thought I would. I would feel like she was a very easy person to talk to. I feel safe with her. Just knowing that she wants to help me…Just having someone open doesn't feel like a job for her. It is genuine," a mom in Atlanta shared.  
 
 ## Building organizational capacity with APNs
 
-In addition to speaking with families and APNs, our team sat with site leadership and community health workers (CHWs) to understand the impact of APN services at their Healthy Start site. &#x20;
+In addition to speaking with families and APNs, our team sat with site leadership and community health workers (CHWs) to understand the impact of APN services at their Healthy Start site. 
 
-- 100% of Healthy Start pilot site leadership reported that APNs positively impacted Healthy Start care teams and that they would recommend the program to other Healthy Start sites.&#x20;
-- 85% of the Healthy Start pilot's leadership team stated that the APNS pilot improved their Healthy Start program overall.&#x20;
+- 100% of Healthy Start pilot site leadership reported that APNs positively impacted Healthy Start care teams and that they would recommend the program to other Healthy Start sites.
+- 85% of the Healthy Start pilot's leadership team stated that the APNS pilot improved their Healthy Start program overall.
 - CHWs reported that APNs saved an average of 7.3 monthly hours once they started working at their site.
 
-Our initial focus on streamlining benefits enrollment was just the beginning. APNs' unexpected but invaluable contribution went beyond facilitating a smoother customer experience.&#x20;
+Our initial focus on streamlining benefits enrollment was just the beginning. APNs' unexpected but invaluable contribution went beyond facilitating a smoother customer experience.
 
 
 <blockquote class="pullquote" markdown="1">
@@ -142,7 +142,7 @@ Adding capacity means adding a dish to a bowl to catch overflow. This adds a wea
 
 ## Looking to the future
 
-We're not just stopping at launch; we're committed to continuous learning and improvement alongside HRSA and our pilot sites in 2024 and beyond.&#x20;
+We're not just stopping at launch; we're committed to continuous learning and improvement alongside HRSA and our pilot sites in 2024 and beyond.
 
 <blockquote class="pullquote" markdown="1">
 I can see and feel the difference I’m making. One mom thought she was three months pregnant and was too scared of going to the doctor. Because of that she also couldn’t qualify for WIC. I kept encouraging her, and accompanied her so she would feel safe to go.  It turns out she was actually eight months pregnant! She now has a healthy baby she sends me pictures of, and was able to qualify for WIC. I am so happy I could support her.
