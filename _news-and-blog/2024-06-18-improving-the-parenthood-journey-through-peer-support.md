@@ -14,9 +14,9 @@ carousel_image_alt_text: "African American woman wearing glasses looks down at b
 carousel_show: true
 # Blog detail page (Edit this)
 title: "Collective motherhood: Improving the parenthood journey through peer support"
-date: "Jun 18, 2024"
-readtime_minutes: "7"
-author: "Whitney Robinson, Alexandra Bornkessel, Samantha Noor, Alicia Siman, Daphney Dupervil and Maya Mechenbier"
+dateline_str: "Jun 18, 2024"
+readtime_str: "7"
+byline_str: "Whitney Robinson, Alexandra Bornkessel, Samantha Noor, Alicia Siman, Daphney Dupervil and Maya Mechenbier"
 permalink: /news-and-blog/collective-motherhood-improving-parenthood-journey-through-peer-support
 ---
 
