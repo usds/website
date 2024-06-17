@@ -13,11 +13,12 @@ carousel_image_alt_text: "African American woman wearing glasses looks down at b
 # should show on news and blog page. ordered by date prefix in filename
 carousel_show: true
 # Blog detail page (Edit this)
-title: "Collective Motherhood: Improving the Parenthood Journey through Peer Support"
+title: "Collective motherhood: Improving the parenthood journey through peer support"
 date: "Jun 18, 2024"
 readtime_minutes: "7"
 author: "Whitney Robinson, Alexandra Bornkessel, Samantha Noor, Alicia Siman, Daphney Dupervil and Maya Mechenbier"
 permalink: /news-and-blog/collective-motherhood-improving-parenthood-journey-through-peer-support
+
 # These are in the process of being renamed and are here for the transition, they should be removed
 dateline_str: "Jun 18, 2024"
 byline_str: "Whitney Robinson, Alexandra Bornkessel, Samantha Noor, Alicia Siman, Daphney Dupervil and Maya Mechenbier"
