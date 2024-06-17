@@ -4,7 +4,7 @@ layout: default
 blog_page: true
 
 # Carousel (Edit this)
-carousel_title: "Solutions by Families, for Families"
+carousel_title: "Solutions by families, for families"
 carousel_summary: "How we’re working with people across the country to pilot new ways of supporting families during the critical early years of childhood."
 # partial path to image
 carousel_image: /news-and-blog/2023-10-17-solutions-by-families-for-families-img/carousel-families-card.jpg
