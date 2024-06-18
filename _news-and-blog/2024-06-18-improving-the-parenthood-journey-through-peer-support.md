@@ -33,7 +33,7 @@ For some people, you could be the only opportunity to get a meal, a warm voice, 
   </blockquote>
 
 
-#### Why APN Services?&#x20;
+#### Why APN Services?
 
 Within the first six months of the pilot’s launch, APN services supported over 200 families. Fifteen APNs were dedicated to six Healthy Start sites.
 
@@ -43,7 +43,7 @@ Within the first six months of the pilot’s launch, APN services supported over
 2. Strengthening client support teams
 3. Reducing maternal and caregiver stress
 
-#### To date, how are APNs impacting families? &#x20;
+#### To date, how are APNs impacting families?
 
 63% of families who have received support from an APN enrolled in benefits, and 71% of families found it easier to access federal or community resources with their APN's help.
 
@@ -51,7 +51,7 @@ Within the first six months of the pilot’s launch, APN services supported over
 
 APS are moms who have graduated from the Healthy Start program within the last four years and live within its service area. They act as guides who bring strong knowledge of community resources, support services, and benefits programs for families.
 
-#### What do families have to say about APNs?&#x20;
+#### What do families have to say about APNs?
 
 The pilot scored 4.5 out of 5 in satisfaction among 44 interviewed families.
 
