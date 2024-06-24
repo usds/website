@@ -24,7 +24,7 @@ The U.S. Digital Service (USDS) has spent nearly a decade [demonstrating](https:
 
 
 
-# 1.  Recognizing Our Gaps 
+## 1.  Recognizing Our Gaps 
 
 ### The communities we serve are more than research subjects, and they deserve to be seen in their whole selves.
 
@@ -39,7 +39,7 @@ One of the [six USDS values](https://www.usds.gov/values.html) is “hire and em
 
 
 
-# 2.  **Building Relationships** 
+## 2.  **Building Relationships** 
 
 ### A critical aspect of customer experience is how people \*feel\* about the product or service and the people who provide it.
 
@@ -54,7 +54,7 @@ Another [USDS value](https://www.usds.gov/values.html) is to “design with user
 
 
 
-# 3. Understanding the Problem
+## 3. Understanding the Problem
 
 ### *Understanding the problem* and not jumping to a solution - digital or otherwise - pushes us to pause and consider how we can take deliberate action with vision and impact.
 
