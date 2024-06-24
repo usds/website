@@ -7,9 +7,9 @@ blog_page: true
 carousel_title: "Grounding in community: positioning government for a meaningful relationship with its public"
 carousel_summary: "How might the combination of your own lived experiences impact the way you understand the people you're serving?"
 # partial path to image
-carousel_image: /news-and-blog/2024-06-18-improving-the-parenthood-journey-through-peer-support/positioning-government.jpg
+carousel_image: /_news-and-blog/2024-06-25-positioning-government-for-a-meaningful-relationship-with-its-public.jpg.
 # accessibility text for image
-carousel_image_alt_text: "tbd"
+carousel_image_alt_text: "A graphic pattern including many silhouettes of the human heads in varying shades of blue"
 # should show on news and blog page. ordered by date prefix in filename
 carousel_show: true
 # Blog detail page (Edit this)
@@ -24,9 +24,9 @@ The U.S. Digital Service (USDS) has spent nearly a decade [demonstrating](https:
 
 
 
-## 1.  Recognizing Our Gaps 
+# 1.  Recognizing Our Gaps 
 
-#### The communities we serve are more than research subjects, and they deserve to be seen in their whole selves.
+### The communities we serve are more than research subjects, and they deserve to be seen in their whole selves.
 
 
 
@@ -39,9 +39,9 @@ One of the [six USDS values](https://www.usds.gov/values.html) is “hire and em
 
 
 
-## 2.  **Building Relationships** 
+# 2.  **Building Relationships** 
 
-#### A critical aspect of customer experience is how people \*feel\* about the product or service and the people who provide it.
+### A critical aspect of customer experience is how people \*feel\* about the product or service and the people who provide it.
 
 
 
@@ -54,9 +54,9 @@ Another [USDS value](https://www.usds.gov/values.html) is to “design with user
 
 
 
-## 3. Understanding the Problem
+# 3. Understanding the Problem
 
-#### *Understanding the problem* and not jumping to a solution - digital or otherwise - pushes us to pause and consider how we can take deliberate action with vision and impact.
+### *Understanding the problem* and not jumping to a solution - digital or otherwise - pushes us to pause and consider how we can take deliberate action with vision and impact.
 
 
 
@@ -82,6 +82,8 @@ In the spirit of human-centered design and iterative processes, USDS has been te
 
 Note: we are not endorsing any of these, but want to provide some options for teams to consider
 
-[MIT Teaching + Learning Lab | Identities & Positionality](https://tll.mit.edu/teaching-resources/inclusive-classroom/identities-positionality/){:target="blank"} 
-[The Journal of User Experience | Invited Essay: Learning to Recognize Exclusion](https://uxpajournal.org/learning-recognize-exclusion/){:target="blank"} 
-[Urban Institute | Exploring Individual and Organizational Positionality Toolkit](https://www.urban.org/research/publication/exploring-individual-and-institutional-positionality){:target="_blank"} 
+[MIT Teaching + Learning Lab // Identities & Positionality](https://tll.mit.edu/teaching-resources/inclusive-classroom/identities-positionality/){:target="blank"}
+ 
+[The Journal of User Experience // Invited Essay: Learning to Recognize Exclusion](https://uxpajournal.org/learning-recognize-exclusion/){:target="blank"} 
+
+[Urban Institute // Exploring Individual and Organizational Positionality Toolkit](https://www.urban.org/research/publication/exploring-individual-and-institutional-positionality){:target="_blank"} 
