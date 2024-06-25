@@ -7,7 +7,7 @@ blog_page: true
 carousel_title: "Grounding in community: positioning government for a meaningful relationship with its public"
 carousel_summary: "How might the combination of your own lived experiences impact the way you understand the people you're serving?"
 # partial path to image
-carousel_image: /_news-and-blog/2024-06-25-positioning-government-for-a-meaningful-relationship-with-its-public/positioning-government.jpg
+carousel_image: /news-and-blog/2024-06-25-positioning-government-for-a-meaningful-relationship-with-its-public/positioning-government.jpg
 # accessibility text for image
 carousel_image_alt_text: "A graphic pattern including many silhouettes of the human heads in varying shades of blue"
 # should show on news and blog page. ordered by date prefix in filename
