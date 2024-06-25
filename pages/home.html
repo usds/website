@@ -61,23 +61,6 @@ redirect_from:
 
   <section class="site-c-section">
     <div class="site-c-section-heading">
-      <h2 class="site-c-section-heading__heading">{{ content.people.heading_title }}</h2>
-      <div class="site-c-section-heading__text usa-prose">
-        {{ content.people.heading_text | replace: 'site.baseurl', site.baseurl | markdownify}}
-      </div>
-      <div class="site-c-section-heading__links">
-        <a class="usa-button usa-button--outline" href="{{ site.baseurl }}{% link pages/people.html %}">{{ content.people.heading_button_text }}</a>
-      </div>
-    </div>
-    <div class="site-c-section__body">
-      {% include carousel-people.html %}
-    </div>
-  </section>
-
-  <hr aria-hidden="true">
-
-  <section class="site-c-section">
-    <div class="site-c-section-heading">
       <h2 class="site-c-section-heading__heading">{{ content.news.heading_title }}</h2>
       <div class="site-c-section-heading__links card:display-none tablet:display-block">
         <a class="usa-button usa-button--outline" href="{{ site.baseurl }}{% link pages/news-and-blog.html %}" class="usa-button usa-button--outline">{{ content.news.heading_button_text }}</a>
