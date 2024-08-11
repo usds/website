@@ -8,12 +8,10 @@ permalink: /impact-report/2024/directfile/
 # Impact statement (Edit this)
 impact_statement:
   - figure: "140,803"
-    unit: ""
     description: |-
       tax returns accepted
 
   - figure: "33"
-    unit: ""
     description: |-
       user research studies conducted
 
@@ -23,7 +21,6 @@ impact_statement:
       of taxpayers rate their experience “Excellent” or “Above Average”
 
   - figure: "+74"
-    unit: "M"
     description: |-
       Net Promoter Score
 
