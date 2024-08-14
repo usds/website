@@ -16,7 +16,6 @@ carousel_show: true
 title: "10 Years of the U.S. Digital Service: Transforming Government for the Digital Age"
 dateline_str: "Aug 13, 2024"
 readtime_str: "4"
-byline_str: ""
 permalink: /news-and-blog/10-years-of-usds
 ---
 
