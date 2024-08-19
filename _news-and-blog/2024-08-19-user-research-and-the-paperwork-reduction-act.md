@@ -4,7 +4,7 @@ layout: default
 blog_page: true
 
 # Carousel (Edit this)
-carousel_title: "User Research and the Paperwork Reduction Act"
+carousel_title: "User research and the Paperwork Reduction Act"
 carousel_summary: "User research is at the heart of transforming customer experience. The best way to ensure services are effective, efficient, easy to use, fair, and safe is to include the people it's intended for when building it."
 # partial path to image
 carousel_image: /news-and-blog/2024-08-19-user-research-and-the-paperwork-reduction-act/user-research-and-the-paperwork-reduction-act.jpg
@@ -20,7 +20,7 @@ byline_str: "Natalie Moore, Product Manager at the U.S. Digital Service "
 permalink: /news-and-blog/user-research-and-the-paperwork-reduction-act
 ---
 
-# Highlighting case studies across the government
+## Highlighting case studies across the government
 
 In 2021, the Biden-Harris Administration issued an [Executive Order](https://www.whitehouse.gov/briefing-room/presidential-actions/2021/12/13/executive-order-on-transforming-federal-customer-experience-and-service-delivery-to-rebuild-trust-in-government/){:target="blank"} to improve customer experience and make service delivery simple, seamless, and secure for Americans. Since then, government agencies have been hard at work making their services, tools, and content more effective in addressing the needs of the people they serve.
 
@@ -107,107 +107,84 @@ By exploring these projects, you can start thinking of ways to conduct more rese
 ### Case study 1: Conducting user research for an informative website launch
 
 **Project** 
-
 Reporting Unemployment Identity Theft, Department of Labor (DOL)- March 2021
 
 **Problem** 
-
 In 2022, thousands of Americans received a fraudulent unemployment insurance tax form (government Form 1099-G) in the mail despite never applying for unemployment insurance (UI). These individuals were victims of unemployment identity theft, and fraudsters used their information to illegally receive unemployment benefits. For most victims, understanding what steps to take next was confusing.  
 
 **Solution** 
-
 The DOL met with victims of UI theft and developed a [website](https://dol.gov/fraud){:target="blank"} to guide them through reporting the fraud. After the site went live, the DOL collaborated with other government agencies and organizations to incorporate the same tested language for reporting UI fraud on their sites. This created a consistent and reliable standard across all websites, fostering trustworthiness among victims. 
 
 **User research** 
-
 Ten unstructured, one-on-one user research sessions with victims helped the DOL learn more about the current process and what victims did when they received the fraudulent unemployment insurance form. Participants walked through their unique scenarios and researchers took detailed notes. 
 
 During the second round of research, the main focus was observing individuals as they navigated through the newly drafted website content. Participants were instructed to vocalize their thoughts as they started at the top of the page and explained what they saw. Any aspects of the website that people found confusing were revised and improved following the sessions.
 
 **Why did the PRA not cover this research?** 
-
 In this project, the DOL directly observed the experiences of program applicants and participants and asked non-standardized questions on a particular process, theme, or issue without any specification of the information being sought. [See 5 CFR 1320.3(h)(3).](https://www.ecfr.gov/current/title-5/chapter-III/subchapter-B/part-1320){:target="blank"}
 
 ### Case study 2: Conducting user research for a new application launch
 
 **Project** 
-
 A New Digital Application for VA Health Care, Department of Veterans Affairs (VA) - July 2016
 
 **Problem** 
-
 Many Veterans found the health care application process at the VA frustrating. Most weren’t able to open the fillable PDF online application because it required a certain software that wasn’t common in most browsers. As a result, over [70 percent of visitors](https://medium.com/the-u-s-digital-service/introducing-a-new-digital-application-for-healthcare-at-va-610d8bac4c78){:target="blank"} had trouble accessing the health care application, according to USDS research.
 
 **Solution** 
-
 The team developed a new, user-friendly online application that doesn't require a certain software to use. For more details, check out the USDS [blog post, "](https://medium.com/the-u-s-digital-service/introducing-a-new-digital-application-for-healthcare-at-va-610d8bac4c78){:target="blank"} Introducing a new digital application for healthcare at VA." 
 
 **User research** 
-
 The team observed Veterans using the existing application to identify pain points and then worked on a new version. Then, they did user research sessions with the new form again to ensure it was easy and removed any previous pain points. Watch a real-life user research session, conducted by a VA employee with a Veteran at this [video link](https://www.youtube.com/watch?v=BPFSjtLusMc&feature=youtu.be){:target="blank"}. 
 
 **Why did the PRA not cover this research?**
-
 In this project, the VA directly observed the experiences of program applicants and participants and engaged in unstructured one-on-one interactions. They asked non-standardized questions on a particular process, theme, or issue without any specification of the information being sought. [See 5 CFR 1320.3(h)(3).](https://www.ecfr.gov/current/title-5/chapter-III/subchapter-B/part-1320){:target="blank"}
 
 ### Case study 3: Conducting user research to inform policy and strategy
 
  **Project** 
-
 Welcome Corps, Department of State - February 2024
 
 **Problem** 
-
 The Department of State launched a new program to allow Americans to sponsor refugees. The [Welcome Corps](https://welcomecorps.org){:target="blank"} program involves forming a sponsor group, completing pre-application steps, and then submitting an application. The process was burdensome to Americans seeking to sponsor a refugee, causing frustration and incomplete applications. 
 
 **Solution** 
-
 The team did user research to inform which steps in the process could be improved in order to reduce unnecessary burden on sponsors and increase successful application submissions. This research helped ensure any policy changes under consideration would actually support program goals. It also helped inform the agency’s roadmap. 
 
 **User research** 
-
 The team met one-on-one with current sponsors to learn about their experience. They also met one-on-one with potential sponsors to understand what steps of the process were challenging. These research sessions used non-standardized questions. The research findings were presented to program leadership, and policy, tech, and operations teams to inform improvements to the application process. 
 
 **Why the PRA did not cover this research?** 
-
 In this project, the team observed the experiences of sponsors and potential sponsors and engaged in unstructured one-on-one interactions. They asked non-standardized questions on a particular process, theme, or issue without any specification of the information being sought. [See 5 CFR 1320.3(h)(3).](https://www.ecfr.gov/current/title-5/chapter-III/subchapter-B/part-1320){:target="blank"}
 
 ### Case study 4: Conducting user research to streamline digital experiences
 
 **Project**
-
 My VA Dashboard for Veterans, Department of Veterans Affairs (VA) **-** November 2020
 
 **Problem** 
-
 Many services are available to Veterans on the VA websites but it can be challenging to locate them and take action. Veterans asked for a centralized location that was relevant to their needs. 
 
 **Solution** 
-
 The team worked with a vendor to create My VA, a personalized dashboard for Veterans to access tools and information. 
 
 **User research** 
-
 A vendor conducted user research to identify the information that Veterans expect to find in the My VA Dashboard tool and the best way to navigate it. 
 
 The contract required vendors to conduct user research to determine people’s goals, needs, and behaviors. The vendor conducted one-on-one, non-structured conversations with Veterans to inform how the agency should build the dashboard. 
 
 **Why the PRA did not cover this research?** 
-
 The contractor collected information and observed program applicants and participants by asking non-standardized questions on a particular process, theme, or issue without any specification of the information being sought. [See 5 CFR 1320.3(h)(3), (h)(6).](https://www.ecfr.gov/current/title-5/chapter-III/subchapter-B/part-1320){:target="blank"}
 
 ### Case study 5: Conducting user research to inform outreach strategies via text messages
 
 **Project** 
-
 Child Tax Credit Outreach, Department of Treasury and the White House - June 2021
 
 **Problem** 
-
 When the American Rescue Plan Act became law in March 2021, millions of Americans were suddenly eligible for unprecedented tax relief by expanding both earned income and child tax credits. Americans who don’t make enough income to require a tax filing would benefit most from the expansion, but first, they needed to know about the credits and include them when they filed a tax return. 
 
 **Solution** 
-
 Outreach was key to reaching families in most need. The team learned throughout the year that: 
 
 - Messages from official government entities work well, specifically, government benefits agencies. 
@@ -216,58 +193,46 @@ Outreach was key to reaching families in most need. The team learned throughout 
 
 
  **User research** 
-
 The team performed user research throughout the year by working with non-profits on the ground to identify research participants and understand what was working and not working. They partnered with Code for America to test several text messages to ensure clear language. They also joined research sessions to observe SNAP applicants engaging with a third-party app that helps them manage their SNAP benefits electronically. 
 
 **Why the PRA did not cover this research?**
-
 In this project, the groups directly observed the experiences of program applicants and participants. They asked non-standardized questions on a particular process, theme, or issue without any specification of the information being sought. [See 5 CFR 1320.3(h)(3).](https://www.ecfr.gov/current/title-5/chapter-III/subchapter-B/part-1320){:target="blank"}
 
 
 ### Case study 6: Conducting user research with internal users of a system
 
 **Project** 
-
 Updates to the Unaccompanied Children Case Management System, Office of Refugee Resettlement (ORR), Administration for Children and Families, Department of Health and Human Services  – August 2022
 
 **Problem** 
-
 Case managers were updating both paper and digital forms when assessing a potential sponsor. Many duplications existed across the two forms, and filling out both caused inefficiencies. 
 
 **Solution** 
-
 The team changed the online form, eliminating the need for the paper form and transferred them to the digital experience, reducing burden for the sponsor and case manager. The updated digital form also included design improvements to enhance the flow of the questions. 
 
 **User research** 
-
 ORR contacted case workers nationwide and observed them filling out both versions of the form to identify pain points. Another round of research was conducted later on, once they had an updated digital form. These were one-on-one conversations to confirm that the form was easy to use. Any areas where the case managers had questions or trouble were good indicators that the digital form needed tweaking. Finally, they arrived at a version that was easy to use and improved the previous safety and efficiency concerns. 
 
 **Why did the PRA not cover this research?** 
-
 In this project, the ORR directly observed case workers (not federal employees) using a form via one-on-one interviews to understand any usability concerns. They asked non-standardized questions on a particular process, theme, or issue without any specification of the information being sought. [See 5 CFR 1320.3(h)(3).](https://www.ecfr.gov/current/title-5/chapter-III/subchapter-B/part-1320){:target="blank"}
 
 ### Case study 7: Conducting user research with students and families
 
 **Project** 
-
 College Scorecard, Department of Education - August 2015
 
 **Problem** 
-
 Deciding on a college can be an overwhelming task with limited access to reliable information on student outcomes like student earnings, graduates’ student debt, and borrowers’ repayment rates. 
 
 **Solution** 
-
 In September 2015, the Department of Education launched the College Scorecard, which made data transparent for the public about colleges by leveraging existing data on costs, graduation, etc. and providing new data points on earnings after attendance, student debt, and borrower repayment rates. As these data sets were published through an open application programming interface (API), researchers, policymakers, and the public could customize their analysis of college performance easily. For more information on this project, check out [the Obama White House blog post](https://obamawhitehouse.archives.gov/blog/2015/09/12/under-hood-building-new-college-scorecard-students){:target="blank"}, "Under the Hood: Building a College Scorecard with Students."
 
 **User research** 
-
 The team conducted user research at every single step in the project. This user research involved one-on-one conversations with high school students in Washington, D.C.’s Anacostia neighborhood, guidance counselors, 4-H kids, parents, college advisors, and data journalists. They also conducted research and met one-on-one with a diverse set of stakeholders across the higher education community to learn about their concerns, ideas, and hopes for how they could help students and families make a more informed decision. 
 
 Based on this research, the team developed a College Scorecard prototype and then turned it into a website. The prototype was put in front of students during one-on-one sessions, to observe if the tool was easy to use. The research revealed that students were unlikely to use a mobile app and were hesitant to use government websites, so the team ensured other sites that were actually frequented by students had access to the same data. 
 
 **Why did the PRA not cover this research**? 
-
 In this project, the Department of Education directly observed the program applicants and participants engaging with the College Scorecard.  The Department of Education also asked non-standardized questions on a particular process, theme, or issue without any specification of the information being sought. See [5 CFR 1320.3(h)(3).](https://www.ecfr.gov/current/title-5/chapter-III/subchapter-B/part-1320){:target="blank"}
 
 ## Ready to conduct user research?
