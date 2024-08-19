@@ -13,7 +13,7 @@ carousel_image_alt_text: "Side view of an open laptop with two sets of hands. On
 # should show on news and blog page. ordered by date prefix in filename
 carousel_show: true
 # Blog detail page (Edit this)
-title: "User Research and the Paperwork Reduction Act"
+title: "User research and the Paperwork Reduction Act"
 dateline_str: "Aug 19, 2024"
 readtime_str: "12"
 byline_str: "Natalie Moore, Product Manager at the U.S. Digital Service "
