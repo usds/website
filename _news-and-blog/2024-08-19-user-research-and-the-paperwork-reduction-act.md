@@ -4,7 +4,7 @@ layout: default
 blog_page: true
 
 # Carousel (Edit this)
-carousel_title: "User research and the Paperwork Reduction Act"
+carousel_title: "User Research and the Paperwork Reduction Act"
 carousel_summary: "User research is at the heart of transforming customer experience. The best way to ensure services are effective, efficient, easy to use, fair, and safe is to include the people it's intended for when building it."
 # partial path to image
 carousel_image: /news-and-blog/2024-08-19-user-research-and-the-paperwork-reduction-act/user-research-and-the-paperwork-reduction-act.jpg
@@ -13,8 +13,8 @@ carousel_image_alt_text: "Side view of an open laptop with two sets of hands. On
 # should show on news and blog page. ordered by date prefix in filename
 carousel_show: true
 # Blog detail page (Edit this)
-title: "User research and the Paperwork Reduction Act"
-dateline_str: "Aug 19, 2024"
+title: "User Research and the Paperwork Reduction Act"
+dateline_str: "Aug 20, 2024"
 readtime_str: "12"
 byline_str: "Natalie Moore, Product Manager at the U.S. Digital Service "
 permalink: /news-and-blog/user-research-and-the-paperwork-reduction-act
@@ -140,7 +140,7 @@ Many Veterans found the health care application process at the VA frustrating. M
 
 **Solution** 
 
-The team developed a new, user-friendly online application that doesn't require a certain software to use. For more details, check out the USDS [blog post, "](https://medium.com/the-u-s-digital-service/introducing-a-new-digital-application-for-healthcare-at-va-610d8bac4c78){:target="blank"} Introducing a new digital application for healthcare at VA." 
+The team developed a new, user-friendly online application that doesn't require a certain software to use. 
 
 **User research** 
 
@@ -166,7 +166,7 @@ The team did user research to inform which steps in the process could be improve
 
 **User research** 
 
-The team met one-on-one with current sponsors to learn about their experience. They also met one-on-one with potential sponsors to understand what steps of the process were challenging. These research sessions used non-standardized questions. The research findings were presented to program leadership, and policy, tech, and operations teams to inform improvements to the application process. 
+The team met one-on-one with current sponsors to learn about their experience and met one-on-one with potential sponsors to understand what steps of the process were challenging. These research sessions used non-standardized questions. The research findings were presented to program leadership, and policy, tech, and operations teams to inform improvements to the application process. 
 
 **Why the PRA did not cover this research?** 
 
@@ -176,7 +176,7 @@ In this project, the team observed the experiences of sponsors and potential spo
 
 **Project**
 
-My VA Dashboard for Veterans, Department of Veterans Affairs (VA) **-** November 2020
+[My VA Dashboard for Veterans, Department of Veterans Affairs (VA)](https://www.usds.gov/projects/personalized-dashboard) - November 2020
 
 **Problem** 
 
