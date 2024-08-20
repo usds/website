@@ -5,7 +5,7 @@ blog_page: true
 
 # Carousel (Edit this)
 carousel_title: "User Research and the Paperwork Reduction Act"
-carousel_summary: "User research is at the heart of transforming customer experience. The best way to ensure services are effective, efficient, easy to use, fair, and safe is to include the people it's intended for when building it."
+carousel_summary: "User research is at the heart of transforming customer experience. The best way to ensure services are effective, efficient, easy to use, fair, and safe is to include the people they are intended for when building it."
 # partial path to image
 carousel_image: /news-and-blog/2024-08-19-user-research-and-the-paperwork-reduction-act/user-research-and-the-paperwork-reduction-act.jpg
 # accessibility text for image
@@ -24,7 +24,7 @@ permalink: /news-and-blog/user-research-and-the-paperwork-reduction-act
 
 In 2021, the Biden-Harris Administration issued an [Executive Order](https://www.whitehouse.gov/briefing-room/presidential-actions/2021/12/13/executive-order-on-transforming-federal-customer-experience-and-service-delivery-to-rebuild-trust-in-government/){:target="blank"} to improve customer experience and make service delivery simple, seamless, and secure for Americans. Since then, government agencies have been hard at work making their services, tools, and content more effective in addressing the needs of the people they serve.
 
-User research is at the heart of transforming customer experience. The best way to ensure services are effective, efficient, easy to use, fair, and safe is to include the people it's intended for when building it. 
+User research is at the heart of transforming customer experience. The best way to ensure services are effective, efficient, easy to use, fair, and safe is to include the people they are intended for when building it. 
 
 In this piece, we'll demonstrate: 
 
