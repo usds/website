@@ -140,7 +140,8 @@ Many Veterans found the health care application process at the VA frustrating. M
 
 **Solution** 
 
-The team developed a new, user-friendly online application that doesn't require a certain software to use. 
+The team developed a new, user-friendly online application that doesn't require a certain software to use. For more details, check out the [USDS blog post](https://medium.com/the-u-s-digital-service/introducing-a-new-digital-application-for-healthcare-at-va-610d8bac4c78), "Introducing a new digital application for healthcare at VA."
+
 
 **User research** 
 
