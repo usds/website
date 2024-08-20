@@ -177,7 +177,7 @@ In this project, the team observed the experiences of sponsors and potential spo
 
 **Project**
 
-[My VA Dashboard for Veterans, Department of Veterans Affairs (VA)](https://www.usds.gov/projects/personalized-dashboard) - November 2020
+My VA Dashboard for Veterans, Department of Veterans Affairs (VA) - November 2020
 
 **Problem** 
 
@@ -185,7 +185,7 @@ Many services are available to Veterans on the VA websites but it can be challen
 
 **Solution** 
 
-The team worked with a vendor to create My VA, a personalized dashboard for Veterans to access tools and information. 
+The team worked with a vendor to create My VA, [a personalized dashboard](https://www.usds.gov/projects/personalized-dashboard) for Veterans to access tools and information. 
 
 **User research** 
 
