@@ -4,7 +4,7 @@ layout: default
 blog_page: true
 
 # Carousel (Edit this)
-carousel_title: "10 Years of the U.S. Digital Service: Transforming Government for the Digital Age"
+carousel_title: "10 years of the U.S. Digital Service: Transforming government for the digital age"
 carousel_summary: "The accomplishments of USDS over the past decade demonstrate that the government can and should meet the highest standards of digital excellence."
 # partial path to image
 carousel_image: /news-and-blog/2024-08-13-10-years-of-usds/10-years-of-usds.jpg
@@ -13,7 +13,7 @@ carousel_image_alt_text: "Blue backgound with the U.S. Digital Service logo: gol
 # should show on news and blog page. ordered by date prefix in filename
 carousel_show: true
 # Blog detail page (Edit this)
-title: "10 Years of the U.S. Digital Service: Transforming Government for the Digital Age"
+title: "10 Years of the U.S. Digital Service: Transforming government for the digital age"
 dateline_str: "Aug 13, 2024"
 readtime_str: "4"
 byline_str: "The U.S. Digital Service"
