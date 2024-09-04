@@ -1,25 +1,45 @@
 hero:
   heading_title: "Using design and technology to deliver better services to the American people"
   heading_button_text: "Apply now"
+  heading_button_text_partner: "Become a partner agency"
 
 mission:
-  heading_title: "We’re solving big problems"
+  heading_title: "For the people, by the people"
   heading_text: |-
-      Millions of people use federal government services every day. Veterans apply for health care. Immigrants apply for naturalization. Too often, outdated tools and complex systems make these interactions cumbersome and frustrating.
+    Millions of people use federal government services every day. Too often, outdated tools and complex systems make these interactions cumbersome and frustrating.
 
-      To improve these services, USDS hires mission-driven professionals into term-limited ‘tours of civic service.’ By working alongside civil servants, they help address some of the most critical needs.
-  heading_button_text: "Learn about our mission"
+    USDS hires mission-driven professionals into term-limited tours of service. Working alongside agencies, we deploy diverse teams of experts in engineering, product, design, procurement, communications, talent, and operations to tackle complex technology challenges.
+  heading_button_text: "Learn more about us"
 
 work:
   heading_title: "Delivering a better government experience"
   heading_text: |-
-      Our small, highly empowered teams use their expertise to develop human-centered solutions to the federal government’s most pressing technical challenges. Explore a few of our projects.
+    Our small, highly empowered teams use their expertise to develop human-centered solutions to the federal government’s most pressing technical challenges. Explore a few of our projects.
   heading_button_text: "See all projects"
+  summary_text: |-
+    We employ modern technology to improve service and experiences for the American people. Our objectives include:
+
+    - Transforming critical, public-facing services
+    - Expanding the use of common platforms, services, and tools
+    - Rethinking how the government buys digital services
+    - Hiring top technical talent into civic service
+
+    We work with agencies and contractors during temporary engagements to:
+
+    - Improve existing systems
+    - Develop technical capacity
+    - Buy new technology
+    - Transfer knowledge and expertise
+    - As agencies continue to build capabilities, our staff moves on to another critical projects.
+
+    VISIT OUR PROJECTS PAGE
+
+    READ OUR IMPACT REPORT
 
 people:
   heading_title: "By the people, for the people"
   heading_text: |-
-      Every person, from all walks of life, interacts with their government. We hire people from a range of cultural, geographical, and ethnic backgrounds to improve the services that millions rely on. Meet a few staff members who are passionate about applying their work and lived experiences to public service.
+    Every person, from all walks of life, interacts with their government. We hire people from a range of cultural, geographical, and ethnic backgrounds to improve the services that millions rely on. Meet a few staff members who are passionate about applying their work and lived experiences to public service.
   heading_button_text: "Meet more staff"
 
 news:
@@ -29,4 +49,4 @@ news:
 community:
   heading_title: "We are a community"
   heading_text: |-
-      When you join USDS you become part of a vibrant, supportive group of humans. Check out our social media channels to see more USDS moments.
+    When you join USDS you become part of a vibrant, supportive group of humans. Check out our social media channels to see more USDS moments.

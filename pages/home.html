@@ -18,6 +18,7 @@ redirect_from:
     <div class="grid-container">
       <h1 class="site-c-page-banner__header">{{ content.hero.heading_title }}</h1>
       <a class="usa-button usa-button--outline usa-button--inverse usa-button--big" href="{{ site.baseurl }}{% link pages/apply.html %}">{{ content.hero.heading_button_text }}</a>
+      <a class="usa-button usa-button--outline usa-button--inverse usa-button--big" href="{{ site.baseurl }}{% link pages/apply.html %}">{{ content.hero.heading_button_text_partner }}</a>
     </div>
   </div>
 </div>
@@ -47,18 +48,21 @@ redirect_from:
       <h2 class="site-c-section-heading__heading">{{ content.work.heading_title }}</h2>
       <div class="site-c-section-heading__text usa-prose">
         {{ content.work.heading_text | replace: 'site.baseurl', site.baseurl | markdownify}}
+        {{ content.work.summary_text | markdownify}}
       </div>
       <div class="site-c-section-heading__links">
         <a class="usa-button usa-button--outline" href="{{ site.baseurl }}{% link pages/projects.html %}">{{ content.work.heading_button_text }}</a>
       </div>
     </div>
+    {% comment %}
     <div class="site-c-section__body">
       {% include carousel-projects.html %}
     </div>
+    {% endcomment %}
   </section>
 
   <hr aria-hidden="true">
-
+  {% comment %}
   <section class="site-c-section">
     <div class="site-c-section-heading">
       <h2 class="site-c-section-heading__heading">{{ content.news.heading_title }}</h2>
@@ -77,6 +81,7 @@ redirect_from:
     </div>
 
   </section>
+  {% endcomment %}
 
   <hr aria-hidden="true">
 
