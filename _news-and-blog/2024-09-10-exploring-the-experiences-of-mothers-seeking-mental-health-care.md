@@ -5,7 +5,7 @@ blog_page: true
 
 # Carousel (Edit this)
 carousel_title: "The ‘Form We All Lie On’: Exploring the Experiences of Mothers Seeking Mental Health Care"
-carousel_summary: "USDS conducted a six-week research sprint, incorporating principles of human-centered design, to understand the lived experiences of the maternal mental health journey."
+carousel_summary: "USDS conducted a research sprint to understand the lived experiences of the maternal mental health journey."
 # partial path to image
 carousel_image: /news-and-blog/2024-09-10-exploring-the-experiences-of-mothers-seeking-mental-health-care/2024-09-10-exploring-the-experiences-of-mothers-seeking-mental-health-care.jpg
 # accessibility text for image
