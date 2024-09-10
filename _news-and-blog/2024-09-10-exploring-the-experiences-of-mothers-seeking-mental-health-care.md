@@ -44,7 +44,7 @@ Based on these interviews, the USDS team created a journey map that visualizes t
 
 
 
-## [Maternal Mental Health Journey Map](2024-09-10-exploring-the-experiences-of-mothers-seeking-mental-health-care/2024-09-10-exploring-the-experiences-of-mothers-seeking-mental-health-care-map3.jpg)
+## [Maternal Mental Health Journey Map](2024-09-10-exploring-the-experiences-of-mothers-seeking-mental-health-care/MMH.Research.Journey.2024.pdf)
 
 [![The Maternal Mental Health Journey Map timeline includes expecting, prenatal, birth and postpartum. It focluses on provider pain points, mother's thoughts and pain points, key insights and wishes/opportunities](2024-09-10-exploring-the-experiences-of-mothers-seeking-mental-health-care/2024-09-10-exploring-the-experiences-of-mothers-seeking-mental-health-care-map3.jpg)](2024-09-10-exploring-the-experiences-of-mothers-seeking-mental-health-care/MMH.Research.Journey.2024.pdf)
 
