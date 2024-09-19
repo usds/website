@@ -16,7 +16,7 @@ carousel_show: true
 title: "The ‘Form We All Lie On’: Exploring the Experiences of Mothers Seeking Mental Health Care"
 dateline_str: "Sept 10, 2024"
 readtime_str: "7"
-byline_str: "Maya Mechenbier, Annie Nguyen, Arabella Crawford, Amy Bontrager, Elana Shneyer, Whitney Robinson"
+byline_str: "Maya Mechenbier, T. Annie Nguyen, Arabella Crawford, Amy Bontrager, Elana Shneyer, Whitney Robinson"
 permalink: /news-and-blog/exploring-the-experiences-of-mothers-seeking-mental-health-care
 ---
 
