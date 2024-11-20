@@ -22,7 +22,7 @@ permalink: /news-and-blog/core-principles-of-product-launches-in-government
 
 Every day, hundreds of millions of Americans rely on digital products that underpin critical government services. Over the past ten years, the federal government has made significant strides in following successful software development practices. As highlighted in [U.S. Digital Services playbook](https://playbook.usds.gov/){:target="blank"}, it is critical that government continue to leverage and build on these practices in order to deliver the services and experiences that Americans deserve.
 
- One of these critical practices is releasing new software products or product enhancements at small scale before general availability. This is a standard practice in industry, and is increasingly gaining traction as a standard practice in government. One well-recognized example of this practice is a “beta” release. Releasing software at small scale first allows us to understand the way people will interact with products and helps us identify pain points, such as uncovering bugs or issues in a production environment through real-world use before full release to the general public.
+One of these critical practices is releasing new software products or product enhancements at small scale before general availability. This is a standard practice in industry, and is increasingly gaining traction as a standard practice in government. One well-recognized example of this practice is a “beta” release. Releasing software at small scale first allows us to understand the way people will interact with products and helps us identify pain points, such as uncovering bugs or issues in a production environment through real-world use before full release to the general public.
 
 Often in government, products that the public see and use are actually multiple technology systems that interact not only with each other, but with other agency systems and non-government systems, increasing the complexity of the software. This complexity makes a phased rollout even more important when agencies are creating new products and services, or modernizing existing ones. 
 
@@ -32,8 +32,7 @@ In this blog, we will demonstrate how to incorporate this practice across govern
 
 ### Implementing a phased rollout:
 
- #### Follow a “crawl, walk, run” approach
-
+#### Follow a “crawl, walk, run” approach
 Finding bugs and issues is a common and expected part of software development. We want to test with tens or hundreds of users to identify and remedy any bugs or issues early before it is used by thousands or millions of people. 
 
 A phased approach includes:
@@ -46,7 +45,6 @@ A phased approach includes:
 - **Post-release monitoring:** While not the focus of this particular blog post, it is important to remember that tracking whether your product is working as intended for your end users doesn't end once it is released at scale. The feedback loop to monitor, fix bugs and make enhancements, and continue to monitor is a continuous process in the life of a product (more on that in [the Playbook](https://playbook.usds.gov/){:target="blank"}). 
 
 #### Get direct feedback from real-world users interacting with the product  
-
 Prior to starting a phased rollout in production, all testing has happened in an internal, controlled environment. It is expected that you will encounter new bugs as more members of the public use the product and there are more real world use cases – i.e., people trying to use the product in different ways, multiple demographics, varying browsers and devices, performance in production as users interact with inter-connected systems. 
 
 For example, in a government product that has dependencies and linked accounts across different family members in a single household, there are many permutations that will only become evident with real-world users in production. This is why we don’t want to jump from hundreds of users straight to millions, and a phased approach is key.
@@ -61,13 +59,11 @@ When determining metrics, it is also important to make sure you look end-to-end.
 This is an illustrative example of potential metrics for a website that has an online application that a user completes to determine eligibility and receive a government service or benefit:
 
 - Website performance: Uptime, error rates, etc. 
-
 -  End-to-end user “funnel,” for example:
-  - User started online form or application
-  - User completed online form or application
-  - Government processed user-submitted form (there are often multiple sub-steps and dependencies within this, including information exchange with other government agencies or non-government entities)
-  - Eligible users received the product or service they applied for
-
+ - User started online form or application
+ - User completed online form or application
+ - Government processed user-submitted form (there are often multiple sub-steps and dependencies within this, including information exchange with other government agencies or non-government entities)
+ - Eligible users received the product or service they applied for
 - Tracking of known bugs, severity, and plans to fix
 - User feedback: Volume of user issues from call center/similar channels, qualitative summary and trends of issues reported by users
 
@@ -76,7 +72,6 @@ Each product will have its own set of metrics, and they should be tracked in a c
 
 
 #### Identifying beta users
-
 It is **crucial to be transparent** with the public that an agency plans to run phased release process for a new product or enhancement. While there are multiple ways to identify early users for a beta program or phased rollout, here are some common approaches:
 
 - **Limited availability of the product or enhancement:** A publicly available website where the service is only available to use during certain times of day, or up to a certain capacity. In this instance, the product is not targeted to certain types of users during the limited availability periods. 
@@ -111,7 +106,6 @@ SSA first [launched a beta](https://www.usds.gov/projects/ssa) of the redesigned
 Following the beta, in December 2022, SSA launched the new version of the site with an initial set of pages and features that serve as a foundation while SSA continues to redesign and launch new sections.
 
 ##### Applying these principles to a new product launch or enhancement 
-
 The goal of a phased rollout is to have a process to clearly understand how a range of users experience the product and remedy significant issues discovered in production in a controlled manner, prior to general availability. 
 It is normal and expected that it may take several months to plan for a phased product rollout, and that it may require close partnership with departments across the agency outside of the technology teams (e.g., communications, legal, policy, legislative affairs, customer support and other program operations.) Start to plan for the rollout of your new product release or enhancement early in the product development lifecycle.
 
