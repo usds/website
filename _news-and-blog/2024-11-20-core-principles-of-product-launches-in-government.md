@@ -85,27 +85,27 @@ In recent years, many critical government products and services have moved away 
 
 #### Example 1: The Department of State - Online Passport Renewal
 
-##### Context:
+**Context**:
 Millions of Americans each year renew their passports, and until recently, Americans would have to visit an office or mail in paperwork to complete this process. The Department of State initiated an effort to make online passport renewal available to eligible Americans to allow them to more easily access passport services. 
 
-##### Demonstration of core principles:
+**Demonstration of core principles:**
 Prior to general availability, the Department of State launched a beta program for online passport renewal. The Department transparently and clearly set expectations with the American public that they were running a beta release, and that they would limit the number of daily applications as a part of this process: *“During the next several months, we plan to continue to limit the number of applications accepted each day so we can monitor the system’s performance in real time,” the State Department said. “This beta release during which we are limiting the daily applications is an important and standard part of the software development process.”*
 
 In September 2024, following the beta release,[ the Department of State formally announced](https://www.state.gov/announcing-online-passport-renewal/){:target="blank"} general availability of the new online passport renewal system. 
 
 #### Example 2: The Social Security Administration (SSA) – Improving SSA.gov
 
-##### Context: 
+**Context:**
 The Social Security Administration’s (SSA) website is visited by [180 million people annually seeking](https://www.usds.gov/impact-report/2024/ssa/) information and services, making it the second-most visited federal website*.* Due to the complex nature of SSA’s programs, it was sometimes frustrating to find clear and understandable information. SSA recognized the importance of modernizing its website to meet the expectations and the evolving needs of the public, and initiated an effort to improve SSA.gov.
 
-##### Demonstration of core principles:
+**Demonstration of core principles:**
 SSA, in partnership with USDS, worked to establish a foundation for continuous improvement, which involved a redesign and relaunch of SSA.gov. 
 
 SSA first [launched a beta](https://www.usds.gov/projects/ssa) of the redesigned website in April 2022. During this process, SSA got direct feedback from members of the public, and [as demonstrated in this case study](https://www.usds.gov/projects/ssa), the team also tracked key metrics that included website performance metrics, user “funnel” from start of an activity to completion, and customer satisfaction. 
 
 Following the beta, in December 2022, SSA launched the new version of the site with an initial set of pages and features that serve as a foundation while SSA continues to redesign and launch new sections.
 
-##### Applying these principles to a new product launch or enhancement 
+#### Applying these principles to a new product launch or enhancement 
 The goal of a phased rollout is to have a process to clearly understand how a range of users experience the product and remedy significant issues discovered in production in a controlled manner, prior to general availability. 
 It is normal and expected that it may take several months to plan for a phased product rollout, and that it may require close partnership with departments across the agency outside of the technology teams (e.g., communications, legal, policy, legislative affairs, customer support and other program operations.) Start to plan for the rollout of your new product release or enhancement early in the product development lifecycle.
 
