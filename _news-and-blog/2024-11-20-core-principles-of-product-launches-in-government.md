@@ -59,11 +59,11 @@ When determining metrics, it is also important to make sure you look end-to-end.
 This is an illustrative example of potential metrics for a website that has an online application that a user completes to determine eligibility and receive a government service or benefit:
 
 - Website performance: Uptime, error rates, etc. 
--  End-to-end user “funnel,” for example:
- - User started online form or application
- - User completed online form or application
- - Government processed user-submitted form (there are often multiple sub-steps and dependencies within this, including information exchange with other government agencies or non-government entities)
- - Eligible users received the product or service they applied for
+- End-to-end user “funnel,” for example:
+  - User started online form or application
+  - User completed online form or application
+  - Government processed user-submitted form (there are often multiple sub-steps and dependencies within this, including information exchange with other government agencies or non-government entities)
+  - Eligible users received the product or service they applied for
 - Tracking of known bugs, severity, and plans to fix
 - User feedback: Volume of user issues from call center/similar channels, qualitative summary and trends of issues reported by users
 
