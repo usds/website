@@ -40,7 +40,7 @@ A phased approach includes:
 - **Internal testing in a pre-production environment:** Most agencies already have established practices for members internal to the federal government or a vendor to test on a pre-production version of the software. These remain critical steps in the process, and agencies should continue to follow these practices. However, they are not a substitute for having real world users test a new product or enhancement in a production environment, which is why the next step of *phased rollout in production* is critical. 
 - **Phased rollout in production:** The core principle here is to start with a small number of users,      identify and resolve issues, and then progressively scale up. There is no magic number for how to approach *crawl, walk, run*, the overarching goal is to learn from real users to identify and fix issues before expanding to larger populations. One commonly used approach for this is a phased beta test, where the product is released to progressively larger groups of users before general release. 
   - An agency may, for example, choose to make the product available first to hundreds of users, identify and fix issues. Then thousands, identify and fix issues. Then more and so on. 
-  - How do you know when you’re ready to progress from a small number of users to more? See **Use Metrics** below. 
+  - How do you know when you’re ready to progress from a small number of users to more? See **[Use Metrics](#metrics)** below. 
 
 - **Post-release monitoring:** While not the focus of this particular blog post, it is important to remember that tracking whether your product is working as intended for your end users doesn't end once it is released at scale. The feedback loop to monitor, fix bugs and make enhancements, and continue to monitor is a continuous process in the life of a product (more on that in [the Playbook](https://playbook.usds.gov/){:target="blank"}). 
 
@@ -50,7 +50,7 @@ Prior to starting a phased rollout in production, all testing has happened in an
 For example, in a government product that has dependencies and linked accounts across different family members in a single household, there are many permutations that will only become evident with real-world users in production. This is why we don’t want to jump from hundreds of users straight to millions, and a phased approach is key.
 
 User feedback is always valuable, but especially during the “crawl and walk” phases, its invaluable for teams to go out into the field and sit beside users as they use the product. This allows us to observe firsthand what is working well, and what challenges users experience that weren’t anticipated based on the internal testing. 
-
+<a id="metrics"></>
 #### Use metrics, and evaluate “end to end”
 At each step in the phased rollout process, it is critical to use a consistent set of metrics to evaluate performance. It is important to pre-define metrics and target performance before starting the beta or phased rollout process so teams can align on expectations before making critical go/no-go decisions to expand. 
 
