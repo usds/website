@@ -7,7 +7,7 @@ blog_page: true
 carousel_title: "Core principles of product launches in government"
 carousel_summary: "Releasing software at small scale first provides an understanding of the way people will interact with products and helps identify pain points before full release to the general public."
 # partial path to image
-carousel_image: /news-and-blog/2024-11-20-core-principles-of-product-launches-in-government /product-launches-in-gov.jpg
+carousel_image: /news-and-blog/2024-11-20-core-principles-of-product-launches-in-government/product-launches-in-gov.jpg
 # accessibility text for image
 carousel_image_alt_text: "A laptop is open with one person using the trackpad mouse and one person pointing to the screen"
 # should show on news and blog page. ordered by date prefix in filename
