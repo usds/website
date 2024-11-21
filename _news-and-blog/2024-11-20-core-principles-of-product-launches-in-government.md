@@ -105,7 +105,7 @@ SSA first [launched a beta](https://www.usds.gov/projects/ssa) of the redesigned
 
 Following the beta, in December 2022, SSA launched the new version of the site with an initial set of pages and features that serve as a foundation while SSA continues to redesign and launch new sections.
 
-#### Applying these principles to a new product launch or enhancement 
+### Applying these principles to a new product launch or enhancement 
 The goal of a phased rollout is to have a process to clearly understand how a range of users experience the product and remedy significant issues discovered in production in a controlled manner, prior to general availability. 
 It is normal and expected that it may take several months to plan for a phased product rollout, and that it may require close partnership with departments across the agency outside of the technology teams (e.g., communications, legal, policy, legislative affairs, customer support and other program operations.) Start to plan for the rollout of your new product release or enhancement early in the product development lifecycle.
 
