@@ -2,10 +2,6 @@
 layout: default
 title: News and blog
 permalink: /news-and-blog
-banner_file: banner--news-media-lg.svg
-banner_file_mobile: banner--news-media-sm.svg
-social_image: social-card--news-and-media.png
-social_image_alt_text: "Graphic illustration of two spotlights projecting downward on a dark blue field. A bright yellow area is highlighted where the two spotlights overlap."
 
 redirect_from:
   - /blog
@@ -63,52 +59,5 @@ redirect_from:
     </div>
   </section>
 </div>
-  <hr aria-hidden="true">
-
-  <section class="site-c-section">
-    <div class="site-c-section-heading">
-      <h2 class="site-c-section-heading__heading">{{ content.usds_in_the_news.heading_title }}</h2>
-      <div class="site-c-section-heading__text usa-prose">
-        {{ content.usds_in_the_news.heading_text | replace: 'site.baseurl', site.baseurl | markdownify}}
-      </div>
-    </div>
-
-    <div class="site-c-section__body">
-      {% include news-articles.html %}
-    </div>
-  </section>
-
-  <hr aria-hidden="true">
-
-  <section class="site-c-section">
-    <div class="site-c-section-heading">
-      <h2 class="site-c-section-heading__heading">{{ content.for_the_press.heading_title }}</h2>
-      <div class="site-c-section-heading__text usa-prose">
-        {{ content.for_the_press.heading_text | replace: 'site.baseurl', site.baseurl | markdownify}}
-      </div>
-    </div>
-
-    <div class="site-c-section__body">
-      <div class="grid-row tablet:margin-x-neg-2 flex-justify-center">
-        <div class="grid-col-12 tablet:grid-col-4 tablet:padding-2 margin-bottom-5">
-          <div class="site-c-mask">
-            <img src="{{ site.baseurl }}/assets/img/{{ content.for_the_press.email_image }}" alt="">
-          </div>
-          <div class="text-center">
-            <a class="usa-button usa-button--outline" href="{{ content.for_the_press.email_link }}">{{ content.for_the_press.email_button_text }}</a>
-          </div>
-        </div>
-
-        <div class="grid-col-12 tablet:grid-col-4 tablet:padding-2 margin-bottom-5">
-          <div class="site-c-mask">
-            <img src="{{ site.baseurl }}/assets/img/{{ content.for_the_press.press_kit_image }}" alt="">
-          </div>
-          <div class="text-center">
-            <a class="usa-button usa-button--outline" href="{{ site.baseurl }}/assets/files/{{ site.press_kit_file_name }}">{{ content.for_the_press.press_kit_button_text }}</a>
-          </div>
-        </div>
-
-    </div>
-  </section>
 
 </div>
