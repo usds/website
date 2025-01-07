@@ -7,7 +7,7 @@ blog_page: true
 carousel_title: "Building Trust and Transforming Service: A Decade of Partnership Between USDS and SSA"
 carousel_summary: "How USDS and SSA evolved into a strong relationship rooted in mutual trust, focused on incremental change and building capacity."
 # partial path to image
-carousel_image: /news-and-blog/2025-01-07-a-decade-of-partnership-between-usds-and-ssa/usds-and-ssa.jpg
+carousel_image: _news-and-blog/2025-01-07-a-decade-of-partnership-between-usds-and-ssa/usds-and-ssa.jpg
 # accessibility text for image
 carousel_image_alt_text: "The United States Digital Service logo is a navy shield shape with yellow wings, two vertical stripes and three stars. To the right is the Social Security logo that is a navy eagle, navy striped sheild and 'USA' written in red."
 # should show on news and blog page. ordered by date prefix in filename
