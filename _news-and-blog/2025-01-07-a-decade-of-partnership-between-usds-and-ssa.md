@@ -20,7 +20,7 @@ byline_str: "U.S. Digital Service"
 permalink: /news-and-blog/a-decade-of-partnership-between-usds-and-ssa
 ---
 
-The United States Digital Service (USDS) has collaborated with the Social Security Administration (SSA) for almost a decade. Over time, this partnership has evolved into a strong relationship rooted in mutual trust, focused on incremental change and building capacity. SSA has transformed how it serves the American public—and it continues to make progress that focuses on its customers. . 
+The United States Digital Service (USDS) has collaborated with the Social Security Administration (SSA) for almost a decade. Over time, this partnership has evolved into a strong relationship rooted in mutual trust, focused on incremental change and building capacity. SSA has transformed how it serves the American public—and it continues to make progress that focuses on its customers. 
 
 ## The History of USDS and SSA Collaboration 
 
