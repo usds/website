@@ -7,7 +7,7 @@ blog_page: true
 carousel_title: "Building Trust and Transforming Service: A Decade of Partnership Between USDS and SSA"
 carousel_summary: "How USDS and SSA evolved into a strong relationship rooted in mutual trust, focused on incremental change and building capacity."
 # partial path to image
-carousel_image: /news-and-blog/2025-01-07-a-decade-of-partnership-between-usds-and-ssa/usds-and-ssa.jpg
+carousel_image: _news-and-blog/2025-01-07-a-decade-of-partnership-between-usds-and-ssa/usds-and-ssa.jpg
 # accessibility text for image
 carousel_image_alt_text: "The United States Digital Service logo is a navy shield shape with yellow wings, two vertical stripes and three stars. To the right is the Social Security logo that is a navy eagle, navy striped sheild and 'USA' written in red."
 # should show on news and blog page. ordered by date prefix in filename
@@ -16,6 +16,7 @@ carousel_show: true
 title: "Building Trust and Transforming Service: A Decade of Partnership Between USDS and SSA"
 dateline_str: "Jan 07, 2025"
 readtime_str: "3"
+byline_str: "U.S. Digital Service"
 permalink: /news-and-blog/a-decade-of-partnership-between-usds-and-ssa
 ---
 
@@ -35,7 +36,7 @@ Before the redesign of SSA.gov, site visitors relied on a single, static page wi
 
 ### Addressing Retirement Life Experience
 
-When the [Customer Experience (CX) Executive Order](https://www.whitehouse.gov/briefing-room/presidential-actions/2021/12/13/executive-order-on-transforming-federal-customer-experience-and-service-delivery-to-rebuild-trust-in-government/)](https://www.cdc.gov/media/releases/2022/p0919-pregnancy-related-deaths.html){:target="_blank"}  was released in 2021, the USDS team worked with SSA to improve the retirement life experience. Through the discovery process, the team uncovered a lack of consolidated and connected CX data. It was difficult to fully understand the holistic customer experience and journey due to the disparate data sources. 
+When the [Customer Experience (CX) Executive Order](https://www.whitehouse.gov/briefing-room/presidential-actions/2021/12/13/executive-order-on-transforming-federal-customer-experience-and-service-delivery-to-rebuild-trust-in-government/){:target="_blank"} was released in 2021, the USDS team worked with SSA to improve the retirement life experience. Through the discovery process, the team uncovered a lack of consolidated and connected CX data. It was difficult to fully understand the holistic customer experience and journey due to the disparate data sources. 
 
 To assist in solutioning the data challenge, USDS engaged with SSA two years later on a comprehensive CX data strategy, focusing on more than just customer satisfaction, but also system performance and employee burden. Through the various project phases -- discovery, identifying and analyzing data, and strategy development -- USDS further surfaced that the challenges and opportunities with retirement and Medicare processes were not unique to those specific programs. Instead, solving these common CX and employee experience pain points was foundational to improving outcomes with SSA’s highest priorities related to disability programs and various service channels (online, phone, in-person, etc.).
 
