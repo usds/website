@@ -126,7 +126,7 @@ During the second round of research, the main focus was observing individuals as
 
 **Why did the PRA not cover this research?** 
 
-In this project, the DOL directly observed the experiences of program applicants and participants and asked non-standardized questions on a particular process, theme, or issue without any specification of the information being sought. [See 5 CFR 1320.3(h)(3)](https://www.ecfr.gov/current/title-5/chapter-III/subchapter-B/part-1320){:target="blank"}. This type of research was also PRA exempt because it involved usability testing a website. [See White House and Office of Information and Regulatory Affairs memo](https://www.whitehouse.gov/wp-content/uploads/2024/11/PRA-Usability-Testing-Guidance-Memo.pdf){:target="blank"}.
+In this project, the DOL directly observed the experiences of program applicants and participants and asked non-standardized questions on a particular process, theme, or issue without any specification of the information being sought. [See 5 CFR 1320.3(h)(3)](https://www.ecfr.gov/current/title-5/chapter-III/subchapter-B/part-1320){:target="blank"}. This type of research was also PRA exempt because it involved usability testing a website. [See White House and Office of Information and Regulatory Affairs Usability Testing memo.](https://www.whitehouse.gov/wp-content/uploads/2024/11/PRA-Usability-Testing-Guidance-Memo.pdf){:target="blank"}.
 
 ### Case study 2: Conducting user research for a new application launch
 
