@@ -140,7 +140,7 @@ Many Veterans found the health care application process at the VA frustrating. M
 
 **Solution** 
 
-The team developed a new, user-friendly online application that doesn't require a certain software to use. For more details, check out the [USDS blog post](https://medium.com/the-u-s-digital-service/introducing-a-new-digital-application-for-healthcare-at-va-610d8bac4c78), "Introducing a new digital application for healthcare at VA."
+The team developed a new, user-friendly online application that doesn't require a certain software to use. For more details, check out the [USDS blog post](https://medium.com/the-u-s-digital-service/introducing-a-new-digital-application-for-healthcare-at-va-610d8bac4c78){:target="blank"}, "Introducing a new digital application for healthcare at VA."
 
 
 **User research** 
@@ -171,7 +171,7 @@ The team met one-on-one with current sponsors to learn about their experience an
 
 **Why the PRA did not cover this research?** 
 
-In this project, the team observed the experiences of sponsors and potential sponsors and engaged in unstructured one-on-one interactions. They asked non-standardized questions on a particular process, theme, or issue without any specification of the information being sought. [See 5 CFR 1320.3(h)(3).](https://www.ecfr.gov/current/title-5/chapter-III/subchapter-B/part-1320){:target="blank"}
+In this project, the team observed the experiences of sponsors and potential sponsors and engaged in unstructured one-on-one interactions. They asked non-standardized questions on a particular process, theme, or issue without any specification of the information being sought. [See 5 CFR 1320.3(h)(3)](https://www.ecfr.gov/current/title-5/chapter-III/subchapter-B/part-1320){:target="blank"}.
 
 ### Case study 4: Conducting user research to streamline digital experiences
 
@@ -245,7 +245,7 @@ ORR contacted case workers nationwide and observed them filling out both version
 
 **Why did the PRA not cover this research?** 
 
-In this project, the ORR directly observed case workers (not federal employees) using a form via one-on-one interviews to understand any usability concerns. They asked non-standardized questions on a particular process, theme, or issue without any specification of the information being sought. [See 5 CFR 1320.3(h)(3)](https://www.ecfr.gov/current/title-5/chapter-III/subchapter-B/part-1320). This type of research was also PRA exempt because it involved usability testing a form. [See White House and Office of Information and Regulatory Affairs Usability Testing memo](https://www.whitehouse.gov/wp-content/uploads/2024/11/PRA-Usability-Testing-Guidance-Memo.pdf){:target="blank"}.
+In this project, the ORR directly observed case workers (not federal employees) using a form via one-on-one interviews to understand any usability concerns. They asked non-standardized questions on a particular process, theme, or issue without any specification of the information being sought. [See 5 CFR 1320.3(h)(3)](https://www.ecfr.gov/current/title-5/chapter-III/subchapter-B/part-1320){:target="blank"}. This type of research was also PRA exempt because it involved usability testing a form. [See White House and Office of Information and Regulatory Affairs Usability Testing memo](https://www.whitehouse.gov/wp-content/uploads/2024/11/PRA-Usability-Testing-Guidance-Memo.pdf){:target="blank"}.
 
 ### Case study 7: Conducting user research with students and families
 
