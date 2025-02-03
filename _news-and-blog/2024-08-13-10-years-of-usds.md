@@ -21,7 +21,7 @@ permalink: /news-and-blog/10-years-of-usds
 ---
 
 
-[*As pubished on whitehouse.gov*](https://www.whitehouse.gov/omb/briefing-room/2024/08/13/10-years-of-the-u-s-digital-service-transforming-government-for-the-digital-age/){:target="blank"}
+[*As pubished on whitehouse.gov*](https://bidenwhitehouse.archives.gov/omb/briefing-room/2024/08/13/10-years-of-the-u-s-digital-service-transforming-government-for-the-digital-age/){:target="blank"}
 
 The American public deserves a government that delivers services effectively and builds trust. In 2014, the United States Digital Service (USDS) was born. Initially formed as a crisis response team to tackle service delivery challenges, USDS has since evolved into a trusted partner for over 30 federal agencies – working directly with them to deliver superior services to the public and to build digital capabilities for the future.
 
