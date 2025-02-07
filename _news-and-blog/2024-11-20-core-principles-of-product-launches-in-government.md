@@ -16,7 +16,7 @@ carousel_show: true
 title: "Core principles of product launches in government"
 dateline_str: "Nov 20, 2024"
 readtime_str: "8"
-byline_str: "Pooja Shaw"
+byline_str: "U.S. Digital Service"
 permalink: /news-and-blog/core-principles-of-product-launches-in-government 
 ---
 

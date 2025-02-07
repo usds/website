@@ -16,7 +16,7 @@ carousel_show: true
 title: "Grounding in community: positioning government for a meaningful relationship with its public"
 dateline_str: "Jun 25, 2024"
 readtime_str: "3"
-byline_str: "Celeste Espinoza, Jeremy Zitomer, Alex Bornkessel, Natasha Jamal"
+byline_str: "U.S. Digital Service"
 permalink: /news-and-blog/positioning-government-for-a-meaningful-relationship-with-its-public
 ---
 
