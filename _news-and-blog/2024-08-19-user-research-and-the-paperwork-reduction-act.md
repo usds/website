@@ -16,7 +16,7 @@ carousel_show: true
 title: "User Research and the Paperwork Reduction Act"
 dateline_str: "Aug 20, 2024"
 readtime_str: "12"
-byline_str: "Natalie Moore, Product Manager at the U.S. Digital Service "
+byline_str: "U.S. Digital Service"
 permalink: /news-and-blog/user-research-and-the-paperwork-reduction-act
 ---
 
