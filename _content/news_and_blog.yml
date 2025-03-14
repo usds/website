@@ -6,13 +6,3 @@ usds_in_the_news:
   heading_title: "USDS in the news"
   heading_text: |-
       Where media stories once focused on describing USDS as a start up, they now discuss the impact of our work. See what they've been saying lately.
-
-for_the_press:
-  heading_title: "For the press"
-  heading_text: |-
-      USDS welcomes press inquiries. Email our press contact at <a href="mailto:USDSpress@omb.eop.gov">USDSpress@omb.eop.gov</a>.
-  email_image: graphic-news-media-email.svg
-  email_button_text: "Email our press contact"
-  email_link: mailto:USDSpress@omb.eop.gov
-  press_kit_image: graphic-news-media-press-kit.svg
-  press_kit_button_text: "Download press sheet"
