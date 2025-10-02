@@ -9,7 +9,9 @@ page_title:
 
    Our projects span agencies and programs, with profound impacts—including helping working families, Veterans, farmers, students, children, small businesses and retirees. We build project teams that understand the transformational impact they can have by bringing their expertise to the federal government to work on services that change lives.
 
-   By applying on our website, our team of talent experts will work to connect you with opportunities across the federal government. This includes roles on our core team at USDS, as well as roles working directly at agencies to support new and existing digital service initiatives. See ["How we work"](https://www.usds.gov/how-we-work) to learn more about skills we hire for, including product, engineering, data science, design & user research, procurement, recruiting & talent management, and operations.
+   By applying on our website, our team of talent experts will work to connect you with opportunities across the federal government. This includes roles on our core team at USDS as well as roles working directly at agencies to support new and existing digital service initiatives, including engineering, product, design, and procurement.
+
+   If you have any questions, please contact our talent team at [RecruitingUSDS@doge.eop.gov](mailto:RecruitingUSDS@doge.eop.gov).
 
   heading_button_text: "Read our hiring FAQ"
 page_body:
@@ -18,14 +20,16 @@ page_body:
   accordion_item1: |-
     Complete the application below and attach your resume (and portfolio, if you're a designer). We accept both standard and Federal resumes.
   accordion_item2: |-
-    If you are invited to progress to interviews, you will be contacted by a member of our talent team over the phone.
+    If you are invited to progress to a phone screen, you will be contacted by a member of our talent team via email ([RecruitingUSDS@doge.eop.gov](mailto:RecruitingUSDS@doge.eop.gov))
   accordion_item3: |-
-    Participate in interviews to assess for skills important to our disciplines.
+    Submit a take-home assessment so we can assess your technical expertise and problem-solving skills.
   accordion_item4: |-
-    If selected, your USDS Talent partner will work with you throughout the selection and onboarding process.
+    Participate in interviews to assess skills important to our disciplines.
   accordion_content1: |-
-    Onboarding to USDS can take several weeks depending on completion of a required background check. Our Talent team will be with you every step of the way and your Talent partner will keep you up-to-date throughout the process.
-
+    If selected, our talent team will work with you throughout the selection and onboarding process.
+    
+    Onboarding to USDS can take several weeks depending on the processing of a required background check. Our talent team will be with you every step of the way and keep you up-to-date throughout the process.
+    
     If you aren't selected to join USDS, you can apply again after one year with an updated resume.
   accordion_header2: |-
     Requesting accommodations
@@ -41,18 +45,22 @@ page_body:
     Asking for a video interview instead of phone
   accordion_example3: |-
     Asking for extended breaks between interviews
+    
   accordion_header3: |-
     Work requirements
   accordion_content3: |-
-    To work at USDS, you must be a U.S. citizen and pass a background check and a drug test.
-
-    You may have applied for a government job that previously required a COVID-19 vaccine. As of August 2022, you don't need a COVID-19 vaccine to be hired as a federal employee. We'll update our information if this changes in the future.
-
-    We're currently hiring both remote employees and people who are local to Washington, DC. If you have additional questions about USDS work requirements, please reach out to our recruiting team at [RecruitingUSDS@doge.eop.gov](mailto:RecruitingUSDS@doge.eop.gov).
+    To work at USDS, there are several requirements you must meet:
+  accordion_example1: |-
+    Have U.S. citizenship
+  accordion_example2: |-
+    Be able to work onsite in Washington, DC (USDS does not provide relocation assistance)
+  accordion_example3: |-
+    Be able to pass a background check and a drug test
+    
   accordion_header4: |-
     Compensation
   accordion_content4: |-
-    Salaries in government may change every year. For 2024, you may be paid up to $191,900 depending on your experience as well as where you're located. 2024 General Scheduled Pay Tables can be referenced [here](https://www.opm.gov/policy-data-oversight/pay-leave/salaries-wages/2024/general-schedule/).
+    Salaries in the government may change every year. For 2025, you may be paid up to $195,200 based on working in Washington, DC and depending on your experience. Reference the [2025 General Schedule Pay Tables](https://www.opm.gov/policy-data-oversight/pay-leave/salaries-wages/2025/general-schedule/) to learn more about how compensation varies within the pay scale.
   accordion_header5: |-
     Benefits
   accordion_content5a: |-
@@ -62,7 +70,7 @@ page_body:
   accordion_bullet1_sub1: |-
     The Federal Government provides a <a class="usa-link usa-link--external" href="https://www.opm.gov/healthcare-insurance/healthcare/plan-information/compare-plans">comparison tool</a>  []() that lets you see the plans that could be available to you. Plans very based on where you live.
   accordion_bullet1_sub2: |-
-    Enter your zip code, then select "Federal & U.S. Postal Service Employee" for "enrollee type", and "biweekly" for "pay frequency" to see plans available to you.
+    Enter your zip code if based in the D.C.-Maryland-Virginia (DMV) area, or put in a DMV zip code, and then select "Federal & U.S. Postal Service Employee" for "enrollee type", and "biweekly" for "pay frequency" to see plans available to you.
   accordion_bullet1_sub3: |-
     Visit the <a class="usa-link usa-link--external" href="https://www.opm.gov/healthcare-insurance/healthcare/">Healthcare section of OPM's website</a> for more information.
   accordion_bullet2: |-
