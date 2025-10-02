@@ -50,12 +50,12 @@ page_body:
     Work requirements
   accordion_content3: |-
     To work at USDS, there are several requirements you must meet:
-  accordion_example1: |-
-    Have U.S. citizenship
-  accordion_example2: |-
-    Be able to work onsite in Washington, DC (USDS does not provide relocation assistance)
-  accordion_example3: |-
-    Be able to pass a background check and a drug test
+    
+  <ul>
+    <li>Have U.S. citizenship</li>
+    <li>Be able to work onsite in Washington, DC (USDS does not provide relocation assistance)</li>
+    <li>Be able to pass a background check and a drug test</li>
+  </ul>
     
   accordion_header4: |-
     Compensation
