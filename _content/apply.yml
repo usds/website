@@ -106,6 +106,10 @@ page_body:
     Confidential Employee Assistance Programs (EAP) to assist with life challenges that may affect your job, health, and well-being
   accordion_bullet7_content5b: |-
     For more information on federal benefits, visit <a class="usa-link usa-link--external" href="https://www.opm.gov/healthcare-insurance/Guide-Me/New-Prospective-Employees/#url=Overview">OPM's guide for new employees</a>.
+ accordion_bullet8: |-
+    Transportation stipend
+  accordion_bullet8_sub1: |-
+    USDS has limited free onsite parking. If all parking spots are filled, or if you prefer public transportation, we also provide a monthly $300 travel stipend.
   accordion_header7: |-
     Paid time off
   accordion_header7_item1: |-
@@ -128,7 +132,3 @@ page_body:
     Paid parental leave
   accordion_h7_item4_sub1: |-
     12 weeks (for employees who qualify)
-  accordion_h7_item5: |-
-    Transportation stipend
-  accordion_h7_item5_sub1: |-
-    USDS has limited free onsite parking. If all parking spots are filled, or if you prefer public transportation, we also provide a monthly $300 travel stipend.
