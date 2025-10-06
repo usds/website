@@ -18,7 +18,7 @@ page_body:
   accordion_header1: |-
     Hiring process
   accordion_item1: |-
-    Complete the application below and attach your resume (and portfolio, if you're a designer). We accept both standard and Federal resumes.
+    Complete the application below and attach a two-page resume (and portfolio, if you're a designer). We will not read past the first two pages of your resume.
   accordion_item2: |-
     If you are invited to progress to a phone screen, you will be contacted by a member of our talent team via email ([RecruitingUSDS@doge.eop.gov](mailto:RecruitingUSDS@doge.eop.gov))
   accordion_item3: |-
@@ -36,7 +36,7 @@ page_body:
   accordion_content2: |-
     One of our core values is to hire and empower great people. We want all candidates to have the accommodations that will set them up for success in their interview.
 
-    You can say that you'd like to request a disability accommodation when you submit your application. If you progress through the interview process, a member of our Talent team will contact you to talk about any accommodations that will best help you demonstrate your skills.
+    You can say that you'd like to request a disability accommodation when you submit your application. If you progress through the interview process, a member of our talent team will contact you to talk about any accommodations that will best help you demonstrate your skills.
 
     A few examples are:
   accordion_example1: |-
@@ -128,3 +128,7 @@ page_body:
     Paid parental leave
   accordion_h7_item4_sub1: |-
     12 weeks (for employees who qualify)
+  accordion_h7_item5: |-
+    Transportation stipend
+  accordion_h7_item5_sub1: |-
+    USDS has limited free onsite parking. If all parking spots are filled, or if you prefer public transportation, we also provide a monthly $300 travel stipend.
