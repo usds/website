@@ -83,7 +83,9 @@
         
     - q: "What happens if I fail my background check?"
       a: |-
-        If you do not pass your background check, you will be deemed ineligible for employment, and your Tentative Job Offer will be rescinded. If you have further questions regarding the results of your background check, you can contact the security team listed in your determination email.
+        If you do not pass your background check, you will be deemed ineligible for employment for the Executive Office of the President (EOP) and your Tentative Job Offer will be rescinded. However, a failed background check with the EOP doesn’t deem you ineligible to apply to other agencies within the United States Government.
+
+        If you have further questions regarding the results of your background check, you can contact the security team listed in your determination email.
         
     - q: "Did I pass my background check?"
       a: |-
