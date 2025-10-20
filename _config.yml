@@ -13,10 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: United States Digital Service
+title: United States DOGE Service
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  The United States Digital Service is transforming how the federal government works for the American people. And we need you.
+  The United States DOGE Service is transforming how the federal government works for the American people. And we need you.
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # GitHub Action overrides this with repo name when not in usds/website
 baseurl: ""
