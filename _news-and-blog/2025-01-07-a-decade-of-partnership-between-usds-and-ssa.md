@@ -9,18 +9,18 @@ carousel_summary: "How USDS and SSA evolved into a strong relationship rooted in
 # partial path to image
 carousel_image: /news-and-blog/usds-and-ssa2.jpg
 # accessibility text for image
-carousel_image_alt_text: "The United States Digital Service logo is a navy shield shape with yellow wings, two vertical stripes and three stars. To the right is the Social Security logo that is a navy eagle, navy striped shield and 'USA' written in red."
+carousel_image_alt_text: "The United States DOGE Service logo is a navy shield shape with yellow wings, two vertical stripes and three stars. To the right is the Social Security logo that is a navy eagle, navy striped shield and 'USA' written in red."
 # should show on news and blog page. ordered by date prefix in filename
 carousel_show: true
 # Blog detail page (Edit this)
 title: "Building trust and transforming service: A decade of partnership between USDS and SSA"
 dateline_str: "Jan 07, 2025"
 readtime_str: "3"
-byline_str: "U.S. Digital Service"
+byline_str: "U.S. DOGE Service"
 permalink: /news-and-blog/a-decade-of-partnership-between-usds-and-ssa
 ---
 
-The United States Digital Service (USDS) has collaborated with the Social Security Administration (SSA) for almost a decade. Over time, this partnership has evolved into a strong relationship rooted in mutual trust, focused on incremental change and building capacity. SSA has transformed how it serves the American public—and it continues to make progress that focuses on its customers. 
+The United States DOGE Service (USDS) has collaborated with the Social Security Administration (SSA) for almost a decade. Over time, this partnership has evolved into a strong relationship rooted in mutual trust, focused on incremental change and building capacity. SSA has transformed how it serves the American public—and it continues to make progress that focuses on its customers. 
 
 ## The History of USDS and SSA Collaboration 
 
