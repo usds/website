@@ -64,24 +64,3 @@
     }
   }
 }
-
-.site-c-footer__social-links {
-  display: flex;
-  gap: units(2);
-}
-
-.site-c-footer__social-link {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-
-  img {
-    width: 24px;
-    height: 24px;
-    filter: brightness(0) invert(1);
-  }
-
-  &:hover img {
-    opacity: 0.8;
-  }
-}
