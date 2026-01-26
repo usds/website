@@ -24,6 +24,7 @@ delivery_roles:
 
       _Skills you might bring to the engineering community:_ programming, modern architecture, incident response, technical communication, project and team management, or collaborative engineering practices.
     image: graphic-how-we-work-engineering.svg
+    image_alt: "Illustration representing engineering work with code symbols and technical elements"
 
   - heading: "Design and user experience"
     text: |-
@@ -31,6 +32,7 @@ delivery_roles:
 
       _Skills you might bring to the design community:_ design process, systems thinking, leadership, user research, interaction design, service design, design operations, content strategy, visual design, front-end development, or art direction.
     image: graphic-how-we-work-design.svg
+    image_alt: "Illustration representing design and user experience work with creative tools and user interface elements"
 
   - heading: "Data science"
     text: |-
@@ -38,6 +40,7 @@ delivery_roles:
 
       _Skills you might bring to the data community:_ statistical analysis, machine learning and AI, data engineering, data visualization and communication, data ethics, or public policy analysis.
     image: graphic-how-we-work-data-science.svg
+    image_alt: "Illustration representing data science work with charts, graphs and analytical elements"
 
   - heading: "Product, strategy, and operations"
     text: |-
@@ -45,13 +48,15 @@ delivery_roles:
 
       _Skills you might bring to the product community:_ execution, communication, leadership, user focus, grit, product delivery, product strategy, capacity building, government expertise, or data analysis.
     image: graphic-how-we-work-product.svg
+    image_alt: "Illustration representing product strategy and operations work with planning and organizational elements"
   
   - heading: "Procurement"
     text: |-
       USDS acquisition strategists make buying digital services for the government more efficient and effective. Often, agencies don't have the capacity or expertise to build their own digital services, so they partner with technical experts outside the government. From jumping in on short discovery sprints to acquisition strategy across product portfolios, our biggest strengths are in market intelligence, innovating on evaluation methods, and creating contracts that focus on results over requirements.
-      
+
       _Skills you might bring to the procurement community:_ digital market knowledge, federal procurement process, strategic advice, or technical acumen.
     image: graphic-how-we-work-procurement.svg
+    image_alt: "Illustration representing procurement work with contract and purchasing elements"
 
 best_practices:
   heading_title: "Bringing private sector best practices to the Federal Government"
@@ -62,16 +67,19 @@ best_practices:
   col_1_text: |-
     Good design is design that works for everyone. We want our users to feel informed, empowered, prepared, and in control.
   col_1_image: graphic-how-we-work-hcd.svg
+  col_1_image_alt: "Illustration of human-centered design showing people collaborating around user needs"
 
   col_2_heading: "Build iteratively"
   col_2_text: |-
     We build services using adaptive and iterative practices, leveraging modern infrastructure and automation to rapidly and frequently release new features with minimum risk.
   col_2_image: graphic-how-we-work-build-iteratively.gif
+  col_2_image_alt: "Animated illustration showing the iterative build process with continuous improvements"
 
   col_3_heading: "Let data drive decisions"
   col_3_text: |-
     Focusing on data allows us to make choices that reflect reality while minimizing bias and politics.
   col_3_image: graphic-how-we-work-decisions.svg
+  col_3_image_alt: "Illustration showing data-driven decision making with charts and analytical visuals"
 
 projects:
   heading_title: "Prioritizing the greatest good for the greatest number of people in the greatest need"
