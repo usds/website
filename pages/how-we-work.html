@@ -43,7 +43,7 @@ redirect_from:
           {{ role.text | replace: 'site.baseurl', site.baseurl | markdownify}}
         </div>
         <div class="grid-col-12 tablet:grid-col-4 order-2 tablet:order-3 margin-bottom-3">
-          <img class="width-full" src="{{ site.baseurl }}/assets/img/{{ role.image }}" alt="">
+          <img class="width-full" src="{{ site.baseurl }}/assets/img/{{ role.image }}" alt="{{ role.image_alt }}">
         </div>
       </div>
       {% endfor %}
@@ -69,7 +69,7 @@ redirect_from:
 
         <div class="grid-col-12 tablet:grid-col-4 tablet:padding-2 margin-bottom-5">
           <div class="site-c-mask padding-right-7">
-            <img class="width-full" src="{{ site.baseurl }}/assets/img/{{ content.best_practices.col_1_image }}" alt="">
+            <img class="width-full" src="{{ site.baseurl }}/assets/img/{{ content.best_practices.col_1_image }}" alt="{{ content.best_practices.col_1_image_alt }}">
           </div>
           <h3 class="font-sans-md">{{ content.best_practices.col_1_heading }}</h3>
           <div class="usa-prose">
@@ -79,7 +79,7 @@ redirect_from:
 
         <div class="grid-col-12 tablet:grid-col-4 tablet:padding-2 margin-bottom-5">
           <div class="site-c-mask padding-right-7">
-            <img class="width-full" src="{{ site.baseurl }}/assets/img/{{ content.best_practices.col_2_image }}" alt="">
+            <img class="width-full" src="{{ site.baseurl }}/assets/img/{{ content.best_practices.col_2_image }}" alt="{{ content.best_practices.col_2_image_alt }}">
           </div>
           <h3 class="font-sans-md">{{ content.best_practices.col_2_heading }}</h3>
           <div class="usa-prose">
@@ -89,7 +89,7 @@ redirect_from:
 
         <div class="grid-col-12 tablet:grid-col-4 tablet:padding-2 margin-bottom-5">
           <div class="site-c-mask padding-right-7">
-            <img class="width-full" src="{{ site.baseurl }}/assets/img/{{ content.best_practices.col_3_image }}" alt="">
+            <img class="width-full" src="{{ site.baseurl }}/assets/img/{{ content.best_practices.col_3_image }}" alt="{{ content.best_practices.col_3_image_alt }}">
           </div>
           <h3 class="font-sans-md">{{ content.best_practices.col_3_heading }}</h3>
           <div class="usa-prose">
