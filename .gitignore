@@ -11,6 +11,5 @@ cypress/snapshots/actual
 cypress/snapshots/diff
 
 # Personal helper files
-.claudeignore
 CHEATSHEET.md
 start.sh
