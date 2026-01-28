@@ -3,17 +3,15 @@ hero:
   heading_button_text: "Apply now"
 
 mission:
-  heading_title: "We’re solving big problems"
+  heading_title: "Solvers of government's largest challenges"
   heading_text: |-
-      Millions of people use federal government services every day. Too often, outdated tools and complex systems make these interactions cumbersome and frustrating.
-
-      To improve these services, USDS hires mission-driven professionals into term-limited ‘tours of civic service.’ By working alongside civil servants, they help address some of the most critical needs.
+      Millions of people rely on federal government services every day. Too often outdated tools and complex systems make those interactions slow and frustrating. To improve service delivery USDS brings mission driven professionals into government for term limited tours of civic service, working alongside agencies to cut through bureaucracy to deliver faster, simpler, more reliable experiences—solving the government's most urgent problems.
   heading_button_text: "Learn about our mission"
 
 work:
-  heading_title: "Delivering a better government experience"
+  heading_title: "Delivering government experiences that work for the people"
   heading_text: |-
-      Our small, highly empowered teams use their expertise to develop human-centered solutions to the federal government’s most pressing technical challenges. Explore a few of our projects.
+      Our highly empowered teams apply their expertise to deliver human centered solutions for the federal government's most critical technical challenges. Explore a few of our projects.
   heading_button_text: "See all projects"
 
 people:
@@ -22,11 +20,7 @@ people:
       Every person, from all walks of life, interacts with their government. We hire people from a range of cultural, geographical, and ethnic backgrounds to improve the services that millions rely on. Meet a few staff members who are passionate about applying their work and lived experiences to public service.
   heading_button_text: "Meet more staff"
 
-news:
-  heading_title: "USDS in the news"
-  heading_button_text: "See more news"
-
 community:
   heading_title: "We are a community"
   heading_text: |-
-      When you join USDS you become part of a vibrant, supportive group of humans. Check out our social media channels to see more USDS moments.
+      At USDS, you are joining a community. Our teams are made up of supportive, mission driven people working together in public service. See more moments from the USDS community on our social media channels — follow us on <a href="https://twitter.com/USDS" target="_blank">X</a> and <a href="https://www.linkedin.com/company/united-states-doge-service/" target="_blank">LinkedIn</a>.

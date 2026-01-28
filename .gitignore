@@ -2,8 +2,15 @@ _site
 .sass-cache
 .jekyll-metadata
 /node_modules
+/vendor
+/.bundle
 .DS_Store
 .ruby-gemset
 .ruby-version
 cypress/snapshots/actual
 cypress/snapshots/diff
+
+# Personal helper files
+.claudeignore
+CHEATSHEET.md
+start.sh
