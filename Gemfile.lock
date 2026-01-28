@@ -23,7 +23,6 @@ GEM
     commonmarker (0.23.10)
     concurrent-ruby (1.2.3)
     connection_pool (2.4.1)
-    csv (3.3.5)
     dnsruby (1.70.0)
       simpleidn (~> 0.2.1)
     drb (2.2.0)
@@ -31,7 +30,6 @@ GEM
     em-websocket (0.5.3)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
-    erb (6.0.1)
     ethon (0.16.0)
       ffi (>= 1.15.0)
     eventmachine (1.2.7)
@@ -216,7 +214,6 @@ GEM
     listen (3.8.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
-    logger (1.7.0)
     mercenary (0.3.6)
     minima (2.5.1)
       jekyll (>= 3.5, < 5.0)
@@ -226,7 +223,7 @@ GEM
     mutex_m (0.2.0)
     net-http (0.4.1)
       uri
-    nokogiri (1.19.0-x86_64-linux-gnu)
+    nokogiri (1.16.4-x86_64-linux)
       racc (~> 1.4)
     octokit (4.25.1)
       faraday (>= 1, < 3)
@@ -270,16 +267,11 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  base64
-  bigdecimal
-  csv
-  erb
   github-pages (~> 228)
   jekyll-feed
   jekyll-redirect-from
   jekyll-seo-tag
   jekyll-sitemap
-  logger
   minima (~> 2.0)
   tzinfo-data
   webrick (~> 1.8)
