@@ -32,22 +32,23 @@
 
 .site-c-page-banner__header {
   color: #fff;
-  font-size: size('body', 9);
+  font-size: size('body', 13);
+  font-weight: 700;
 
   @include at-media(mobile-lg) {
-    font-size: size('body', 11);
+    font-size: size('body', 15);
   }
 
   @include at-media(tablet) {
-    font-size: size('body', 12);
+    font-size: size('body', 16);
   }
 
   @include at-media(tablet-lg) {
-    font-size: size('body', 14);
+    font-size: size('body', 18);
   }
 
   @include at-media(desktop) {
-    font-size: size('body', 15);
+    font-size: size('body', 19);
   }
 }
 
